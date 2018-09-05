@@ -7,6 +7,7 @@ CREATE TABLE `nlbonus_item_offset_m` (
 );
 INSERT INTO "nlbonus_item_offset_m" VALUES(896,168,-18);
 INSERT INTO "nlbonus_item_offset_m" VALUES(897,168,-18);
+INSERT INTO "nlbonus_item_offset_m" VALUES(974,45,52);
 CREATE TABLE `nlbonus_layout_m` (
     `days` INTEGER NOT NULL,
     `seq` INTEGER NOT NULL,
@@ -14,7 +15,7 @@ CREATE TABLE `nlbonus_layout_m` (
     `y` INTEGER NOT NULL,
     PRIMARY KEY (`days`,`seq`)
 );
-INSERT INTO "nlbonus_layout_m" VALUES(1,1,202,252);
+INSERT INTO "nlbonus_layout_m" VALUES(1,1,205,272);
 INSERT INTO "nlbonus_layout_m" VALUES(2,1,351,400);
 INSERT INTO "nlbonus_layout_m" VALUES(2,2,507,400);
 INSERT INTO "nlbonus_layout_m" VALUES(3,1,249,400);

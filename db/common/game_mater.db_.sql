@@ -23,7 +23,7 @@ INSERT INTO "add_type_m" VALUES(5100,'称号','assets/image/ui/common/com_icon_4
 INSERT INTO "add_type_m" VALUES(5200,'背景','assets/image/ui/common/com_icon_46.png','assets/image/ui/item/item_icon_21.png',NULL,'枚',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(5300,'メインストーリー','assets/image/ui/common/com_icon_45.png','assets/image/ui/item/item_icon_27.png',NULL,NULL,NULL,NULL);
 INSERT INTO "add_type_m" VALUES(5330,'イベントストーリー','assets/image/ui/common/com_icon_45.png','assets/image/ui/item/item_icon_27.png',NULL,NULL,NULL,NULL);
-INSERT INTO "add_type_m" VALUES(5400,'ライブタップ音',NULL,NULL,NULL,'個',NULL,NULL);
+INSERT INTO "add_type_m" VALUES(5400,'ライブタップ音','assets/image/add_type/add_type_5400_s.png','assets/image/add_type/add_type_5400_m.png',NULL,'個',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(5410,'ノーツアイコン',NULL,NULL,NULL,'個',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(5500,'スクールアイドルスキル','assets/image/ui/common/com_icon_70.png','assets/image/ui/item/item_icon_24.png',NULL,'個',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(6100,'イベントポイント','assets/image/ui/common/com_icon_88.png',NULL,NULL,'pt',NULL,NULL);

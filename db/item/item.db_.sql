@@ -87,6 +87,7 @@ INSERT INTO "award_m" VALUES(74,'【称号】スクフェスAC1周年・希','�
 INSERT INTO "award_m" VALUES(75,'【称号】スクフェスAC1周年・花陽','スクフェスACの1周年を記念した\n花陽の特別な称号','assets/image/award/award_075.png','assets/image/award/award_075di.png',23009,0,'r180109_000000',NULL);
 INSERT INTO "award_m" VALUES(76,'【称号】スクフェスAC1周年・にこ','スクフェスACの1周年を記念した\nにこの特別な称号','assets/image/award/award_076.png','assets/image/award/award_076di.png',23010,0,'r180109_000000',NULL);
 INSERT INTO "award_m" VALUES(77,'穂乃果ちゃんお誕生日おめでとう！','8月3日は高坂穂乃果ちゃんのお誕生日♪','assets/image/award/award_077.png','assets/image/award/award_077di.png',24001,0,'r180803_000000',NULL);
+INSERT INTO "award_m" VALUES(79,'ことりちゃんお誕生日おめでとう！','9月12日は南ことりちゃんのお誕生日♪','assets/image/award/award_079.png','assets/image/award/award_079di.png',24003,0,'r180912_000000',NULL);
 INSERT INTO "award_m" VALUES(80,'海未ちゃんお誕生日おめでとう！','3月15日は園田海未ちゃんのお誕生日♪','assets/image/award/award_080.png','assets/image/award/award_080di.png',24004,0,'r180315_000000',NULL);
 INSERT INTO "award_m" VALUES(82,'真姫ちゃんお誕生日おめでとう！','4月19日は西木野真姫ちゃんのお誕生日♪','assets/image/award/award_082.png','assets/image/award/award_082di.png',24006,0,'r180419_000000',NULL);
 INSERT INTO "award_m" VALUES(83,'希ちゃんお誕生日おめでとう！','6月9日は東條希ちゃんのお誕生日♪','assets/image/award/award_083.png','assets/image/award/award_083di.png',24007,0,'r180609_000000',NULL);
@@ -175,6 +176,8 @@ INSERT INTO "award_m" VALUES(170,'スクフェス全国大会2018ファイナリ
 INSERT INTO "award_m" VALUES(171,'スクフェス全国大会2018第3位','スクフェス全国大会2018第3位入賞者に贈られる証','assets/image/award/award_171.png','assets/image/award/award_171di.png',18009,0,'r180805',NULL);
 INSERT INTO "award_m" VALUES(172,'スクフェス全国大会2018準優勝','スクフェス全国大会2018準優勝者に贈られる証','assets/image/award/award_172.png','assets/image/award/award_172di.png',18010,0,'r180805',NULL);
 INSERT INTO "award_m" VALUES(173,'スクフェス全国大会2018優勝','スクフェス全国大会2018優勝者に贈られる証','assets/image/award/award_173.png','assets/image/award/award_173di.png',18011,0,'r180805',NULL);
+INSERT INTO "award_m" VALUES(174,'Aqoursクラブ活動 LIVE&FAN MEETING 2018','Aqours クラブ活動 LIVE & FAN MEETING 2018\nの開催を記念した特別な称号','assets/image/award/award_174.png','assets/image/award/award_174di.png',21011,0,'r180909_090000',NULL);
+INSERT INTO "award_m" VALUES(175,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[札幌]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[札幌]の開催を記念した特別な称号','assets/image/award/award_175.png','assets/image/award/award_175di.png',21012,0,'r180909_000000',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,1,NULL,NULL);
 INSERT INTO "award_m" VALUES(902,'スクフェス全国大会2017オンライン予選','スクフェス全国大会2017オンライン予選に参加した証','assets/image/award/award_902.png','assets/image/award/award_902di.png',18002,1,NULL,NULL);
 INSERT INTO "award_m" VALUES(903,'【称号】スクフェス全国大会2018オンライン予選','スクフェス全国大会2018オンライン予選に参加した証','assets/image/award/award_903.png','assets/image/award/award_903di.png',18007,1,NULL,NULL);
@@ -326,6 +329,7 @@ INSERT INTO "kg_item_m" VALUES(28,1,'津島善子SSR以上確定勧誘チケッ�
 INSERT INTO "kg_item_m" VALUES(29,1,'矢澤にこSSR以上確定勧誘チケット',29,1,1,NULL,'assets/image/item/item_29_s.png','矢澤にこSSR以上確定勧誘勧誘を行える','矢澤にこSSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,20,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(30,1,'高海千歌SSR以上確定勧誘チケット',30,1,1,NULL,'assets/image/item/item_30_s.png','高海千歌SSR以上確定勧誘勧誘を行える','高海千歌SSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,21,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(31,1,'高坂穂乃果SSR以上確定勧誘チケット',31,1,1,NULL,'assets/image/item/item_31_s.png','高坂穂乃果SSR以上確定勧誘勧誘を行える','高坂穂乃果SSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,22,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(32,1,'南ことりSSR以上確定勧誘チケット',32,1,1,NULL,'assets/image/item/item_32_s.png','南ことりSSR以上確定勧誘勧誘を行える','南ことりSSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,23,1,NULL,NULL);
 CREATE TABLE `live_notes_icon_asset_m` (
     `live_notes_icon_id` INTEGER NOT NULL,
     `tap_type` INTEGER NOT NULL,
