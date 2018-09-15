@@ -593,6 +593,7 @@ INSERT INTO "strings_m" VALUES('dialog_shop',24,'\n\n\n\n回復アイテムが�
 INSERT INTO "strings_m" VALUES('dialog_shop',25,'\n\n\n\n回復アイテムが不足しています\n');
 INSERT INTO "strings_m" VALUES('dialog_shop',26,'ＬＰを全回復する');
 INSERT INTO "strings_m" VALUES('dialog_shop',27,'<center><heart>ラブカストーンが不足しています\n\n<heart>ラブカストーンを購入しますか？');
+INSERT INTO "strings_m" VALUES('dialog_shop',28,'以下のアイテムは\nプレゼントボックスから受取れます\n%s');
 INSERT INTO "strings_m" VALUES('shop_common',9,'制限なし');
 INSERT INTO "strings_m" VALUES('shop_common',2,'{{name}} {{amount}}{{unit}}');
 INSERT INTO "strings_m" VALUES('dialog_unit',1,'選択した部員を転部させますが\nよろしいですか？\n\n選択部員数%10d\n\n合計<coin>Ｇ%10d');
@@ -1709,9 +1710,9 @@ INSERT INTO "strings_m" VALUES('duel_private',5,'<center>プライベートマ�
 INSERT INTO "strings_m" VALUES('duel_private',7,'\n\n現在のメンバーでみんなでスコアマッチを開始します。');
 INSERT INTO "strings_m" VALUES('duel_private',8,'\n人数が足りない場合、自動的に他のメンバーが参加します。');
 INSERT INTO "strings_m" VALUES('duel_gps',1,'おでかけマッチ');
-INSERT INTO "strings_m" VALUES('duel_crowd',1,'もっとみんなでスコアマッチ');
+INSERT INTO "strings_m" VALUES('duel_crowd',1,'もっとみんなでマッチ');
 INSERT INTO "strings_m" VALUES('duel_confirm',1,'%sを終了します\n\nよろしいですか？');
-INSERT INTO "strings_m" VALUES('duel_top',1,'みんなでスコアマッチは終了いたしました\nアンケートにご協力お願いいたします');
+INSERT INTO "strings_m" VALUES('duel_top',1,'みんなでスコアマッチは終了いたしました');
 INSERT INTO "strings_m" VALUES('duel_wait',1,'メンバーが揃わなかったため控室に戻ります');
 INSERT INTO "strings_m" VALUES('reward_sell_condition',1,'<center>以下のN部員をまとめて転部します\n\n・サイドストーリー開放済み\n・サポートメンバーではない');
 INSERT INTO "strings_m" VALUES('cache_clear',1,'アプリ内のダウンロードデータを削除します\n必要なデータは、次回ログイン時に\n自動的にダウンロードが開始されます\n<red>※この操作ではユーザーデータは消えません\n※削除に時間を要することがございます</red>\n\n実行しますか？');
@@ -1739,4 +1740,6 @@ INSERT INTO "strings_m" VALUES('waiting_room',4,'部室に移動しました');
 INSERT INTO "strings_m" VALUES('waiting_room',5,'控え室の空きがありません');
 INSERT INTO "strings_m" VALUES('waiting_room',6,'部室の空きがありません');
 INSERT INTO "strings_m" VALUES('billing',1,'<center>%sの\n付与が完了しました');
+INSERT INTO "strings_m" VALUES('subscription',1,'本日分のボーナスとして\n以下のアイテムを獲得しました\nプレゼントボックスで受取れます');
+INSERT INTO "strings_m" VALUES('subscription',2,'%sを\n購入しました');
 COMMIT;

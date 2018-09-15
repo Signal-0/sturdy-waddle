@@ -10,4 +10,5 @@ CREATE TABLE `crowd_setting_m` (
     `min_member_count` INTEGER NOT NULL,
     PRIMARY KEY (`crowd_setting_id`)
 );
+INSERT INTO "crowd_setting_m" VALUES(1,60,60,300,30,0,100,4);
 COMMIT;

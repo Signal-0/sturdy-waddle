@@ -94,6 +94,7 @@ INSERT INTO "award_m" VALUES(83,'希ちゃんお誕生日おめでとう！','6�
 INSERT INTO "award_m" VALUES(84,'花陽ちゃんお誕生日おめでとう！','1月17日は小泉花陽ちゃんのお誕生日♪','assets/image/award/award_084.png','assets/image/award/award_084di.png',24008,0,'r180117_000000',NULL);
 INSERT INTO "award_m" VALUES(85,'にこちゃんお誕生日おめでとう！','7月22日は矢澤にこちゃんのお誕生日♪','assets/image/award/award_085.png','assets/image/award/award_085di.png',24009,0,'r180722_000000',NULL);
 INSERT INTO "award_m" VALUES(86,'千歌ちゃんお誕生日おめでとう！','8月1日は高海千歌ちゃんのお誕生日♪','assets/image/award/award_086.png','assets/image/award/award_086di.png',25001,0,'r180801_000000',NULL);
+INSERT INTO "award_m" VALUES(87,'梨子ちゃんお誕生日おめでとう！','9月19日は桜内梨子ちゃんのお誕生日♪','assets/image/award/award_087.png','assets/image/award/award_087di.png',25002,0,'r180919_000000',NULL);
 INSERT INTO "award_m" VALUES(90,'曜ちゃんお誕生日おめでとう！','4月17日は渡辺曜ちゃんのお誕生日♪','assets/image/award/award_090.png','assets/image/award/award_090di.png',25005,0,'r180417_000000',NULL);
 INSERT INTO "award_m" VALUES(91,'善子ちゃんお誕生日おめでとう！','7月13日は津島善子ちゃんのお誕生日♪','assets/image/award/award_091.png','assets/image/award/award_091di.png',25006,0,'r180713_000000',NULL);
 INSERT INTO "award_m" VALUES(93,'鞠莉ちゃんお誕生日おめでとう！','6月13日は小原鞠莉ちゃんのお誕生日♪','assets/image/award/award_093.png','assets/image/award/award_093di.png',25008,0,'r180613_000000',NULL);
@@ -277,6 +278,7 @@ INSERT INTO "background_m" VALUES(83,'【背景】ルビィのお部屋','【ル
 INSERT INTO "background_m" VALUES(84,'【背景】星空','【星空】\n一面に広がる満天の星空','assets/image/background/b_st_195.png','assets/image/background/home/b_st_195_thm.png',2104,NULL,NULL);
 INSERT INTO "background_m" VALUES(85,'【背景】十千万・外観','【十千万・外観】\n千歌の実家・老舗旅館「十千万」の外観','assets/image/background/b_st_135.png','assets/image/background/home/b_st_135_thm.png',2012,NULL,NULL);
 INSERT INTO "background_m" VALUES(86,'【背景】浦の星女学院・校庭','【浦の星女学院・校庭】\nAqoursメンバーが通う高校・私立浦の星女学院の校庭','assets/image/background/b_st_122.png','assets/image/background/home/b_st_122_thm.png',2105,NULL,NULL);
+INSERT INTO "background_m" VALUES(87,'【背景】びゅうお・外観','【びゅうお・外観】\n大型展望水門「びゅうお」の外観','assets/image/background/b_st_235.png','assets/image/background/home/b_st_235_thm.png',2013,NULL,NULL);
 INSERT INTO "background_m" VALUES(901,'【背景】クリスマスの街','【クリスマスの街】\n イルミネーションに彩られたクリスマスの街','assets/image/background/b_st_014.png','assets/image/background/home/b_st_014_thm.png',901,NULL,NULL);
 INSERT INTO "background_m" VALUES(902,'【背景】神社・本殿[正月]','【神社・本殿[正月]】\n 正月飾りを施された新年の神社','assets/image/background/b_st_064.png','assets/image/background/home/b_st_064_thm.png',902,NULL,NULL);
 CREATE TABLE `kg_item_m` (
@@ -330,6 +332,8 @@ INSERT INTO "kg_item_m" VALUES(29,1,'矢澤にこSSR以上確定勧誘チケッ�
 INSERT INTO "kg_item_m" VALUES(30,1,'高海千歌SSR以上確定勧誘チケット',30,1,1,NULL,'assets/image/item/item_30_s.png','高海千歌SSR以上確定勧誘勧誘を行える','高海千歌SSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,21,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(31,1,'高坂穂乃果SSR以上確定勧誘チケット',31,1,1,NULL,'assets/image/item/item_31_s.png','高坂穂乃果SSR以上確定勧誘勧誘を行える','高坂穂乃果SSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,22,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(32,1,'南ことりSSR以上確定勧誘チケット',32,1,1,NULL,'assets/image/item/item_32_s.png','南ことりSSR以上確定勧誘勧誘を行える','南ことりSSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,23,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(33,1,'桜内梨子SSR以上確定勧誘チケット',33,1,1,NULL,'assets/image/item/item_33_s.png','桜内梨子SSR以上確定勧誘勧誘を行える','桜内梨子SSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,24,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(34,1,'黒澤ルビィSSR以上確定勧誘チケット',34,1,1,NULL,'assets/image/item/item_34_s.png','黒澤ルビィSSR以上確定勧誘勧誘を行える','黒澤ルビィSSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,25,1,NULL,NULL);
 CREATE TABLE `live_notes_icon_asset_m` (
     `live_notes_icon_id` INTEGER NOT NULL,
     `tap_type` INTEGER NOT NULL,
