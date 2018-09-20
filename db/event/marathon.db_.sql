@@ -331,6 +331,11 @@ INSERT INTO "event_marathon_live_m" VALUES(2035,962,2,30,NULL,NULL,0,5,10,20,40)
 INSERT INTO "event_marathon_live_m" VALUES(2036,963,2,45,NULL,NULL,0,10,20,40,100);
 INSERT INTO "event_marathon_live_m" VALUES(2037,964,2,75,NULL,NULL,0,9,12,24,60);
 INSERT INTO "event_marathon_live_m" VALUES(2038,964,2,75,NULL,NULL,1,9,12,24,60);
+INSERT INTO "event_marathon_live_m" VALUES(2083,991,2,15,NULL,NULL,0,1,5,10,20);
+INSERT INTO "event_marathon_live_m" VALUES(2084,992,2,30,NULL,NULL,0,5,10,20,40);
+INSERT INTO "event_marathon_live_m" VALUES(2085,993,2,45,NULL,NULL,0,10,20,40,100);
+INSERT INTO "event_marathon_live_m" VALUES(2086,994,2,75,NULL,NULL,0,9,12,24,60);
+INSERT INTO "event_marathon_live_m" VALUES(2087,994,2,75,NULL,NULL,1,9,12,24,60);
 CREATE TABLE `event_marathon_live_schedule_m` (
     `event_id` INTEGER NOT NULL,
     `live_difficulty_id` INTEGER NOT NULL,
@@ -662,6 +667,11 @@ INSERT INTO "event_marathon_live_schedule_m" VALUES(126,2035,NULL,NULL);
 INSERT INTO "event_marathon_live_schedule_m" VALUES(126,2036,NULL,NULL);
 INSERT INTO "event_marathon_live_schedule_m" VALUES(126,2037,NULL,NULL);
 INSERT INTO "event_marathon_live_schedule_m" VALUES(126,2038,NULL,NULL);
+INSERT INTO "event_marathon_live_schedule_m" VALUES(130,2083,NULL,NULL);
+INSERT INTO "event_marathon_live_schedule_m" VALUES(130,2084,NULL,NULL);
+INSERT INTO "event_marathon_live_schedule_m" VALUES(130,2085,NULL,NULL);
+INSERT INTO "event_marathon_live_schedule_m" VALUES(130,2086,NULL,NULL);
+INSERT INTO "event_marathon_live_schedule_m" VALUES(130,2087,NULL,NULL);
 CREATE TABLE `event_marathon_m` (
     `event_id` INTEGER NOT NULL,
     `point_name` TEXT NOT NULL,
@@ -716,4 +726,5 @@ INSERT INTO "event_marathon_m" VALUES(109,'イベントアイコン','assets/fla
 INSERT INTO "event_marathon_m" VALUES(114,'イベントアイコン','assets/flash/ui/live/img/e_icon_01.png',NULL,NULL);
 INSERT INTO "event_marathon_m" VALUES(120,'イベントアイコン','assets/flash/ui/live/img/e_icon_01.png',NULL,NULL);
 INSERT INTO "event_marathon_m" VALUES(126,'イベントアイコン','assets/flash/ui/live/img/e_icon_01.png',NULL,NULL);
+INSERT INTO "event_marathon_m" VALUES(130,'イベントアイコン','assets/flash/ui/live/img/e_icon_01.png',NULL,NULL);
 COMMIT;

@@ -37,6 +37,9 @@ INSERT INTO "achievement_category_m" VALUES(29,'assets/image/achievement/tag_008
 INSERT INTO "achievement_category_m" VALUES(30,'assets/image/achievement/tag_008.png','2018/9/3 0:00:00','2018/9/17 23:59:59',0,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(31,'assets/image/achievement/tag_008.png','2018/9/13 0:00:00','2018/9/17 23:59:59',0,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(32,'assets/image/achievement/tag_008.png','2018/9/8 0:00:00','2018/9/10 23:59:59',0,NULL,NULL);
+INSERT INTO "achievement_category_m" VALUES(33,'assets/image/achievement/tag_008.png','2018/9/21 0:00:00','2018/9/24 23:59:59',0,NULL,NULL);
+INSERT INTO "achievement_category_m" VALUES(34,'assets/image/achievement/tag_008.png','2018/9/23 0:00:00','2018/9/25 23:59:59',0,NULL,NULL);
+INSERT INTO "achievement_category_m" VALUES(35,'assets/image/achievement/tag_008.png','2018/9/21 0:00:00','2018/9/25 23:59:59',1,NULL,NULL);
 CREATE TABLE `achievement_description_m` (
     `achievement_description_id` INTEGER NOT NULL,
     `achievement_type` INTEGER NOT NULL,
@@ -1101,6 +1104,8 @@ INSERT INTO "achievement_m" VALUES(10090085,'Aqoursの夏祭り!その2【期間
 INSERT INTO "achievement_m" VALUES(10090086,'Aqoursの夏祭り!その3【期間限定】','Aqoursのメンバー全員が参加したユニットでEXPERTのMIRACLE WAVEでFULL COMBOでライブを1回クリアする','assets/image/achievement/tag_008.png',4,50,0,NULL,524,4,NULL,NULL,NULL,1,2,113,1,1,'2018/09/13 0:00:00','2018/09/17 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090087,'Aqoursの終わらない夏祭り！【期間限定】','Aqoursのメンバー全員が参加したユニットでEXPERTのおやすみなさん！をスコアランクSかつFULL COMBOで1回クリアする','assets/image/achievement/tag_008.png',4,50,0,NULL,529,4,NULL,NULL,1,1,2,113,1,1,'2018/09/13 0:00:00','2018/09/17 23:59:59',0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090088,'Guilty Kissのツアー・その1【期間限定】','Guilty Kissのメンバー全員が参加したユニットでコワレヤスキを1回クリアする','assets/image/achievement/tag_008.png',3,50,0,NULL,512,NULL,NULL,NULL,NULL,NULL,2,112,1,1,'2018/09/08 0:00:00','2018/09/10 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090093,'AZALEAのツアー・その1【期間限定】','AZALEAのメンバー全員が参加したユニットでGALAXY HidE and SeeKを1回クリアする','assets/image/achievement/tag_008.png',3,50,0,NULL,515,NULL,NULL,NULL,NULL,NULL,2,111,1,1,'2018/09/21 0:00:00','2018/09/24 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090098,'CYaRon！のツアー・その1【期間限定】','CYaRon！のメンバー全員が参加したユニットで近未来ハッピーエンドを1回クリアする','assets/image/achievement/tag_008.png',3,50,0,NULL,510,NULL,NULL,NULL,NULL,NULL,2,110,1,1,'2018/09/23 0:00:00','2018/09/25 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100001,'一般生勧誘をしよう！【その1】','μ''sの一般生勧誘で10人勧誘する','assets/image/achievement/tag_005.png',1,10,0,NULL,1,NULL,10,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100002,'一般生勧誘をしよう！【その2】','μ''sの一般生勧誘で25人勧誘する','assets/image/achievement/tag_005.png',1,10,0,NULL,1,NULL,25,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100003,'一般生勧誘をしよう！【その3】','μ''sの一般生勧誘で50人勧誘する','assets/image/achievement/tag_005.png',2,10,0,NULL,1,NULL,50,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,0,1,NULL,NULL);
@@ -1227,6 +1232,7 @@ INSERT INTO "achievement_m" VALUES(10290023,'3rdライブ福岡ストーリー4�
 INSERT INTO "achievement_m" VALUES(10290024,'笑って！エマちゃん　1話','虹ヶ咲ミニストーリー♪　エマ編をゲット！\nスクフェスにログインしよう！','assets/image/achievement/tag_002.png',1,29,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/07/25 0:00:00',NULL,1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10290025,'笑って！エマちゃん　2話','虹ヶ咲ミニストーリー♪　エマ編2話をゲット！\nスクフェスにログインしよう！','assets/image/achievement/tag_002.png',1,29,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/08/15 0:00:00',NULL,1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10290026,'笑って！エマちゃん　3話','虹ヶ咲ミニストーリー♪　エマ編3話をゲット！\nスクフェスにログインしよう！','assets/image/achievement/tag_002.png',1,29,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/09/05 0:00:00',NULL,1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10290027,'頼って、しずくちゃん！　1話','虹ヶ咲ミニストーリー♪　しずく編をゲット！\nスクフェスにログインしよう！','assets/image/achievement/tag_002.png',1,29,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/09/25 0:00:00',NULL,1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10330001,'千歌のステージ衣装！','高海千歌を1種類以上覚醒させる','assets/image/achievement/tag_009.png',2,33,0,NULL,101,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2016/07/05 0:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10330002,'梨子のステージ衣装！','桜内梨子を1種類以上覚醒させる','assets/image/achievement/tag_009.png',2,33,0,NULL,102,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2016/07/05 0:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10330003,'果南のステージ衣装！','松浦果南を1種類以上覚醒させる','assets/image/achievement/tag_009.png',2,33,0,NULL,103,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2016/07/05 0:00:00',NULL,0,1,NULL,NULL);
@@ -3598,6 +3604,10 @@ INSERT INTO "achievement_tag_m" VALUES(10090086,16);
 INSERT INTO "achievement_tag_m" VALUES(10090087,16);
 INSERT INTO "achievement_tag_m" VALUES(10090088,32);
 INSERT INTO "achievement_tag_m" VALUES(10090088,16);
+INSERT INTO "achievement_tag_m" VALUES(10090093,33);
+INSERT INTO "achievement_tag_m" VALUES(10090093,35);
+INSERT INTO "achievement_tag_m" VALUES(10090098,34);
+INSERT INTO "achievement_tag_m" VALUES(10090098,35);
 INSERT INTO "achievement_tag_m" VALUES(10260001,5);
 INSERT INTO "achievement_tag_m" VALUES(10260002,5);
 INSERT INTO "achievement_tag_m" VALUES(10260003,5);
@@ -3669,6 +3679,7 @@ INSERT INTO "achievement_tag_m" VALUES(10290023,1);
 INSERT INTO "achievement_tag_m" VALUES(10290024,1);
 INSERT INTO "achievement_tag_m" VALUES(10290025,1);
 INSERT INTO "achievement_tag_m" VALUES(10290026,1);
+INSERT INTO "achievement_tag_m" VALUES(10290027,1);
 INSERT INTO "achievement_tag_m" VALUES(10370013,7);
 INSERT INTO "achievement_tag_m" VALUES(10370014,7);
 INSERT INTO "achievement_tag_m" VALUES(10370015,7);

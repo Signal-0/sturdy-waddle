@@ -98,6 +98,7 @@ INSERT INTO "award_m" VALUES(87,'梨子ちゃんお誕生日おめでとう！',
 INSERT INTO "award_m" VALUES(90,'曜ちゃんお誕生日おめでとう！','4月17日は渡辺曜ちゃんのお誕生日♪','assets/image/award/award_090.png','assets/image/award/award_090di.png',25005,0,'r180417_000000',NULL);
 INSERT INTO "award_m" VALUES(91,'善子ちゃんお誕生日おめでとう！','7月13日は津島善子ちゃんのお誕生日♪','assets/image/award/award_091.png','assets/image/award/award_091di.png',25006,0,'r180713_000000',NULL);
 INSERT INTO "award_m" VALUES(93,'鞠莉ちゃんお誕生日おめでとう！','6月13日は小原鞠莉ちゃんのお誕生日♪','assets/image/award/award_093.png','assets/image/award/award_093di.png',25008,0,'r180613_000000',NULL);
+INSERT INTO "award_m" VALUES(94,'ルビィちゃんお誕生日おめでとう！','9月21日は黒澤ルビィちゃんのお誕生日♪','assets/image/award/award_094.png','assets/image/award/award_094di.png',25009,0,'r180921_000000',NULL);
 INSERT INTO "award_m" VALUES(95,'【称号】穂乃果ちゃんが気になる','穂乃果ちゃんのことが気になる…！\nそんな人のための称号','assets/image/award/award_095.png','assets/image/award/award_095di.png',4001,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(96,'【称号】絵里ちゃんが気になる','絵里ちゃんのことが気になる…！\nそんな人のための称号','assets/image/award/award_096.png','assets/image/award/award_096di.png',4002,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(97,'【称号】ことりちゃんが気になる','ことりちゃんのことが気になる…！\nそんな人のための称号','assets/image/award/award_097.png','assets/image/award/award_097di.png',4003,0,NULL,NULL);
@@ -179,6 +180,8 @@ INSERT INTO "award_m" VALUES(172,'スクフェス全国大会2018準優勝','ス
 INSERT INTO "award_m" VALUES(173,'スクフェス全国大会2018優勝','スクフェス全国大会2018優勝者に贈られる証','assets/image/award/award_173.png','assets/image/award/award_173di.png',18011,0,'r180805',NULL);
 INSERT INTO "award_m" VALUES(174,'Aqoursクラブ活動 LIVE&FAN MEETING 2018','Aqours クラブ活動 LIVE & FAN MEETING 2018\nの開催を記念した特別な称号','assets/image/award/award_174.png','assets/image/award/award_174di.png',21011,0,'r180909_090000',NULL);
 INSERT INTO "award_m" VALUES(175,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[札幌]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[札幌]の開催を記念した特別な称号','assets/image/award/award_175.png','assets/image/award/award_175di.png',21012,0,'r180909_000000',NULL);
+INSERT INTO "award_m" VALUES(176,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[名古屋]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[名古屋]の開催を記念した特別な称号','assets/image/award/award_176.png','assets/image/award/award_176di.png',21013,0,'r180922_000000',NULL);
+INSERT INTO "award_m" VALUES(177,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[松山]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[松山]の開催を記念した特別な称号','assets/image/award/award_177.png','assets/image/award/award_177di.png',21014,0,'r180924_000000',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,1,NULL,NULL);
 INSERT INTO "award_m" VALUES(902,'スクフェス全国大会2017オンライン予選','スクフェス全国大会2017オンライン予選に参加した証','assets/image/award/award_902.png','assets/image/award/award_902di.png',18002,1,NULL,NULL);
 INSERT INTO "award_m" VALUES(903,'【称号】スクフェス全国大会2018オンライン予選','スクフェス全国大会2018オンライン予選に参加した証','assets/image/award/award_903.png','assets/image/award/award_903di.png',18007,1,NULL,NULL);
