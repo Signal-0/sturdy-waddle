@@ -12,6 +12,10 @@ INSERT INTO "navi_special_cutin_voice_m" VALUES(1,1,1,8976,1,NULL,NULL);
 INSERT INTO "navi_special_cutin_voice_m" VALUES(2,1,2,8973,1,NULL,NULL);
 INSERT INTO "navi_special_cutin_voice_m" VALUES(3,1,2,8974,1,NULL,NULL);
 INSERT INTO "navi_special_cutin_voice_m" VALUES(4,1,2,8975,1,NULL,NULL);
+INSERT INTO "navi_special_cutin_voice_m" VALUES(5,2,1,9021,1,'r181011_000000',NULL);
+INSERT INTO "navi_special_cutin_voice_m" VALUES(6,2,2,9018,1,'r181011_000000',NULL);
+INSERT INTO "navi_special_cutin_voice_m" VALUES(7,2,2,9019,1,'r181011_000000',NULL);
+INSERT INTO "navi_special_cutin_voice_m" VALUES(8,2,2,9020,1,'r181011_000000',NULL);
 CREATE TABLE `navigation_function_type_m` (
     `function_type` INTEGER NOT NULL,
     `link_function` TEXT NOT NULL,

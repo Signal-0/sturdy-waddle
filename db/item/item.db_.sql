@@ -182,6 +182,8 @@ INSERT INTO "award_m" VALUES(174,'Aqoursクラブ活動 LIVE&FAN MEETING 2018','
 INSERT INTO "award_m" VALUES(175,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[札幌]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[札幌]の開催を記念した特別な称号','assets/image/award/award_175.png','assets/image/award/award_175di.png',21012,0,'r180909_000000',NULL);
 INSERT INTO "award_m" VALUES(176,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[名古屋]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[名古屋]の開催を記念した特別な称号','assets/image/award/award_176.png','assets/image/award/award_176di.png',21013,0,'r180922_000000',NULL);
 INSERT INTO "award_m" VALUES(177,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[松山]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[松山]の開催を記念した特別な称号','assets/image/award/award_177.png','assets/image/award/award_177di.png',21014,0,'r180924_000000',NULL);
+INSERT INTO "award_m" VALUES(186,'第6回おさんぽラリー[アキバ]','第6回おさんぽラリーで指定ミッションを\n達成した人だけに贈られる記念の称号','assets/image/award/award_186.png','assets/image/award/award_186di.png',27008,0,'r181005',NULL);
+INSERT INTO "award_m" VALUES(187,'第6回おさんぽラリー[ほむまん]','穂乃果の実家・老舗和菓子店「穂むら」の名物','assets/image/award/award_187.png','assets/image/award/award_187di.png',27009,0,'r181005',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,1,NULL,NULL);
 INSERT INTO "award_m" VALUES(902,'スクフェス全国大会2017オンライン予選','スクフェス全国大会2017オンライン予選に参加した証','assets/image/award/award_902.png','assets/image/award/award_902di.png',18002,1,NULL,NULL);
 INSERT INTO "award_m" VALUES(903,'【称号】スクフェス全国大会2018オンライン予選','スクフェス全国大会2018オンライン予選に参加した証','assets/image/award/award_903.png','assets/image/award/award_903di.png',18007,1,NULL,NULL);
@@ -282,6 +284,9 @@ INSERT INTO "background_m" VALUES(84,'【背景】星空','【星空】\n一面�
 INSERT INTO "background_m" VALUES(85,'【背景】十千万・外観','【十千万・外観】\n千歌の実家・老舗旅館「十千万」の外観','assets/image/background/b_st_135.png','assets/image/background/home/b_st_135_thm.png',2012,NULL,NULL);
 INSERT INTO "background_m" VALUES(86,'【背景】浦の星女学院・校庭','【浦の星女学院・校庭】\nAqoursメンバーが通う高校・私立浦の星女学院の校庭','assets/image/background/b_st_122.png','assets/image/background/home/b_st_122_thm.png',2105,NULL,NULL);
 INSERT INTO "background_m" VALUES(87,'【背景】びゅうお・外観','【びゅうお・外観】\n大型展望水門「びゅうお」の外観','assets/image/background/b_st_235.png','assets/image/background/home/b_st_235_thm.png',2013,NULL,NULL);
+INSERT INTO "background_m" VALUES(88,'【背景】神田明神・本殿','【神田明神・本殿】\n秋葉原に鎮座する由緒正しい神社','assets/image/background/b_st_024.png','assets/image/background/home/b_st_024_thm.png',2451,NULL,NULL);
+INSERT INTO "background_m" VALUES(89,'【背景】芳林公園','【芳林公園】\nμ''sメンバーが訪れた遊具のある公園','assets/image/background/b_st_242.png','assets/image/background/home/b_st_242_thm.png',2452,NULL,NULL);
+INSERT INTO "background_m" VALUES(90,'【背景】昌平橋','【昌平橋】\nμ''sメンバーが訪れた神田川に架かる橋','assets/image/background/b_st_243.png','assets/image/background/home/b_st_243_thm.png',2453,NULL,NULL);
 INSERT INTO "background_m" VALUES(901,'【背景】クリスマスの街','【クリスマスの街】\n イルミネーションに彩られたクリスマスの街','assets/image/background/b_st_014.png','assets/image/background/home/b_st_014_thm.png',901,NULL,NULL);
 INSERT INTO "background_m" VALUES(902,'【背景】神社・本殿[正月]','【神社・本殿[正月]】\n 正月飾りを施された新年の神社','assets/image/background/b_st_064.png','assets/image/background/home/b_st_064_thm.png',902,NULL,NULL);
 CREATE TABLE `kg_item_m` (
@@ -398,6 +403,14 @@ INSERT INTO "live_se_group_m" VALUES(99,1,'assets/sound/voice/navi/vo_li_044_900
 INSERT INTO "live_se_group_m" VALUES(99,2,'assets/sound/voice/navi/vo_li_044_9008.mp3',NULL,NULL);
 INSERT INTO "live_se_group_m" VALUES(99,3,'assets/sound/voice/navi/vo_li_044_0001.mp3',NULL,NULL);
 INSERT INTO "live_se_group_m" VALUES(99,4,'assets/sound/voice/navi/vo_li_044_0008.mp3',NULL,NULL);
+INSERT INTO "live_se_group_m" VALUES(2,1,'assets/sound/live_se/live_se_02_1.mp3',NULL,NULL);
+INSERT INTO "live_se_group_m" VALUES(2,2,'assets/sound/live_se/live_se_02_2.mp3',NULL,NULL);
+INSERT INTO "live_se_group_m" VALUES(2,3,'assets/sound/live_se/live_se_02_3.mp3',NULL,NULL);
+INSERT INTO "live_se_group_m" VALUES(2,4,'assets/sound/live_se/live_se_02_4.mp3',NULL,NULL);
+INSERT INTO "live_se_group_m" VALUES(3,1,'assets/sound/live_se/live_se_03_1.mp3',NULL,NULL);
+INSERT INTO "live_se_group_m" VALUES(3,2,'assets/sound/live_se/live_se_03_2.mp3',NULL,NULL);
+INSERT INTO "live_se_group_m" VALUES(3,3,'assets/sound/live_se/live_se_03_3.mp3',NULL,NULL);
+INSERT INTO "live_se_group_m" VALUES(3,4,'assets/sound/live_se/live_se_03_4.mp3',NULL,NULL);
 CREATE TABLE `live_se_m` (
     `live_se_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
@@ -406,6 +419,8 @@ CREATE TABLE `live_se_m` (
     PRIMARY KEY (`live_se_id`)
 );
 INSERT INTO "live_se_m" VALUES(1,'基本SEセット','基本ライブSEセットです',0);
+INSERT INTO "live_se_m" VALUES(2,'クラップMIX','クラップMIX',1);
+INSERT INTO "live_se_m" VALUES(3,'バブル','バブル',2);
 INSERT INTO "live_se_m" VALUES(99,'アルパカ','アルパカ',99);
 CREATE TABLE `recovery_item_m` (
     `recovery_item_id` INTEGER NOT NULL,
