@@ -16192,15 +16192,15 @@ INSERT INTO "event_scenario_m" VALUES(99,124,'7話　見慣れない景色',NULL
 INSERT INTO "event_scenario_m" VALUES(100,124,'8話　ワクワクする気持ち',NULL,NULL,8,'assets/image/ui/eventscenario/124_se_ic_9.png',1002,NULL,0,'2018/06/20 15:00:00',1631,1,NULL,NULL);
 INSERT INTO "event_scenario_m" VALUES(101,124,'9話　初心に戻って',NULL,NULL,9,'assets/image/ui/eventscenario/124_se_ic_10.png',1002,NULL,0,'2018/06/20 15:00:00',1631,1,NULL,NULL);
 INSERT INTO "event_scenario_m" VALUES(102,124,'ファイナルステージ',NULL,NULL,999,'assets/image/ui/eventscenario/124_se_ic_11.png',1002,NULL,0,'2018/06/20 15:00:00',1631,1,NULL,NULL);
-INSERT INTO "event_scenario_m" VALUES(103,131,'全員集合',NULL,NULL,0,'assets/image/ui/eventscenario/131_se_ic_1.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,161);
-INSERT INTO "event_scenario_m" VALUES(104,131,'1話　サプライズ、A-RISE',NULL,NULL,1,'assets/image/ui/eventscenario/131_se_ic_2.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,161);
-INSERT INTO "event_scenario_m" VALUES(105,131,'2話　恥ずかしがりの海未ちゃん',NULL,NULL,2,'assets/image/ui/eventscenario/131_se_ic_3.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,161);
-INSERT INTO "event_scenario_m" VALUES(106,131,'3話　叶えたい願い',NULL,NULL,3,'assets/image/ui/eventscenario/131_se_ic_4.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,161);
-INSERT INTO "event_scenario_m" VALUES(107,131,'4話　私たちのトレーニング',NULL,NULL,4,'assets/image/ui/eventscenario/131_se_ic_5.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,161);
-INSERT INTO "event_scenario_m" VALUES(108,131,'5話　思い出の公園',NULL,NULL,5,'assets/image/ui/eventscenario/131_se_ic_6.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,161);
-INSERT INTO "event_scenario_m" VALUES(109,131,'6話　魅惑の和菓子たち',NULL,NULL,6,'assets/image/ui/eventscenario/131_se_ic_7.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,161);
-INSERT INTO "event_scenario_m" VALUES(110,131,'7話　みんなの通学路',NULL,NULL,7,'assets/image/ui/eventscenario/131_se_ic_8.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,161);
-INSERT INTO "event_scenario_m" VALUES(111,131,'大好きな学校',NULL,NULL,999,'assets/image/ui/eventscenario/131_se_ic_9.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,161);
+INSERT INTO "event_scenario_m" VALUES(103,131,'全員集合',NULL,NULL,0,'assets/image/ui/eventscenario/131_se_ic_1.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(104,131,'1話　サプライズ、A-RISE',NULL,NULL,1,'assets/image/ui/eventscenario/131_se_ic_2.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(105,131,'2話　恥ずかしがりの海未ちゃん',NULL,NULL,2,'assets/image/ui/eventscenario/131_se_ic_3.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(106,131,'3話　叶えたい願い',NULL,NULL,3,'assets/image/ui/eventscenario/131_se_ic_4.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(107,131,'4話　私たちのトレーニング',NULL,NULL,4,'assets/image/ui/eventscenario/131_se_ic_5.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(108,131,'5話　思い出の公園',NULL,NULL,5,'assets/image/ui/eventscenario/131_se_ic_6.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(109,131,'6話　魅惑の和菓子たち',NULL,NULL,6,'assets/image/ui/eventscenario/131_se_ic_7.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(110,131,'7話　みんなの通学路',NULL,NULL,7,'assets/image/ui/eventscenario/131_se_ic_8.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(111,131,'大好きな学校',NULL,NULL,999,'assets/image/ui/eventscenario/131_se_ic_9.png',1001,NULL,0,'2018/10/05 15:00:00',1745,1,NULL,NULL);
 CREATE TABLE `event_scenario_setting_disp_m` (
     `event_scenario_setting_disp_id` INTEGER NOT NULL,
     `event_scenario_setting_id` INTEGER NOT NULL,

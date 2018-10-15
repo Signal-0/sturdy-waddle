@@ -42,6 +42,7 @@ INSERT INTO "achievement_category_m" VALUES(34,'assets/image/achievement/tag_008
 INSERT INTO "achievement_category_m" VALUES(35,'assets/image/achievement/tag_008.png','2018/9/21 0:00:00','2018/9/25 23:59:59',1,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(36,'assets/image/achievement/tag_008.png','2018/10/05 15:00:00','2018/10/31 23:59:59',0,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(37,'assets/image/achievement/tag_008.png','2018/10/05 15:00:00','2018/10/31 23:59:59',1,NULL,NULL);
+INSERT INTO "achievement_category_m" VALUES(38,'assets/image/achievement/tag_008.png','2018/10/16 0:00:00','2018/10/31 23:59:59',0,NULL,NULL);
 CREATE TABLE `achievement_description_m` (
     `achievement_description_id` INTEGER NOT NULL,
     `achievement_type` INTEGER NOT NULL,
@@ -899,6 +900,11 @@ INSERT INTO "achievement_m" VALUES(724,'Aqours課題を72個クリアしよう�
 INSERT INTO "achievement_m" VALUES(725,'Aqoursのストーリー28章1話を読もう',NULL,'assets/image/achievement/tag_002.png',3,23,0,NULL,297,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/09/30 15:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(726,'INNOCENT BIRD',NULL,'assets/image/achievement/tag_002.png',3,32,0,NULL,537,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/09/30 15:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(727,'Aqoursのストーリー28章2話を読もう',NULL,'assets/image/achievement/tag_002.png',3,23,0,NULL,298,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/09/30 15:00:00',NULL,0,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(728,'Rankを202にしよう！',NULL,'assets/image/achievement/tag_002.png',4,30,0,NULL,202,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/10/15 15:00:00',NULL,0,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(729,'Aqours課題を73個クリアしよう！',NULL,'assets/image/achievement/tag_002.png',3,53,0,NULL,7,73,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/10/15 15:00:00',NULL,0,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(730,'Aqoursのストーリー28章3話を読もう',NULL,'assets/image/achievement/tag_002.png',3,23,0,NULL,299,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/10/15 15:00:00',NULL,0,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(731,'“MY LIST” to you!',NULL,'assets/image/achievement/tag_002.png',3,32,0,NULL,548,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/10/15 15:00:00',NULL,0,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(732,'Aqoursのストーリー28章4話を読もう',NULL,'assets/image/achievement/tag_002.png',3,23,0,NULL,300,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/10/15 15:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(11020,'Rankを1020にしよう！',NULL,'assets/image/achievement/tag_005.png',4,30,0,NULL,1020,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/10/05 15:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(11040,'Rankを1040にしよう！',NULL,'assets/image/achievement/tag_005.png',4,30,0,NULL,1040,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/10/05 15:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(11060,'Rankを1060にしよう！',NULL,'assets/image/achievement/tag_005.png',4,30,0,NULL,1060,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/10/05 15:00:00',NULL,0,1,NULL,NULL);
@@ -1114,6 +1120,9 @@ INSERT INTO "achievement_m" VALUES(10090088,'Guilty Kissのツアー・その1�
 INSERT INTO "achievement_m" VALUES(10090093,'AZALEAのツアー・その1【期間限定】','AZALEAのメンバー全員が参加したユニットでGALAXY HidE and SeeKを1回クリアする','assets/image/achievement/tag_008.png',3,50,0,NULL,515,NULL,NULL,NULL,NULL,NULL,2,111,1,1,'2018/09/21 0:00:00','2018/09/24 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090098,'CYaRon！のツアー・その1【期間限定】','CYaRon！のメンバー全員が参加したユニットで近未来ハッピーエンドを1回クリアする','assets/image/achievement/tag_008.png',3,50,0,NULL,510,NULL,NULL,NULL,NULL,NULL,2,110,1,1,'2018/09/23 0:00:00','2018/09/25 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090103,'まんなかイチゴは誰のもの？【期間限定】',NULL,'assets/image/achievement/tag_008.png',3,37,0,NULL,468,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/10/05 15:00:00','2018/10/31 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090104,'ぷちぐるコラボ！その1【期間限定】','ぷちぐるコラボ部員のμ''s・Aqoursどちらかをユニットに編成してライブを1回クリアする','assets/image/achievement/tag_008.png',1,50,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,119,2,1,'2018/10/16 0:00:00','2018/10/31 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090105,'ぷちぐるコラボ！その2【期間限定】','ぷちぐるコラボ部員のμ''s・Aqoursどちらかをユニットに編成してライブを2回クリアする','assets/image/achievement/tag_008.png',1,50,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,119,2,2,'2018/10/16 0:00:00','2018/10/31 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090106,'ぷちぐるコラボ！その3【期間限定】','ぷちぐるコラボ部員のμ''s・Aqoursどちらかをユニットに編成してライブを3回クリアする','assets/image/achievement/tag_008.png',1,50,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,119,2,3,'2018/10/16 0:00:00','2018/10/31 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100001,'一般生勧誘をしよう！【その1】','μ''sの一般生勧誘で10人勧誘する','assets/image/achievement/tag_005.png',1,10,0,NULL,1,NULL,10,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100002,'一般生勧誘をしよう！【その2】','μ''sの一般生勧誘で25人勧誘する','assets/image/achievement/tag_005.png',1,10,0,NULL,1,NULL,25,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100003,'一般生勧誘をしよう！【その3】','μ''sの一般生勧誘で50人勧誘する','assets/image/achievement/tag_005.png',2,10,0,NULL,1,NULL,50,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,0,1,NULL,NULL);
@@ -1326,6 +1335,7 @@ INSERT INTO "achievement_m" VALUES(10500048,'CRASH MIND【EXPERT】','難易度E
 INSERT INTO "achievement_m" VALUES(10500049,'DROPOUT!?【EXPERT】','難易度EXPERTのDROPOUT!?を1回クリア','assets/image/achievement/tag_009.png',4,50,0,NULL,546,4,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018/08/31 15:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10500050,'海岸通りで待ってるよ【EXPERT】','難易度EXPERTの海岸通りで待ってるよを1回クリア','assets/image/achievement/tag_009.png',4,50,0,NULL,530,4,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018/09/15 15:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10500051,'INNOCENT BIRD【EXPERT】','難易度EXPERTのINNOCENT BIRDを1回クリア','assets/image/achievement/tag_009.png',4,50,0,NULL,537,4,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018/09/30 15:00:00',NULL,0,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10500052,'“MY LIST” to you!【EXPERT】','難易度EXPERTの“MY LIST” to you!を1回クリア','assets/image/achievement/tag_009.png',4,50,0,NULL,548,4,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2018/10/15 15:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10510001,'[ダミー]千歌のファーストライブ！',NULL,'assets/image/achievement/tag_009.png',1,51,0,NULL,1,101,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2016/07/05 0:00:00',NULL,1,0,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10510002,'[ダミー]梨子のファーストライブ！',NULL,'assets/image/achievement/tag_009.png',1,51,0,NULL,1,102,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2016/07/05 0:00:00',NULL,1,0,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10510003,'[ダミー]果南のファーストライブ！',NULL,'assets/image/achievement/tag_009.png',1,51,0,NULL,1,103,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2016/07/05 0:00:00',NULL,1,0,NULL,NULL);
@@ -1404,6 +1414,7 @@ INSERT INTO "achievement_m" VALUES(30500051,'スマイルなライブ！【26章
 INSERT INTO "achievement_m" VALUES(30500052,'クールなライブ！【27章】','Aqoursのメンバーが1人以上参加したユニットでクール属性のライブを5回クリア','assets/image/achievement/tag_009.png',3,50,0,NULL,NULL,NULL,3,NULL,NULL,NULL,2,113,2,5,'2018/08/31 15:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(30500053,'ピュアなライブ！【27章】','Aqoursのメンバーが1人以上参加したユニットでピュア属性のライブを5回クリア','assets/image/achievement/tag_009.png',3,50,0,NULL,NULL,NULL,2,NULL,NULL,NULL,2,113,2,5,'2018/09/15 15:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(30500054,'クールなライブ！【28章】','Aqoursのメンバーが1人以上参加したユニットでクール属性のライブを5回クリア','assets/image/achievement/tag_009.png',3,50,0,NULL,NULL,NULL,3,NULL,NULL,NULL,2,113,2,5,'2018/09/30 15:00:00',NULL,0,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(30500055,'ピュアなライブ！【28章】','Aqoursのメンバーが1人以上参加したユニットでピュア属性のライブを5回クリア','assets/image/achievement/tag_009.png',3,50,0,NULL,NULL,NULL,2,NULL,NULL,NULL,2,113,2,5,'2018/10/15 15:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(90000145,'Rankを50にしよう！',NULL,'assets/image/achievement/tag_002.png',1,30,0,NULL,50,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2013/04/15 0:00:00',NULL,1,0,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(90000202,'ストーリー15章3話を読もう',NULL,'assets/image/achievement/tag_002.png',2,23,0,NULL,54,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2013/04/15 0:00:00',NULL,1,0,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(90000443,'青空Jumping Heart',NULL,'assets/image/achievement/tag_002.png',1,32,0,NULL,477,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2016/07/31 15:00:00',NULL,1,0,NULL,NULL);
@@ -1463,6 +1474,7 @@ INSERT INTO "achievement_m" VALUES(90000556,'Aqoursのストーリー26章4話�
 INSERT INTO "achievement_m" VALUES(90000557,'Aqoursのストーリー27章2話を読もう',NULL,'assets/image/achievement/tag_002.png',3,23,0,NULL,294,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/08/31 15:00:00',NULL,1,0,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(90000558,'Aqoursのストーリー27章4話を読もう',NULL,'assets/image/achievement/tag_002.png',3,23,0,NULL,296,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/09/15 15:00:00',NULL,1,0,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(90000559,'Aqoursのストーリー28章2話を読もう',NULL,'assets/image/achievement/tag_002.png',3,23,0,NULL,298,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/09/30 15:00:00',NULL,1,0,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(90000560,'Aqoursのストーリー28章4話を読もう',NULL,'assets/image/achievement/tag_002.png',3,23,0,NULL,300,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/10/15 15:00:00',NULL,1,0,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(91000001,'いずれかの課題を1つクリア',NULL,'assets/image/achievement/tag_008.png',3,53,0,NULL,10,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2017/12/06 0:00:00','2017/12/15 23:59:59',1,0,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(91000002,'いずれかの課題を1つクリア',NULL,'assets/image/achievement/tag_008.png',3,53,0,NULL,14,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/04/20 15:00:00','2018/04/30 23:59:59',1,0,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(91000003,'いずれかの課題を1つクリア',NULL,'assets/image/achievement/tag_008.png',3,53,0,NULL,15,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/04/20 15:00:00','2018/04/30 23:59:59',1,0,NULL,NULL);
@@ -2408,6 +2420,13 @@ INSERT INTO "achievement_story_m" VALUES(725,726);
 INSERT INTO "achievement_story_m" VALUES(726,10500051);
 INSERT INTO "achievement_story_m" VALUES(726,727);
 INSERT INTO "achievement_story_m" VALUES(90000559,30500054);
+INSERT INTO "achievement_story_m" VALUES(723,728);
+INSERT INTO "achievement_story_m" VALUES(727,729);
+INSERT INTO "achievement_story_m" VALUES(729,730);
+INSERT INTO "achievement_story_m" VALUES(730,731);
+INSERT INTO "achievement_story_m" VALUES(731,10500052);
+INSERT INTO "achievement_story_m" VALUES(731,732);
+INSERT INTO "achievement_story_m" VALUES(90000560,30500055);
 INSERT INTO "achievement_story_m" VALUES(10370001,10370002);
 INSERT INTO "achievement_story_m" VALUES(10370002,10370003);
 INSERT INTO "achievement_story_m" VALUES(10370003,10370004);
@@ -3477,6 +3496,11 @@ INSERT INTO "achievement_tag_m" VALUES(724,1);
 INSERT INTO "achievement_tag_m" VALUES(725,1);
 INSERT INTO "achievement_tag_m" VALUES(726,1);
 INSERT INTO "achievement_tag_m" VALUES(727,1);
+INSERT INTO "achievement_tag_m" VALUES(728,1);
+INSERT INTO "achievement_tag_m" VALUES(729,1);
+INSERT INTO "achievement_tag_m" VALUES(730,1);
+INSERT INTO "achievement_tag_m" VALUES(731,1);
+INSERT INTO "achievement_tag_m" VALUES(732,1);
 INSERT INTO "achievement_tag_m" VALUES(10370001,1);
 INSERT INTO "achievement_tag_m" VALUES(10370002,1);
 INSERT INTO "achievement_tag_m" VALUES(10370003,1);
@@ -3634,6 +3658,12 @@ INSERT INTO "achievement_tag_m" VALUES(10090098,34);
 INSERT INTO "achievement_tag_m" VALUES(10090098,35);
 INSERT INTO "achievement_tag_m" VALUES(10090103,36);
 INSERT INTO "achievement_tag_m" VALUES(10090103,37);
+INSERT INTO "achievement_tag_m" VALUES(10090104,37);
+INSERT INTO "achievement_tag_m" VALUES(10090105,37);
+INSERT INTO "achievement_tag_m" VALUES(10090106,37);
+INSERT INTO "achievement_tag_m" VALUES(10090104,38);
+INSERT INTO "achievement_tag_m" VALUES(10090105,38);
+INSERT INTO "achievement_tag_m" VALUES(10090106,38);
 INSERT INTO "achievement_tag_m" VALUES(10260001,5);
 INSERT INTO "achievement_tag_m" VALUES(10260002,5);
 INSERT INTO "achievement_tag_m" VALUES(10260003,5);
@@ -3837,6 +3867,8 @@ INSERT INTO "achievement_tag_m" VALUES(10500050,7);
 INSERT INTO "achievement_tag_m" VALUES(30500053,7);
 INSERT INTO "achievement_tag_m" VALUES(10500051,7);
 INSERT INTO "achievement_tag_m" VALUES(30500054,7);
+INSERT INTO "achievement_tag_m" VALUES(10500052,7);
+INSERT INTO "achievement_tag_m" VALUES(30500055,7);
 INSERT INTO "achievement_tag_m" VALUES(10010006,7);
 INSERT INTO "achievement_tag_m" VALUES(10010007,7);
 INSERT INTO "achievement_tag_m" VALUES(10010008,7);
@@ -4122,6 +4154,8 @@ INSERT INTO "achievement_unit_type_group_m" VALUES(116,103,0);
 INSERT INTO "achievement_unit_type_group_m" VALUES(116,108,0);
 INSERT INTO "achievement_unit_type_group_m" VALUES(117,112,0);
 INSERT INTO "achievement_unit_type_group_m" VALUES(118,113,0);
+INSERT INTO "achievement_unit_type_group_m" VALUES(119,84,0);
+INSERT INTO "achievement_unit_type_group_m" VALUES(119,124,0);
 CREATE TABLE `achievement_unit_type_group_name_m` (
     `achievement_unit_type_group_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
@@ -4161,4 +4195,5 @@ INSERT INTO "achievement_unit_type_group_name_m" VALUES(115,'Aqoursの2年生（
 INSERT INTO "achievement_unit_type_group_name_m" VALUES(116,'Aqoursの3年生（ダイヤ・果南・鞠莉）');
 INSERT INTO "achievement_unit_type_group_name_m" VALUES(117,'鹿角理亞');
 INSERT INTO "achievement_unit_type_group_name_m" VALUES(118,'鹿角聖良');
+INSERT INTO "achievement_unit_type_group_name_m" VALUES(119,'ぷちぐるコラボ部員');
 COMMIT;

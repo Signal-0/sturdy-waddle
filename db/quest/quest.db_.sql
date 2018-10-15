@@ -1516,9 +1516,9 @@ INSERT INTO "event_quest_pin_m" VALUES(72,124,1043,453,'シークレットスポ
 INSERT INTO "event_quest_pin_m" VALUES(73,124,345,1098,'シークレットスポット',NULL,NULL,73,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(74,124,561,1047,'シークレットスポット',NULL,NULL,74,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(75,124,1076,959,'シークレットスポット',NULL,NULL,75,NULL,NULL);
-INSERT INTO "event_quest_pin_m" VALUES(76,131,1297,1080,'電車',0,NULL,76,NULL,NULL);
+INSERT INTO "event_quest_pin_m" VALUES(76,131,1297,1080,'駅',0,NULL,76,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(77,131,1136,842,'UTX学院',1,NULL,77,NULL,NULL);
-INSERT INTO "event_quest_pin_m" VALUES(78,131,732,1040,'ゲマ',2,NULL,78,NULL,NULL);
+INSERT INTO "event_quest_pin_m" VALUES(78,131,732,1040,'ゲーマーズ',2,NULL,78,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(79,131,233,491,'神田明神',3,NULL,79,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(80,131,33,518,'神田明神男坂',4,NULL,80,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(81,131,574,606,'公園',5,NULL,81,NULL,NULL);
