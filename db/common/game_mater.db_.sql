@@ -746,6 +746,8 @@ INSERT INTO "strings_m" VALUES('mes_scenario',8,'サイドストーリーが解�
 INSERT INTO "strings_m" VALUES('mes_scenario',9,'\nクリア報酬ゲット！\n %s\n<heart>ラブカストーン%s個プレゼント！\n\n（所持上限に達しているため\nプレゼントボックスに移動します）');
 INSERT INTO "strings_m" VALUES('mes_scenario',11,'イベントストーリーを再生しますか？');
 INSERT INTO "strings_m" VALUES('mes_scenario',12,'次のイベントストーリーを再生しますか？');
+INSERT INTO "strings_m" VALUES('mes_scenario',13,'プロローグを読んでいません\nイベントプロローグを再生しますか？');
+INSERT INTO "strings_m" VALUES('mes_scenario',14,'データの更新が必要になりました\n情報を取り直してホーム画面に戻ります');
 INSERT INTO "strings_m" VALUES('mes_top',1,'ストーリーの%s（%s）をプレイしよう！');
 INSERT INTO "strings_m" VALUES('mes_top',2,'すべての目標を達成しました！');
 INSERT INTO "strings_m" VALUES('mes_top',3,'イベント期間外です');
@@ -1166,7 +1168,7 @@ INSERT INTO "strings_m" VALUES('difficulty',6,'MASTER');
 INSERT INTO "strings_m" VALUES('scenario',1000,'序章');
 INSERT INTO "strings_m" VALUES('scenario',1,'第%s章');
 INSERT INTO "strings_m" VALUES('scenario',10,'%s話');
-INSERT INTO "strings_m" VALUES('scenario',11,'%s %s話');
+INSERT INTO "strings_m" VALUES('scenario',11,'%s ストーリー %s話');
 INSERT INTO "strings_m" VALUES('scenario',12,'プロローグ');
 INSERT INTO "strings_m" VALUES('error_code',1103,'\n\n\n\n<heart>ラブカストーンが不足しています\n');
 INSERT INTO "strings_m" VALUES('error_code',1108,'<center>これ以上部員数の上限を増やせません');

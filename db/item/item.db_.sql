@@ -87,6 +87,7 @@ INSERT INTO "award_m" VALUES(74,'【称号】スクフェスAC1周年・希','�
 INSERT INTO "award_m" VALUES(75,'【称号】スクフェスAC1周年・花陽','スクフェスACの1周年を記念した\n花陽の特別な称号','assets/image/award/award_075.png','assets/image/award/award_075di.png',23009,0,'r180109_000000',NULL);
 INSERT INTO "award_m" VALUES(76,'【称号】スクフェスAC1周年・にこ','スクフェスACの1周年を記念した\nにこの特別な称号','assets/image/award/award_076.png','assets/image/award/award_076di.png',23010,0,'r180109_000000',NULL);
 INSERT INTO "award_m" VALUES(77,'穂乃果ちゃんお誕生日おめでとう！','8月3日は高坂穂乃果ちゃんのお誕生日♪','assets/image/award/award_077.png','assets/image/award/award_077di.png',24001,0,'r180803_000000',NULL);
+INSERT INTO "award_m" VALUES(78,'絵里ちゃんお誕生日おめでとう！','10月21日は絢瀬絵里ちゃんのお誕生日♪','assets/image/award/award_078.png','assets/image/award/award_078di.png',24002,0,'r181021_000000',NULL);
 INSERT INTO "award_m" VALUES(79,'ことりちゃんお誕生日おめでとう！','9月12日は南ことりちゃんのお誕生日♪','assets/image/award/award_079.png','assets/image/award/award_079di.png',24003,0,'r180912_000000',NULL);
 INSERT INTO "award_m" VALUES(80,'海未ちゃんお誕生日おめでとう！','3月15日は園田海未ちゃんのお誕生日♪','assets/image/award/award_080.png','assets/image/award/award_080di.png',24004,0,'r180315_000000',NULL);
 INSERT INTO "award_m" VALUES(82,'真姫ちゃんお誕生日おめでとう！','4月19日は西木野真姫ちゃんのお誕生日♪','assets/image/award/award_082.png','assets/image/award/award_082di.png',24006,0,'r180419_000000',NULL);
@@ -307,6 +308,7 @@ INSERT INTO "background_m" VALUES(88,'【背景】神田明神・本殿','【神
 INSERT INTO "background_m" VALUES(89,'【背景】芳林公園','【芳林公園】\nμ''sメンバーが訪れた遊具のある公園','assets/image/background/b_st_242.png','assets/image/background/home/b_st_242_thm.png',2452,NULL,NULL);
 INSERT INTO "background_m" VALUES(90,'【背景】昌平橋','【昌平橋】\nμ''sメンバーが訪れた神田川に架かる橋','assets/image/background/b_st_243.png','assets/image/background/home/b_st_243_thm.png',2453,NULL,NULL);
 INSERT INTO "background_m" VALUES(91,'【背景】僕らは今のなかで[ぷちぐる]','【僕らは今のなかで[ぷちぐる]】\nぷちぐるラブライブ！とのコラボを記念した\n「僕らは今のなかで」ステージ','assets/image/background/b_st_245.png','assets/image/background/home/b_st_245_thm.png',3001,NULL,NULL);
+INSERT INTO "background_m" VALUES(92,'【背景】HAPPY PARTY TRAIN[ぷちぐる]','【HAPPY PARTY TRAIN[ぷちぐる]】\nぷちぐるラブライブ！とのコラボを記念した\n「HAPPY PARTY TRAIN」ステージ','assets/image/background/b_st_246.png','assets/image/background/home/b_st_246_thm.png',3002,NULL,NULL);
 INSERT INTO "background_m" VALUES(901,'【背景】クリスマスの街','【クリスマスの街】\n イルミネーションに彩られたクリスマスの街','assets/image/background/b_st_014.png','assets/image/background/home/b_st_014_thm.png',901,NULL,NULL);
 INSERT INTO "background_m" VALUES(902,'【背景】神社・本殿[正月]','【神社・本殿[正月]】\n 正月飾りを施された新年の神社','assets/image/background/b_st_064.png','assets/image/background/home/b_st_064_thm.png',902,NULL,NULL);
 CREATE TABLE `kg_item_m` (
@@ -363,6 +365,7 @@ INSERT INTO "kg_item_m" VALUES(32,1,'南ことりSSR以上確定勧誘チケッ�
 INSERT INTO "kg_item_m" VALUES(33,1,'桜内梨子SSR以上確定勧誘チケット',33,1,1,NULL,'assets/image/item/item_33_s.png','桜内梨子SSR以上確定勧誘勧誘を行える','桜内梨子SSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,24,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(34,1,'黒澤ルビィSSR以上確定勧誘チケット',34,1,1,NULL,'assets/image/item/item_34_s.png','黒澤ルビィSSR以上確定勧誘勧誘を行える','黒澤ルビィSSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,25,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(35,1,'絢瀬絵里SSR以上確定勧誘チケット',35,1,1,NULL,'assets/image/item/item_35_s.png','絢瀬絵里SSR以上確定勧誘勧誘を行える','絢瀬絵里SSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,26,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(36,1,'星空 凛SSR以上確定勧誘チケット',36,1,1,NULL,'assets/image/item/item_36_s.png','星空 凛SSR以上確定勧誘勧誘を行える','星空 凛SSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,27,1,NULL,NULL);
 CREATE TABLE `live_notes_icon_asset_m` (
     `live_notes_icon_id` INTEGER NOT NULL,
     `tap_type` INTEGER NOT NULL,

@@ -41,7 +41,7 @@ INSERT INTO "achievement_category_m" VALUES(33,'assets/image/achievement/tag_008
 INSERT INTO "achievement_category_m" VALUES(34,'assets/image/achievement/tag_008.png','2018/9/23 0:00:00','2018/9/25 23:59:59',0,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(35,'assets/image/achievement/tag_008.png','2018/9/21 0:00:00','2018/9/25 23:59:59',1,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(36,'assets/image/achievement/tag_008.png','2018/10/05 15:00:00','2018/10/31 23:59:59',0,NULL,NULL);
-INSERT INTO "achievement_category_m" VALUES(37,'assets/image/achievement/tag_008.png','2018/10/05 15:00:00','2018/10/31 23:59:59',1,NULL,NULL);
+INSERT INTO "achievement_category_m" VALUES(37,'assets/image/achievement/tag_008.png','2018/10/05 15:00:00','2018/11/15 23:59:59',1,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(38,'assets/image/achievement/tag_008.png','2018/10/16 0:00:00','2018/10/31 23:59:59',0,NULL,NULL);
 CREATE TABLE `achievement_description_m` (
     `achievement_description_id` INTEGER NOT NULL,
@@ -1123,6 +1123,11 @@ INSERT INTO "achievement_m" VALUES(10090103,'まんなかイチゴは誰のも�
 INSERT INTO "achievement_m" VALUES(10090104,'ぷちぐるコラボ！その1【期間限定】','ぷちぐるコラボ部員のμ''s・Aqoursどちらかをユニットに編成してライブを1回クリアする','assets/image/achievement/tag_008.png',1,50,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,119,2,1,'2018/10/16 0:00:00','2018/10/31 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090105,'ぷちぐるコラボ！その2【期間限定】','ぷちぐるコラボ部員のμ''s・Aqoursどちらかをユニットに編成してライブを2回クリアする','assets/image/achievement/tag_008.png',1,50,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,119,2,2,'2018/10/16 0:00:00','2018/10/31 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090106,'ぷちぐるコラボ！その3【期間限定】','ぷちぐるコラボ部員のμ''s・Aqoursどちらかをユニットに編成してライブを3回クリアする','assets/image/achievement/tag_008.png',1,50,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,119,2,3,'2018/10/16 0:00:00','2018/10/31 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090107,'雪色の誓い【期間限定】',NULL,'assets/image/achievement/tag_008.png',3,37,0,NULL,543,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/10/20 15:00:00','2018/11/15 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090108,'HAKODATE記念！その1【期間限定】',NULL,'assets/image/achievement/tag_008.png',3,37,0,NULL,545,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/10/20 15:00:00','2018/11/15 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090109,'HAKODATE記念！その2【期間限定】',NULL,'assets/image/achievement/tag_008.png',3,37,0,NULL,546,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2018/10/20 15:00:00','2018/11/15 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090110,'HAKODATE記念！その3【期間限定】','鹿角理亞を編成してSELF CONTROL!!を1回クリアする','assets/image/achievement/tag_008.png',3,50,0,NULL,543,NULL,NULL,NULL,NULL,NULL,2,117,2,1,'2018/10/20 15:00:00','2018/11/15 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090111,'HAKODATE記念！その4【期間限定】','鹿角聖良を編成してSELF CONTROL!!を1回クリアする','assets/image/achievement/tag_008.png',3,50,0,NULL,543,NULL,NULL,NULL,NULL,NULL,2,118,2,1,'2018/10/20 15:00:00','2018/11/15 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100001,'一般生勧誘をしよう！【その1】','μ''sの一般生勧誘で10人勧誘する','assets/image/achievement/tag_005.png',1,10,0,NULL,1,NULL,10,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100002,'一般生勧誘をしよう！【その2】','μ''sの一般生勧誘で25人勧誘する','assets/image/achievement/tag_005.png',1,10,0,NULL,1,NULL,25,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100003,'一般生勧誘をしよう！【その3】','μ''sの一般生勧誘で50人勧誘する','assets/image/achievement/tag_005.png',2,10,0,NULL,1,NULL,50,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,0,1,NULL,NULL);
@@ -3664,6 +3669,11 @@ INSERT INTO "achievement_tag_m" VALUES(10090106,37);
 INSERT INTO "achievement_tag_m" VALUES(10090104,38);
 INSERT INTO "achievement_tag_m" VALUES(10090105,38);
 INSERT INTO "achievement_tag_m" VALUES(10090106,38);
+INSERT INTO "achievement_tag_m" VALUES(10090107,37);
+INSERT INTO "achievement_tag_m" VALUES(10090108,37);
+INSERT INTO "achievement_tag_m" VALUES(10090109,37);
+INSERT INTO "achievement_tag_m" VALUES(10090110,37);
+INSERT INTO "achievement_tag_m" VALUES(10090111,37);
 INSERT INTO "achievement_tag_m" VALUES(10260001,5);
 INSERT INTO "achievement_tag_m" VALUES(10260002,5);
 INSERT INTO "achievement_tag_m" VALUES(10260003,5);
