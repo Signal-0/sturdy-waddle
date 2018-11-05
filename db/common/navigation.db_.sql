@@ -8,10 +8,6 @@ CREATE TABLE `navi_special_cutin_voice_m` (
     `release_tag` TEXT, `_encryption_release_id` INTEGER NULL,
     PRIMARY KEY (`navi_special_cutin_voice_id`)
 );
-INSERT INTO "navi_special_cutin_voice_m" VALUES(9,5,1,9037,1,'r181021_000000',NULL);
-INSERT INTO "navi_special_cutin_voice_m" VALUES(10,5,2,9034,1,'r181021_000000',NULL);
-INSERT INTO "navi_special_cutin_voice_m" VALUES(11,5,2,9035,1,'r181021_000000',NULL);
-INSERT INTO "navi_special_cutin_voice_m" VALUES(12,5,2,9036,1,'r181021_000000',NULL);
 CREATE TABLE `navigation_function_type_m` (
     `function_type` INTEGER NOT NULL,
     `link_function` TEXT NOT NULL,

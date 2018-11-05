@@ -561,7 +561,7 @@ INSERT INTO "strings_m" VALUES('dialog_secretbox',15,'\n\n\n無料の{{name}}を
 INSERT INTO "strings_m" VALUES('dialog_secretbox',19,'<center>{{name}}\n\n使用するアイテムを選択してください\n\n');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',20,'%sのボーナスで\n以下のアイテムを獲得しました\n(ホームのプレゼントボックスで受け取ることができます)');
 INSERT INTO "strings_m" VALUES('error_secretbox',1,'\n\n通信エラーです\n勧誘の実行ができませんでした\n\n\n');
-INSERT INTO "strings_m" VALUES('error_secretbox',2,'<{{item_icon}}>{{item_name}}が不足しています！\n\n{{name}}をおこなうための\n<{{item_icon}}>{{item_name}}が不足しています\n\n1回： {{cost}}\n所持<{{item_icon}}>{{item_name}}： {{remaining}}\n\n\n');
+INSERT INTO "strings_m" VALUES('error_secretbox',2,'<{{item_icon}}>{{item_name}}が不足しています！\n\n{{name}}\nをおこなうための\n<{{item_icon}}>{{item_name}}が不足しています\n\n1回： {{cost}}\n所持<{{item_icon}}>{{item_name}}： {{remaining}}\n\n\n');
 INSERT INTO "strings_m" VALUES('error_secretbox',6,'\n\n部員数が上限に達しています\n');
 INSERT INTO "strings_m" VALUES('error_secretbox',8,'\n\n通信エラーです\n\n勧誘チケット情報の取得が\nできませんでした\n');
 INSERT INTO "strings_m" VALUES('error_secretbox',13,'勧誘期間外です');
