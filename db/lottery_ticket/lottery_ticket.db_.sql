@@ -11,7 +11,7 @@ CREATE TABLE `lottery_ticket_m` (
     PRIMARY KEY (`lottery_ticket_id`)
 );
 INSERT INTO "lottery_ticket_m" VALUES(1,'2018/04/15 16:00:00','2018/12/31 23:59:59','5周年どきどきジャンボ抽選券','assets/image/lottery_ticket/lottery_01_s.png','assets/image/lottery_ticket/lottery_01_m.png',NULL,NULL,NULL);
-INSERT INTO "lottery_ticket_m" VALUES(2,'','','','','','','5J5pj0bDg9k0QVcaqOrWCxYX3T4C9tDYIaNP75eUH/pJqBHakxLLjcMbkWWX9US1ShV/OF89absCiFW48uVV4F2jh+8DVVmb1wpCZoMzpymW49mJ/lKe4IzO/CHyHw2XXem+nEGX6EUStI2fOzkGiMJzgJX4oFprXymTIG6zxd+Qw7lO0loCUGYEOJfM1uh1rESIg6itGSRe+2uPThq4Zn1u0LhmqXwe7ox2qgRr4VFceqvL3SVsSqmsbGF6tgDF2YWps5rS1KgbZcntOwx7WkE2jVs5ytoy4tWT8w5hgLA36h+bHgXWxbyNU0/teFhQFwZ1EA/V5gApY24raN6M9m7Mu4HQ+JclDsOVV7RJj0/Kbm+L8Rmq0WKyZDkLgcCx4VkbHD3d/X5tBCw+jctOwQ==',1145);
+INSERT INTO "lottery_ticket_m" VALUES(2,'2018/12/05 0:00:00','2018/12/31 23:59:59','全世界4500万人記念！どきどきジャンボ抽選券','assets/image/lottery_ticket/lottery_02_s.png','assets/image/lottery_ticket/lottery_02_m.png',NULL,NULL,1145);
 CREATE TABLE `lottery_ticket_rank_m` (
     `lottery_ticket_id` INTEGER NOT NULL,
     `rank` INTEGER NOT NULL,
