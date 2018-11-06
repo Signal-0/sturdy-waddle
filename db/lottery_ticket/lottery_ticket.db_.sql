@@ -11,7 +11,7 @@ CREATE TABLE `lottery_ticket_m` (
     PRIMARY KEY (`lottery_ticket_id`)
 );
 INSERT INTO "lottery_ticket_m" VALUES(1,'2018/04/15 16:00:00','2018/12/31 23:59:59','5周年どきどきジャンボ抽選券','assets/image/lottery_ticket/lottery_01_s.png','assets/image/lottery_ticket/lottery_01_m.png',NULL,NULL,NULL);
-INSERT INTO "lottery_ticket_m" VALUES(2,'2018/12/05 0:00:00','2018/12/31 23:59:59','全世界4500万人記念！どきどきジャンボ抽選券','assets/image/lottery_ticket/lottery_02_s.png','assets/image/lottery_ticket/lottery_02_m.png',NULL,NULL,1145);
+INSERT INTO "lottery_ticket_m" VALUES(2,'2018/12/05 0:00:00','2018/12/31 23:59:59','全世界4500万人記念！どきどきジャンボ抽選券','assets/image/lottery_ticket/lottery_02_s.png','assets/image/lottery_ticket/lottery_02_m.png',NULL,NULL,NULL);
 CREATE TABLE `lottery_ticket_rank_m` (
     `lottery_ticket_id` INTEGER NOT NULL,
     `rank` INTEGER NOT NULL,
