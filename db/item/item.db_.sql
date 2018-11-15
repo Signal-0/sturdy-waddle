@@ -206,6 +206,7 @@ INSERT INTO "award_m" VALUES(204,'【称号】ぷちぐるラブライブ！[花
 INSERT INTO "award_m" VALUES(205,'【称号】ぷちぐるラブライブ！[鞠莉]','ぷちぐるラブライブ！との\nコラボを記念した鞠莉ちゃんの称号','assets/image/award/award_205.png','assets/image/award/award_205di.png',28018,0,'r181015',NULL);
 INSERT INTO "award_m" VALUES(206,'【称号】ぷちぐるラブライブ！[ルビィ]','ぷちぐるラブライブ！との\nコラボを記念したルビィちゃんの称号','assets/image/award/award_206.png','assets/image/award/award_206di.png',28019,0,'r181015',NULL);
 INSERT INTO "award_m" VALUES(207,'【称号】Sailing to the Sunshine','Aqoursの4th LIVE開催を記念した特別な称号','assets/image/award/award_207.png','assets/image/award/award_207di.png',20011,1,'r181108_000000',NULL);
+INSERT INTO "award_m" VALUES(208,'【称号】Sailing to the Sunshine[TOKYO]','Aqoursの4th LIVE開催を記念した特別な称号','assets/image/award/award_208.png','assets/image/award/award_208di.png',20012,0,'r181117_090000',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,1,NULL,NULL);
 INSERT INTO "award_m" VALUES(902,'スクフェス全国大会2017オンライン予選','スクフェス全国大会2017オンライン予選に参加した証','assets/image/award/award_902.png','assets/image/award/award_902di.png',18002,1,NULL,NULL);
 INSERT INTO "award_m" VALUES(903,'【称号】スクフェス全国大会2018オンライン予選','スクフェス全国大会2018オンライン予選に参加した証','assets/image/award/award_903.png','assets/image/award/award_903di.png',18007,1,NULL,NULL);
