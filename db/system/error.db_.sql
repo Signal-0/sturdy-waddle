@@ -91,6 +91,7 @@ INSERT INTO "error_response_action_m" VALUES(200,720,3);
 INSERT INTO "error_response_action_m" VALUES(200,422,1);
 INSERT INTO "error_response_action_m" VALUES(200,500,3);
 INSERT INTO "error_response_action_m" VALUES(200,600,5);
+INSERT INTO "error_response_action_m" VALUES(200,800,6);
 INSERT INTO "error_response_action_m" VALUES(204,0,1);
 INSERT INTO "error_response_action_m" VALUES(302,0,3);
 INSERT INTO "error_response_action_m" VALUES(400,0,2);

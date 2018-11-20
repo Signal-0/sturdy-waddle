@@ -18157,7 +18157,7 @@ INSERT INTO "live_track_m" VALUES(547,'P.S.の向こう側','ヒイエスノム�
 INSERT INTO "live_track_m" VALUES(548,'“MY LIST” to you!','マイリストトウユウ','assets/image/live/title/t_aq_0548.png','assets/sound/music/m_188.mp3',2,5,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(549,'夢への一歩','ユメヘノイツホ','assets/image/live/title/t_nj_0549.png','assets/sound/music/m_191.mp3',3,61,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(550,'ダイアモンド','タイアモント','assets/image/live/title/t_nj_0550.png','assets/sound/music/m_192.mp3',3,62,NULL,NULL);
-INSERT INTO "live_track_m" VALUES(551,'あなたの理想のヒロイン','アナタノリソウノヒロイン','assets/image/live/title/t_nj_0551.png','assets/sound/music/m_193.mp3',3,63,NULL,169);
+INSERT INTO "live_track_m" VALUES(551,'あなたの理想のヒロイン','アナタノリソウノヒロイン','assets/image/live/title/t_nj_0551.png','assets/sound/music/m_193.mp3',3,63,NULL,NULL);
 CREATE TABLE `live_unit_reward_lot_m` (
     `live_unit_reward_lot_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,
@@ -19456,5 +19456,12 @@ INSERT INTO "special_live_rotation_m" VALUES(14,1803,'2017/11/06 0:00:00');
 INSERT INTO "special_live_rotation_m" VALUES(14,1807,'2017/11/07 0:00:00');
 INSERT INTO "special_live_rotation_m" VALUES(14,1811,'2017/11/08 0:00:00');
 INSERT INTO "special_live_rotation_m" VALUES(14,1815,'2017/11/09 0:00:00');
+CREATE TABLE `training_mode_m` (
+    `training_mode_id` INTEGER NOT NULL,
+    `recovery_cost` INTEGER NOT NULL,
+    `start_date` TEXT NOT NULL,
+    PRIMARY KEY (`training_mode_id`)
+);
+INSERT INTO "training_mode_m" VALUES(1,10000,'2012-01-01 0:00:00');
 CREATE INDEX `idx_live_difficulty_id` ON `live_goal_reward_m`(`live_difficulty_id`);
 COMMIT;

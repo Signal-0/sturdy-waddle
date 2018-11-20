@@ -69,6 +69,10 @@ INSERT INTO "scattering_tutorial_m" VALUES(29,21,1,'控え室機能',1,1,1,'asse
 INSERT INTO "scattering_tutorial_m" VALUES(30,21,1,'控え室機能',2,1,1,'assets/image/tutorial/tu_etc_24.png',NULL,NULL);
 INSERT INTO "scattering_tutorial_m" VALUES(31,21,2,'控え室機能',1,1,1,'assets/image/tutorial/tu_etc_24.png',NULL,NULL);
 INSERT INTO "scattering_tutorial_m" VALUES(32,21,2,'控え室機能',2,1,1,'assets/image/tutorial/tu_etc_24.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(33,30,1,'Master楽曲プレイ機能',1,1,1,'assets/image/tutorial/tu_etc_25.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(34,30,1,'Master楽曲プレイ機能',2,1,1,'assets/image/tutorial/tu_etc_25.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(35,30,2,'Master楽曲プレイ機能',1,1,1,'assets/image/tutorial/tu_etc_25.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(36,30,2,'Master楽曲プレイ機能',2,1,1,'assets/image/tutorial/tu_etc_25.png',NULL,NULL);
 CREATE TABLE `stamp_action_m` (
     `stamp_action_id` INTEGER NOT NULL,
     `flash_asset` TEXT,
@@ -169,4 +173,5 @@ INSERT INTO "timing_adjust_transition_m" VALUES(2,'file://install/m_event/challe
 INSERT INTO "timing_adjust_transition_m" VALUES(3,'file://install/m_event/festival/deck.lua','file://install/m_event/festival/deck.lua');
 INSERT INTO "timing_adjust_transition_m" VALUES(4,'file://install/m_online/deck.lua','file://install/m_online/deck.lua');
 INSERT INTO "timing_adjust_transition_m" VALUES(5,'file://install/m_quest/select_deck.lua','file://install/m_quest/select_deck.lua');
+INSERT INTO "timing_adjust_transition_m" VALUES(6,'file://install/m_class/deck.lua','file://install/m_class/deck.lua');
 COMMIT;

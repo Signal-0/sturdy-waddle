@@ -110,4 +110,22 @@ INSERT INTO "limited_effort_box_asset_m" VALUES(20,2,'assets/flash/ui/live/img/b
 INSERT INTO "limited_effort_box_asset_m" VALUES(20,3,'assets/flash/ui/live/img/box_limit_109_03_01.png','assets/flash/ui/live/img/box_limit_109_03_02.png','assets/flash/ui/live/img/box_limit_icon_109_03_01.png','assets/flash/ui/live/img/box_limit_08.png','assets/flash/ui/live/img/box_limit_icon_08_2.png',NULL,NULL);
 INSERT INTO "limited_effort_box_asset_m" VALUES(20,4,'assets/flash/ui/live/img/box_limit_109_04_01.png','assets/flash/ui/live/img/box_limit_109_04_02.png','assets/flash/ui/live/img/box_limit_icon_109_04_01.png','assets/flash/ui/live/img/box_limit_09.png','assets/flash/ui/live/img/box_limit_icon_09_2.png',NULL,NULL);
 INSERT INTO "limited_effort_box_asset_m" VALUES(20,5,'assets/flash/ui/live/img/box_limit_109_05_01.png','assets/flash/ui/live/img/box_limit_109_05_02.png','assets/flash/ui/live/img/box_limit_icon_109_05_01.png','assets/flash/ui/live/img/box_limit_10.png','assets/flash/ui/live/img/box_limit_icon_10_2.png',NULL,NULL);
+CREATE TABLE `live_effort_point_box_spec_m` (
+    `live_effort_point_box_spec_id` INTEGER NOT NULL,
+    `capacity` INTEGER NOT NULL,
+    `limited_capacity` INTEGER NOT NULL,
+    `num_rewards` INTEGER NOT NULL,
+    `closed_asset` TEXT NOT NULL,
+    `opened_asset` TEXT NOT NULL,
+    `box_asset` TEXT NOT NULL,
+    `movie_name` TEXT NOT NULL,
+    `asset_se_id` INTEGER NOT NULL,
+    `release_tag` TEXT, `_encryption_release_id` INTEGER NULL,
+    PRIMARY KEY (`live_effort_point_box_spec_id`)
+);
+INSERT INTO "live_effort_point_box_spec_m" VALUES(1,100000,250000,1,'assets/flash/ui/live/img/box_01_1.png','assets/flash/ui/live/img/box_01_2.png','assets/flash/ui/live/img/box_icon_01.png','ef_351_01',10000,NULL,NULL);
+INSERT INTO "live_effort_point_box_spec_m" VALUES(2,400000,1000000,2,'assets/flash/ui/live/img/box_02_1.png','assets/flash/ui/live/img/box_02_2.png','assets/flash/ui/live/img/box_icon_02.png','ef_351_02',10001,NULL,NULL);
+INSERT INTO "live_effort_point_box_spec_m" VALUES(3,1200000,3000000,3,'assets/flash/ui/live/img/box_03_1.png','assets/flash/ui/live/img/box_03_2.png','assets/flash/ui/live/img/box_icon_03.png','ef_351_03',10002,NULL,NULL);
+INSERT INTO "live_effort_point_box_spec_m" VALUES(4,2000000,5000000,3,'assets/flash/ui/live/img/box_04_1.png','assets/flash/ui/live/img/box_04_2.png','assets/flash/ui/live/img/box_icon_04.png','ef_351_04',10003,NULL,NULL);
+INSERT INTO "live_effort_point_box_spec_m" VALUES(5,4000000,10000000,3,'assets/flash/ui/live/img/box_05_1.png','assets/flash/ui/live/img/box_05_2.png','assets/flash/ui/live/img/box_icon_05.png','ef_351_05',10004,NULL,NULL);
 COMMIT;
