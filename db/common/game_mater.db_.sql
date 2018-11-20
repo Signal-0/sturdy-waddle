@@ -549,7 +549,7 @@ INSERT INTO "strings_m" VALUES('error_friends',13,'<center>使用できない文
 INSERT INTO "strings_m" VALUES('error_friends',14,'<center>申請できません\n※申請数が上限に達しています');
 INSERT INTO "strings_m" VALUES('error_friends',15,'<center>申請できません\n※相手への申請数が上限に達しています');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',1,'<center>一般生勧誘\n\n1日1回無料の一般生勧誘をおこないます\nよろしいでしょうか？');
-INSERT INTO "strings_m" VALUES('dialog_secretbox',2,'\n{{name}}\n\n<{{item_icon}}>{{item_name}}を使って\n勧誘をおこないます\n\n1回： {{cost}}\n所持<{{item_icon}}>： {{remaining}}\n');
+INSERT INTO "strings_m" VALUES('dialog_secretbox',2,'\n{{name}}\n\n<{{item_icon}}>{{item_name}}\nを使って勧誘をおこないます\n\n1回： {{cost}}\n所持<{{item_icon}}>： {{remaining}}\n');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',3,'{{name}}\n\n<{{item_icon}}>{{item_name}}を使って\n勧誘をおこないます\n\n1回： {{cost}}\n所持<{{item_icon}}>： {{remaining}}\n\n 残り {{limit}}回\n\n');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',4,'{{name}}\n\n<{{item_icon}}>{{item_name}}を使って\n勧誘をおこないます\n\n1回： {{cost}}\n所持<{{item_icon}}>： {{remaining}}\n\n Step {{show_step}}/{{end_step}}\n\n');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',5,'{{rarity}} : {{eponym}}\n{{name}}を選択URに設定しますか？');
