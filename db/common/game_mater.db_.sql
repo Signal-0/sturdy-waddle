@@ -380,6 +380,8 @@ INSERT INTO "strings_m" VALUES('dialog_live',15,'<center>メンバーの体力�
 INSERT INTO "strings_m" VALUES('dialog_live',16,'<center>諦めるとイベントptが獲得できません\n\nよろしいですか？');
 INSERT INTO "strings_m" VALUES('dialog_live',17,'<center>諦めると参加Ptしか獲得できません\n\nよろしいですか？');
 INSERT INTO "strings_m" VALUES('dialog_live',18,'<center>諦めるとこのライブでもらえる報酬は\n獲得できません\n\nよろしいですか？');
+INSERT INTO "strings_m" VALUES('dialog_live',19,'<center>ライブに失敗しました');
+INSERT INTO "strings_m" VALUES('dialog_live',20,'<center>諦めるを選択した際も、挑戦回数が減少します\n\nよろしいですか？');
 INSERT INTO "strings_m" VALUES('error_live',1,'\n\n\n\nコンティニューに失敗しました');
 INSERT INTO "strings_m" VALUES('dialog_live_menu',1,'\n\nＬＰが足りません\n');
 INSERT INTO "strings_m" VALUES('dialog_live_menu',2,'\n%s\n\n<heart>ラブカストーンを1個利用して\nＬＰを回復させますか？\n\n所持    <heart>ラブカストーン                %s個\n');
@@ -392,7 +394,7 @@ INSERT INTO "strings_m" VALUES('dialog_live_menu',8,'<center>友達数の上限�
 INSERT INTO "strings_m" VALUES('dialog_live_menu',9,'<center>部員数の上限が\n%s→%sになりました！');
 INSERT INTO "strings_m" VALUES('dialog_live_menu',10,'%s');
 INSERT INTO "strings_m" VALUES('dialog_live_menu',11,'%s\n\n高難易度の譜面です\nライブ失敗となった場合でもLPは消費され、\n報酬も受け取れませんのでご注意下さい');
-INSERT INTO "strings_m" VALUES('dialog_live_menu',12,'<center>練習回数の上限が\n%s→%sになりました！');
+INSERT INTO "strings_m" VALUES('dialog_live_menu',12,'<center>プレイ回数の上限が\n%s→%sになりました！');
 INSERT INTO "strings_m" VALUES('dialog_live_menu',13,'<center>プレイ回数が残っていません\n\nプレイ回数は翌日0時に回復します。');
 INSERT INTO "strings_m" VALUES('dialog_login',2,'<center>名前を入力してください');
 INSERT INTO "strings_m" VALUES('dialog_login',3,'<center>登録しました！\n\n続いて『ライブ』をおこなう『ユニット』の\n中心になるメンバーを選択します');
@@ -1214,6 +1216,7 @@ INSERT INTO "strings_m" VALUES('error_code',4804,'対象のアイテムを既に
 INSERT INTO "strings_m" VALUES('error_code',5001,'この報酬はすでに受け取り済です');
 INSERT INTO "strings_m" VALUES('error_code',5002,'期間外のため報酬を獲得出来ませんでした');
 INSERT INTO "strings_m" VALUES('error_code',5003,'対象のアイテムを既に所持しています');
+INSERT INTO "strings_m" VALUES('error_code',7000,'日付がかわったため\n挑戦回数がリセットされました\nホームに戻ります');
 INSERT INTO "strings_m" VALUES('joga',1,'20歳未満の方が商品を購入する場合\n親権者（お父さんやお母さん）の許可が必要です。');
 INSERT INTO "strings_m" VALUES('joga',2,'親権者（おとうさんやおかあさん）の\n承諾（おゆるし）は受けていますか？');
 INSERT INTO "strings_m" VALUES('joga',3,'商品を購入するときは、親権者（お父さんやお母さん）\nに許可をもらってください。');
@@ -1763,6 +1766,17 @@ INSERT INTO "strings_m" VALUES('subscription',1,'本日分のボーナスとし�
 INSERT INTO "strings_m" VALUES('subscription',2,'%sを\n購入しました');
 INSERT INTO "strings_m" VALUES('file_size',1,'KB');
 INSERT INTO "strings_m" VALUES('file_size',2,'MB');
+INSERT INTO "strings_m" VALUES('class_system_required',1,'{b2}条件%s個クリアで昇格');
+INSERT INTO "strings_m" VALUES('class_system_next',1,'{b2}準備中');
+INSERT INTO "strings_m" VALUES('class_live_confirm',1,'この楽曲で認定試験に挑戦しますか？');
+INSERT INTO "strings_m" VALUES('class_system_closed',1,'<center>Rank30まで、この機能は開放されません');
+INSERT INTO "strings_m" VALUES('class_system_open',1,'<center>うでまえクラスが開放されました');
+INSERT INTO "strings_m" VALUES('class_system',1,'認定試験に挑戦しますか？');
+INSERT INTO "strings_m" VALUES('class_system',2,'挑戦回数が残っていません\n挑戦回数がリセットされるまでお待ちください');
+INSERT INTO "strings_m" VALUES('class_system',3,'{b2}条件全てクリアで昇格');
+INSERT INTO "strings_m" VALUES('class_system',4,'クリア数　%d / %d');
+INSERT INTO "strings_m" VALUES('class_system',5,'条件を達成しました\n続けて次の楽曲に挑戦しますか？');
+INSERT INTO "strings_m" VALUES('class_system',6,'条件を達成できませんでした\n再度挑戦しますか？');
 INSERT INTO "strings_m" VALUES('loveca_piece_string',1,'ラブカストーンピースを集めよう！【その%s】');
 INSERT INTO "strings_m" VALUES('loveca_piece_string',2,'ラブカストーンピースを%s個集める');
 INSERT INTO "strings_m" VALUES('loveca_piece_string',3,'ラブカストーンピースを%s個集める');

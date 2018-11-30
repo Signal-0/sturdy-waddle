@@ -73,6 +73,10 @@ INSERT INTO "scattering_tutorial_m" VALUES(33,30,1,'Master楽曲プレイ機能'
 INSERT INTO "scattering_tutorial_m" VALUES(34,30,1,'Master楽曲プレイ機能',2,1,1,'assets/image/tutorial/tu_etc_25.png',NULL,NULL);
 INSERT INTO "scattering_tutorial_m" VALUES(35,30,2,'Master楽曲プレイ機能',1,1,1,'assets/image/tutorial/tu_etc_25.png',NULL,NULL);
 INSERT INTO "scattering_tutorial_m" VALUES(36,30,2,'Master楽曲プレイ機能',2,1,1,'assets/image/tutorial/tu_etc_25.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(37,40,1,'クラスシステム',1,1,1,'assets/image/tutorial/tu_etc_26.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(38,40,1,'クラスシステム',2,1,1,'assets/image/tutorial/tu_etc_26.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(39,40,2,'クラスシステム',1,1,1,'assets/image/tutorial/tu_etc_26.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(40,40,2,'クラスシステム',2,1,1,'assets/image/tutorial/tu_etc_26.png',NULL,NULL);
 CREATE TABLE `stamp_action_m` (
     `stamp_action_id` INTEGER NOT NULL,
     `flash_asset` TEXT,

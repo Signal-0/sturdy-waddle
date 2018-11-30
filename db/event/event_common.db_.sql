@@ -16743,14 +16743,14 @@ INSERT INTO "event_scenario_m" VALUES(122,133,'労働の後の、焼き芋タイ
 INSERT INTO "event_scenario_m" VALUES(123,133,'境内の忘れ物',NULL,NULL,4,NULL,1001,NULL,14990,'2018/11/05 15:00:00',1784,1,NULL,NULL);
 INSERT INTO "event_scenario_m" VALUES(124,133,'髪飾りの持ち主はどこ？',NULL,NULL,5,NULL,1001,NULL,27490,'2018/11/05 15:00:00',1784,1,NULL,NULL);
 INSERT INTO "event_scenario_m" VALUES(125,133,'終わり良ければすべて良し',NULL,NULL,999,NULL,1001,NULL,0,'2018/11/15 15:10:00',1784,1,NULL,NULL);
-INSERT INTO "event_scenario_m" VALUES(126,134,'ただいま、沼津',NULL,NULL,0,'assets/image/ui/eventscenario/134_se_ic_1.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,170);
-INSERT INTO "event_scenario_m" VALUES(127,134,'1話　黒澤姉妹の休日',NULL,NULL,1,'assets/image/ui/eventscenario/134_se_ic_2.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,170);
-INSERT INTO "event_scenario_m" VALUES(128,134,'2話　ようこそ、我が結界へ♪',NULL,NULL,2,'assets/image/ui/eventscenario/134_se_ic_3.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,170);
-INSERT INTO "event_scenario_m" VALUES(129,134,'3話　至極のスイーツパラダイス♪',NULL,NULL,3,'assets/image/ui/eventscenario/134_se_ic_4.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,170);
-INSERT INTO "event_scenario_m" VALUES(130,134,'4話　商店街をお散歩',NULL,NULL,4,'assets/image/ui/eventscenario/134_se_ic_5.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,170);
-INSERT INTO "event_scenario_m" VALUES(131,134,'5話　ちょっと休憩、お喋りの時間',NULL,NULL,5,'assets/image/ui/eventscenario/134_se_ic_6.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,170);
-INSERT INTO "event_scenario_m" VALUES(132,134,'6話　みんなでバスタイム♪',NULL,NULL,6,'assets/image/ui/eventscenario/134_se_ic_7.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,170);
-INSERT INTO "event_scenario_m" VALUES(133,134,'夕暮れの海、大好きな景色',NULL,NULL,999,'assets/image/ui/eventscenario/134_se_ic_8.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,170);
+INSERT INTO "event_scenario_m" VALUES(126,134,'ただいま、沼津',NULL,NULL,0,'assets/image/ui/eventscenario/134_se_ic_1.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(127,134,'1話　黒澤姉妹の休日',NULL,NULL,1,'assets/image/ui/eventscenario/134_se_ic_2.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(128,134,'2話　ようこそ、我が結界へ♪',NULL,NULL,2,'assets/image/ui/eventscenario/134_se_ic_3.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(129,134,'3話　至極のスイーツパラダイス♪',NULL,NULL,3,'assets/image/ui/eventscenario/134_se_ic_4.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(130,134,'4話　商店街をお散歩',NULL,NULL,4,'assets/image/ui/eventscenario/134_se_ic_5.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(131,134,'5話　ちょっと休憩、お喋りの時間',NULL,NULL,5,'assets/image/ui/eventscenario/134_se_ic_6.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(132,134,'6話　みんなでバスタイム♪',NULL,NULL,6,'assets/image/ui/eventscenario/134_se_ic_7.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(133,134,'夕暮れの海、大好きな景色',NULL,NULL,999,'assets/image/ui/eventscenario/134_se_ic_8.png',1002,NULL,0,'2018/11/20 15:00:00',1795,1,NULL,NULL);
 CREATE TABLE `event_scenario_setting_disp_m` (
     `event_scenario_setting_disp_id` INTEGER NOT NULL,
     `event_scenario_setting_id` INTEGER NOT NULL,
