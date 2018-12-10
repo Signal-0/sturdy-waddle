@@ -857,7 +857,7 @@ INSERT INTO "secret_box_asset_m" VALUES(1826,1826,'assets/image/units/u_rankup_c
 INSERT INTO "secret_box_asset_m" VALUES(1827,1827,'assets/image/units/u_rankup_card_42106003.png','assets/image/units/u_rankup_card_42106003.png',NULL,NULL,1157);
 INSERT INTO "secret_box_asset_m" VALUES(1828,1828,'assets/image/units/u_rankup_card_43107003.png','assets/image/units/u_rankup_card_43107003.png',NULL,NULL,1157);
 INSERT INTO "secret_box_asset_m" VALUES(1829,1829,'assets/image/units/u_rankup_card_41109003.png','assets/image/units/u_rankup_card_41109003.png',NULL,NULL,1157);
-INSERT INTO "secret_box_asset_m" VALUES(1830,1830,'','','','jWzktFewzpHbXF1pqd3tObzPZm4KqY3imeqyFn7bfSjRuNKbs42c4eAH9L6BbEq0e0qcpQGLKjQLpUibck1GpAOwGdtK3wRi81sqEv5jQe+15YRbLK0NS6c5VtC1qwIzMLOItOPCwfj1WWZtMcvkvN0ED9YjY4upN2yGr7QDHAnBgSH0dbeeLo2ocxm4enTqv5GQ3tWU6pNJH86Eupq1RjiGhY/Hwvt4k7BthRjizouWMAWb3kjhD6wwXUByFw0v',174);
-INSERT INTO "secret_box_asset_m" VALUES(1831,1831,'','','','kP6+qojmAYNV/tr+bFkAXmWnUnBGSoYXs1AEp3PqM5rgCrfBU2waOUnOtA7jijdA1VL2se9XUjvm05oQB9K3qCdxlsIdPbCWF+HPU92IV1MX49MDjYazsepcwq1tleURvF7e/BPf+REdhwDrOXuBPgDxAynlKi/QXfiMH9yy/bat4NwOM0hbGyTTqZj8/2MEUb2R48FuNW6EenQkbUCB9CCTqa05AQC15dwp5shy3YlZacQVVC7OXRD6i2g+58sY',174);
-INSERT INTO "secret_box_asset_m" VALUES(1832,1832,'','','','eXQYPitLusfnoCvPuSgItbyge96IbWpQJInMjxzFaqmCBbfx9jUNQ5Z51+C1JofGMK3kKOq77wZUEUJ0hXsbfds9HTBYXqVZkfoWm1RX0syfs1lBqfN0+NT9k4mOMwrapPFD39V1oIklpIevhZyiHx318DAdM+fGx4MOwvaNCbBFNRLPKt1+jGG7LVboONKPpF1L9sm7t3RKoIluVI+Jd/eUnXtstD9/ReVOMIS60QlOHLzmkdfSy8EydRtYguSb',174);
+INSERT INTO "secret_box_asset_m" VALUES(1830,1830,'assets/image/units/u_normal_card_31004019.png','assets/image/units/u_rankup_card_31004019.png',NULL,NULL,174);
+INSERT INTO "secret_box_asset_m" VALUES(1831,1831,'assets/image/units/u_normal_card_33007019.png','assets/image/units/u_rankup_card_33007019.png',NULL,NULL,174);
+INSERT INTO "secret_box_asset_m" VALUES(1832,1832,'assets/image/units/u_normal_card_42003014.png','assets/image/units/u_rankup_card_42003014.png',NULL,NULL,174);
 COMMIT;
