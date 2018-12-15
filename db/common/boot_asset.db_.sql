@@ -113,12 +113,23 @@ INSERT INTO "boot_asset_m" VALUES(102,'assets/image/login/startup_aq_6.png','ass
 INSERT INTO "boot_asset_m" VALUES(103,'assets/image/login/startup_mu_6.png','assets/sound/login/startup_mu_6.mp3','2018/12/05 15:00:00','2018/12/31 14:59:59',1,3,NULL,NULL);
 INSERT INTO "boot_asset_m" VALUES(104,'assets/image/login/startup_aq_7.png','assets/sound/login/startup_aq_6.mp3','2018/12/05 15:00:00','2018/12/31 14:59:59',2,3,NULL,NULL);
 INSERT INTO "boot_asset_m" VALUES(105,'assets/image/login/startup_aq_4.png','assets/sound/login/startup_aq_3.mp3','2018/12/05 15:00:00','2018/12/15 14:59:59',2,3,NULL,NULL);
-INSERT INTO "boot_asset_m" VALUES(106,'assets/image/login/startup_mu_7.png','assets/sound/login/startup_mu_7.mp3','2018/12/05 15:00:00','2018/12/20 14:59:59',1,1,NULL,NULL);
-INSERT INTO "boot_asset_m" VALUES(107,'assets/image/login/startup_mu_7.png','assets/sound/login/startup_mu_9.mp3','2018/12/05 15:00:00','2018/12/20 14:59:59',1,1,NULL,NULL);
-INSERT INTO "boot_asset_m" VALUES(108,'assets/image/login/startup_mu_7.png','assets/sound/login/startup_mu_11.mp3','2018/12/05 15:00:00','2018/12/20 14:59:59',1,1,NULL,NULL);
-INSERT INTO "boot_asset_m" VALUES(109,'assets/image/login/startup_aq_8.png','assets/sound/login/startup_aq_7.mp3','2018/12/05 15:00:00','2018/12/20 14:59:59',2,1,NULL,NULL);
-INSERT INTO "boot_asset_m" VALUES(110,'assets/image/login/startup_aq_8.png','assets/sound/login/startup_aq_11.mp3','2018/12/05 15:00:00','2018/12/20 14:59:59',2,1,NULL,NULL);
-INSERT INTO "boot_asset_m" VALUES(111,'assets/image/login/startup_aq_8.png','assets/sound/login/startup_aq_12.mp3','2018/12/05 15:00:00','2018/12/20 14:59:59',2,1,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(106,'assets/image/login/startup_mu_7.png','assets/sound/login/startup_mu_7.mp3','2018/12/05 15:00:00','2018/12/20 14:59:59',1,6,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(107,'assets/image/login/startup_mu_7.png','assets/sound/login/startup_mu_9.mp3','2018/12/05 15:00:00','2018/12/20 14:59:59',1,6,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(108,'assets/image/login/startup_mu_7.png','assets/sound/login/startup_mu_11.mp3','2018/12/05 15:00:00','2018/12/20 14:59:59',1,6,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(109,'assets/image/login/startup_aq_8.png','assets/sound/login/startup_aq_7.mp3','2018/12/05 15:00:00','2018/12/20 14:59:59',2,6,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(110,'assets/image/login/startup_aq_8.png','assets/sound/login/startup_aq_11.mp3','2018/12/05 15:00:00','2018/12/20 14:59:59',2,6,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(111,'assets/image/login/startup_aq_8.png','assets/sound/login/startup_aq_12.mp3','2018/12/05 15:00:00','2018/12/20 14:59:59',2,6,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(112,'assets/image/login/startup_mu_2.png','assets/sound/login/startup_mu_2.mp3','2018/12/15 15:00:00','2018/12/31 14:59:59',1,3,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(113,'assets/image/login/startup_aq_1.png','assets/sound/login/startup_aq_8.mp3','2018/12/15 15:00:00','2018/12/31 14:59:59',2,3,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(114,'assets/image/login/startup_mu_1.png','assets/sound/login/startup_mu_1.mp3','2018/12/15 15:00:00','2018/12/31 14:59:59',1,3,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(115,'assets/image/login/startup_aq_2.png','assets/sound/login/startup_aq_2.mp3','2018/12/15 15:00:00','2018/12/31 14:59:59',2,3,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(116,'assets/image/login/startup_mu_3.png','assets/sound/login/startup_mu_3.mp3','2018/12/15 15:00:00','2018/12/31 14:59:59',1,3,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(117,'assets/image/login/startup_aq_3.png','assets/sound/login/startup_aq_1.mp3','2018/12/15 15:00:00','2018/12/31 14:59:59',2,3,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(118,'assets/image/login/startup_mu_4.png','assets/sound/login/startup_mu_4.mp3','2018/12/15 15:00:00','2018/12/31 14:59:59',1,3,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(119,'assets/image/login/startup_aq_5.png','assets/sound/login/startup_aq_4.mp3','2018/12/15 15:00:00','2018/12/31 14:59:59',2,3,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(120,'assets/image/login/startup_mu_5.png','assets/sound/login/startup_mu_5.mp3','2018/12/15 15:00:00','2018/12/31 14:59:59',1,3,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(121,'assets/image/login/startup_aq_6.png','assets/sound/login/startup_aq_5.mp3','2018/12/15 15:00:00','2018/12/31 14:59:59',2,3,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(122,'assets/image/login/startup_aq_9.png','assets/sound/login/startup_aq_9.mp3','2018/12/15 15:00:00','2018/12/20 14:59:59',2,18,NULL,NULL);
 CREATE TABLE `boot_bushimo_voice_m` (
     `boot_bushimo_voice_id` INTEGER NOT NULL,
     `voice_asset` TEXT NOT NULL,
