@@ -564,7 +564,7 @@ INSERT INTO "strings_m" VALUES('dialog_secretbox',11,'<center>{{name}}を選択U
 INSERT INTO "strings_m" VALUES('dialog_secretbox',12,'<center>特待生ボーナス\n\nおめでとうございます\n特待生ボーナスのゲージがＭＡＸになったので\n<item_icon5>補助チケットを、%d枚獲得しました\n\nプレゼントを獲得しました\n(ホームのプレゼントボックスで受取れます)');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',13,'<center>特待生ボーナス\n\nおめでとうございます\n特待生ボーナスのゲージがＭＡＸになったので\n<item_icon5>補助チケットを、%d枚獲得しました\n\n\n');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',14,'<center>{{name}}を選択URのメンバーに設定しました');
-INSERT INTO "strings_m" VALUES('dialog_secretbox',15,'\n\n\n無料の{{name}}をおこないます\nよろしいでしょうか？');
+INSERT INTO "strings_m" VALUES('dialog_secretbox',15,'\n\n\n1日1回無料の{{name}}\nをおこないます\nよろしいでしょうか？');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',19,'<center>{{name}}\n\n使用するアイテムを選択してください\n\n');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',20,'ボーナスで\n以下のアイテムを獲得しました\n(ホームのプレゼントボックスで受け取ることができます)');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',21,'1日1回の無料勧誘が実施できます\n勧誘画面に移動しますか？');

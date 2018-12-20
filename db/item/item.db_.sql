@@ -350,6 +350,10 @@ INSERT INTO "background_m" VALUES(92,'【背景】HAPPY PARTY TRAIN[ぷちぐる
 INSERT INTO "background_m" VALUES(93,'【背景】仲見世商店街','【仲見世商店街】\nAqoursメンバーが訪れた沼津の商店街','assets/image/background/b_st_137.png','assets/image/background/home/b_st_137_thm.png',2520,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(94,'【背景】MY舞☆TONIGHT','【MY舞☆TONIGHT】\nAqoursメンバーがライブを行った\n「MY舞☆TONIGHT」ステージ','assets/image/background/b_st_252.png','assets/image/background/home/b_st_252_thm.png',2521,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(95,'【背景】浦の星女学院・屋上[夜]','【浦の星女学院・屋上】\nAqoursメンバーが通う高校・私立浦の星女学院の夜の屋上','assets/image/background/b_st_165.png','assets/image/background/home/b_st_165_thm.png',2014,NULL,NULL,NULL);
+INSERT INTO "background_m" VALUES(96,'【背景】クリスマスの街[スノー]','【クリスマスの街[スノー]】\n雪が舞うクリスマスの街','assets/image/background/b_st_255.png','assets/image/background/home/b_st_255_thm.png',11001,1,NULL,NULL);
+INSERT INTO "background_m" VALUES(97,'【背景】クリスマスの街[雪の結晶]','【クリスマスの街[雪の結晶]】\n雪の結晶が舞うクリスマスの街','assets/image/background/b_st_256.png','assets/image/background/home/b_st_256_thm.png',11002,2,NULL,NULL);
+INSERT INTO "background_m" VALUES(98,'【背景】クリスマスの路上[スノー]','【クリスマスの路上[スノー]】\n雪が舞うクリスマスの路上','assets/image/background/b_st_259.png','assets/image/background/home/b_st_259_thm.png',12001,1,NULL,NULL);
+INSERT INTO "background_m" VALUES(99,'【背景】クリスマスの路上[雪の結晶]','【クリスマスの路上[雪の結晶]】\n雪の結晶が舞うクリスマスの路上','assets/image/background/b_st_257.png','assets/image/background/home/b_st_257_thm.png',12002,2,NULL,NULL);
 INSERT INTO "background_m" VALUES(901,'【背景】クリスマスの街','【クリスマスの街】\n イルミネーションに彩られたクリスマスの街','assets/image/background/b_st_014.png','assets/image/background/home/b_st_014_thm.png',901,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(902,'【背景】神社・本殿[正月]','【神社・本殿[正月]】\n 正月飾りを施された新年の神社','assets/image/background/b_st_064.png','assets/image/background/home/b_st_064_thm.png',902,NULL,NULL,NULL);
 CREATE TABLE `background_shader_param_m` (
@@ -359,6 +363,8 @@ CREATE TABLE `background_shader_param_m` (
     `release_tag` TEXT, `_encryption_release_id` INTEGER NULL,
     PRIMARY KEY (`background_shader_param_id`)
 );
+INSERT INTO "background_shader_param_m" VALUES(1,1,'{"assets":["assets/image/shader/shader_001.png","assets/image/shader/shader_002.png"],"offsets":[{"x":2,"y":-0.55},{"x":2,"y":-0.1}],"speeds":[-0.0004166666666666667,-0.00025],"scales":[1,2.2]}',NULL,NULL);
+INSERT INTO "background_shader_param_m" VALUES(2,1,'{"assets":["assets/image/shader/shader_003.png","assets/image/shader/shader_002.png"],"offsets":[{"x":2,"y":-0.55},{"x":2,"y":-0.1}],"speeds":[-0.0004166666666666667,-0.00025],"scales":[1,2.2]}',NULL,NULL);
 CREATE TABLE `kg_item_m` (
     `item_id` INTEGER NOT NULL,
     `item_tab_id` INTEGER NOT NULL,
@@ -416,6 +422,9 @@ INSERT INTO "kg_item_m" VALUES(35,1,'絢瀬絵里SSR以上確定勧誘チケッ�
 INSERT INTO "kg_item_m" VALUES(36,1,'星空 凛SSR以上確定勧誘チケット',36,1,1,NULL,'assets/image/item/item_36_s.png','星空 凛SSR以上確定勧誘勧誘を行える','星空 凛SSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,27,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(37,1,'選べるメンバー！SSR以上確定勧誘チケット〜μ''s〜',37,1,1,NULL,'assets/image/item/item_37_s.png','選べるメンバー！SSR以上確定勧誘〜μ''s〜を行える','選べるメンバー！SSR以上確定勧誘〜μ''s〜を行える',NULL,NULL,NULL,28,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(38,1,'選べるメンバー！SSR以上確定勧誘チケット〜Aqours〜',38,1,1,NULL,'assets/image/item/item_38_s.png','選べるメンバー！SSR以上確定勧誘〜Aqours〜を行える','選べるメンバー！SSR以上確定勧誘〜Aqours〜を行える',NULL,NULL,NULL,29,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(39,1,'黒澤ダイヤSSR以上確定勧誘チケット',39,1,1,NULL,'assets/image/item/item_39_s.png','黒澤ダイヤSSR以上確定勧誘勧誘を行える','黒澤ダイヤSSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,30,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(40,1,'冬の勧誘チケット2018～μ''s～',40,1,1,NULL,'assets/image/item/item_40_s.png','SR以上確定！クリスマス勧誘2018 ～μ''s～を行える','SR以上確定！クリスマス勧誘2018 ～μ''s～を行える',NULL,NULL,NULL,31,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(41,1,'冬の勧誘チケット2018〜Aqours〜',41,1,1,NULL,'assets/image/item/item_41_s.png','SR以上確定！クリスマス勧誘2018 ～Aqours～を行える','SR以上確定！クリスマス勧誘2018 ～Aqours～を行える',NULL,NULL,NULL,32,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,NULL,'assets/image/item/item_1000_s.png','ラブカストーンピース','ラブカストーンピース',NULL,NULL,NULL,NULL,0,NULL,NULL);
 CREATE TABLE `live_notes_icon_asset_m` (
     `live_notes_icon_id` INTEGER NOT NULL,
