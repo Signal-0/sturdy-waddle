@@ -870,6 +870,11 @@ INSERT INTO "secret_box_asset_m" VALUES(1836,1836,'assets/image/units/u_normal_c
 INSERT INTO "secret_box_asset_m" VALUES(1841,1841,'assets/image/units/u_rankup_card_43101003.png','assets/image/units/u_rankup_card_43101003.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(1842,1842,'assets/image/units/u_rankup_card_42102003.png','assets/image/units/u_rankup_card_42102003.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(1843,1843,'assets/image/units/u_rankup_card_41105003.png','assets/image/units/u_rankup_card_41105003.png',NULL,NULL,NULL);
-INSERT INTO "secret_box_asset_m" VALUES(1844,1844,'assets/image/units/u_normal_card_33001017.png','assets/image/units/u_rankup_card_33001017.png',NULL,NULL,177);
-INSERT INTO "secret_box_asset_m" VALUES(1845,1845,'assets/image/units/u_normal_card_52005002.png','assets/image/units/u_rankup_card_52005002.png',NULL,NULL,177);
+INSERT INTO "secret_box_asset_m" VALUES(1844,1844,'assets/image/units/u_normal_card_33001017.png','assets/image/units/u_rankup_card_33001017.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(1845,1845,'assets/image/units/u_normal_card_52005002.png','assets/image/units/u_rankup_card_52005002.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(1846,1846,'assets/image/units/u_normal_card_33102011.png','assets/image/units/u_rankup_card_33102011.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(1847,1847,'assets/image/units/u_normal_card_32104008.png','assets/image/units/u_rankup_card_32104008.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(1848,1848,'assets/image/units/u_normal_card_31109010.png','assets/image/units/u_rankup_card_31109010.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(1849,1849,'assets/image/units/u_normal_card_51105006.png','assets/image/units/u_rankup_card_51105006.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(1850,1850,'assets/image/units/u_normal_card_42106004.png','assets/image/units/u_rankup_card_42106004.png',NULL,NULL,NULL);
 COMMIT;

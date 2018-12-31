@@ -97,6 +97,7 @@ INSERT INTO "award_m" VALUES(84,'花陽ちゃんお誕生日おめでとう！',
 INSERT INTO "award_m" VALUES(85,'にこちゃんお誕生日おめでとう！','7月22日は矢澤にこちゃんのお誕生日♪','assets/image/award/award_085.png','assets/image/award/award_085di.png',24009,0,'r180722_000000',NULL);
 INSERT INTO "award_m" VALUES(86,'千歌ちゃんお誕生日おめでとう！','8月1日は高海千歌ちゃんのお誕生日♪','assets/image/award/award_086.png','assets/image/award/award_086di.png',25001,0,'r180801_000000',NULL);
 INSERT INTO "award_m" VALUES(87,'梨子ちゃんお誕生日おめでとう！','9月19日は桜内梨子ちゃんのお誕生日♪','assets/image/award/award_087.png','assets/image/award/award_087di.png',25002,0,'r180919_000000',NULL);
+INSERT INTO "award_m" VALUES(89,'ダイヤちゃんお誕生日おめでとう！','1月1日は黒澤ダイヤちゃんのお誕生日♪','assets/image/award/award_089.png','assets/image/award/award_089di.png',25004,0,'r190101_000000',NULL);
 INSERT INTO "award_m" VALUES(90,'曜ちゃんお誕生日おめでとう！','4月17日は渡辺 曜ちゃんのお誕生日♪','assets/image/award/award_090.png','assets/image/award/award_090di.png',25005,0,'r180417_000000',NULL);
 INSERT INTO "award_m" VALUES(91,'善子ちゃんお誕生日おめでとう！','7月13日は津島善子ちゃんのお誕生日♪','assets/image/award/award_091.png','assets/image/award/award_091di.png',25006,0,'r180713_000000',NULL);
 INSERT INTO "award_m" VALUES(93,'鞠莉ちゃんお誕生日おめでとう！','6月13日は小原鞠莉ちゃんのお誕生日♪','assets/image/award/award_093.png','assets/image/award/award_093di.png',25008,0,'r180613_000000',NULL);
@@ -186,6 +187,7 @@ INSERT INTO "award_m" VALUES(176,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[�
 INSERT INTO "award_m" VALUES(177,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[松山]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[松山]の開催を記念した特別な称号','assets/image/award/award_177.png','assets/image/award/award_177di.png',21014,0,'r180924_000000',NULL);
 INSERT INTO "award_m" VALUES(178,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[福岡]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[福岡]の開催を記念した特別な称号','assets/image/award/award_178.png','assets/image/award/award_178di.png',21015,0,'r181202_000000',NULL);
 INSERT INTO "award_m" VALUES(179,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[仙台]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[仙台]の開催を記念した特別な称号','assets/image/award/award_179.png','assets/image/award/award_179di.png',21016,0,'r181215_000000',NULL);
+INSERT INTO "award_m" VALUES(180,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[千葉]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[千葉]の開催を記念した特別な称号','assets/image/award/award_180.png','assets/image/award/award_180di.png',21017,0,'r190105_000000',NULL);
 INSERT INTO "award_m" VALUES(186,'第6回おさんぽラリー[アキバ]','第6回おさんぽラリーで指定ミッションを\n達成した人だけに贈られる記念の称号','assets/image/award/award_186.png','assets/image/award/award_186di.png',27008,0,'r181005',NULL);
 INSERT INTO "award_m" VALUES(187,'第6回おさんぽラリー[ほむまん]','穂乃果の実家・老舗和菓子店「穂むら」の名物','assets/image/award/award_187.png','assets/image/award/award_187di.png',27009,0,'r181005',NULL);
 INSERT INTO "award_m" VALUES(188,'【称号】ぷちぐるラブライブ！','ぷちぐるラブライブ！とのコラボを記念した称号','assets/image/award/award_188.png','assets/image/award/award_188di.png',28001,0,'r181015',NULL);
@@ -425,6 +427,8 @@ INSERT INTO "kg_item_m" VALUES(38,1,'選べるメンバー！SSR以上確定勧�
 INSERT INTO "kg_item_m" VALUES(39,1,'黒澤ダイヤSSR以上確定勧誘チケット',39,1,1,NULL,'assets/image/item/item_39_s.png','黒澤ダイヤSSR以上確定勧誘勧誘を行える','黒澤ダイヤSSR以上確定勧誘勧誘を行える',NULL,NULL,NULL,30,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(40,1,'冬の勧誘チケット2018～μ''s～',40,1,1,NULL,'assets/image/item/item_40_s.png','SR以上確定！クリスマス勧誘2018 ～μ''s～を行える','SR以上確定！クリスマス勧誘2018 ～μ''s～を行える',NULL,NULL,NULL,31,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(41,1,'冬の勧誘チケット2018〜Aqours〜',41,1,1,NULL,'assets/image/item/item_41_s.png','SR以上確定！クリスマス勧誘2018 ～Aqours～を行える','SR以上確定！クリスマス勧誘2018 ～Aqours～を行える',NULL,NULL,NULL,32,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(42,1,'新年!選べるメンバー勧誘チケット2019〜μ''s〜',42,1,1,NULL,'assets/image/item/item_42_s.png','新年!選べるメンバー勧誘チケット2019〜μ''s〜を行える','新年!選べるメンバー勧誘チケット2019〜μ''s〜を行える',NULL,NULL,NULL,33,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(43,1,'新年!選べるメンバー勧誘チケット2019〜Aqours〜',43,1,1,NULL,'assets/image/item/item_43_s.png','新年!選べるメンバー勧誘チケット2019〜Aqours〜を行える','新年!選べるメンバー勧誘チケット2019〜Aqours〜を行える',NULL,NULL,NULL,34,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,NULL,'assets/image/item/item_1000_s.png','ラブカストーンピース','ラブカストーンピース',NULL,NULL,NULL,NULL,0,NULL,NULL);
 CREATE TABLE `live_notes_icon_asset_m` (
     `live_notes_icon_id` INTEGER NOT NULL,
@@ -495,6 +499,10 @@ INSERT INTO "live_se_group_m" VALUES(3,1,'assets/sound/live_se/live_se_03_1.mp3'
 INSERT INTO "live_se_group_m" VALUES(3,2,'assets/sound/live_se/live_se_03_2.mp3',NULL,NULL);
 INSERT INTO "live_se_group_m" VALUES(3,3,'assets/sound/live_se/live_se_03_3.mp3',NULL,NULL);
 INSERT INTO "live_se_group_m" VALUES(3,4,'assets/sound/live_se/live_se_03_4.mp3',NULL,NULL);
+INSERT INTO "live_se_group_m" VALUES(4,1,'assets/sound/live_se/live_se_04_1.mp3',NULL,NULL);
+INSERT INTO "live_se_group_m" VALUES(4,2,'assets/sound/live_se/live_se_04_2.mp3',NULL,NULL);
+INSERT INTO "live_se_group_m" VALUES(4,3,'assets/sound/live_se/live_se_04_3.mp3',NULL,NULL);
+INSERT INTO "live_se_group_m" VALUES(4,4,'assets/sound/live_se/live_se_04_4.mp3',NULL,NULL);
 CREATE TABLE `live_se_m` (
     `live_se_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
@@ -505,6 +513,7 @@ CREATE TABLE `live_se_m` (
 INSERT INTO "live_se_m" VALUES(1,'基本SEセット','基本ライブSEセットです',0);
 INSERT INTO "live_se_m" VALUES(2,'クラップMIX','クラップMIX',1);
 INSERT INTO "live_se_m" VALUES(3,'バブル','バブル',2);
+INSERT INTO "live_se_m" VALUES(4,'SF','SF',3);
 INSERT INTO "live_se_m" VALUES(99,'アルパカ','アルパカ',99);
 CREATE TABLE `recovery_item_m` (
     `recovery_item_id` INTEGER NOT NULL,
