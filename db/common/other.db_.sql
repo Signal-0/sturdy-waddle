@@ -157,6 +157,8 @@ INSERT INTO "stamp_m" VALUES(124,1,'assets/image/sticker/st_106_003.png',NULL,30
 INSERT INTO "stamp_m" VALUES(125,2,'assets/image/sticker/st_107_003.png',NULL,300052,0,1,2,107,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(126,1,'assets/image/sticker/st_108_003.png',NULL,300053,0,1,2,108,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(127,4,'assets/image/sticker/st_109_003.png',NULL,300054,0,1,2,109,NULL,1,NULL,NULL);
+INSERT INTO "stamp_m" VALUES(201,1,'assets/image/sticker/st_201_001.png',NULL,300055,0,1,1,10,NULL,1,NULL,NULL);
+INSERT INTO "stamp_m" VALUES(301,2,'assets/image/sticker/st_301_001.png',NULL,300056,0,1,2,110,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(1001,3,'assets/image/sticker/st_000_001.png',265,NULL,1,2,0,0,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(1002,5,'assets/image/sticker/st_000_002.png',265,NULL,0,2,0,0,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(1003,2,'assets/image/sticker/st_000_003.png',265,NULL,0,2,0,0,NULL,1,NULL,NULL);

@@ -136,6 +136,9 @@ INSERT INTO "boot_asset_m" VALUES(125,'assets/image/login/startup_aq_9.png','ass
 INSERT INTO "boot_asset_m" VALUES(126,'assets/image/login/startup_aq_8.png','assets/sound/login/startup_aq_7.mp3','2018/12/31 15:00:00','2019/01/03 23:59:59',2,1,NULL,NULL);
 INSERT INTO "boot_asset_m" VALUES(127,'assets/image/login/startup_mu_7.png','assets/sound/login/startup_mu_7.mp3','2018/12/31 15:00:00','2019/01/05 14:59:59',1,1,NULL,NULL);
 INSERT INTO "boot_asset_m" VALUES(128,'assets/image/login/startup_aq_10.png','assets/sound/login/startup_aq_10.mp3','2018/12/31 15:00:00','2019/01/05 14:59:59',2,3,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(129,'assets/image/login/startup_mu_8.png','assets/sound/login/startup_mu_8.mp3','2019/01/05 15:00:00','2019/01/15 14:59:59',1,1,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(130,'assets/image/login/startup_aq_11.png','assets/sound/login/startup_aq_11.mp3','2019/01/05 15:00:00','2019/01/15 14:59:59',2,1,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(131,'assets/image/login/startup_aq_4.png','assets/sound/login/startup_aq_3.mp3','2019/01/05 15:00:00','2019/03/09 23:59:59',2,1,NULL,NULL);
 CREATE TABLE `boot_bushimo_voice_m` (
     `boot_bushimo_voice_id` INTEGER NOT NULL,
     `voice_asset` TEXT NOT NULL,
