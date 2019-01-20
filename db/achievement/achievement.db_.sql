@@ -1173,7 +1173,7 @@ INSERT INTO "achievement_m" VALUES(10090084,'Aqoursの夏祭り!その1【期間
 INSERT INTO "achievement_m" VALUES(10090085,'Aqoursの夏祭り!その2【期間限定】','Aqoursのメンバー全員が参加したユニットでEXPERTのWATER BLUE NEW WORLDでスコアランクSでライブを1回クリアする','assets/image/achievement/tag_008.png',4,50,0,NULL,527,4,NULL,NULL,1,NULL,2,113,1,1,NULL,'2018/09/13 0:00:00','2018/09/17 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090086,'Aqoursの夏祭り!その3【期間限定】','Aqoursのメンバー全員が参加したユニットでEXPERTのMIRACLE WAVEでFULL COMBOでライブを1回クリアする','assets/image/achievement/tag_008.png',4,50,0,NULL,524,4,NULL,NULL,NULL,1,2,113,1,1,NULL,'2018/09/13 0:00:00','2018/09/17 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090087,'Aqoursの終わらない夏祭り！【期間限定】','Aqoursのメンバー全員が参加したユニットでEXPERTのおやすみなさん！をスコアランクSかつFULL COMBOで1回クリアする','assets/image/achievement/tag_008.png',4,50,0,NULL,529,4,NULL,NULL,1,1,2,113,1,1,NULL,'2018/09/13 0:00:00','2018/09/17 23:59:59',0,1,NULL,NULL);
-INSERT INTO "achievement_m" VALUES(10090088,'Guilty Kissのツアー・その1【期間限定】','Guilty Kissのメンバー全員が参加したユニットでコワレヤスキを1回クリアする','assets/image/achievement/tag_008.png',3,50,0,NULL,512,NULL,NULL,NULL,NULL,NULL,2,112,1,1,NULL,'2018/09/08 0:00:00','2018/09/10 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090088,'Guilty Kissのツアー・その3【期間限定】','Guilty Kissのメンバー全員が参加したユニットでコワレヤスキを1回クリアする','assets/image/achievement/tag_008.png',3,50,0,NULL,512,NULL,NULL,NULL,NULL,NULL,2,112,1,1,NULL,'2019/01/25 0:00:00','2019/01/28 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090089,'Guilty Kissのツアー・その1【期間限定】','Guilty Kissのメンバー全員が参加したユニットでShadow gate to loveを1回クリアする','assets/image/achievement/tag_008.png',3,50,0,NULL,519,NULL,NULL,NULL,NULL,NULL,2,112,1,1,NULL,'2018/12/01 0:00:00','2018/12/03 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090090,'Guilty Kissのツアー・その2【期間限定】','Guilty Kissのメンバー全員が参加したユニットでGuilty Night,Guilty Kiss!を1回クリアする','assets/image/achievement/tag_008.png',3,50,0,NULL,488,NULL,NULL,NULL,NULL,NULL,2,112,1,1,NULL,'2019/01/04 0:00:00','2019/01/07 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090093,'AZALEAのツアー・その1【期間限定】','AZALEAのメンバー全員が参加したユニットでGALAXY HidE and SeeKを1回クリアする','assets/image/achievement/tag_008.png',3,50,0,NULL,515,NULL,NULL,NULL,NULL,NULL,2,111,1,1,NULL,'2018/09/21 0:00:00','2018/09/24 23:59:59',1,1,NULL,NULL);
@@ -3895,7 +3895,7 @@ INSERT INTO "achievement_tag_m" VALUES(10090084,16);
 INSERT INTO "achievement_tag_m" VALUES(10090085,16);
 INSERT INTO "achievement_tag_m" VALUES(10090086,16);
 INSERT INTO "achievement_tag_m" VALUES(10090087,16);
-INSERT INTO "achievement_tag_m" VALUES(10090088,32);
+INSERT INTO "achievement_tag_m" VALUES(10090088,37);
 INSERT INTO "achievement_tag_m" VALUES(10090088,16);
 INSERT INTO "achievement_tag_m" VALUES(10090089,37);
 INSERT INTO "achievement_tag_m" VALUES(10090090,37);
