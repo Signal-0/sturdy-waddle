@@ -17476,15 +17476,15 @@ INSERT INTO "event_scenario_m" VALUES(151,137,'暗闇なんて怖くない',NULL
 INSERT INTO "event_scenario_m" VALUES(152,137,'どんな時でも前向きに',NULL,NULL,4,NULL,1001,NULL,14990,'2019/01/05 15:00:00',1862,1,NULL,NULL);
 INSERT INTO "event_scenario_m" VALUES(153,137,'備えあれば、喜びあり',NULL,NULL,5,NULL,1001,NULL,27490,'2019/01/05 15:00:00',1862,1,NULL,NULL);
 INSERT INTO "event_scenario_m" VALUES(154,137,'ありがとう、にこちゃん',NULL,NULL,999,NULL,1001,NULL,0,'2019/01/15 15:10:00',1862,1,NULL,NULL);
-INSERT INTO "event_scenario_m" VALUES(155,138,'Aqoursのティータイム',NULL,NULL,0,'assets/image/ui/eventscenario/138_se_ic_1.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,182);
-INSERT INTO "event_scenario_m" VALUES(156,138,'1話　はじめまして、イタリア♪',NULL,NULL,1,'assets/image/ui/eventscenario/138_se_ic_2.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,182);
-INSERT INTO "event_scenario_m" VALUES(157,138,'2話　巨大遺跡に想いを馳せて',NULL,NULL,2,'assets/image/ui/eventscenario/138_se_ic_3.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,182);
-INSERT INTO "event_scenario_m" VALUES(158,138,'3話　記念写真は真実の口で',NULL,NULL,3,'assets/image/ui/eventscenario/138_se_ic_4.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,182);
-INSERT INTO "event_scenario_m" VALUES(159,138,'4話　いざ、バチカンへ',NULL,NULL,4,'assets/image/ui/eventscenario/138_se_ic_5.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,182);
-INSERT INTO "event_scenario_m" VALUES(160,138,'5話　ようこそ、聖天使城へ',NULL,NULL,5,'assets/image/ui/eventscenario/138_se_ic_6.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,182);
-INSERT INTO "event_scenario_m" VALUES(161,138,'6話　トレビの泉で願い事',NULL,NULL,6,'assets/image/ui/eventscenario/138_se_ic_7.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,182);
-INSERT INTO "event_scenario_m" VALUES(162,138,'7話　スペイン広場からの景色',NULL,NULL,7,'assets/image/ui/eventscenario/138_se_ic_8.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,182);
-INSERT INTO "event_scenario_m" VALUES(163,138,'イタリアでの夢の日々',NULL,NULL,999,'assets/image/ui/eventscenario/138_se_ic_9.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,182);
+INSERT INTO "event_scenario_m" VALUES(155,138,'Aqoursのティータイム',NULL,NULL,0,'assets/image/ui/eventscenario/138_se_ic_1.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(156,138,'1話　はじめまして、イタリア♪',NULL,NULL,1,'assets/image/ui/eventscenario/138_se_ic_2.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(157,138,'2話　巨大遺跡に想いを馳せて',NULL,NULL,2,'assets/image/ui/eventscenario/138_se_ic_3.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(158,138,'3話　記念写真は真実の口で',NULL,NULL,3,'assets/image/ui/eventscenario/138_se_ic_4.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(159,138,'4話　いざ、バチカンへ',NULL,NULL,4,'assets/image/ui/eventscenario/138_se_ic_5.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(160,138,'5話　ようこそ、聖天使城へ',NULL,NULL,5,'assets/image/ui/eventscenario/138_se_ic_6.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(161,138,'6話　トレビの泉で願い事',NULL,NULL,6,'assets/image/ui/eventscenario/138_se_ic_7.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(162,138,'7話　スペイン広場からの景色',NULL,NULL,7,'assets/image/ui/eventscenario/138_se_ic_8.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(163,138,'イタリアでの夢の日々',NULL,NULL,999,'assets/image/ui/eventscenario/138_se_ic_9.png',1002,NULL,0,'2019/1/20 15:00:00',1886,1,NULL,NULL);
 CREATE TABLE `event_scenario_setting_disp_m` (
     `event_scenario_setting_disp_id` INTEGER NOT NULL,
     `event_scenario_setting_id` INTEGER NOT NULL,
