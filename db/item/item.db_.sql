@@ -192,6 +192,7 @@ INSERT INTO "award_m" VALUES(180,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[�
 INSERT INTO "award_m" VALUES(181,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[広島]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[広島]の開催を記念した特別な称号','assets/image/award/award_181.png','assets/image/award/award_181di.png',21017,0,'r190113_000000',NULL);
 INSERT INTO "award_m" VALUES(182,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[金沢]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[金沢]の開催を記念した特別な称号','assets/image/award/award_182.png','assets/image/award/award_182di.png',21018,0,'r190119_000000',NULL);
 INSERT INTO "award_m" VALUES(183,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[沼津]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[沼津]の開催を記念した特別な称号','assets/image/award/award_183.png','assets/image/award/award_183di.png',21020,0,'r190209_000000',NULL);
+INSERT INTO "award_m" VALUES(184,'Aqoursクラブ活動 LIVE&FAN MEETING 2018[大阪]','Aqours クラブ活動 LIVE & FAN MEETING 2018\n[大阪]の開催を記念した特別な称号','assets/image/award/award_184.png','assets/image/award/award_184di.png',21021,0,'r190216_000000',NULL);
 INSERT INTO "award_m" VALUES(186,'第6回おさんぽラリー[アキバ]','第6回おさんぽラリーで指定ミッションを\n達成した人だけに贈られる記念の称号','assets/image/award/award_186.png','assets/image/award/award_186di.png',27008,0,'r181005',NULL);
 INSERT INTO "award_m" VALUES(187,'第6回おさんぽラリー[ほむまん]','穂乃果の実家・老舗和菓子店「穂むら」の名物','assets/image/award/award_187.png','assets/image/award/award_187di.png',27009,0,'r181005',NULL);
 INSERT INTO "award_m" VALUES(188,'【称号】ぷちぐるラブライブ！','ぷちぐるラブライブ！とのコラボを記念した称号','assets/image/award/award_188.png','assets/image/award/award_188di.png',28001,0,'r181015',NULL);
@@ -425,7 +426,7 @@ INSERT INTO "kg_item_m" VALUES(3,1,'G',3,1,1,NULL,'assets/image/item/icon/item_i
 INSERT INTO "kg_item_m" VALUES(4,1,'ラブカストーン',4,1,1,NULL,'assets/image/item/icon/item_icon_09.png','ラブカストーン','ラブカストーン',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(5,1,'補助チケット',5,1,1,'assets/image/ui/item/item_icon_16.png','assets/image/ui/common/com_icon_37.png','特定数揃えると勧誘を行える','特定数揃えると勧誘を行える',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(6,1,'SR以上確定勧誘チケット',6,1,1,NULL,'assets/image/ui/item/com_icon_52.png','SR以上確定勧誘を行える','SR以上確定勧誘を行える',NULL,NULL,NULL,1,1,NULL,NULL);
-INSERT INTO "kg_item_m" VALUES(7,1,'11連勧誘補助チケット',7,1,1,NULL,'assets/image/ui/item/com_icon_53.png','11連勧誘を行える','11連勧誘を行える',NULL,NULL,NULL,2,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(7,1,'11連勧誘補助チケット',7,1,1,NULL,'assets/image/ui/item/com_icon_53.png','10枚で11連勧誘を1回行える','10枚で11連勧誘を1回行える',NULL,NULL,NULL,2,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(8,1,'11連勧誘チケット',8,1,1,NULL,'assets/image/ui/common/com_icon_71.png','11連勧誘を行える','11連勧誘を行える',NULL,NULL,NULL,3,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(9,1,'SR以上確定勧誘チケット〜μ''s〜',9,1,1,NULL,'assets/image/ui/common/com_icon_72.png','SR以上確定勧誘〜μ''s〜を行える','SR以上確定勧誘〜μ''s〜を行える',NULL,NULL,NULL,4,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(10,1,'SR以上確定勧誘チケット〜Aqours〜',10,1,1,NULL,'assets/image/ui/common/com_icon_73.png','SR以上確定勧誘〜Aqours〜を行える','SR以上確定勧誘〜Aqours〜を行える',NULL,NULL,NULL,5,1,NULL,NULL);
@@ -441,9 +442,9 @@ INSERT INTO "kg_item_m" VALUES(19,1,'5周年!選べるメンバーUR確定勧誘
 INSERT INTO "kg_item_m" VALUES(20,1,'5周年!選べるメンバーUR確定勧誘チケット〜Aqours〜',20,1,1,NULL,'assets/image/item/item_20_s.png','5周年！選べるメンバー！UR確定勧誘〜Aqours〜を行える','5周年！選べるメンバー！UR確定勧誘〜Aqours〜を行える',NULL,NULL,NULL,14,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(21,1,'渡辺 曜SSR以上確定勧誘チケット',21,1,1,NULL,'assets/image/item/item_21_s.png','渡辺 曜SSR以上確定勧誘を行える','渡辺 曜SSR以上確定勧誘を行える',NULL,NULL,NULL,15,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(22,1,'西木野真姫SSR以上確定勧誘チケット',22,1,1,NULL,'assets/image/item/item_22_s.png','西木野真姫SSR以上確定勧誘を行える','西木野真姫SSR以上確定勧誘を行える',NULL,NULL,NULL,16,1,NULL,NULL);
-INSERT INTO "kg_item_m" VALUES(23,1,'SR以上確定チケット',23,1,1,'assets/image/item/item_23_m.png','assets/image/item/item_23_s.png','SR以上確定勧誘を行える','SR以上確定勧誘を行える',NULL,NULL,NULL,NULL,0,NULL,NULL);
-INSERT INTO "kg_item_m" VALUES(24,1,'SSR以上確定チケット',24,1,1,'assets/image/item/item_24_m.png','assets/image/item/item_24_s.png','SSR以上確定勧誘を行える','SSR以上確定勧誘を行える',NULL,NULL,NULL,NULL,0,NULL,NULL);
-INSERT INTO "kg_item_m" VALUES(25,1,'大当たり！UR確定チケット',25,1,1,'assets/image/item/item_25_m.png','assets/image/item/item_25_s.png','UR確定勧誘を行える','UR確定勧誘を行える',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(23,1,'SR以上確定チケット',23,1,1,'assets/image/item/item_23_m.png','assets/image/item/item_23_s.png','μ''sとAqoursのSR以上確定勧誘を行える','μ''sとAqoursのSR以上確定勧誘を行える',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(24,1,'SSR以上確定チケット',24,1,1,'assets/image/item/item_24_m.png','assets/image/item/item_24_s.png','μ''sとAqoursのSSR以上確定勧誘を行える','μ''sとAqoursのSSR以上確定勧誘を行える',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(25,1,'大当たり！UR確定チケット',25,1,1,'assets/image/item/item_25_m.png','assets/image/item/item_25_s.png','μ''sとAqours各メンバーのUR確定勧誘を行える','μ''sとAqours各メンバーのUR確定勧誘を行える',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(26,1,'東條 希SSR以上確定勧誘チケット',26,1,1,NULL,'assets/image/item/item_26_s.png','東條 希SSR以上確定勧誘を行える','東條 希SSR以上確定勧誘を行える',NULL,NULL,NULL,17,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(27,1,'小原鞠莉SSR以上確定勧誘チケット',27,1,1,NULL,'assets/image/item/item_27_s.png','小原鞠莉SSR以上確定勧誘を行える','小原鞠莉SSR以上確定勧誘を行える',NULL,NULL,NULL,18,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(28,1,'津島善子SSR以上確定勧誘チケット',28,1,1,NULL,'assets/image/item/item_28_s.png','津島善子SSR以上確定勧誘を行える','津島善子SSR以上確定勧誘を行える',NULL,NULL,NULL,19,1,NULL,NULL);

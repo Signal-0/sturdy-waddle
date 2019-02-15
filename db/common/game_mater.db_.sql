@@ -80,7 +80,7 @@ CREATE TABLE `game_setting_m` (
     `exchange_flag` INTEGER NOT NULL,
     PRIMARY KEY (`game_setting_id`)
 );
-INSERT INTO "game_setting_m" VALUES(1,1,360,5,10,10,1,1.2,10.0,5,6,25,3,5,50,60,10,20,'a','次回メインストーリーの\nアップデートを待ってね！',20,100000,18,'00:00',10,1000,1.2,6.0,9,9999999,9999999,1000000000000,9999999,36400,1,4,1000,1000,1,1,99,220,10,9999999,1);
+INSERT INTO "game_setting_m" VALUES(1,1,360,5,10,10,1,1.2,10.0,5,6,25,3,5,50,60,10,20,'a','次回メインストーリーの\nアップデートを待ってね！',20,100000,18,'00:00',10,1000,1.2,6.0,9,9999999,9999999,1000000000000,9999999,36400,1,4,1500,1000,1,1,99,320,10,9999999,1);
 CREATE TABLE `sort_condition_m` (
     `sort_condition_id` INTEGER NOT NULL,
     `screen_id` INTEGER NOT NULL,

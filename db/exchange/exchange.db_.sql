@@ -431,6 +431,15 @@ INSERT INTO "exchange_nopoint_unit_m" VALUES(1897);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(1907);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(1908);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(1909);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1917);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1918);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1919);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1920);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1921);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1922);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1923);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1924);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1925);
 CREATE TABLE `exchange_point_m` (
     `exchange_point_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
