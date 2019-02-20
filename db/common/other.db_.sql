@@ -176,8 +176,10 @@ CREATE TABLE `timing_adjust_transition_m` (
 );
 INSERT INTO "timing_adjust_transition_m" VALUES(1,'file://install/m_live_menu/select_deck_menu.lua','file://install/m_live_menu/select_deck_menu.lua');
 INSERT INTO "timing_adjust_transition_m" VALUES(2,'file://install/m_event/challenge/deck.lua','file://install/m_event/challenge/deck.lua');
-INSERT INTO "timing_adjust_transition_m" VALUES(3,'file://install/m_event/festival/deck.lua','file://install/m_event/festival/deck.lua');
+INSERT INTO "timing_adjust_transition_m" VALUES(3,'file://install/m_festival/deck.lua','file://install/m_festival/deck.lua');
 INSERT INTO "timing_adjust_transition_m" VALUES(4,'file://install/m_online/deck.lua','file://install/m_online/deck.lua');
 INSERT INTO "timing_adjust_transition_m" VALUES(5,'file://install/m_quest/select_deck.lua','file://install/m_quest/select_deck.lua');
 INSERT INTO "timing_adjust_transition_m" VALUES(6,'file://install/m_class/deck.lua','file://install/m_class/deck.lua');
+INSERT INTO "timing_adjust_transition_m" VALUES(7,'file://install/m_live_menu/select_friend_menu.lua','file://install/m_live_menu/select_friend_menu.lua');
+INSERT INTO "timing_adjust_transition_m" VALUES(8,'file://install/m_quest/select_guest.lua','file://install/m_quest/select_guest.lua');
 COMMIT;
