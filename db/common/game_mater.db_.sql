@@ -601,7 +601,7 @@ INSERT INTO "strings_m" VALUES('dialog_shop',18,'<center><heart>ラブカスト�
 INSERT INTO "strings_m" VALUES('dialog_shop',19,'増やす部員数を選択してください');
 INSERT INTO "strings_m" VALUES('dialog_shop',20,'現在の部員上限数：    人　　(最大：%d人)');
 INSERT INTO "strings_m" VALUES('dialog_shop',21,'使用するアイテムを選択してください');
-INSERT INTO "strings_m" VALUES('dialog_shop',22,'最大LPが240以下の場合はLPが240を超えるまで\n回復できます');
+INSERT INTO "strings_m" VALUES('dialog_shop',22,'最大LPが240未満の場合はLPが240以上になるまで\n回復できます');
 INSERT INTO "strings_m" VALUES('dialog_shop',23,'%sを%d個使用して\nLPを%d回復します。よろしいですか？');
 INSERT INTO "strings_m" VALUES('dialog_shop',24,'\n\n\n\n回復アイテムがありません\n');
 INSERT INTO "strings_m" VALUES('dialog_shop',25,'\n\n\n\n回復アイテムが不足しています\n');
