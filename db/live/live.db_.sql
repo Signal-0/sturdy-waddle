@@ -20280,6 +20280,18 @@ INSERT INTO "live_goal_reward_m" VALUES(20037,2498,3,4,3002,2,2,300,NULL);
 INSERT INTO "live_goal_reward_m" VALUES(20038,2498,3,3,3002,2,2,500,NULL);
 INSERT INTO "live_goal_reward_m" VALUES(20039,2498,3,2,3002,2,2,1000,NULL);
 INSERT INTO "live_goal_reward_m" VALUES(20040,2498,3,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20041,2499,1,4,3000,3,3,10000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20042,2499,1,3,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20043,2499,1,2,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20044,2499,1,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20045,2499,2,4,3000,3,3,10000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20046,2499,2,3,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20047,2499,2,2,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20048,2499,2,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20049,2499,3,4,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20050,2499,3,3,3002,2,2,1000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20051,2499,3,2,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20052,2499,3,1,3001,4,4,1,NULL);
 CREATE TABLE `live_note_score_factor_m` (
     `effect_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,
@@ -21421,6 +21433,7 @@ INSERT INTO "live_setting_m" VALUES(1091,566,2,5,2,'assets/image/live/live_icon/
 INSERT INTO "live_setting_m" VALUES(1092,566,3,8,2,'assets/image/live/live_icon/j_aq_0566.png',NULL,8,'Live_s1092.json',52190,130475,156570,182665,93,154,215,307,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(1093,566,4,10,2,'assets/image/live/live_icon/j_aq_0566.png',NULL,10,'Live_s1093.json',110986,277728,332958,388714,158,263,369,526,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(1094,514,6,12,2,'assets/image/live/live_icon/j_aq_0514.png',NULL,125,'Live_s1094.json',142320,356136,426959,498456,231,384,538,768,0,1,NULL,NULL);
+INSERT INTO "live_setting_m" VALUES(1095,488,6,11,1,'assets/image/live/live_icon/j_aq_0488.png',NULL,32,'Live_s1095.json',125123,313104,375369,438227,178,297,416,593,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10398,449,4,11,3,'assets/image/live/live_icon/j_bd2_02_01.png',NULL,32,'Live_s0398.json',113307,283536,339921,396843,162,269,376,537,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10654,494,4,10,1,'assets/image/live/live_icon/j_cdsp_02.png',NULL,10,'Live_s0654.json',101280,253440,303840,354720,144,240,336,480,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10779,510,4,10,1,'assets/image/live/live_icon/j_aq_0509.png',NULL,10,'Live_s0779.json',121536,304128,364608,425664,173,288,404,576,0,0,NULL,NULL);
@@ -21653,7 +21666,7 @@ INSERT INTO "live_track_m" VALUES(562,'Hop? Stop? Nonstop!','ホツフストツ�
 INSERT INTO "live_track_m" VALUES(563,'逃走迷走メビウスループ','トウソウメイソウメヒウスルウフ','assets/image/live/title/t_aq_0563.png','assets/sound/music/m_205.mp3',2,40,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(564,'僕らの走ってきた道は…','ホクラノハシツテキタミチハ','assets/image/live/title/t_aq_0564.png','assets/sound/music/m_203.mp3',2,5,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(565,'Next SPARKLING!!','ネクストスハアクリンク','assets/image/live/title/t_aq_0565.png','assets/sound/music/m_204.mp3',2,5,NULL,NULL);
-INSERT INTO "live_track_m" VALUES(566,'Brightest Melody','フライテストメロテイイ','assets/image/live/title/t_aq_0566.png','assets/sound/music/m_207.mp3',2,5,NULL,190);
+INSERT INTO "live_track_m" VALUES(566,'Brightest Melody','フライテストメロテイイ','assets/image/live/title/t_aq_0566.png','assets/sound/music/m_207.mp3',2,5,NULL,NULL);
 CREATE TABLE `live_unit_reward_lot_m` (
     `live_unit_reward_lot_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,
@@ -23156,6 +23169,7 @@ INSERT INTO "special_live_m" VALUES(2495,998,1,5,1,5,10,20,1,0,0);
 INSERT INTO "special_live_m" VALUES(2496,999,1,10,5,10,20,40,1,0,0);
 INSERT INTO "special_live_m" VALUES(2497,1000,1,15,10,20,40,100,1,0,0);
 INSERT INTO "special_live_m" VALUES(2498,1001,1,25,15,30,60,120,1,0,0);
+INSERT INTO "special_live_m" VALUES(2499,1095,1,25,15,30,60,150,0,0,0);
 CREATE TABLE `special_live_rotation_m` (
     `rotation_group_id` INTEGER NOT NULL,
     `live_difficulty_id` INTEGER NOT NULL,

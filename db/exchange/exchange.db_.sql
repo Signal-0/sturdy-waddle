@@ -443,6 +443,9 @@ INSERT INTO "exchange_nopoint_unit_m" VALUES(1925);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(1928);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(1929);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(1937);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1940);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1941);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1945);
 CREATE TABLE `exchange_point_m` (
     `exchange_point_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
