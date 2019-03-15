@@ -1710,7 +1710,7 @@ INSERT INTO "strings_m" VALUES('unit_exchange',10,'<center>{{name}}\n{{descripti
 INSERT INTO "strings_m" VALUES('unit_exchange',11,'<center>{{name}}\n\nと交換しました');
 INSERT INTO "strings_m" VALUES('skill_type_notes',2,'\n発動中に特技の効果によらず自身のうでまえでPERFECTを取ると、タップした時のSCOREにさらにボーナスがかかる');
 INSERT INTO "strings_m" VALUES('skill_type_notes',3,'\n発動中に特技の効果によらず自身のうでまえでPERFECTを取ると、タップした時のSCOREにさらにボーナスがかかる');
-INSERT INTO "strings_m" VALUES('skill_type_notes',4,'\n体力がMAXの時に発動すると効果量分をゲージに貯める\n\n※自身の体力のMAX値だけゲージを貯めることで、ライブに参加している部員のパラメータが上昇します\n※パラメータの上昇値は、体力MAX値により異なります\n※パラメータの上昇値には上限があります\n※ゲージを貯める途中に体力が減少すると、再度体力がMAXになるまでゲージを貯めることはできません\n※上昇したパラメータはライブ終了後、元の値に戻ります');
+INSERT INTO "strings_m" VALUES('skill_type_notes',4,'\n体力がMAXの時に発動すると効果量分をゲージに貯める\n\n※ライブ中の体力のMAX値だけゲージを貯めることで、ライブに参加している部員のパラメータが上昇します\n※パラメータの上昇値は、体力MAX値により異なります\n※パラメータの上昇値には上限があります\n※ゲージを貯める途中に体力が減少すると、再度体力がMAXになるまでゲージを貯めることはできません\n※上昇したパラメータはライブ終了後、元の値に戻ります');
 INSERT INTO "strings_m" VALUES('skill_type_notes',6,'\n\n※本特技の効果は重複しません\n※本特技は以下の特技に対しては効果がありません\n・特技発動率アップ\n※イベントのアレンジや応援ボーナスで発生する「特技発動率アップ」の効果は重複します');
 INSERT INTO "strings_m" VALUES('skill_type_notes',7,'\n\n※リピート対象は直前に発動した特技1つのみです\n※リピートできる特技がない場合は本特技は発動しません\n※本特技は以下の特技をリピートしません\n・特技リピート');
 INSERT INTO "strings_m" VALUES('skill_type_notes',9,'\n\n※本部員は「SCOREアップ特技の効果量がアップする」スクールアイドルスキルを装着できません');

@@ -446,6 +446,8 @@ INSERT INTO "exchange_nopoint_unit_m" VALUES(1937);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(1940);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(1941);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(1945);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1950);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(1951);
 CREATE TABLE `exchange_point_m` (
     `exchange_point_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
@@ -488,6 +490,7 @@ INSERT INTO "exchange_ticket_m" VALUES(11,'ACサポーター称号交換チケ�
 INSERT INTO "exchange_ticket_m" VALUES(12,'ACサポーター称号交換チケット（Aqours）','assets/image/exchange_ticket/ticket_12_s.png','assets/image/exchange_ticket/ticket_12_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(13,'JOYSOUNDコラボ部員交換チケット','assets/image/exchange_ticket/ticket_13_s.png','assets/image/exchange_ticket/ticket_13_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(14,'Aqours劇場版公開記念部員交換チケット','assets/image/exchange_ticket/ticket_14_s.png','assets/image/exchange_ticket/ticket_14_m.png',NULL,'枚',NULL,NULL);
+INSERT INTO "exchange_ticket_m" VALUES(15,'Saint Snow SSR部員交換チケット','assets/image/exchange_ticket/ticket_15_s.png','assets/image/exchange_ticket/ticket_15_m.png',NULL,'枚',NULL,193);
 CREATE TABLE `exchange_ticket_reward_m` (
     `exchange_ticket_reward_id` INTEGER NOT NULL,
     `exchange_ticket_id` INTEGER NOT NULL,
@@ -635,4 +638,6 @@ INSERT INTO "exchange_ticket_reward_m" VALUES(132,14,1001,1894,0,1,'{"rank":2}',
 INSERT INTO "exchange_ticket_reward_m" VALUES(133,14,1001,1895,0,1,'{"rank":2}',NULL,NULL,NULL);
 INSERT INTO "exchange_ticket_reward_m" VALUES(134,14,1001,1896,0,1,'{"rank":2}',NULL,NULL,NULL);
 INSERT INTO "exchange_ticket_reward_m" VALUES(135,14,1001,1897,0,1,'{"rank":2}',NULL,NULL,NULL);
+INSERT INTO "exchange_ticket_reward_m" VALUES(136,15,1001,1950,0,1,NULL,NULL,NULL,193);
+INSERT INTO "exchange_ticket_reward_m" VALUES(137,15,1001,1951,0,1,NULL,NULL,NULL,193);
 COMMIT;
