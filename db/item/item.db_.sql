@@ -473,7 +473,11 @@ INSERT INTO "kg_item_m" VALUES(44,1,'松浦果南SSR以上確定勧誘チケッ�
 INSERT INTO "kg_item_m" VALUES(45,1,'SR以上確定3連勧誘チケット～μ''s～',45,1,1,'assets/image/item/item_45_m.png','assets/image/item/item_45_s.png','SR以上確定3連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,36,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(46,1,'SR以上確定3連勧誘チケット～Aqours～',46,1,1,'assets/image/item/item_46_m.png','assets/image/item/item_46_s.png','SR以上確定3連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,37,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(47,1,'国木田花丸SSR以上確定勧誘チケット',47,1,1,'assets/image/item/item_47_m.png','assets/image/item/item_47_s.png','国木田花丸SSR以上確定勧誘を行える',NULL,NULL,NULL,NULL,38,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(48,1,'【6周年記念】EXPアップのお守り',48,1,1,'assets/image/item/item_48_m.png','assets/image/item/item_48_s.png','使用してから【10分】の間だけ獲得EXPを25%アップさせる','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(49,1,'【6周年記念】絆Ptアップのお守り',49,1,1,'assets/image/item/item_49_m.png','assets/image/item/item_49_s.png','使用してから【10分】の間だけ獲得絆Ptを25%アップさせる','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(50,1,'【6周年記念】Gアップのお守り',50,1,1,'assets/image/item/item_50_m.png','assets/image/item/item_50_s.png','使用してから【10分】の間だけ獲得Gを25%アップさせる','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','ラブカストーンピース','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 CREATE TABLE `live_notes_icon_asset_m` (
     `live_notes_icon_id` INTEGER NOT NULL,
     `tap_type` INTEGER NOT NULL,

@@ -26,6 +26,7 @@ INSERT INTO "add_type_m" VALUES(5330,'イベントストーリー','assets/image
 INSERT INTO "add_type_m" VALUES(5400,'ライブタップ音','assets/image/add_type/add_type_5400_s.png','assets/image/add_type/add_type_5400_m.png',NULL,'個',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(5410,'ノーツアイコン',NULL,NULL,NULL,'個',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(5500,'スクールアイドルスキル','assets/image/ui/common/com_icon_70.png','assets/image/ui/item/item_icon_24.png',NULL,'個',NULL,NULL);
+INSERT INTO "add_type_m" VALUES(5600,'スタンプ','assets/image/add_type/add_type_5600_s.png','assets/image/add_type/add_type_5600_m.png',NULL,'個',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(6100,'イベントポイント','assets/image/ui/common/com_icon_88.png',NULL,NULL,'pt',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(6200,'イベントアイコン',NULL,NULL,NULL,'個',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(6300,'おみやげ',NULL,NULL,NULL,'個',NULL,NULL);
@@ -347,6 +348,7 @@ INSERT INTO "strings_m" VALUES('reward',100,'%sで獲得');
 INSERT INTO "strings_m" VALUES('reward',101,'%sで獲得');
 INSERT INTO "strings_m" VALUES('reward',105,'ラブカストーンピースが集まりました！');
 INSERT INTO "strings_m" VALUES('reward',110,'メドレー ミッションの報酬で獲得');
+INSERT INTO "strings_m" VALUES('reward',120,'イベントストーリーを解放しました');
 INSERT INTO "strings_m" VALUES('ui_reward',1,'受け取りました');
 INSERT INTO "strings_m" VALUES('ui_reward',2,'おまかせ転部で\n転部しました');
 INSERT INTO "strings_m" VALUES('deck_default_name',1,'ユニットA');
@@ -495,6 +497,8 @@ INSERT INTO "strings_m" VALUES('dialog_common',24,'\n\n受取り対象のスク�
 INSERT INTO "strings_m" VALUES('dialog_common',25,'\n\n%s\nが解禁されました');
 INSERT INTO "strings_m" VALUES('dialog_common',26,'\n\n回復アイテムが上限に達しています\n\n回復アイテムを減らしてから\nプレゼントボックスで受取ってください\n');
 INSERT INTO "strings_m" VALUES('dialog_common',27,'\n\n%sが上限に達しています\n\n%sを減らしてから\nプレゼントボックスで受取ってください\n');
+INSERT INTO "strings_m" VALUES('dialog_common',28,'\n\n<item_icon %s>%sを%s%s\n受取りました');
+INSERT INTO "strings_m" VALUES('dialog_common',29,'\n\n<item_icon %s>%sをプレゼントBOXに送りました');
 INSERT INTO "strings_m" VALUES('dialog_common',4000,'<center>%sを%s個獲得しました\nプレゼントボックスで受取ってください');
 INSERT INTO "strings_m" VALUES('dialog_common',5100,'%s\nを獲得しました');
 INSERT INTO "strings_m" VALUES('dialog_common',5200,'%s\nを獲得しました');
@@ -570,7 +574,7 @@ INSERT INTO "strings_m" VALUES('dialog_secretbox',11,'<center>{{name}}を選択U
 INSERT INTO "strings_m" VALUES('dialog_secretbox',12,'<center>特待生ボーナス\n\nおめでとうございます\n特待生ボーナスのゲージがＭＡＸになったので\n<item_icon5>補助チケットを、%d枚獲得しました\n\nプレゼントを獲得しました\n(ホームのプレゼントボックスで受取れます)');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',13,'<center>特待生ボーナス\n\nおめでとうございます\n特待生ボーナスのゲージがＭＡＸになったので\n<item_icon5>補助チケットを、%d枚獲得しました\n\n\n');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',14,'<center>{{name}}を選択URのメンバーに設定しました');
-INSERT INTO "strings_m" VALUES('dialog_secretbox',15,'\n\n\n1日1回無料の{{name}}\nをおこないます\nよろしいでしょうか？');
+INSERT INTO "strings_m" VALUES('dialog_secretbox',15,'\n\n\n無料の{{name}}\nをおこないます\nよろしいでしょうか？');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',19,'<center>{{name}}\n\n使用するアイテムを選択してください\n\n');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',20,'ボーナスで\n以下のアイテムを獲得しました\n(ホームのプレゼントボックスで受け取ることができます)');
 INSERT INTO "strings_m" VALUES('dialog_secretbox',21,'1日1回の無料勧誘が実施できます\n勧誘画面に移動しますか？');
@@ -1208,6 +1212,8 @@ INSERT INTO "strings_m" VALUES('error_code',1204,'当選発表をお待ちくだ
 INSERT INTO "strings_m" VALUES('error_code',1205,'転部対象の部員がいませんでした');
 INSERT INTO "strings_m" VALUES('error_code',1603,'<center>ランキングが更新されました\n画面を再表示します');
 INSERT INTO "strings_m" VALUES('error_code',1604,'<center>該当のランキングデータは\nまだ集計されていません');
+INSERT INTO "strings_m" VALUES('error_code',2385,'イベントシナリオはすでに解放されています');
+INSERT INTO "strings_m" VALUES('error_code',2386,'解放に必要な原資が足りません');
 INSERT INTO "strings_m" VALUES('error_code',3418,'<center>イベントは終了しています');
 INSERT INTO "strings_m" VALUES('error_code',3419,'<center>エラーが発生しました\n再度お試しいただき、改善しない場合は\nお手数ですが、サポートへ問い合わせください');
 INSERT INTO "strings_m" VALUES('error_code',3421,'過去のうでまえチェック履歴がありません');
@@ -1710,7 +1716,7 @@ INSERT INTO "strings_m" VALUES('unit_exchange',10,'<center>{{name}}\n{{descripti
 INSERT INTO "strings_m" VALUES('unit_exchange',11,'<center>{{name}}\n\nと交換しました');
 INSERT INTO "strings_m" VALUES('skill_type_notes',2,'\n発動中に特技の効果によらず自身のうでまえでPERFECTを取ると、タップした時のSCOREにさらにボーナスがかかる');
 INSERT INTO "strings_m" VALUES('skill_type_notes',3,'\n発動中に特技の効果によらず自身のうでまえでPERFECTを取ると、タップした時のSCOREにさらにボーナスがかかる');
-INSERT INTO "strings_m" VALUES('skill_type_notes',4,'\n体力がMAXの時に発動すると効果量分をゲージに貯める\n\n※ライブ中の体力のMAX値だけゲージを貯めることで、ライブに参加している部員のパラメータが上昇します\n※パラメータの上昇値は、体力MAX値により異なります\n※パラメータの上昇値には上限があります\n※ゲージを貯める途中に体力が減少すると、再度体力がMAXになるまでゲージを貯めることはできません\n※上昇したパラメータはライブ終了後、元の値に戻ります');
+INSERT INTO "strings_m" VALUES('skill_type_notes',4,'\n体力がMAX値を超えて回復すると、超えた分の効果量をゲージに貯める\n\n※ライブ中の体力のMAX値だけゲージを貯めることで、ライブに参加している部員のパラメータが上昇します\n※パラメータの上昇値は、体力MAX値により異なります\n※パラメータの上昇値には上限があります\n※ゲージを貯める途中に体力が減少すると、再度体力がMAXになるまでゲージを貯めることはできません\n※上昇したパラメータはライブ終了後、元の値に戻ります');
 INSERT INTO "strings_m" VALUES('skill_type_notes',6,'\n\n※本特技の効果は重複しません\n※本特技は以下の特技に対しては効果がありません\n・特技発動率アップ\n※イベントのアレンジや応援ボーナスで発生する「特技発動率アップ」の効果は重複します');
 INSERT INTO "strings_m" VALUES('skill_type_notes',7,'\n\n※リピート対象は直前に発動した特技1つのみです\n※リピートできる特技がない場合は本特技は発動しません\n※本特技は以下の特技をリピートしません\n・特技リピート');
 INSERT INTO "strings_m" VALUES('skill_type_notes',9,'\n\n※本部員は「SCOREアップ特技の効果量がアップする」スクールアイドルスキルを装着できません');
@@ -1814,6 +1820,10 @@ INSERT INTO "strings_m" VALUES('festival_mission_reward',2,'通常報酬：%s　
 INSERT INTO "strings_m" VALUES('reserved_arrange',1,'ボーナスが有効なため選択できません');
 INSERT INTO "strings_m" VALUES('festival_confirm',1,'<center>LP%sを消費してライブをプレイします\n（残りLP:%s）\n\n※ライブが正常に終了しなかった場合報酬は獲得できません');
 INSERT INTO "strings_m" VALUES('festival_confirm',2,'<center>ライブをプレイします\n※ライブが正常に終了しなかった場合報酬は獲得できません');
+INSERT INTO "strings_m" VALUES('release_scenario',1,'%sを解放しますか？');
+INSERT INTO "strings_m" VALUES('release_scenario',2,'解放に必要な鍵が足りません');
+INSERT INTO "strings_m" VALUES('release_scenario',3,'該当のシナリオは解放済みです');
+INSERT INTO "strings_m" VALUES('release_scenario',4,'個');
 INSERT INTO "strings_m" VALUES('buff_item',1,'{b3}アイテム一覧');
 INSERT INTO "strings_m" VALUES('buff_item',2,'{b3}所持数：');
 INSERT INTO "strings_m" VALUES('buff_item',3,'{{name}}を使いますか?');
