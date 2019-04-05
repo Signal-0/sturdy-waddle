@@ -41,7 +41,7 @@ INSERT INTO "achievement_category_m" VALUES(33,'assets/image/achievement/tag_008
 INSERT INTO "achievement_category_m" VALUES(34,'assets/image/achievement/tag_008.png','2018/9/23 0:00:00','2018/9/25 23:59:59',0,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(35,'assets/image/achievement/tag_008.png','2018/9/21 0:00:00','2018/9/25 23:59:59',1,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(36,'assets/image/achievement/tag_008.png','2018/10/05 15:00:00','2018/10/31 23:59:59',0,NULL,NULL);
-INSERT INTO "achievement_category_m" VALUES(37,'assets/image/achievement/tag_008.png','2018/10/05 15:00:00','2019/3/31 23:59:59',1,NULL,NULL);
+INSERT INTO "achievement_category_m" VALUES(37,'assets/image/achievement/tag_008.png','2018/10/05 15:00:00','2019/4/25 23:59:59',1,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(38,'assets/image/achievement/tag_008.png','2018/10/16 0:00:00','2018/10/31 23:59:59',0,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(39,'assets/image/achievement/tag_008.png','2018/11/05 15:00:00','2018/12/05 14:59:59',0,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(40,'assets/image/achievement/tag_008.png','2018/12/5 15:00:00','2018/12/20 14:59:59',0,NULL,NULL);
@@ -155,6 +155,7 @@ INSERT INTO "achievement_description_m" VALUES(94,51,6,'%sのお気に入りpt�
 INSERT INTO "achievement_description_m" VALUES(95,51,7,'%sのお気に入りptを合計%dpt以上にする');
 INSERT INTO "achievement_description_m" VALUES(96,52,1,'通算%d日ログインを達成する');
 INSERT INTO "achievement_description_m" VALUES(97,53,1,'カテゴリ：Aqoursの課題を%d個クリアする');
+INSERT INTO "achievement_description_m" VALUES(98,50,44,'みんなでSCORE MATCH楽曲');
 CREATE TABLE `achievement_m` (
     `achievement_id` INTEGER NOT NULL,
     `title` TEXT NOT NULL,
@@ -1281,6 +1282,12 @@ INSERT INTO "achievement_m" VALUES(10090166,'Awaken the power【期間限定】'
 INSERT INTO "achievement_m" VALUES(10090167,'理亞のライブ！【期間限定】','鹿角理亞をユニットに編成してAwaken the powerをクリアする','assets/image/achievement/tag_008.png',3,9,0,NULL,525,117,2,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/3/15 15:00:00','2019/3/31 14:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090168,'聖良のライブ！【期間限定】','鹿角聖良をユニットに編成してAwaken the powerをクリアする','assets/image/achievement/tag_008.png',3,9,0,NULL,525,118,2,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/3/15 15:00:00','2019/3/31 14:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090169,'Believe again【期間限定】',NULL,'assets/image/achievement/tag_008.png',3,9,0,NULL,567,120,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/3/15 15:00:00','2019/3/31 14:59:59',0,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090170,'6周年記念デイリー課題','6周年記念！もっとみんなでスコアマッチを1回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,10,NULL,NULL,NULL,NULL,NULL,1,NULL,'2019/4/5 0:00:00','2019/4/15 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090171,'6周年記念デイリー課題','6周年記念！もっとみんなでスコアマッチを2回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,10,NULL,NULL,NULL,NULL,NULL,2,NULL,'2019/4/5 0:00:00','2019/4/15 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090172,'6周年記念デイリー課題','6周年記念！もっとみんなでスコアマッチを3回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,10,NULL,NULL,NULL,NULL,NULL,3,NULL,'2019/4/5 0:00:00','2019/4/15 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090173,'6周年記念デイリー課題','6周年記念！もっとみんなでスコアマッチを4回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,10,NULL,NULL,NULL,NULL,NULL,4,NULL,'2019/4/5 0:00:00','2019/4/15 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090174,'6周年記念デイリー課題','6周年記念！もっとみんなでスコアマッチを5回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,10,NULL,NULL,NULL,NULL,NULL,5,NULL,'2019/4/5 0:00:00','2019/4/15 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090175,'6周年記念デイリー課題','6周年記念！もっとみんなでスコアマッチを6回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,10,NULL,NULL,NULL,NULL,NULL,6,NULL,'2019/4/5 0:00:00','2019/4/15 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100001,'一般生勧誘をしよう！【その1】','μ''sの一般生勧誘で10人勧誘する','assets/image/achievement/tag_005.png',1,10,0,NULL,1,NULL,10,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100002,'一般生勧誘をしよう！【その2】','μ''sの一般生勧誘で25人勧誘する','assets/image/achievement/tag_005.png',1,10,0,NULL,1,NULL,25,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100003,'一般生勧誘をしよう！【その3】','μ''sの一般生勧誘で50人勧誘する','assets/image/achievement/tag_005.png',2,10,0,NULL,1,NULL,50,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,0,1,NULL,NULL);
@@ -4144,6 +4151,12 @@ INSERT INTO "achievement_tag_m" VALUES(10090163,46);
 INSERT INTO "achievement_tag_m" VALUES(10090164,46);
 INSERT INTO "achievement_tag_m" VALUES(10090165,46);
 INSERT INTO "achievement_tag_m" VALUES(10090166,46);
+INSERT INTO "achievement_tag_m" VALUES(10090170,37);
+INSERT INTO "achievement_tag_m" VALUES(10090171,37);
+INSERT INTO "achievement_tag_m" VALUES(10090172,37);
+INSERT INTO "achievement_tag_m" VALUES(10090173,37);
+INSERT INTO "achievement_tag_m" VALUES(10090174,37);
+INSERT INTO "achievement_tag_m" VALUES(10090175,37);
 INSERT INTO "achievement_tag_m" VALUES(10260001,5);
 INSERT INTO "achievement_tag_m" VALUES(10260002,5);
 INSERT INTO "achievement_tag_m" VALUES(10260003,5);

@@ -948,4 +948,10 @@ INSERT INTO "secret_box_asset_m" VALUES(1963,1963,'assets/image/units/u_normal_c
 INSERT INTO "secret_box_asset_m" VALUES(1964,1964,'assets/image/units/u_normal_card_32109013.png','assets/image/units/u_rankup_card_32109013.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(1965,1965,'assets/image/units/u_normal_card_52108005.png','assets/image/units/u_rankup_card_52108005.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(1966,1966,'assets/image/units/u_normal_card_43105004.png','assets/image/units/u_rankup_card_43105004.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(1992,1992,'assets/image/units/u_normal_card_42002005.png','assets/image/units/u_rankup_card_42002005.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(1993,1993,'assets/image/units/u_normal_card_41007005.png','assets/image/units/u_rankup_card_41007005.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(1994,1994,'assets/image/units/u_normal_card_43009005.png','assets/image/units/u_rankup_card_43009005.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(1995,1995,'','','','FHsZpA6HO/zW15PkiExmPl4GbJFEXLuhJm+3yPaudIXiI1rXMXPogmZy+gY9RigRpK52lA81sRyZYKCykYa/M/qn6KEI7eND92E4vRUdPz1RhWbWmLipYkG4I8pHIkcB8/FmJoYaoAMgGmfiWKdI6snqmuALEk98t18ItGLUXh+oi6RV/ZjPFfKrbKw0m64NJs6zF+M1LDu1IbmHwJggZVXZ1oP7Lt2ss0l8PggJoRht90xI+ua5KlC112EXZFd3',198);
+INSERT INTO "secret_box_asset_m" VALUES(1996,1996,'','','','TqRCpCC1MCYtdlqDL6epzFc84XMbrA2AwzGIS1OLRH/Eq45qEkRLB5ff1vqbCUZWH924DP99LVoC9AXJ7U498D8EmvA+6c/iOtCiVcD62U50sh0TDtem//z5y5k0DJV2zgJGb4rZ+cGhKsI0nXAv+br2z6pOrt0bPuTyPBli5dSbE2ugjeu0wvCaStS7Qwb6HmiWW1zNtEUbNF1axBjk7U+fKvxdVscMKWS0j7S82T919Sqls9prWF4z9e1OZxUD',198);
+INSERT INTO "secret_box_asset_m" VALUES(1997,1997,'','','','l6QCBxp1U8tV44nL6fAWVCBeeRR//lvKuknxkw1mH7U2/3v+Rth4cRBnekf5Pq+xVt0VUZhc3b1cuRWsK9py83MKod6raVOuRgiBcUvkynSPwlnNcZbe4G+tfRehW1DlchVlk6SmvwuUzs1UIL2Wta+737DRlH0QyTzGu/frzJy3B70z6+V658WOcw58b2400OZusVrzKXyJHbWVhIotD6pORQ4ebGQdfa3Wg9cx/1+C1BHmtgo0c7PEDJNTGOEX',198);
 COMMIT;

@@ -14,7 +14,7 @@ INSERT INTO "menu_m" VALUES(1,'live_setting','assets/image/ui/menu/m_button_17.p
 INSERT INTO "menu_m" VALUES(2,'album','assets/image/ui/menu/m_button_21.png','assets/image/ui/menu/m_button_21se.png',NULL,2,0,NULL,NULL);
 INSERT INTO "menu_m" VALUES(3,'achievement','assets/image/ui/menu/m_button_22.png','assets/image/ui/menu/m_button_22se.png',NULL,98,2,NULL,NULL);
 INSERT INTO "menu_m" VALUES(4,'profile','assets/image/ui/menu/m_button_23.png','assets/image/ui/menu/m_button_23se.png',NULL,5,0,NULL,NULL);
-INSERT INTO "menu_m" VALUES(5,'friends','assets/image/ui/menu/m_button_25.png','assets/image/ui/menu/m_button_25se.png',NULL,7,2,NULL,NULL);
+INSERT INTO "menu_m" VALUES(5,'friends','assets/image/ui/menu/m_button_25.png','assets/image/ui/menu/m_button_25se.png',NULL,7,0,NULL,NULL);
 INSERT INTO "menu_m" VALUES(6,'ranking','assets/image/ui/menu/m_button_26.png','assets/image/ui/menu/m_button_26se.png',NULL,8,0,NULL,NULL);
 INSERT INTO "menu_m" VALUES(7,'setting','assets/image/ui/menu/m_button_29.png','assets/image/ui/menu/m_button_29se.png',NULL,11,0,NULL,NULL);
 INSERT INTO "menu_m" VALUES(8,'serial_code','assets/image/ui/menu/m_button_30.png','assets/image/ui/menu/m_button_30se.png','/webview.php/serialCode/index?0=',22,3,NULL,NULL);

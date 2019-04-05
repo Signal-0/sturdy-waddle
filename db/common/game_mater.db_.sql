@@ -349,6 +349,7 @@ INSERT INTO "strings_m" VALUES('reward',101,'%sで獲得');
 INSERT INTO "strings_m" VALUES('reward',105,'ラブカストーンピースが集まりました！');
 INSERT INTO "strings_m" VALUES('reward',110,'メドレー ミッションの報酬で獲得');
 INSERT INTO "strings_m" VALUES('reward',120,'イベントストーリーを解放しました');
+INSERT INTO "strings_m" VALUES('reward',121,'[%1$s]%2$sの賞品です');
 INSERT INTO "strings_m" VALUES('ui_reward',1,'受け取りました');
 INSERT INTO "strings_m" VALUES('ui_reward',2,'おまかせ転部で\n転部しました');
 INSERT INTO "strings_m" VALUES('deck_default_name',1,'ユニットA');
