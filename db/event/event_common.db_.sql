@@ -18438,15 +18438,15 @@ INSERT INTO "event_scenario_m" VALUES(188,142,'癒やしの温泉タイム',NULL
 INSERT INTO "event_scenario_m" VALUES(189,142,'みんなでティータイム♪',NULL,NULL,4,NULL,1002,NULL,14990,'2019/03/20 15:00:00',1953,1,1000,1200,1,NULL,NULL);
 INSERT INTO "event_scenario_m" VALUES(190,142,'Saint Snowを応援しよう！',NULL,NULL,5,NULL,1002,NULL,27490,'2019/03/20 15:00:00',1953,1,1000,1200,1,NULL,NULL);
 INSERT INTO "event_scenario_m" VALUES(191,142,'夢の時間、夢の続き',NULL,NULL,999,NULL,1002,NULL,0,'2019/03/31 15:10:00',1953,1,1000,1200,1,NULL,NULL);
-INSERT INTO "event_scenario_m" VALUES(192,143,'練習の後のお楽しみ',NULL,NULL,0,'assets/image/ui/eventscenario/143_se_ic_1.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,197);
-INSERT INTO "event_scenario_m" VALUES(193,143,'1話　ことりちゃんをお見送り',NULL,NULL,1,'assets/image/ui/eventscenario/143_se_ic_2.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,197);
-INSERT INTO "event_scenario_m" VALUES(194,143,'2話　みんなでお手伝い',NULL,NULL,2,'assets/image/ui/eventscenario/143_se_ic_3.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,197);
-INSERT INTO "event_scenario_m" VALUES(195,143,'3話　みんなでお出かけ開始',NULL,NULL,3,'assets/image/ui/eventscenario/143_se_ic_4.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,197);
-INSERT INTO "event_scenario_m" VALUES(196,143,'4話　運命の遭遇！？',NULL,NULL,4,'assets/image/ui/eventscenario/143_se_ic_5.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,197);
-INSERT INTO "event_scenario_m" VALUES(197,143,'5話　未知との遭遇！？',NULL,NULL,5,'assets/image/ui/eventscenario/143_se_ic_6.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,197);
-INSERT INTO "event_scenario_m" VALUES(198,143,'6話　至福のおやつタイム',NULL,NULL,6,'assets/image/ui/eventscenario/143_se_ic_7.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,197);
-INSERT INTO "event_scenario_m" VALUES(199,143,'7話　まだまだおやつタイム♪',NULL,NULL,7,'assets/image/ui/eventscenario/143_se_ic_8.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,197);
-INSERT INTO "event_scenario_m" VALUES(200,143,'音ノ木坂の特別な場所',NULL,NULL,999,'assets/image/ui/eventscenario/143_se_ic_9.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,197);
+INSERT INTO "event_scenario_m" VALUES(192,143,'練習の後のお楽しみ',NULL,NULL,0,'assets/image/ui/eventscenario/143_se_ic_1.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(193,143,'1話　ことりちゃんをお見送り',NULL,NULL,1,'assets/image/ui/eventscenario/143_se_ic_2.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(194,143,'2話　みんなでお手伝い',NULL,NULL,2,'assets/image/ui/eventscenario/143_se_ic_3.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(195,143,'3話　みんなでお出かけ開始',NULL,NULL,3,'assets/image/ui/eventscenario/143_se_ic_4.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(196,143,'4話　運命の遭遇！？',NULL,NULL,4,'assets/image/ui/eventscenario/143_se_ic_5.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(197,143,'5話　未知との遭遇！？',NULL,NULL,5,'assets/image/ui/eventscenario/143_se_ic_6.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(198,143,'6話　至福のおやつタイム',NULL,NULL,6,'assets/image/ui/eventscenario/143_se_ic_7.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(199,143,'7話　まだまだおやつタイム♪',NULL,NULL,7,'assets/image/ui/eventscenario/143_se_ic_8.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(200,143,'音ノ木坂の特別な場所',NULL,NULL,999,'assets/image/ui/eventscenario/143_se_ic_9.png',1001,NULL,0,'2019/04/05 15:00:00',1988,1,1000,1200,1,NULL,NULL);
 CREATE TABLE `event_scenario_setting_disp_m` (
     `event_scenario_setting_disp_id` INTEGER NOT NULL,
     `event_scenario_setting_id` INTEGER NOT NULL,
