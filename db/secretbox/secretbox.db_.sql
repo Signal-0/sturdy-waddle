@@ -959,5 +959,5 @@ INSERT INTO "secret_box_asset_m" VALUES(1999,1999,'assets/image/units/u_normal_c
 INSERT INTO "secret_box_asset_m" VALUES(2000,2000,'assets/image/units/u_normal_card_53103005.png','assets/image/units/u_rankup_card_53103005.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2001,2001,'assets/image/units/u_normal_card_41106004.png','assets/image/units/u_rankup_card_41106004.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2002,2002,'assets/image/units/u_rankup_card_42105007.png','assets/image/units/u_rankup_card_42105007.png',NULL,NULL,NULL);
-INSERT INTO "secret_box_asset_m" VALUES(2004,2004,'','','','Nbv4rOh2cuQHiiEusETI186ef2Fee5nM6fJJIFA5FfWMF7fCG3b19rqz5znlYIGtgLVpaISOUZyT5z9+98ktCPjWL3yamVbUCoZ19lxOcD/0Kz+huzd3vxD+JY1AukwZoG3SbJvnBTGWqK8OwRjri4eCfpG2g8ZUfPX0zTx2JckK9zc0YgvEGzkKE+8aHDMfCDx0aBawcWwzLUmc2oyXMf/EuIZl9xmBtxzjcJN+JrIkthIXLw8uj6mavwer+wBv',1241);
+INSERT INTO "secret_box_asset_m" VALUES(2004,2004,'assets/image/units/u_rankup_card_41006007.png','assets/image/units/u_rankup_card_41006007.png',NULL,NULL,1241);
 COMMIT;
