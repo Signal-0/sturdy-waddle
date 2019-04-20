@@ -959,5 +959,10 @@ INSERT INTO "secret_box_asset_m" VALUES(1999,1999,'assets/image/units/u_normal_c
 INSERT INTO "secret_box_asset_m" VALUES(2000,2000,'assets/image/units/u_normal_card_53103005.png','assets/image/units/u_rankup_card_53103005.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2001,2001,'assets/image/units/u_normal_card_41106004.png','assets/image/units/u_rankup_card_41106004.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2002,2002,'assets/image/units/u_rankup_card_42105007.png','assets/image/units/u_rankup_card_42105007.png',NULL,NULL,NULL);
-INSERT INTO "secret_box_asset_m" VALUES(2004,2004,'assets/image/units/u_rankup_card_41006007.png','assets/image/units/u_rankup_card_41006007.png',NULL,NULL,1241);
+INSERT INTO "secret_box_asset_m" VALUES(2004,2004,'assets/image/units/u_rankup_card_41006007.png','assets/image/units/u_rankup_card_41006007.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2010,2010,'assets/image/units/u_normal_card_42103006.png','assets/image/units/u_rankup_card_42103006.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2011,2011,'assets/image/units/u_normal_card_43104006.png','assets/image/units/u_rankup_card_43104006.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2012,2012,'assets/image/units/u_normal_card_41108005.png','assets/image/units/u_rankup_card_41108005.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2013,2013,'','','','J9/zPaUsJwmN0iOKySsydp9reqOe0K8RD+rCDkSDn+8FHC9a/wmWX86auc/Jaekh3xpTTwY0MaMlrmPFASqiN5XPUDVkiUmzBvfzGma0wOMQ+ssLB43GBlrSwPVYdmjjirauyNJRNIDVYsiVfHXS6kF7OlVY/ewXJtxk8r58TBFsqnxJMW0dWYAznBPV3kIex0iXahB2uKALUIa1RoXQ3yRNPDmvn2LB0OTqbu4ybZJyEahAbs0ri2wM5MFkbJ24',201);
+INSERT INTO "secret_box_asset_m" VALUES(2014,2014,'','','','eF5G2yQyc/nZc6zPsCqLL8TsCi1lxErRnFnrfEfL87FHjHBDRRdRmky32zXNy28S7YMeJklk/j+BaCFgiofUhKgTJrQUp3/4IDOj1SPCdDTTNVM0dGPQQUq5CdLOTqxsK4+l3iZrcLCzLMQYKB9icHghFbuX1Cfc2T7ZjDs5CFZuC+WniQqYyqRCqhQqIQjw3ye043HdAT/S1xoNQWjotMFltkHHJ222kiJu90nl5z1+BL0k0+thYnLafWTwhHJg',201);
 COMMIT;

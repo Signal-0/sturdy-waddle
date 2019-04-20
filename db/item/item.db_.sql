@@ -487,9 +487,13 @@ INSERT INTO "kg_item_m" VALUES(48,1,'【6周年記念】EXPアップのお守り
 INSERT INTO "kg_item_m" VALUES(49,1,'【6周年記念】絆Ptアップのお守り',49,1,1,'assets/image/item/item_49_m.png','assets/image/item/item_49_s.png','使用してから【10分】の間だけ獲得絆Ptを25%アップさせる','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(50,1,'【6周年記念】Gアップのお守り',50,1,1,'assets/image/item/item_50_m.png','assets/image/item/item_50_s.png','使用してから【10分】の間だけ獲得Gを25%アップさせる','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(51,1,'6周年!SSR以上11連勧誘チケット～μ''s～',51,1,1,'assets/image/item/item_51_m.png','assets/image/item/item_51_s.png','6周年!SSR以上11連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,39,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(52,1,'6周年!SSR以上11連勧誘チケット～Aqours～',52,1,1,'assets/image/item/item_52_m.png','assets/image/item/item_52_s.png','6周年!SSR以上11連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,40,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(53,1,'6周年!SR以上11連勧誘チケット～μ''s～',53,1,1,'assets/image/item/item_53_m.png','assets/image/item/item_53_s.png','6周年!SR以上11連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,41,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(54,1,'6周年!SR以上11連勧誘チケット～Aqours～',54,1,1,'assets/image/item/item_54_m.png','assets/image/item/item_54_s.png','6周年!SR以上11連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,42,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(56,1,'6周年!スペシャル勧誘チケット～μ''s～',56,1,1,'assets/image/item/item_56_m.png','assets/image/item/item_56_s.png','6周年!選べるメンバーUR1枚確定11連勧誘〜μ''s〜を行える',NULL,NULL,NULL,NULL,43,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(57,1,'6周年!スペシャル勧誘チケット～Aqours～',57,1,1,'assets/image/item/item_57_m.png','assets/image/item/item_57_s.png','6周年!選べるメンバーUR1枚確定11連勧誘〜Aqours〜を行える',NULL,NULL,NULL,NULL,44,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(59,1,'6周年!選べるメンバーUR1枚確定11連勧誘チケット～μ''s～',59,1,1,'assets/image/item/item_59_m.png','assets/image/item/item_59_s.png','6周年!選べるメンバーUR1枚確定11連勧誘〜μ''s〜を行える',NULL,NULL,NULL,NULL,45,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(60,1,'6周年!選べるメンバーUR1枚確定11連勧誘チケット～Aqours～',60,1,1,'assets/image/item/item_60_m.png','assets/image/item/item_60_s.png','6周年!選べるメンバーUR1枚確定11連勧誘〜Aqours〜を行える',NULL,NULL,NULL,NULL,46,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','ラブカストーンピース','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 CREATE TABLE `live_notes_icon_asset_m` (
