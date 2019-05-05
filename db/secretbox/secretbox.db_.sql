@@ -139,6 +139,10 @@ INSERT INTO "secret_box_asset_m" VALUES(375,375,'assets/image/units/u_normal_car
 INSERT INTO "secret_box_asset_m" VALUES(376,376,'assets/image/units/u_normal_card_32005006.png','assets/image/units/u_rankup_card_32005006.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(377,377,'assets/image/units/u_normal_card_33007006.png','assets/image/units/u_rankup_card_33007006.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(378,378,'assets/image/units/u_normal_card_42003006.png','assets/image/units/u_rankup_card_42003006.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(387,387,'assets/image/units/u_normal_card_41076001.png','assets/image/units/u_normal_card_41076001.png',NULL,NULL,203);
+INSERT INTO "secret_box_asset_m" VALUES(388,388,'assets/image/units/u_normal_card_42077001.png','assets/image/units/u_normal_card_42077001.png',NULL,NULL,203);
+INSERT INTO "secret_box_asset_m" VALUES(389,389,'assets/image/units/u_normal_card_43078001.png','assets/image/units/u_normal_card_43078001.png',NULL,NULL,203);
+INSERT INTO "secret_box_asset_m" VALUES(390,390,'assets/image/units/u_normal_card_45079001.png','assets/image/units/u_normal_card_45079001.png',NULL,NULL,203);
 INSERT INTO "secret_box_asset_m" VALUES(394,394,'assets/image/units/u_normal_card_33004009.png','assets/image/units/u_rankup_card_33004009.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(395,395,'assets/image/units/u_normal_card_31006006.png','assets/image/units/u_rankup_card_31006006.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(396,396,'assets/image/units/u_normal_card_32008009.png','assets/image/units/u_rankup_card_32008009.png',NULL,NULL,NULL);
@@ -437,6 +441,7 @@ INSERT INTO "secret_box_asset_m" VALUES(1077,1077,'assets/image/units/u_normal_c
 INSERT INTO "secret_box_asset_m" VALUES(1078,1078,'assets/image/units/u_normal_card_32109003.png','assets/image/units/u_rankup_card_32109003.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(1079,1079,'assets/image/units/u_normal_card_51106001.png','assets/image/units/u_rankup_card_51106001.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(1080,1080,'assets/image/units/u_normal_card_42107001.png','assets/image/units/u_rankup_card_42107001.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(1085,1085,'assets/image/units/u_normal_card_45115001.png','assets/image/units/u_normal_card_45115001.png',NULL,NULL,203);
 INSERT INTO "secret_box_asset_m" VALUES(1088,1088,'assets/image/units/u_normal_card_33009016.png','assets/image/units/u_rankup_card_33009016.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(1089,1089,'assets/image/units/u_normal_card_52004001.png','assets/image/units/u_rankup_card_52004001.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(1100,1100,'assets/image/units/u_normal_card_33101002.png','assets/image/units/u_rankup_card_33101002.png',NULL,NULL,NULL);
@@ -588,6 +593,7 @@ INSERT INTO "secret_box_asset_m" VALUES(1350,1350,'assets/image/units/u_normal_c
 INSERT INTO "secret_box_asset_m" VALUES(1351,1351,'assets/image/units/u_normal_card_31109005.png','assets/image/units/u_rankup_card_31109005.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(1352,1352,'assets/image/units/u_normal_card_52102002.png','assets/image/units/u_rankup_card_52102002.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(1353,1353,'assets/image/units/u_normal_card_43104003.png','assets/image/units/u_rankup_card_43104003.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(1359,1359,'assets/image/units/u_normal_card_43123001.png','assets/image/units/u_normal_card_43123001.png',NULL,NULL,203);
 INSERT INTO "secret_box_asset_m" VALUES(1366,1366,'assets/image/units/u_normal_card_31001031.png','assets/image/units/u_rankup_card_31001031.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(1367,1367,'assets/image/units/u_normal_card_42006004.png','assets/image/units/u_rankup_card_42006004.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(1369,1369,'assets/image/units/u_normal_card_31105005.png','assets/image/units/u_rankup_card_31105005.png',NULL,NULL,NULL);
@@ -963,11 +969,16 @@ INSERT INTO "secret_box_asset_m" VALUES(2004,2004,'assets/image/units/u_rankup_c
 INSERT INTO "secret_box_asset_m" VALUES(2010,2010,'assets/image/units/u_normal_card_42103006.png','assets/image/units/u_rankup_card_42103006.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2011,2011,'assets/image/units/u_normal_card_43104006.png','assets/image/units/u_rankup_card_43104006.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2012,2012,'assets/image/units/u_normal_card_41108005.png','assets/image/units/u_rankup_card_41108005.png',NULL,NULL,NULL);
-INSERT INTO "secret_box_asset_m" VALUES(2013,2013,'assets/image/units/u_normal_card_33006032.png','assets/image/units/u_rankup_card_33006032.png',NULL,NULL,201);
-INSERT INTO "secret_box_asset_m" VALUES(2014,2014,'assets/image/units/u_normal_card_51003002.png','assets/image/units/u_rankup_card_51003002.png',NULL,NULL,201);
+INSERT INTO "secret_box_asset_m" VALUES(2013,2013,'assets/image/units/u_normal_card_33006032.png','assets/image/units/u_rankup_card_33006032.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2014,2014,'assets/image/units/u_normal_card_51003002.png','assets/image/units/u_rankup_card_51003002.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2017,2017,'assets/image/units/u_normal_card_32103015.png','assets/image/units/u_rankup_card_32103015.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2018,2018,'assets/image/units/u_normal_card_31106010.png','assets/image/units/u_rankup_card_31106010.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2019,2019,'assets/image/units/u_normal_card_33109008.png','assets/image/units/u_rankup_card_33109008.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2020,2020,'assets/image/units/u_normal_card_51102005.png','assets/image/units/u_rankup_card_51102005.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2021,2021,'assets/image/units/u_normal_card_42101004.png','assets/image/units/u_rankup_card_42101004.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2026,2026,'assets/image/units/u_normal_card_43005005.png','assets/image/units/u_rankup_card_43005005.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2027,2027,'assets/image/units/u_normal_card_42006005.png','assets/image/units/u_rankup_card_42006005.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2028,2028,'assets/image/units/u_normal_card_41008006.png','assets/image/units/u_rankup_card_41008006.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2029,2029,'','','','t0qS4J6a7vQGUHS2sYpe4oD3EdFvuWUc0kVYxjeEp41n+q3Edix79Oha4+hAxL8jhXavri2wpOtMvGs6DDG7dA0sb/72zi/Z/iT7RvhmHYjuD5ttgjF37esYNAkcHrx8J5m5zQd/D2iKFJWIvAHH6TVNUIYOmoXx7rwcxlkq0iCtlj7Uwldrs3mZIMILzgLm/HFRwa7Cg1XfzUTG6XZFWtxeI2S+nXf9zxHpkScU2luNzWSXdMF00T7xxs5v78BS',204);
+INSERT INTO "secret_box_asset_m" VALUES(2030,2030,'','','','u+CtUWbC3UDbYSRp048U4U4vNtvL4rWWZzbawJiQJ49KYT7cVDQ6IAIHiAznWa7cYBlxA2SB+tIXeVHv61GLEWXxt2ZMr4QrZxOXl6D2lL443XVFTtQDwcDr5foy/EdVLtJUIznMtLsjQjxa5UC0zSRBdn0MDqI26rrSPoImIMXLI7Mzqg3lijk35RigqUIis/1eqVcCDhOyyaWmlQquX0OxDJO12rxwfOBOroE6k+HcYTzQzAJxJeYPrJyGrym7',204);
 COMMIT;

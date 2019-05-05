@@ -51,6 +51,7 @@ INSERT INTO "achievement_category_m" VALUES(43,'assets/image/achievement/tag_008
 INSERT INTO "achievement_category_m" VALUES(44,'assets/image/achievement/tag_008.png','2019/01/02 0:00:00','2019/01/05 14:59:59',0,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(45,'assets/image/achievement/tag_008.png','2019/01/11 0:00:00','2019/01/31 23:59:59',0,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(46,'assets/image/achievement/tag_008.png','2019/03/15 15:00:00','2019/03/31 14:59:59',0,NULL,NULL);
+INSERT INTO "achievement_category_m" VALUES(48,'assets/image/achievement/tag_008.png','2019/05/05 0:00:00','2019/05/15 14:59:59',0,NULL,NULL);
 CREATE TABLE `achievement_description_m` (
     `achievement_description_id` INTEGER NOT NULL,
     `achievement_type` INTEGER NOT NULL,
@@ -1304,6 +1305,18 @@ INSERT INTO "achievement_m" VALUES(10090178,'6周年記念デイリー課題','6
 INSERT INTO "achievement_m" VALUES(10090179,'6周年記念デイリー課題','6周年記念！もっとみんなでスコアマッチを4回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,10,NULL,NULL,NULL,NULL,NULL,4,NULL,'2019/4/16 0:00:00','2019/4/25 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090180,'6周年記念デイリー課題','6周年記念！もっとみんなでスコアマッチを5回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,10,NULL,NULL,NULL,NULL,NULL,5,NULL,'2019/4/16 0:00:00','2019/4/25 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090181,'6周年記念デイリー課題','6周年記念！もっとみんなでスコアマッチを6回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,10,NULL,NULL,NULL,NULL,NULL,6,NULL,'2019/4/16 0:00:00','2019/4/25 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090182,'母の日デイリーチャレンジ(μ''s)・その1','μ''sのメンバーが1人以上参加したユニットを使用してスコアランクB以上でライブを1回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,NULL,3,NULL,2,13,2,1,NULL,'2019/5/5 0:00:00','2019/5/15 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090183,'母の日デイリーチャレンジ(μ''s)・その2','μ''sのメンバーが1人以上参加したユニットを使用してコンボランクB以上でライブを1回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,NULL,NULL,3,2,13,2,1,NULL,'2019/5/5 0:00:00','2019/5/15 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090189,'母の日デイリーチャレンジ(μ''s)・その3','メドレーフェスティバルに1回参加する','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,5,NULL,NULL,NULL,NULL,NULL,1,NULL,'2019/5/5 0:00:00','2019/5/15 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090190,'母の日デイリーチャレンジ(μ''s)・その4','μ''sのメンバーが1人以上参加したユニットでライブを3回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,13,2,3,NULL,'2019/5/5 0:00:00','2019/5/15 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090191,'母の日記念課題(μ''s)・その1','母の日デイリーチャレンジ(μ''s)を累計9回クリアする','assets/image/achievement/tag_008.png',1,53,0,NULL,48,9,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/5/5 15:00:00','2019/5/15 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090192,'母の日記念課題(μ''s)・その2','母の日デイリーチャレンジ(μ''s)を累計18回クリアする','assets/image/achievement/tag_008.png',1,53,0,NULL,48,18,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/5/5 15:00:00','2019/5/15 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090193,'母の日記念課題(μ''s)・その3','母の日デイリーチャレンジ(μ''s)を累計27回クリアする','assets/image/achievement/tag_008.png',1,53,0,NULL,48,27,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/5/5 15:00:00','2019/5/15 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090194,'母の日記念課題(μ''s)・その4','母の日デイリーチャレンジ(μ''s)を累計36回クリアする','assets/image/achievement/tag_008.png',1,53,0,NULL,48,36,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/5/5 15:00:00','2019/5/15 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090195,'母の日記念課題(Aqours)・その1','Aqoursのメンバーが1人以上参加したユニットでライブを9回クリアする','assets/image/achievement/tag_008.png',1,50,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,113,2,9,NULL,'2019/5/5 15:00:00','2019/5/15 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090196,'母の日記念課題(Aqours)・その2','Aqoursのメンバーが1人以上参加したユニットでライブを18回クリアする','assets/image/achievement/tag_008.png',1,50,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,113,2,18,NULL,'2019/5/5 15:00:00','2019/5/15 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090197,'母の日記念課題(Aqours)・その3','Aqoursのメンバーが1人以上参加したユニットでライブを27回クリアする','assets/image/achievement/tag_008.png',1,50,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,113,2,27,NULL,'2019/5/5 15:00:00','2019/5/15 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090198,'母の日記念課題(Aqours)・その4','Aqoursのメンバーが1人以上参加したユニットでライブを36回クリアする','assets/image/achievement/tag_008.png',1,50,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,113,2,36,NULL,'2019/5/5 15:00:00','2019/5/15 14:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090199,'令和最初のライブ！',NULL,'assets/image/achievement/tag_008.png',1,1,0,NULL,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/5/1 0:00:00','2019/5/31 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090200,'令和最初のスコアランクS！',NULL,'assets/image/achievement/tag_008.png',1,3,0,NULL,1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/5/1 0:00:00','2019/5/31 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090201,'令和最初のFULL COMBO！',NULL,'assets/image/achievement/tag_008.png',1,4,0,NULL,1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/5/1 0:00:00','2019/5/31 23:59:59',1,1,NULL,NULL);
@@ -4213,6 +4226,22 @@ INSERT INTO "achievement_tag_m" VALUES(10090178,37);
 INSERT INTO "achievement_tag_m" VALUES(10090179,37);
 INSERT INTO "achievement_tag_m" VALUES(10090180,37);
 INSERT INTO "achievement_tag_m" VALUES(10090181,37);
+INSERT INTO "achievement_tag_m" VALUES(10090182,37);
+INSERT INTO "achievement_tag_m" VALUES(10090183,37);
+INSERT INTO "achievement_tag_m" VALUES(10090189,37);
+INSERT INTO "achievement_tag_m" VALUES(10090190,37);
+INSERT INTO "achievement_tag_m" VALUES(10090182,48);
+INSERT INTO "achievement_tag_m" VALUES(10090183,48);
+INSERT INTO "achievement_tag_m" VALUES(10090189,48);
+INSERT INTO "achievement_tag_m" VALUES(10090190,48);
+INSERT INTO "achievement_tag_m" VALUES(10090191,37);
+INSERT INTO "achievement_tag_m" VALUES(10090192,37);
+INSERT INTO "achievement_tag_m" VALUES(10090193,37);
+INSERT INTO "achievement_tag_m" VALUES(10090194,37);
+INSERT INTO "achievement_tag_m" VALUES(10090195,37);
+INSERT INTO "achievement_tag_m" VALUES(10090196,37);
+INSERT INTO "achievement_tag_m" VALUES(10090197,37);
+INSERT INTO "achievement_tag_m" VALUES(10090198,37);
 INSERT INTO "achievement_tag_m" VALUES(10090199,37);
 INSERT INTO "achievement_tag_m" VALUES(10090200,37);
 INSERT INTO "achievement_tag_m" VALUES(10090201,37);
