@@ -1,7 +1,7 @@
 BEGIN TRANSACTION;
 CREATE TABLE `included_pkg_m` (
-    `pkg_type`  INTEGER NOT NULL,
-    `pkg_id`  INTEGER NOT NULL,
+    `pkg_type` INTEGER NOT NULL,
+    `pkg_id` INTEGER NOT NULL,
     PRIMARY KEY (`pkg_type`,`pkg_id`)
 );
 INSERT INTO "included_pkg_m" VALUES(1,1);

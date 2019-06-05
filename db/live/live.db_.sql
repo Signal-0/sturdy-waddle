@@ -20916,6 +20916,18 @@ INSERT INTO "live_goal_reward_m" VALUES(20673,2602,3,4,3002,2,2,500,NULL);
 INSERT INTO "live_goal_reward_m" VALUES(20674,2602,3,3,3002,2,2,1000,NULL);
 INSERT INTO "live_goal_reward_m" VALUES(20675,2602,3,2,3001,4,4,1,NULL);
 INSERT INTO "live_goal_reward_m" VALUES(20676,2602,3,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20677,2603,1,4,3000,3,3,10000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20678,2603,1,3,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20679,2603,1,2,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20680,2603,1,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20681,2603,2,4,3000,3,3,10000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20682,2603,2,3,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20683,2603,2,2,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20684,2603,2,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20685,2603,3,4,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20686,2603,3,3,3002,2,2,1000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20687,2603,3,2,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(20688,2603,3,1,3001,4,4,1,NULL);
 CREATE TABLE `live_note_score_factor_m` (
     `effect_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,
@@ -22087,6 +22099,7 @@ INSERT INTO "live_setting_m" VALUES(1121,570,2,4,3,'assets/image/live/live_icon/
 INSERT INTO "live_setting_m" VALUES(1122,570,3,6,3,'assets/image/live/live_icon/j_aq_0570.png',NULL,6,'Live_s1122.json',34850,87125,104550,121975,62,103,144,205,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(1123,570,4,9,3,'assets/image/live/live_icon/j_aq_0570.png',NULL,9,'Live_s1123.json',67098,167904,201294,235002,96,159,223,318,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(1124,499,6,12,2,'assets/image/live/live_icon/j_aq_0499.png',NULL,125,'Live_s1124.json',132614,331848,397841,464462,219,364,510,728,0,1,NULL,NULL);
+INSERT INTO "live_setting_m" VALUES(1125,500,6,12,3,'assets/image/live/live_icon/j_aq_0500.png',NULL,125,'Live_s1125.json',177240,443520,531720,620760,252,420,588,840,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10398,449,4,11,3,'assets/image/live/live_icon/j_bd2_02_01.png',NULL,32,'Live_s0398.json',113307,283536,339921,396843,162,269,376,537,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10654,494,4,10,1,'assets/image/live/live_icon/j_cdsp_02.png',NULL,10,'Live_s0654.json',101280,253440,303840,354720,144,240,336,480,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10779,510,4,10,1,'assets/image/live/live_icon/j_aq_0509.png',NULL,10,'Live_s0779.json',121536,304128,364608,425664,173,288,404,576,0,0,NULL,NULL);
@@ -22326,7 +22339,7 @@ INSERT INTO "live_track_m" VALUES(566,'Brightest Melody','フライテストメ�
 INSERT INTO "live_track_m" VALUES(567,'Believe again','ヒリイフアケイン','assets/image/live/title/t_aq_0567.png','assets/sound/music/m_208.mp3',2,13,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(568,'Over The Next Rainbow','オオハアサネクストレインホオ','assets/image/live/title/t_aq_0568.png','assets/sound/music/m_209.mp3',2,57,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(569,'サクラバイバイ','サクラハイハイ','assets/image/live/title/t_aq_0569.png','assets/sound/music/m_212.mp3',2,9,NULL,NULL);
-INSERT INTO "live_track_m" VALUES(570,'No.10','ナンハアテン','assets/image/live/title/t_aq_0570.png','assets/sound/music/m_190.mp3',2,5,NULL,208);
+INSERT INTO "live_track_m" VALUES(570,'No.10','ナンハアテン','assets/image/live/title/t_aq_0570.png','assets/sound/music/m_190.mp3',2,5,NULL,NULL);
 CREATE TABLE `live_unit_reward_lot_m` (
     `live_unit_reward_lot_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,
@@ -23877,6 +23890,7 @@ INSERT INTO "special_live_m" VALUES(2586,1113,1,25,15,30,60,150,0,0,0);
 INSERT INTO "special_live_m" VALUES(2591,1114,1,25,15,30,60,150,0,0,0);
 INSERT INTO "special_live_m" VALUES(2592,1115,1,25,15,30,60,150,0,0,0);
 INSERT INTO "special_live_m" VALUES(2602,1124,1,25,15,30,60,150,0,0,0);
+INSERT INTO "special_live_m" VALUES(2603,1125,1,25,15,30,60,150,0,0,0);
 CREATE TABLE `special_live_rotation_m` (
     `rotation_group_id` INTEGER NOT NULL,
     `live_difficulty_id` INTEGER NOT NULL,
