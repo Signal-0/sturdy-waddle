@@ -256,6 +256,8 @@ INSERT INTO "sort_condition_m" VALUES(275,31,1,'出現順（降順）');
 INSERT INTO "sort_condition_m" VALUES(276,31,2,'出現順（昇順）');
 INSERT INTO "sort_condition_m" VALUES(277,31,3,'レベル（降順）');
 INSERT INTO "sort_condition_m" VALUES(278,31,4,'レベル（昇順）');
+INSERT INTO "sort_condition_m" VALUES(280,32,1,'SCORE順');
+INSERT INTO "sort_condition_m" VALUES(281,32,2,'COMBO順');
 CREATE TABLE `strings_m` (
     `string_key` TEXT NOT NULL,
     `string_value` INTEGER NOT NULL,
@@ -397,12 +399,12 @@ INSERT INTO "strings_m" VALUES('dialog_live_menu',3,'\n%s\nライブで小説を
 INSERT INTO "strings_m" VALUES('dialog_live_menu',4,'\n\n部員数が上限に達しています\n');
 INSERT INTO "strings_m" VALUES('dialog_live_menu',5,'<center>今回ヘルプしてくれた学院生に\n友達申請しますか？');
 INSERT INTO "strings_m" VALUES('dialog_live_menu',6,'<center>友達申請しました');
-INSERT INTO "strings_m" VALUES('dialog_live_menu',7,'<center>ＬＰの最大値が\n%s→%sになりました！');
-INSERT INTO "strings_m" VALUES('dialog_live_menu',8,'<center>友達数の上限が\n%s→%sになりました！');
-INSERT INTO "strings_m" VALUES('dialog_live_menu',9,'<center>部員数の上限が\n%s→%sになりました！');
-INSERT INTO "strings_m" VALUES('dialog_live_menu',10,'%s');
+INSERT INTO "strings_m" VALUES('dialog_live_menu',7,'<center>ＬＰの最大値が%s→%sになりました！\n');
+INSERT INTO "strings_m" VALUES('dialog_live_menu',8,'<center>友達数の上限が%s→%sになりました！\n');
+INSERT INTO "strings_m" VALUES('dialog_live_menu',9,'<center>部員数の上限が%s→%sになりました！\n');
+INSERT INTO "strings_m" VALUES('dialog_live_menu',10,'<center>Rankが%s→%sになりました！\n\n%s');
 INSERT INTO "strings_m" VALUES('dialog_live_menu',11,'%s\n\n高難易度の譜面です\nライブ失敗となった場合でもLPは消費され、\n報酬も受け取れませんのでご注意下さい');
-INSERT INTO "strings_m" VALUES('dialog_live_menu',12,'<center>プレイ回数の上限が\n%s→%sになりました！');
+INSERT INTO "strings_m" VALUES('dialog_live_menu',12,'<center>プレイ回数の上限が%s→%sになりました！\n');
 INSERT INTO "strings_m" VALUES('dialog_live_menu',13,'<center>プレイ回数が残っていません\n\nプレイ回数は翌日0時に回復します。');
 INSERT INTO "strings_m" VALUES('dialog_login',2,'<center>名前を入力してください');
 INSERT INTO "strings_m" VALUES('dialog_login',3,'<center>登録しました！\n\n続いて『ライブ』をおこなう『ユニット』の\n中心になるメンバーを選択します');
@@ -500,6 +502,8 @@ INSERT INTO "strings_m" VALUES('dialog_common',26,'\n\n回復アイテムが上�
 INSERT INTO "strings_m" VALUES('dialog_common',27,'\n\n%sが上限に達しています\n\n%sを減らしてから\nプレゼントボックスで受取ってください\n');
 INSERT INTO "strings_m" VALUES('dialog_common',28,'\n\n<item_icon %s>%sを%s%s\n受取りました');
 INSERT INTO "strings_m" VALUES('dialog_common',29,'\n\n<item_icon %s>%sをプレゼントBOXに送りました');
+INSERT INTO "strings_m" VALUES('dialog_common',30,'イベント達成報酬\n以下を獲得しました');
+INSERT INTO "strings_m" VALUES('dialog_common',31,'イベント達成報酬\nプレゼントボックスで受け取ってください');
 INSERT INTO "strings_m" VALUES('dialog_common',4000,'<center>%sを%s個獲得しました\nプレゼントボックスで受取ってください');
 INSERT INTO "strings_m" VALUES('dialog_common',5100,'%s\nを獲得しました');
 INSERT INTO "strings_m" VALUES('dialog_common',5200,'%s\nを獲得しました');
@@ -734,6 +738,9 @@ INSERT INTO "strings_m" VALUES('mes_login',20,'利用規約が改定されまし
 INSERT INTO "strings_m" VALUES('mes_login',21,'利用規約23条が改定されました。\nこの改定により、「資金決済法に基づく表示」ページに\n記載されているゲーム内コンテンツにより得られた\nその他のゲーム内コンテンツは、\n前払い式支払手段に該当しないことが明記されました。\n\n内容をご確認の上、同意いただける場合は\n「利用規約改定に同意する」をチェックしてください。');
 INSERT INTO "strings_m" VALUES('mes_login',26,'『ライブ』に参加させたいメンバーを選択してください');
 INSERT INTO "strings_m" VALUES('mes_login',27,'タップするとメンバーの詳細が確認できます');
+INSERT INTO "strings_m" VALUES('live_custom',1,'保存されませんがよろしいですか？');
+INSERT INTO "strings_m" VALUES('live_custom',2,'この設定を保存します\nよろしいですか？');
+INSERT INTO "strings_m" VALUES('live_custom',3,'タイミング調整に遷移すると、この変更設定は保存されません\nよろしいですか？');
 INSERT INTO "strings_m" VALUES('mes_live',1,'\n%s\nライブの%sが\n解禁されました！\n\n');
 INSERT INTO "strings_m" VALUES('mes_live',2,'\n%s\n%sの\n%sが解禁されました！\n\n');
 INSERT INTO "strings_m" VALUES('mes_live',3,'\n\n\n\nメインストーリー%sの%sが\n解禁されました！\n\n');
@@ -1222,7 +1229,6 @@ INSERT INTO "strings_m" VALUES('error_code',3422,'<center>ライブ終了時に�
 INSERT INTO "strings_m" VALUES('error_code',3450,'プライベートマッチが見つかりません\n\nIDを確認してください');
 INSERT INTO "strings_m" VALUES('error_code',3451,'定員に達したため\nこのプライベートマッチには参加できません');
 INSERT INTO "strings_m" VALUES('error_code',3452,'定員に達していないため\nこのプライベートマッチは開始できません');
-INSERT INTO "strings_m" VALUES('error_code',3454,'みんなでスコアマッチの開催期間が変更されました（楽曲リストが更新されます）');
 INSERT INTO "strings_m" VALUES('error_code',3455,'おでかけマッチの開催期間は終了しました');
 INSERT INTO "strings_m" VALUES('error_code',3457,'一定期間アクセスがなかったため退出しました');
 INSERT INTO "strings_m" VALUES('error_code',4601,'自分をブロックできません');
@@ -1434,6 +1440,7 @@ INSERT INTO "strings_m" VALUES('achievement',10,'詳細');
 INSERT INTO "strings_m" VALUES('achievement',11,'イベントストーリー\n%sの%s話が\n解禁されました！');
 INSERT INTO "strings_m" VALUES('achievement',12,'報酬を獲得しました！');
 INSERT INTO "strings_m" VALUES('achievement',13,'控え室の上限増加 +%d');
+INSERT INTO "strings_m" VALUES('achievement',14,'以下のストーリーを解禁しました');
 INSERT INTO "strings_m" VALUES('exchange_common',1,'交換が完了しました');
 INSERT INTO "strings_m" VALUES('exchange_common',2,'<center>シールを入手しました');
 INSERT INTO "strings_m" VALUES('exchange_common',3,'取得 %s           %2d 枚');
@@ -1742,16 +1749,10 @@ INSERT INTO "strings_m" VALUES('birthday_registration',9,'<center>誕生日を�
 INSERT INTO "strings_m" VALUES('birthday_registration',10,'あなたの生まれた月と日を正しく入力してください');
 INSERT INTO "strings_m" VALUES('birthday_registration_error',1120,'<center>入力内容に誤りがあります');
 INSERT INTO "strings_m" VALUES('birthday_registration_error',1121,'<center>既に誕生日が登録されています');
-INSERT INTO "strings_m" VALUES('duel_select',1,'遊び方選択');
 INSERT INTO "strings_m" VALUES('duel_difficulty',1,'消費');
 INSERT INTO "strings_m" VALUES('duel_difficulty',2,'：%d');
 INSERT INTO "strings_m" VALUES('duel_live_menu',1,'楽曲を選択してください');
 INSERT INTO "strings_m" VALUES('duel_confirmation',1,'<center>難易度EASYで\nみんなでスコアマッチに参加しますか？\n<color ad0c12>※♪を消費します</color>');
-INSERT INTO "strings_m" VALUES('duel_confirmation',2,'<center>難易度NORMALで\nみんなでスコアマッチに参加しますか？\n<color ad0c12>※♪を消費します</color>');
-INSERT INTO "strings_m" VALUES('duel_confirmation',3,'<center>難易度HARDで\nみんなでスコアマッチに参加しますか？\n<color ad0c12>※♪を消費します</color>');
-INSERT INTO "strings_m" VALUES('duel_confirmation',4,'<center>難易度EXPERTで\nみんなでスコアマッチに参加しますか？\n<color ad0c12>※♪を消費します</color>');
-INSERT INTO "strings_m" VALUES('duel_confirmation',5,'<center>難易度TECHNICALで\nみんなでスコアマッチに参加しますか？\n<color ad0c12>※♪を消費します\n\n<color ad0c12>※TECHNICALでは、「ランダムEXPERT楽曲」と\n<color ad0c12>一部の「日替わりEXPERT楽曲」が選曲されます');
-INSERT INTO "strings_m" VALUES('duel_confirmation',6,'<center>難易度MASTERで\nみんなでスコアマッチに参加しますか？\n<color ad0c12>※♪を消費します\n\n<color ad0c12>※高難易度楽曲が出現する上級者向けの難易度です。\n<color ad0c12>みんなでスコアマッチはコンティニューができないため\n<color ad0c12>プレイされる際はご注意下さい');
 INSERT INTO "strings_m" VALUES('duel_error',1,'♪が不足しているためプレイする事が出来ません');
 INSERT INTO "strings_m" VALUES('duel_error',2,'\n\n%sでエラーが発生しました。\nみんなでスコアマッチトップに戻ります');
 INSERT INTO "strings_m" VALUES('duel_alert',1,'<center>結果発表に間に合わなかったため、\n他のメンバーが優先的に順位付けされました。');
@@ -1770,6 +1771,7 @@ INSERT INTO "strings_m" VALUES('reward_sell_condition',1,'<center>以下のN部�
 INSERT INTO "strings_m" VALUES('cache_clear',1,'アプリ内のダウンロードデータを削除します\n必要なデータは、次回ログイン時に\n自動的にダウンロードが開始されます\n<red>※この操作ではユーザーデータは消えません\n※削除に時間を要することがございます</red>\n\n実行しますか？');
 INSERT INTO "strings_m" VALUES('cache_clear',2,'データ削除中です。\n削除中はアプリの終了や電源のオフはしないでください\n削除には時間がかかる場合がございます');
 INSERT INTO "strings_m" VALUES('cache_clear',3,'データ削除が完了しました。\nアプリを再起動します');
+INSERT INTO "strings_m" VALUES('cache_clear',4,'データも削除する');
 INSERT INTO "strings_m" VALUES('replay_confirm',1,'リプレイを再生しますか？');
 INSERT INTO "strings_m" VALUES('replay_confirm',2,'リプレイを終了しますか？');
 INSERT INTO "strings_m" VALUES('stamp_customize_text',1,'マイセット');

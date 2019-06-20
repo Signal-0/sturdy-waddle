@@ -1934,6 +1934,8 @@ CREATE TABLE `event_quest_pair_pin_asset_m` (
     `release_tag` TEXT, `_encryption_release_id` INTEGER NULL,
     PRIMARY KEY (`event_quest_pin_id`)
 );
+INSERT INTO "event_quest_pair_pin_asset_m" VALUES(98,'assets/image/quest/pin/quest_window_02.png',NULL,NULL,NULL,NULL);
+INSERT INTO "event_quest_pair_pin_asset_m" VALUES(109,'assets/image/quest/pin/quest_window_01.png',1128,354,NULL,NULL);
 CREATE TABLE `event_quest_pin_asset_m` (
     `event_quest_pin_asset_id` INTEGER NOT NULL,
     `enable_asset` TEXT,
@@ -2042,8 +2044,8 @@ INSERT INTO "event_quest_pin_asset_m" VALUES(94,'assets/image/quest/pin/quest_bu
 INSERT INTO "event_quest_pin_asset_m" VALUES(95,'assets/image/quest/pin/quest_building_03.png','assets/image/quest/pin/quest_building_03wh.png','assets/image/quest/pin/quest_basic_icon_lock.png','assets/image/quest/pin/quest_window_01.png','assets/image/quest/pin/quest_building_03se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(96,'assets/image/quest/pin/quest_building_04.png','assets/image/quest/pin/quest_building_04wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_building_04se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(97,'assets/image/quest/pin/quest_building_05.png','assets/image/quest/pin/quest_building_05wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_building_05se.png',NULL,NULL,NULL);
-INSERT INTO "event_quest_pin_asset_m" VALUES(98,'assets/image/quest/pin/quest_building_06.png','assets/image/quest/pin/quest_building_06wh.png','assets/image/quest/pin/quest_basic_icon_lock.png','assets/image/quest/pin/quest_window_02.png','assets/image/quest/pin/quest_building_06se.png',NULL,NULL,NULL);
-INSERT INTO "event_quest_pin_asset_m" VALUES(99,'assets/image/quest/pin/quest_building_07.png','assets/image/quest/pin/quest_building_07wh.png','assets/image/quest/pin/quest_basic_icon_lock.png','assets/image/quest/pin/quest_window_02.png','assets/image/quest/pin/quest_building_07se.png',NULL,NULL,NULL);
+INSERT INTO "event_quest_pin_asset_m" VALUES(98,'assets/image/quest/pin/quest_building_06.png','assets/image/quest/pin/quest_building_06wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_building_06se.png',NULL,NULL,NULL);
+INSERT INTO "event_quest_pin_asset_m" VALUES(99,'assets/image/quest/pin/quest_building_07.png','assets/image/quest/pin/quest_building_07wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_building_07se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(100,'assets/image/quest/pin/quest_building_08.png','assets/image/quest/pin/quest_building_08wh.png','assets/image/quest/pin/quest_basic_icon_lock.png','assets/image/quest/pin/quest_window_03.png','assets/image/quest/pin/quest_building_08se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(101,'assets/image/quest/pin/quest_challenge_building_smile.png','assets/image/quest/pin/quest_challenge_building_smile_wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_challenge_building_smile_se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(102,'assets/image/quest/pin/quest_challenge_building_pure.png','assets/image/quest/pin/quest_challenge_building_pure_wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_challenge_building_pure_se.png',NULL,NULL,NULL);
@@ -2053,7 +2055,7 @@ INSERT INTO "event_quest_pin_asset_m" VALUES(105,'assets/image/quest/pin/quest_b
 INSERT INTO "event_quest_pin_asset_m" VALUES(106,'assets/image/quest/pin/quest_basic_icon_secret.png','assets/image/quest/pin/quest_basic_icon_secret_wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_basic_icon_secret_se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(107,'assets/image/quest/pin/quest_basic_icon_secret.png','assets/image/quest/pin/quest_basic_icon_secret_wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_basic_icon_secret_se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(108,'assets/image/quest/pin/quest_basic_icon_secret.png','assets/image/quest/pin/quest_basic_icon_secret_wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_basic_icon_secret_se.png',NULL,NULL,NULL);
-INSERT INTO "event_quest_pin_asset_m" VALUES(109,'assets/image/quest/pin/quest_building_01.png','assets/image/quest/pin/quest_building_01wh.png','assets/image/quest/pin/quest_basic_icon_lock.png','assets/image/quest/pin/quest_window_01.png','assets/image/quest/pin/quest_building_01se.png',NULL,NULL,NULL);
+INSERT INTO "event_quest_pin_asset_m" VALUES(109,'assets/image/quest/pin/quest_building_01.png','assets/image/quest/pin/quest_building_01wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_building_01se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(110,'assets/image/quest/pin/quest_building_02.png','assets/image/quest/pin/quest_building_02wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_building_02se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(111,'assets/image/quest/pin/quest_building_03.png','assets/image/quest/pin/quest_building_03wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_building_03se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(112,'assets/image/quest/pin/quest_building_04.png','assets/image/quest/pin/quest_building_04wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_building_04se.png',NULL,NULL,NULL);
@@ -2061,7 +2063,7 @@ INSERT INTO "event_quest_pin_asset_m" VALUES(113,'assets/image/quest/pin/quest_b
 INSERT INTO "event_quest_pin_asset_m" VALUES(114,'assets/image/quest/pin/quest_building_06.png','assets/image/quest/pin/quest_building_06wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_building_06se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(115,'assets/image/quest/pin/quest_building_07.png','assets/image/quest/pin/quest_building_07wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_building_07se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(116,'assets/image/quest/pin/quest_building_08.png','assets/image/quest/pin/quest_building_08wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_building_08se.png',NULL,NULL,NULL);
-INSERT INTO "event_quest_pin_asset_m" VALUES(117,'assets/image/quest/pin/quest_building_09.png','assets/image/quest/pin/quest_building_09wh.png','assets/image/quest/pin/quest_basic_icon_lock.png','assets/image/quest/pin/quest_window_01.png','assets/image/quest/pin/quest_building_09se.png',NULL,NULL,NULL);
+INSERT INTO "event_quest_pin_asset_m" VALUES(117,'assets/image/quest/pin/quest_building_09.png','assets/image/quest/pin/quest_building_09wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_building_09se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(118,'assets/image/quest/pin/quest_challenge_building_smile.png','assets/image/quest/pin/quest_challenge_building_smile_wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_challenge_building_smile_se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(119,'assets/image/quest/pin/quest_challenge_building_pure.png','assets/image/quest/pin/quest_challenge_building_pure_wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_challenge_building_pure_se.png',NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_asset_m" VALUES(120,'assets/image/quest/pin/quest_challenge_building_cool.png','assets/image/quest/pin/quest_challenge_building_cool_wh.png','assets/image/quest/pin/quest_basic_icon_lock.png',NULL,'assets/image/quest/pin/quest_challenge_building_cool_se.png',NULL,NULL,NULL);
@@ -2197,8 +2199,8 @@ INSERT INTO "event_quest_pin_m" VALUES(94,134,711,363,'カラオケ\nルーム',
 INSERT INTO "event_quest_pin_m" VALUES(95,134,1134,1062,'善子の部屋',2,NULL,95,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(96,134,1325,951,'グランマ',3,NULL,96,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(97,134,797,733,'商店街',4,NULL,97,NULL,NULL,NULL);
-INSERT INTO "event_quest_pin_m" VALUES(98,134,792,1091,'千歌の部屋',5,NULL,98,NULL,NULL,NULL);
-INSERT INTO "event_quest_pin_m" VALUES(99,134,792,1091,'千歌の家の\n温泉',6,NULL,99,98,NULL,NULL);
+INSERT INTO "event_quest_pin_m" VALUES(98,134,792,1091,'千歌の部屋',5,NULL,98,99,NULL,NULL);
+INSERT INTO "event_quest_pin_m" VALUES(99,134,957,1091,'千歌の家の\n温泉',6,NULL,99,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(100,134,211,1004,'海辺',999,NULL,100,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(101,134,139,477,'チャレンジ\nスポット',NULL,NULL,101,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(102,134,1339,691,'チャレンジ\nスポット',NULL,NULL,102,NULL,NULL,NULL);
@@ -2208,7 +2210,7 @@ INSERT INTO "event_quest_pin_m" VALUES(105,134,424,503,'シークレットスポ
 INSERT INTO "event_quest_pin_m" VALUES(106,134,459,701,'シークレットスポット',NULL,NULL,106,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(107,134,926,517,'シークレットスポット',NULL,NULL,107,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(108,134,631,951,'シークレットスポット',NULL,NULL,108,NULL,NULL,NULL);
-INSERT INTO "event_quest_pin_m" VALUES(109,138,1073,476,'松月',0,NULL,109,NULL,NULL,NULL);
+INSERT INTO "event_quest_pin_m" VALUES(109,138,1073,476,'松月',0,NULL,109,117,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(110,138,970,747,'コロッセオ',1,NULL,110,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(111,138,1266,895,'カラカラ浴場',2,NULL,111,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(112,138,756,868,'真実の口',3,NULL,112,NULL,NULL,NULL);
@@ -2216,7 +2218,7 @@ INSERT INTO "event_quest_pin_m" VALUES(113,138,162,1044,'サン・ピエトロ\n
 INSERT INTO "event_quest_pin_m" VALUES(114,138,105,774,'サンタンジェロ\n城',5,NULL,114,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(115,138,471,712,'トレビの泉',6,NULL,115,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(116,138,337,612,'スペイン広場',7,NULL,116,NULL,NULL,NULL);
-INSERT INTO "event_quest_pin_m" VALUES(117,138,1073,476,'沼津駅',999,NULL,117,109,NULL,NULL);
+INSERT INTO "event_quest_pin_m" VALUES(117,138,1264,476,'沼津駅',999,NULL,117,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(118,138,805,565,'チャレンジ\nスポット',NULL,NULL,118,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(119,138,363,929,'チャレンジ\nスポット',NULL,NULL,119,NULL,NULL,NULL);
 INSERT INTO "event_quest_pin_m" VALUES(120,138,1243,680,'チャレンジ\nスポット',NULL,NULL,120,NULL,NULL,NULL);

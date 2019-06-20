@@ -8,66 +8,86 @@ CREATE TABLE `duel_common_asset_m` (
     `release_tag` TEXT, `_encryption_release_id` INTEGER NULL,
     PRIMARY KEY (`duel_common_asset_id`)
 );
-INSERT INTO "duel_common_asset_m" VALUES(102,1,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(103,1,2,2,'assets/image/duel/rule/rule_01_02.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(104,1,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(105,1,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(106,1,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(107,1,3,1,'assets/image/duel/top/top_01.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(108,2,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(109,2,2,2,'assets/image/duel/rule/rule_01_02.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(110,2,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(111,2,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(112,2,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(113,2,3,1,'assets/image/duel/top/top_01.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(114,3,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(115,3,2,2,'assets/image/duel/rule/rule_01_02.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(116,3,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(117,3,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(118,3,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(119,3,3,1,'assets/image/duel/top/top_01bg.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(120,3,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(121,3,6,1,'assets/image/duel/top/top_01info.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(122,4,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(123,4,2,2,'assets/image/duel/rule/rule_01_02.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(124,4,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(125,4,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(126,4,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(127,4,3,1,'assets/image/duel/top/top_01bg.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(128,4,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(129,4,6,1,'assets/image/duel/top/top_01info.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(130,5,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(131,5,2,2,'assets/image/duel/rule/rule_01_02.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(132,5,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(133,5,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(134,5,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(135,5,3,1,'assets/image/duel/top/top_01bg.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(136,5,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(137,5,6,1,'assets/image/duel/top/top_01info.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(138,6,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(139,6,2,2,'assets/image/duel/rule/rule_01_02.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(140,6,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(141,6,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(142,6,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(143,6,3,1,'assets/image/duel/top/top_01bg.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(144,6,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(145,6,6,1,'assets/image/duel/top/top_01info.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(146,7,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(147,7,2,2,'assets/image/duel/rule/rule_01_02.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(148,7,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(149,7,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(150,7,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(151,7,3,1,'assets/image/duel/top/top_01bg.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(152,7,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(153,7,6,1,'assets/image/duel/top/top_01info.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(154,8,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(155,8,2,2,'assets/image/duel/rule/rule_01_02.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(156,8,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(157,8,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(158,8,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(159,8,3,1,'assets/image/duel/top/top_01bg.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(160,8,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(161,8,6,1,'assets/image/duel/top/top_01info.png',NULL,NULL);
+CREATE TABLE `duel_deck_mark_base_m` (
+    `duel_deck_mark_base_id` INTEGER NOT NULL,
+    `mark1_start_num` INTEGER NOT NULL,
+    `mark1_end_num` INTEGER NOT NULL,
+    `mark2_start_num` INTEGER NOT NULL,
+    `mark2_end_num` INTEGER NOT NULL,
+    `mark3_start_num` INTEGER NOT NULL,
+    `mark3_end_num` INTEGER NOT NULL,
+    `center_mark_id` INTEGER NOT NULL,
+    `deck_mark_id` INTEGER NOT NULL,
+    PRIMARY KEY (`duel_deck_mark_base_id`)
+);
+CREATE TABLE `duel_deck_mark_remainder_m` (
+    `duel_deck_mark_remainder_id` INTEGER NOT NULL,
+    `remainder` INTEGER NOT NULL,
+    `center_mark_id` INTEGER NOT NULL,
+    `deck_mark_id` INTEGER NOT NULL,
+    PRIMARY KEY (`duel_deck_mark_remainder_id`)
+);
+CREATE TABLE `duel_deck_mark_term_m` (
+    `duel_deck_mark_term_id` INTEGER NOT NULL,
+    `term_id` INTEGER NOT NULL,
+    `mark1_start_num` INTEGER NOT NULL,
+    `mark1_end_num` INTEGER NOT NULL,
+    `mark2_start_num` INTEGER NOT NULL,
+    `mark2_end_num` INTEGER NOT NULL,
+    `mark3_start_num` INTEGER NOT NULL,
+    `mark3_end_num` INTEGER NOT NULL,
+    `center_mark_id` INTEGER NOT NULL,
+    `deck_mark_id` INTEGER NOT NULL,
+    PRIMARY KEY (`duel_deck_mark_term_id`)
+);
+CREATE TABLE `duel_energy_m` (
+    `duel_energy_id` INTEGER NOT NULL,
+    `duel_energy_icon_asset` TEXT NOT NULL,
+    `duel_energy_icon_se_asset` TEXT NOT NULL,
+    `duel_energy_recovery_time` INTEGER NOT NULL,
+    `duel_energy_recovery_cost` INTEGER,
+    `release_tag` TEXT, `_encryption_release_id` INTEGER NULL,
+    PRIMARY KEY (`duel_energy_id`)
+);
+CREATE TABLE `duel_fever_combo_trigger_m` (
+    `duel_fever_combo_trigger_group_id` INTEGER NOT NULL,
+    `combo_count` INTEGER NOT NULL,
+    `fever_time` REAL NOT NULL,
+    PRIMARY KEY (`duel_fever_combo_trigger_group_id`,`combo_count`)
+);
+CREATE TABLE `duel_fever_notes_trigger_m` (
+    `duel_fever_notes_trigger_group_id` INTEGER NOT NULL,
+    `tap_type` INTEGER NOT NULL,
+    `fever_time` REAL NOT NULL,
+    PRIMARY KEY (`duel_fever_notes_trigger_group_id`,`tap_type`)
+);
+CREATE TABLE `duel_fever_skill_level_m` (
+    `duel_fever_skill_id` INTEGER NOT NULL,
+    `skill_level` INTEGER NOT NULL,
+    `description` TEXT NOT NULL,
+    `long_description` TEXT,
+    `effect_value` REAL NOT NULL,
+    PRIMARY KEY (`duel_fever_skill_id`,`skill_level`)
+);
+CREATE TABLE `duel_fever_skill_m` (
+    `duel_fever_skill_id` INTEGER NOT NULL,
+    `name` TEXT NOT NULL,
+    `skill_name_asset` TEXT,
+    `max_level` INTEGER NOT NULL,
+    `skill_effect_type` INTEGER NOT NULL,
+    `release_tag` TEXT, `_encryption_release_id` INTEGER NULL,
+    PRIMARY KEY (`duel_fever_skill_id`)
+);
+CREATE TABLE `duel_live_fever_time_m` (
+    `live_track_id` INTEGER NOT NULL,
+    `fever_time_gain_end_time` REAL NOT NULL,
+    `fever_start_time` REAL NOT NULL,
+    `fever_min_effect_time` REAL NOT NULL,
+    `fever_max_effect_time` REAL NOT NULL,
+    `duel_fever_notes_trigger_group_id` INTEGER NOT NULL,
+    `duel_fever_combo_trigger_group_id` INTEGER NOT NULL,
+    PRIMARY KEY (`live_track_id`)
+);
 CREATE TABLE `duel_live_m` (
     `live_difficulty_id` INTEGER NOT NULL,
     `live_setting_id` INTEGER NOT NULL,
@@ -568,17 +588,148 @@ INSERT INTO "duel_live_m" VALUES(700484,894,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL
 INSERT INTO "duel_live_m" VALUES(700485,1078,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL);
 INSERT INTO "duel_live_m" VALUES(700486,1029,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL);
 INSERT INTO "duel_live_m" VALUES(700487,641,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL);
+CREATE TABLE `duel_mark_m` (
+    `duel_mark_id` INTEGER NOT NULL,
+    `duel_mark_icon_asset` TEXT NOT NULL,
+    `release_tag` TEXT, `_encryption_release_id` INTEGER NULL,
+    PRIMARY KEY (`duel_mark_id`)
+);
 CREATE TABLE `duel_setting_m` (
     `duel_setting_id` INTEGER NOT NULL,
+    `deck_select_time` INTEGER NOT NULL,
     `start_wait_time` INTEGER NOT NULL,
+    `live_start_wait_time` INTEGER NOT NULL,
     `end_wait_time` INTEGER NOT NULL,
     `room_end_wait_time` INTEGER NOT NULL,
-    `private_dismiss_time` INTEGER NOT NULL,
+    `live_dismiss_time` INTEGER NOT NULL,
+    `dismiss_time` INTEGER NOT NULL,
     `private_real_room_polling_time` INTEGER NOT NULL,
-    `duel_energy_recoverly_time` INTEGER NOT NULL,
-    `history_count` INTEGER NOT NULL,
-    `matching_history_count` INTEGER NOT NULL,
+    `gameover_reward_rate` INTEGER NOT NULL,
+    `max_member_count` INTEGER NOT NULL,
+    `min_member_count` INTEGER NOT NULL,
     PRIMARY KEY (`duel_setting_id`)
 );
-INSERT INTO "duel_setting_m" VALUES(1,30,30,60,10,25,900,5,5);
+INSERT INTO "duel_setting_m" VALUES(1,15,30,10,30,60,5,30,25,20,4,4);
+CREATE TABLE `duel_skill_level_accuracy_bonus_m` (
+    `duel_skill_id` INTEGER NOT NULL,
+    `skill_level` INTEGER NOT NULL,
+    `self_perfect_value` INTEGER NOT NULL,
+    `perfect_value` INTEGER NOT NULL,
+    `great_value` INTEGER NOT NULL,
+    `good_value` INTEGER NOT NULL,
+    `bad_value` INTEGER NOT NULL,
+    `miss_value` INTEGER NOT NULL,
+    PRIMARY KEY (`duel_skill_id`,`skill_level`)
+);
+CREATE TABLE `duel_skill_level_bonus_attribute_m` (
+    `duel_skill_level_bonus_id` INTEGER NOT NULL,
+    `attribute_id` INTEGER NOT NULL,
+    `unit_num` INTEGER NOT NULL,
+    PRIMARY KEY (`duel_skill_level_bonus_id`,`attribute_id`)
+);
+CREATE TABLE `duel_skill_level_bonus_group_m` (
+    `duel_skill_level_bonus_group_id` INTEGER NOT NULL,
+    `term_id` INTEGER NOT NULL,
+    `name` TEXT,
+    `bonus_type` INTEGER NOT NULL,
+    PRIMARY KEY (`duel_skill_level_bonus_group_id`)
+);
+CREATE TABLE `duel_skill_level_bonus_m` (
+    `duel_skill_level_bonus_id` INTEGER NOT NULL,
+    `duel_skill_level_bonus_group_id` INTEGER NOT NULL,
+    `priority` INTEGER NOT NULL,
+    `total_num` INTEGER NOT NULL,
+    `effect_value` INTEGER NOT NULL,
+    `description` TEXT,
+    PRIMARY KEY (`duel_skill_level_bonus_id`)
+);
+CREATE TABLE `duel_skill_level_bonus_unit_m` (
+    `duel_skill_level_bonus_id` INTEGER NOT NULL,
+    `unit_id` INTEGER NOT NULL,
+    `unit_num` INTEGER NOT NULL,
+    PRIMARY KEY (`duel_skill_level_bonus_id`,`unit_id`)
+);
+CREATE TABLE `duel_skill_level_bonus_unit_type_m` (
+    `duel_skill_level_bonus_id` INTEGER NOT NULL,
+    `unit_type_id` INTEGER NOT NULL,
+    `unit_num` INTEGER NOT NULL,
+    PRIMARY KEY (`duel_skill_level_bonus_id`,`unit_type_id`)
+);
+CREATE TABLE `duel_skill_level_m` (
+    `duel_skill_id` INTEGER NOT NULL,
+    `skill_level` INTEGER NOT NULL,
+    `description` TEXT,
+    `effect_value` INTEGER NOT NULL,
+    `discharge_time` REAL NOT NULL,
+    `trigger_value` INTEGER NOT NULL,
+    `activation_rate` INTEGER NOT NULL,
+    PRIMARY KEY (`duel_skill_id`,`skill_level`)
+);
+CREATE TABLE `duel_skill_level_range_m` (
+    `start_value` INTEGER NOT NULL,
+    `level` INTEGER NOT NULL,
+    `goal_param` INTEGER NOT NULL,
+    PRIMARY KEY (`start_value`)
+);
+CREATE TABLE `duel_skill_m` (
+    `duel_skill_id` INTEGER NOT NULL,
+    `name` TEXT,
+    `duel_skill_type_id` INTEGER NOT NULL,
+    `trigger_type` INTEGER NOT NULL,
+    `duel_skill_people_id` INTEGER NOT NULL,
+    `is_game_master_only` INTEGER NOT NULL,
+    PRIMARY KEY (`duel_skill_id`)
+);
+CREATE TABLE `duel_skill_people_m` (
+    `duel_skill_people_id` INTEGER NOT NULL,
+    `people_type` INTEGER NOT NULL,
+    `people_value` INTEGER NOT NULL,
+    PRIMARY KEY (`duel_skill_people_id`)
+);
+CREATE TABLE `duel_skill_people_remainder_m` (
+    `remainder` INTEGER NOT NULL,
+    `duel_skill_people_id` INTEGER NOT NULL,
+    PRIMARY KEY (`remainder`)
+);
+CREATE TABLE `duel_skill_trigger_remainder_m` (
+    `remainder` INTEGER NOT NULL,
+    `trigger_type` INTEGER NOT NULL,
+    PRIMARY KEY (`remainder`)
+);
+CREATE TABLE `duel_skill_type_rotation_m` (
+    `duel_skill_type_rotation_id` INTEGER NOT NULL,
+    `term_id` INTEGER NOT NULL,
+    `deck_mark_id` INTEGER NOT NULL,
+    `duel_skill_type_id` INTEGER NOT NULL,
+    `start_date` TEXT NOT NULL,
+    `end_date` TEXT,
+    PRIMARY KEY (`duel_skill_type_rotation_id`)
+);
+CREATE TABLE `duel_term_m` (
+    `duel_id` INTEGER NOT NULL,
+    `term_id` INTEGER NOT NULL,
+    `start_date` TEXT NOT NULL,
+    `end_date` TEXT,
+    `duel_all_user_goal_id` INTEGER NOT NULL,
+    `is_buff_apply` INTEGER,
+    `is_recover_lp` INTEGER,
+    `duel_deck_mark_num` INTEGER,
+    PRIMARY KEY (`duel_id`,`term_id`)
+);
+CREATE TABLE `duel_total_combo_m` (
+    `combo_cnt` INTEGER NOT NULL,
+    `score_rate` REAL NOT NULL,
+    PRIMARY KEY (`combo_cnt`)
+);
+CREATE TABLE `duel_unit_first_attribute_mark_m` (
+    `attribute_id1` INTEGER NOT NULL,
+    `mark_id` INTEGER NOT NULL,
+    PRIMARY KEY (`attribute_id1`)
+);
+CREATE TABLE `duel_unit_second_attribute_mark_m` (
+    `attribute_id1` INTEGER NOT NULL,
+    `attribute_id2` INTEGER NOT NULL,
+    `mark_id` INTEGER NOT NULL,
+    PRIMARY KEY (`attribute_id1`,`attribute_id2`)
+);
 COMMIT;

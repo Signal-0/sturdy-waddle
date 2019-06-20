@@ -271,6 +271,8 @@ INSERT INTO "award_m" VALUES(270,'第9回おさんぽラリー[spring]','第9回
 INSERT INTO "award_m" VALUES(271,'【称号】Aqoursアジアツアー[千葉]','Aqoursアジアツアー[千葉]の開催を記念した\n特別な称号','assets/image/award/award_271.png','assets/image/award/award_271di.png',21501,1,'r190413_090000',NULL);
 INSERT INTO "award_m" VALUES(272,'【称号】スクフェス6周年','スクフェスの6周年を記念した特別な称号','assets/image/award/award_272.png','assets/image/award/award_272di.png',22005,0,'r190415',NULL);
 INSERT INTO "award_m" VALUES(273,'【称号】Next SPARKLING!!','Aqoursの5th LIVE開催を記念した特別な称号','assets/image/award/award_273.png','assets/image/award/award_273di.png',20013,1,'r190608_000000',NULL);
+INSERT INTO "award_m" VALUES(274,'第10回おさんぽラリー [流れ星]','第10回おさんぽラリーで指定ミッションを\n達成した人だけに贈られる記念の称号','assets/image/award/award_274.png','assets/image/award/award_274di.png',27014,0,'r190620',NULL);
+INSERT INTO "award_m" VALUES(275,'第10回おさんぽラリー [宝探し]','島の伝説の本を記した著者が作った宝箱と地図','assets/image/award/award_275.png','assets/image/award/award_275di.png',27015,0,'r190620',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(902,'スクフェス全国大会2017オンライン予選','スクフェス全国大会2017オンライン予選に参加した証','assets/image/award/award_902.png','assets/image/award/award_902di.png',18002,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(903,'【称号】スクフェス全国大会2018オンライン予選','スクフェス全国大会2018オンライン予選に参加した証','assets/image/award/award_903.png','assets/image/award/award_903di.png',18007,0,NULL,NULL);
@@ -410,6 +412,11 @@ INSERT INTO "background_m" VALUES(111,'【背景】音ノ木坂学院前・桜�
 INSERT INTO "background_m" VALUES(112,'【背景】音ノ木坂学院前・桜並木[花びら]','【音ノ木坂学院前・桜並木[花びら]】\n桜の花びらが舞う音ノ木坂学院前の桜並木','assets/image/background/b_st_283.png','assets/image/background/home/b_st_283_thm.png',11003,3,NULL,NULL);
 INSERT INTO "background_m" VALUES(113,'【背景】キャンプ場','【キャンプ場】\n自然に囲まれたキャンプ場','assets/image/background/b_st_297.png','assets/image/background/home/b_st_297_thm.png',2412,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(114,'【背景】神田明神・本殿[夕方]','【神田明神・本殿[夕方]】\nアキバに鎮座する由緒正しい神社（夕方）','assets/image/background/b_st_062.png','assets/image/background/home/b_st_062_thm.png',2016,NULL,NULL,NULL);
+INSERT INTO "background_m" VALUES(115,'【背景】海辺近くの十字路','【海辺近くの十字路】\n草が茂る海辺近くの十字路','assets/image/background/b_st_303.png','assets/image/background/home/b_st_303_thm.png',2529,NULL,NULL,NULL);
+INSERT INTO "background_m" VALUES(116,'【背景】岩の多い海岸','【岩の多い海岸】\n大小さまざまな岩に囲まれた海岸','assets/image/background/b_st_305.png','assets/image/background/home/b_st_305_thm.png',2530,NULL,NULL,NULL);
+INSERT INTO "background_m" VALUES(117,'【背景】洞窟','【洞窟】\n先が見えない暗さの洞窟','assets/image/background/b_st_306.png','assets/image/background/home/b_st_306_thm.png',2531,NULL,NULL,NULL);
+INSERT INTO "background_m" VALUES(118,'【背景】山道[夜]','【山道[夜]】\n木々が生い茂る夜の山道','assets/image/background/b_st_307.png','assets/image/background/home/b_st_307_thm.png',2532,NULL,NULL,NULL);
+INSERT INTO "background_m" VALUES(119,'【背景】入り江[夜]','【入り江[夜]】\n星空が水面に映る夜の入り江','assets/image/background/b_st_308.png','assets/image/background/home/b_st_308_thm.png',2533,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(901,'【背景】クリスマスの街','【クリスマスの街】\n イルミネーションに彩られたクリスマスの街','assets/image/background/b_st_014.png','assets/image/background/home/b_st_014_thm.png',901,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(902,'【背景】神社・本殿[正月]','【神社・本殿[正月]】\n 正月飾りを施された新年の神社','assets/image/background/b_st_064.png','assets/image/background/home/b_st_064_thm.png',902,NULL,NULL,NULL);
 CREATE TABLE `background_shader_param_m` (
@@ -432,7 +439,7 @@ CREATE TABLE `kg_item_m` (
     `image_asset` TEXT,
     `icon_image_asset` TEXT,
     `description` TEXT,
-    `detailed_description` TEXT,
+    `number_suffix` TEXT,
     `rank` INTEGER,
     `enhancement_exp_id` INTEGER,
     `enhancement_pattern_id` INTEGER,
@@ -608,5 +615,6 @@ INSERT INTO "recovery_item_m" VALUES(3,'シュガーポット[LP100%]',1,100,'as
 INSERT INTO "recovery_item_m" VALUES(4,'チョコレート[LP1]',2,1,'assets/image/recovery_item/recovery_04_s.png','assets/image/recovery_item/recovery_04_m.png',NULL,'個','LPを1回復します\n（2019/03/05 15:00以降に削除されます）',NULL,NULL);
 INSERT INTO "recovery_item_m" VALUES(5,'スクフェス6周年応募券A',2,1,'assets/image/recovery_item/recovery_05_s.png','assets/image/recovery_item/recovery_05_m.png',NULL,'枚','［重要］6周年記念大抽選会の応募用アイテム\n※19/05/05 15時に削除',NULL,NULL);
 INSERT INTO "recovery_item_m" VALUES(6,'スクフェス6周年応募券B',2,1,'assets/image/recovery_item/recovery_06_s.png','assets/image/recovery_item/recovery_06_m.png',NULL,'枚','［重要］6周年記念大抽選会の応募用アイテム\n※19/05/05 15時に削除',NULL,NULL);
+INSERT INTO "recovery_item_m" VALUES(7,'シュガーシロップ[LP5]',2,5,'assets/image/recovery_item/recovery_07_s.png','assets/image/recovery_item/recovery_07_m.png',NULL,'個','LPを5回復します',NULL,NULL);
 CREATE INDEX `idx_category_id` ON `kg_item_m`(`item_category_id`);
 COMMIT;
