@@ -41,7 +41,7 @@ INSERT INTO "achievement_category_m" VALUES(33,'assets/image/achievement/tag_008
 INSERT INTO "achievement_category_m" VALUES(34,'assets/image/achievement/tag_008.png','2018/9/23 0:00:00','2018/9/25 23:59:59',0,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(35,'assets/image/achievement/tag_008.png','2018/9/21 0:00:00','2018/9/25 23:59:59',1,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(36,'assets/image/achievement/tag_008.png','2018/10/05 15:00:00','2018/10/31 23:59:59',0,NULL,NULL);
-INSERT INTO "achievement_category_m" VALUES(37,'assets/image/achievement/tag_008.png','2018/10/05 15:00:00','2019/6/20 23:59:59',1,NULL,NULL);
+INSERT INTO "achievement_category_m" VALUES(37,'assets/image/achievement/tag_008.png','2018/10/05 15:00:00','2019/6/27 14:59:59',1,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(38,'assets/image/achievement/tag_008.png','2018/10/16 0:00:00','2018/10/31 23:59:59',0,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(39,'assets/image/achievement/tag_008.png','2018/11/05 15:00:00','2018/12/05 14:59:59',0,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(40,'assets/image/achievement/tag_008.png','2018/12/5 15:00:00','2018/12/20 14:59:59',0,NULL,NULL);
@@ -54,6 +54,7 @@ INSERT INTO "achievement_category_m" VALUES(46,'assets/image/achievement/tag_008
 INSERT INTO "achievement_category_m" VALUES(48,'assets/image/achievement/tag_008.png','2019/05/05 0:00:00','2019/05/15 14:59:59',0,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(49,'assets/image/achievement/tag_010.png','2019/05/20 15:00:00','2019/07/21 23:59:59',1,NULL,NULL);
 INSERT INTO "achievement_category_m" VALUES(50,'assets/image/achievement/tag_008.png','2019/06/10 0:00:00','2019/06/20 23:59:59',0,NULL,NULL);
+INSERT INTO "achievement_category_m" VALUES(51,'assets/image/achievement/tag_008.png','2019/06/20 0:00:00','2019/06/27 14:59:59',0,NULL,NULL);
 CREATE TABLE `achievement_description_m` (
     `achievement_description_id` INTEGER NOT NULL,
     `achievement_type` INTEGER NOT NULL,
@@ -1352,6 +1353,19 @@ INSERT INTO "achievement_m" VALUES(10090213,'衣替えデイリーチャレン�
 INSERT INTO "achievement_m" VALUES(10090218,'衣替え記念課題・その1','衣替えデイリーチャレンジを累計9回クリアする','assets/image/achievement/tag_008.png',1,53,0,NULL,50,9,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/10 0:00:00','2019/6/20 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090219,'衣替え記念課題・その2','衣替えデイリーチャレンジを累計18回クリアする','assets/image/achievement/tag_008.png',1,53,0,NULL,50,18,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/10 0:00:00','2019/6/20 23:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10090220,'衣替え記念課題・その3','衣替えデイリーチャレンジを累計27回クリアする','assets/image/achievement/tag_008.png',1,53,0,NULL,50,27,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/10 0:00:00','2019/6/20 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090221,'リアル脱出ゲーム再公演コラボ記念・その8',NULL,'assets/image/achievement/tag_010.png',1,1,0,NULL,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/20 15:00:00','2019/7/21 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090222,'リアル脱出ゲーム再公演コラボ記念・その9',NULL,'assets/image/achievement/tag_010.png',1,1,0,NULL,10,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/20 15:00:00','2019/7/21 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090223,'リアル脱出ゲーム再公演コラボ記念・その10',NULL,'assets/image/achievement/tag_010.png',1,1,0,NULL,15,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/20 15:00:00','2019/7/21 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090224,'リアル脱出ゲーム再公演コラボ記念・その11',NULL,'assets/image/achievement/tag_010.png',1,1,0,NULL,20,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/20 15:00:00','2019/7/21 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090225,'リアル脱出ゲーム再公演コラボ記念・その12',NULL,'assets/image/achievement/tag_010.png',1,1,0,NULL,25,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/20 15:00:00','2019/7/21 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090226,'リアル脱出ゲーム再公演コラボ記念・その13',NULL,'assets/image/achievement/tag_010.png',1,1,0,NULL,30,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/20 15:00:00','2019/7/21 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090227,'リアル脱出ゲーム再公演コラボ記念・その14',NULL,'assets/image/achievement/tag_010.png',1,1,0,NULL,35,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/20 15:00:00','2019/7/21 23:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090228,'リズミックカーニバル先行体験デイリー課題','リズミックカーニバルを1回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,10,NULL,NULL,NULL,NULL,NULL,1,NULL,'2019/6/20 0:00:00','2019/6/27 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090229,'リズミックカーニバル先行体験デイリー課題','リズミックカーニバルを3回クリアする','assets/image/achievement/tag_008.png',1,50,1,NULL,NULL,NULL,NULL,10,NULL,NULL,NULL,NULL,NULL,3,NULL,'2019/6/20 0:00:00','2019/6/27 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090230,'リズミックカーニバル先行体験記念課題','リズミックカーニバル先行体験デイリー課題を累計1回クリアする','assets/image/achievement/tag_008.png',1,53,0,NULL,51,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/20 15:00:00','2019/6/27 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090231,'リズミックカーニバル先行体験記念課題','リズミックカーニバル先行体験デイリー課題を累計4回クリアする','assets/image/achievement/tag_008.png',1,53,0,NULL,51,4,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/20 15:00:00','2019/6/27 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090232,'リズミックカーニバル先行体験記念課題','リズミックカーニバル先行体験デイリー課題を累計7回クリアする','assets/image/achievement/tag_008.png',1,53,0,NULL,51,7,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/20 15:00:00','2019/6/27 14:59:59',1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10090233,'リズミックカーニバル先行体験記念課題','リズミックカーニバル先行体験デイリー課題を累計10回クリアする','assets/image/achievement/tag_008.png',1,53,0,NULL,51,10,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/6/20 15:00:00','2019/6/27 14:59:59',1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100001,'一般生勧誘をしよう！【その1】','μ''sの一般生勧誘で10人勧誘する','assets/image/achievement/tag_005.png',1,10,0,NULL,1,NULL,10,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100002,'一般生勧誘をしよう！【その2】','μ''sの一般生勧誘で25人勧誘する','assets/image/achievement/tag_005.png',1,10,0,NULL,1,NULL,25,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10100003,'一般生勧誘をしよう！【その3】','μ''sの一般生勧誘で50人勧誘する','assets/image/achievement/tag_005.png',2,10,0,NULL,1,NULL,50,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2015/08/03 0:00:00',NULL,0,1,NULL,NULL);
@@ -4345,6 +4359,21 @@ INSERT INTO "achievement_tag_m" VALUES(10090213,37);
 INSERT INTO "achievement_tag_m" VALUES(10090218,37);
 INSERT INTO "achievement_tag_m" VALUES(10090219,37);
 INSERT INTO "achievement_tag_m" VALUES(10090220,37);
+INSERT INTO "achievement_tag_m" VALUES(10090221,49);
+INSERT INTO "achievement_tag_m" VALUES(10090222,49);
+INSERT INTO "achievement_tag_m" VALUES(10090223,49);
+INSERT INTO "achievement_tag_m" VALUES(10090224,49);
+INSERT INTO "achievement_tag_m" VALUES(10090225,49);
+INSERT INTO "achievement_tag_m" VALUES(10090226,49);
+INSERT INTO "achievement_tag_m" VALUES(10090227,49);
+INSERT INTO "achievement_tag_m" VALUES(10090228,37);
+INSERT INTO "achievement_tag_m" VALUES(10090229,37);
+INSERT INTO "achievement_tag_m" VALUES(10090228,51);
+INSERT INTO "achievement_tag_m" VALUES(10090229,51);
+INSERT INTO "achievement_tag_m" VALUES(10090230,37);
+INSERT INTO "achievement_tag_m" VALUES(10090231,37);
+INSERT INTO "achievement_tag_m" VALUES(10090232,37);
+INSERT INTO "achievement_tag_m" VALUES(10090233,37);
 INSERT INTO "achievement_tag_m" VALUES(10260001,5);
 INSERT INTO "achievement_tag_m" VALUES(10260002,5);
 INSERT INTO "achievement_tag_m" VALUES(10260003,5);

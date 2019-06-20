@@ -220,4 +220,5 @@ INSERT INTO "included_pkg_m" VALUES(1,561);
 INSERT INTO "included_pkg_m" VALUES(1,564);
 INSERT INTO "included_pkg_m" VALUES(1,565);
 INSERT INTO "included_pkg_m" VALUES(1,523);
+INSERT INTO "included_pkg_m" VALUES(1,569);
 COMMIT;
