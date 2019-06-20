@@ -19358,15 +19358,15 @@ INSERT INTO "event_scenario_m" VALUES(225,147,'念願の練習場所',NULL,NULL,
 INSERT INTO "event_scenario_m" VALUES(226,147,'雨になんて負けない！',NULL,NULL,4,NULL,1001,NULL,14990,'2019/06/05 15:00:00',2052,1,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "event_scenario_m" VALUES(227,147,'困った時の、神頼み……？',NULL,NULL,5,NULL,1001,NULL,27490,'2019/06/05 15:00:00',2052,1,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "event_scenario_m" VALUES(228,147,'願いが届いて、快晴！',NULL,NULL,999,NULL,1001,NULL,0,'2019/06/15 15:10:00',2052,1,NULL,NULL,NULL,NULL,NULL);
-INSERT INTO "event_scenario_m" VALUES(229,148,'謎の箱',NULL,NULL,0,'assets/image/ui/eventscenario/148_se_ic_1.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,212);
-INSERT INTO "event_scenario_m" VALUES(230,148,'1話　宝探しスタート！',NULL,NULL,1,'assets/image/ui/eventscenario/148_se_ic_2.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,212);
-INSERT INTO "event_scenario_m" VALUES(231,148,'2話　早速ピンチ？',NULL,NULL,2,'assets/image/ui/eventscenario/148_se_ic_3.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,212);
-INSERT INTO "event_scenario_m" VALUES(232,148,'3話　星の導き',NULL,NULL,3,'assets/image/ui/eventscenario/148_se_ic_4.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,212);
-INSERT INTO "event_scenario_m" VALUES(233,148,'4話　山神の箱に挑め',NULL,NULL,4,'assets/image/ui/eventscenario/148_se_ic_5.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,212);
-INSERT INTO "event_scenario_m" VALUES(234,148,'5話　地図を取り戻せ！',NULL,NULL,5,'assets/image/ui/eventscenario/148_se_ic_6.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,212);
-INSERT INTO "event_scenario_m" VALUES(235,148,'6話　洞窟探査',NULL,NULL,6,'assets/image/ui/eventscenario/148_se_ic_7.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,212);
-INSERT INTO "event_scenario_m" VALUES(236,148,'7話　宝の星',NULL,NULL,7,'assets/image/ui/eventscenario/148_se_ic_8.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,212);
-INSERT INTO "event_scenario_m" VALUES(237,148,'日常へ',NULL,NULL,999,'assets/image/ui/eventscenario/148_se_ic_9.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,212);
+INSERT INTO "event_scenario_m" VALUES(229,148,'謎の箱',NULL,NULL,0,'assets/image/ui/eventscenario/148_se_ic_1.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(230,148,'1話　宝探しスタート！',NULL,NULL,1,'assets/image/ui/eventscenario/148_se_ic_2.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(231,148,'2話　早速ピンチ？',NULL,NULL,2,'assets/image/ui/eventscenario/148_se_ic_3.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(232,148,'3話　星の導き',NULL,NULL,3,'assets/image/ui/eventscenario/148_se_ic_4.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(233,148,'4話　山神の箱に挑め',NULL,NULL,4,'assets/image/ui/eventscenario/148_se_ic_5.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(234,148,'5話　地図を取り戻せ！',NULL,NULL,5,'assets/image/ui/eventscenario/148_se_ic_6.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(235,148,'6話　洞窟探査',NULL,NULL,6,'assets/image/ui/eventscenario/148_se_ic_7.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(236,148,'7話　宝の星',NULL,NULL,7,'assets/image/ui/eventscenario/148_se_ic_8.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(237,148,'日常へ',NULL,NULL,999,'assets/image/ui/eventscenario/148_se_ic_9.png',1002,NULL,0,'2019/06/20 15:00:00',2071,1,NULL,NULL,NULL,NULL,NULL);
 CREATE TABLE `event_scenario_setting_disp_m` (
     `event_scenario_setting_disp_id` INTEGER NOT NULL,
     `event_scenario_setting_id` INTEGER NOT NULL,
