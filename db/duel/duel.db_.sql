@@ -7978,7 +7978,7 @@ CREATE TABLE `duel_term_m` (
     `duel_deck_mark_num` INTEGER,
     PRIMARY KEY (`duel_id`,`term_id`)
 );
-INSERT INTO "duel_term_m" VALUES(9,9,'2019/06/20 15:00:00','2019/06/27 14:59:59',1,1,0,8);
+INSERT INTO "duel_term_m" VALUES(9,9,'2019/06/20 15:00:00','2019/07/01 14:59:59',1,1,0,8);
 CREATE TABLE `duel_total_combo_m` (
     `combo_cnt` INTEGER NOT NULL,
     `score_rate` REAL NOT NULL,

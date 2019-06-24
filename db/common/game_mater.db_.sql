@@ -1763,7 +1763,7 @@ INSERT INTO "strings_m" VALUES('duel_live_menu',1,'楽曲を選択してくだ�
 INSERT INTO "strings_m" VALUES('duel_confirmation',1,'ライブを開始しますか？');
 INSERT INTO "strings_m" VALUES('duel_error',1,'♪が不足しています。');
 INSERT INTO "strings_m" VALUES('duel_error',2,'\n\n%sでエラーが発生しました。\nリズミックカーニバルトップに戻ります');
-INSERT INTO "strings_m" VALUES('duel_error',3,'\n\n<coin>Ｇを使用して回復しますか？\n\n所持<coin>： <color ff3399>%d</color> Ｇ　→　<color ff3399>%d</color> Ｇ');
+INSERT INTO "strings_m" VALUES('duel_error',3,'\n\n<coin>Ｇを使用して回復しますか？\n\n所持<coin>： <color ff3399>%s</color> Ｇ　→　<color ff3399>%s</color> Ｇ');
 INSERT INTO "strings_m" VALUES('duel_error',4,'\n\n<coin>Ｇを使用して回復する事ができます。\nライブなどをプレイして<coin>Ｇを獲得しましょう\n\n必要<coin>Ｇ <color ff3399>%d</color> Ｇ');
 INSERT INTO "strings_m" VALUES('duel_alert',1,'<center>結果発表に間に合わなかったため、\n他のメンバーとスタンプやメッセージのやり取りは出来ません。');
 INSERT INTO "strings_m" VALUES('duel_alert',2,'まだライブを行っていないため履歴がありません。');
