@@ -405,8 +405,8 @@ INSERT INTO "strings_m" VALUES('dialog_live_menu',8,'<center>友達数の上限�
 INSERT INTO "strings_m" VALUES('dialog_live_menu',9,'<center>部員数の上限が%s→%sになりました！\n');
 INSERT INTO "strings_m" VALUES('dialog_live_menu',10,'<center>Rankが%s→%sになりました！\n\n%s');
 INSERT INTO "strings_m" VALUES('dialog_live_menu',11,'%s\n\n高難易度の譜面です\nライブ失敗となった場合でもLPは消費され、\n報酬も受け取れませんのでご注意下さい');
-INSERT INTO "strings_m" VALUES('dialog_live_menu',12,'<center>プレイ回数の上限が%s→%sになりました！\n');
-INSERT INTO "strings_m" VALUES('dialog_live_menu',13,'<center>プレイ回数が残っていません\n\nプレイ回数は翌日0時に回復します。');
+INSERT INTO "strings_m" VALUES('dialog_live_menu',12,'<center>MASTERチャレンジ回数の上限が%s→%sになりました！\n');
+INSERT INTO "strings_m" VALUES('dialog_live_menu',13,'<center>MASTERチャレンジ回数が残っていません\n\nプレイ回数は翌日0時に回復します。');
 INSERT INTO "strings_m" VALUES('dialog_login',2,'<center>名前を入力してください');
 INSERT INTO "strings_m" VALUES('dialog_login',3,'<center>登録しました！\n\n続いて『ライブ』をおこなう『ユニット』の\n中心になるメンバーを選択します');
 INSERT INTO "strings_m" VALUES('dialog_login',4,'<center>名前： %s\nで登録します\n\nよろしいですか？');
@@ -606,7 +606,7 @@ INSERT INTO "strings_m" VALUES('dialog_shop',13,'<center>ＬＰが足りませ�
 INSERT INTO "strings_m" VALUES('dialog_shop',14,'<center>%sを\n購入しますか？');
 INSERT INTO "strings_m" VALUES('dialog_shop',15,'<center>%sを\n購入しました');
 INSERT INTO "strings_m" VALUES('dialog_shop',16,'<center>前回購入中だった\n%sの\n購入が完了しました\n\n詳しくは『その他』の\n『購入履歴』を確認してください');
-INSERT INTO "strings_m" VALUES('dialog_shop',17,'以下のアイテムは\nプレゼントボックスから受取れます\n%s');
+INSERT INTO "strings_m" VALUES('dialog_shop',17,'以下のアイテムはプレゼントボックスから受取れます\n%s');
 INSERT INTO "strings_m" VALUES('dialog_shop',18,'<center><heart>ラブカストーンを1個使用して\n部員数の上限を%d人増やすことができます');
 INSERT INTO "strings_m" VALUES('dialog_shop',19,'増やす部員数を選択してください');
 INSERT INTO "strings_m" VALUES('dialog_shop',20,'現在の部員上限数：    人　　(最大：%d人)');
@@ -618,7 +618,7 @@ INSERT INTO "strings_m" VALUES('dialog_shop',25,'\n\n\n\n回復アイテムが�
 INSERT INTO "strings_m" VALUES('dialog_shop',26,'ＬＰを全回復する');
 INSERT INTO "strings_m" VALUES('dialog_shop',27,'<center><heart>ラブカストーンが不足しています\n\n<heart>ラブカストーンを購入しますか？');
 INSERT INTO "strings_m" VALUES('dialog_shop',28,'以下のアイテムは\nプレゼントボックスから受取れます\n%s');
-INSERT INTO "strings_m" VALUES('dialog_shop',29,'<item3>\n%sを使用して\nプレイ回数を1回復します\n回復しますか？');
+INSERT INTO "strings_m" VALUES('dialog_shop',29,'<item3>\n%sを使用して\nMASTERチャレンジ回数を1回復します\n回復しますか？');
 INSERT INTO "strings_m" VALUES('dialog_shop',30,'<coin>が足りません');
 INSERT INTO "strings_m" VALUES('shop_common',9,'制限なし');
 INSERT INTO "strings_m" VALUES('shop_common',2,'{{name}} {{amount}}{{unit}}');
@@ -872,7 +872,7 @@ INSERT INTO "strings_m" VALUES('mes_live_menu',22,'プレイ回数の上限に�
 INSERT INTO "strings_m" VALUES('mes_live_menu',23,'条件に該当する楽曲がありません');
 INSERT INTO "strings_m" VALUES('mes_live_menu',24,'プレイできる楽曲がないためフィルタを解除しました');
 INSERT INTO "strings_m" VALUES('mes_live_menu',25,'プレイできる楽曲がありません');
-INSERT INTO "strings_m" VALUES('mes_live_menu',26,'プレイ回数を%d回復しました');
+INSERT INTO "strings_m" VALUES('mes_live_menu',26,'MASTERチャレンジ回数を%d回復しました');
 INSERT INTO "strings_m" VALUES('mes_live_menu',27,'練習楽曲のルール説明');
 INSERT INTO "strings_m" VALUES('mes_sandbox',1,'プレイできるライブがありません');
 INSERT INTO "strings_m" VALUES('mes_sandbox',2,'ＬＰを回復しました！');

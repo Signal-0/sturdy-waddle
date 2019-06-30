@@ -273,6 +273,8 @@ INSERT INTO "award_m" VALUES(272,'【称号】スクフェス6周年','スクフ
 INSERT INTO "award_m" VALUES(273,'【称号】Next SPARKLING!!','Aqoursの5th LIVE開催を記念した特別な称号','assets/image/award/award_273.png','assets/image/award/award_273di.png',20013,1,'r190608_000000',NULL);
 INSERT INTO "award_m" VALUES(274,'第10回おさんぽラリー [流れ星]','第10回おさんぽラリーで指定ミッションを\n達成した人だけに贈られる記念の称号','assets/image/award/award_274.png','assets/image/award/award_274di.png',27014,0,'r190620',NULL);
 INSERT INTO "award_m" VALUES(275,'第10回おさんぽラリー [宝探し]','島の伝説の本を記した著者が作った宝箱と地図','assets/image/award/award_275.png','assets/image/award/award_275di.png',27015,0,'r190620',NULL);
+INSERT INTO "award_m" VALUES(276,'【称号】Aqours CLUB 2019','Aqours CLUB 2019を応援する人のための称号','assets/image/award/award_276.png','assets/image/award/award_276di.png',30001,0,'r190630',NULL);
+INSERT INTO "award_m" VALUES(277,'【称号】ラブライブ！シリーズ9周年','ラブライブ！シリーズ9周年を記念した特別な称号','assets/image/award/award_277.png','assets/image/award/award_277di.png',31001,0,'r190630',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(902,'スクフェス全国大会2017オンライン予選','スクフェス全国大会2017オンライン予選に参加した証','assets/image/award/award_902.png','assets/image/award/award_902di.png',18002,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(903,'【称号】スクフェス全国大会2018オンライン予選','スクフェス全国大会2018オンライン予選に参加した証','assets/image/award/award_903.png','assets/image/award/award_903di.png',18007,0,NULL,NULL);
@@ -509,6 +511,11 @@ INSERT INTO "kg_item_m" VALUES(60,1,'6周年!選べるメンバーUR1枚確定11
 INSERT INTO "kg_item_m" VALUES(61,1,'EXPアップのお守り',61,1,1,'assets/image/item/item_61_m.png','assets/image/item/item_61_s.png','使用してから【60分】の間だけ獲得EXPを25％アップさせる','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(62,1,'Gアップのお守り',62,1,1,'assets/image/item/item_62_m.png','assets/image/item/item_62_s.png','使用してから【60分】の間だけ獲得Gを25％アップさせる','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(63,1,'絆Ptアップのお守り',63,1,1,'assets/image/item/item_63_m.png','assets/image/item/item_63_s.png','使用してから【60分】の間だけ獲得絆Ptを25%アップさせる','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(67,1,'ラブライブ！シリーズ9周年！グループ勧誘チケット～μ''s～',67,1,1,'assets/image/item/item_67_m.png','assets/image/item/item_67_s.png','ラブライブ！シリーズ9周年！グループ勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,47,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(68,1,'ラブライブ！シリーズ9周年！1年生SR以上確定勧誘チケット～μ''s～',68,1,1,'assets/image/item/item_68_m.png','assets/image/item/item_68_s.png','ラブライブ！シリーズ9周年！SR以上確定勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,48,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(69,1,'ラブライブ！シリーズ9周年！2年生SR以上確定勧誘チケット～μ''s～',69,1,1,'assets/image/item/item_69_m.png','assets/image/item/item_69_s.png','ラブライブ！シリーズ9周年！SR以上確定勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,49,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(71,1,'ラブライブ！シリーズ9周年！1年生SSR以上確定勧誘チケット～μ''s～',71,1,1,'assets/image/item/item_71_m.png','assets/image/item/item_71_s.png','ラブライブ！シリーズ9周年！SSR以上確定勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,51,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(72,1,'ラブライブ！シリーズ9周年！2年生SSR以上確定勧誘チケット～μ''s～',72,1,1,'assets/image/item/item_72_m.png','assets/image/item/item_72_s.png','ラブライブ！シリーズ9周年！SSR以上確定勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,52,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','ラブカストーンピース','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 CREATE TABLE `live_notes_icon_asset_m` (
@@ -611,7 +618,7 @@ CREATE TABLE `recovery_item_m` (
 );
 INSERT INTO "recovery_item_m" VALUES(1,'シュガーキューブ[LP50]',2,50,'assets/image/recovery_item/recovery_01_s.png','assets/image/recovery_item/recovery_01_m.png',NULL,'個','LPを50回復します',NULL,NULL);
 INSERT INTO "recovery_item_m" VALUES(2,'シュガーポット[LP50%]',1,50,'assets/image/recovery_item/recovery_02_s.png','assets/image/recovery_item/recovery_02_m.png',NULL,'個','LPを50%回復します',NULL,NULL);
-INSERT INTO "recovery_item_m" VALUES(3,'シュガーポット[LP100%]',1,100,'assets/image/recovery_item/recovery_03_s.png','assets/image/recovery_item/recovery_03_m.png',NULL,'個','LPを100%回復します',NULL,NULL);
+INSERT INTO "recovery_item_m" VALUES(3,'シュガーポット[LP100％]',1,100,'assets/image/recovery_item/recovery_03_s.png','assets/image/recovery_item/recovery_03_m.png',NULL,'個','LPを100%回復します',NULL,NULL);
 INSERT INTO "recovery_item_m" VALUES(4,'チョコレート[LP1]',2,1,'assets/image/recovery_item/recovery_04_s.png','assets/image/recovery_item/recovery_04_m.png',NULL,'個','LPを1回復します\n（2019/03/05 15:00以降に削除されます）',NULL,NULL);
 INSERT INTO "recovery_item_m" VALUES(5,'スクフェス6周年応募券A',2,1,'assets/image/recovery_item/recovery_05_s.png','assets/image/recovery_item/recovery_05_m.png',NULL,'枚','［重要］6周年記念大抽選会の応募用アイテム\n※19/05/05 15時に削除',NULL,NULL);
 INSERT INTO "recovery_item_m" VALUES(6,'スクフェス6周年応募券B',2,1,'assets/image/recovery_item/recovery_06_s.png','assets/image/recovery_item/recovery_06_m.png',NULL,'枚','［重要］6周年記念大抽選会の応募用アイテム\n※19/05/05 15時に削除',NULL,NULL);

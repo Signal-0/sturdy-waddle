@@ -536,8 +536,8 @@ INSERT INTO "exchange_ticket_m" VALUES(12,'ACサポーター称号交換チケ�
 INSERT INTO "exchange_ticket_m" VALUES(13,'JOYSOUNDコラボ部員交換チケット','assets/image/exchange_ticket/ticket_13_s.png','assets/image/exchange_ticket/ticket_13_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(14,'Aqours劇場版公開記念部員交換チケット','assets/image/exchange_ticket/ticket_14_s.png','assets/image/exchange_ticket/ticket_14_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(15,'Saint Snow SSR部員交換チケット','assets/image/exchange_ticket/ticket_15_s.png','assets/image/exchange_ticket/ticket_15_m.png',NULL,'枚',NULL,NULL);
-INSERT INTO "exchange_ticket_m" VALUES(16,'母の日記念交換チケット（μ''s）','assets/image/ui/item/ticket_16_s.png','assets/image/ui/item/ticket_16_m.png',NULL,'枚',NULL,NULL);
-INSERT INTO "exchange_ticket_m" VALUES(17,'母の日記念交換チケット（Aqours）','assets/image/ui/item/ticket_17_s.png','assets/image/ui/item/ticket_17_m.png',NULL,'枚',NULL,NULL);
+INSERT INTO "exchange_ticket_m" VALUES(16,'母の日記念交換チケット（μ''s）','assets/image/exchange_ticket/ticket_16_s.png','assets/image/exchange_ticket/ticket_16_m.png',NULL,'枚',NULL,NULL);
+INSERT INTO "exchange_ticket_m" VALUES(17,'母の日記念交換チケット（Aqours）','assets/image/exchange_ticket/ticket_17_s.png','assets/image/exchange_ticket/ticket_17_m.png',NULL,'枚',NULL,NULL);
 CREATE TABLE `exchange_ticket_reward_m` (
     `exchange_ticket_reward_id` INTEGER NOT NULL,
     `exchange_ticket_id` INTEGER NOT NULL,
