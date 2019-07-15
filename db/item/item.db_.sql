@@ -522,8 +522,10 @@ INSERT INTO "kg_item_m" VALUES(73,1,'ラブライブ！シリーズ9周年！3�
 INSERT INTO "kg_item_m" VALUES(74,1,'ラブライブ！シリーズ9周年！グループ勧誘チケット～Aqours～',74,1,1,'assets/image/item/item_74_m.png','assets/image/item/item_74_s.png','ラブライブ！シリーズ9周年！グループ勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,54,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(75,1,'ラブライブ！シリーズ9周年！1年生SR以上確定勧誘チケット～Aqours～',75,1,1,'assets/image/item/item_75_m.png','assets/image/item/item_75_s.png','ラブライブ！シリーズ9周年！SR以上確定勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,55,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(76,1,'ラブライブ！シリーズ9周年！2年生SR以上確定勧誘チケット～Aqours～',76,1,1,'assets/image/item/item_76_m.png','assets/image/item/item_76_s.png','ラブライブ！シリーズ9周年！SR以上確定勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,56,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(77,1,'ラブライブ！シリーズ9周年！3年生SR以上確定勧誘チケット～Aqours～',77,1,1,'assets/image/item/item_77_m.png','assets/image/item/item_77_s.png','ラブライブ！シリーズ9周年！SR以上確定勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,57,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(78,1,'ラブライブ！シリーズ9周年！1年生SSR以上確定勧誘チケット～Aqours～',78,1,1,'assets/image/item/item_78_m.png','assets/image/item/item_78_s.png','ラブライブ！シリーズ9周年！SSR以上確定勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,58,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(79,1,'ラブライブ！シリーズ9周年！2年生SSR以上確定勧誘チケット～Aqours～',79,1,1,'assets/image/item/item_79_m.png','assets/image/item/item_79_s.png','ラブライブ！シリーズ9周年！SSR以上確定勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,59,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(80,1,'ラブライブ！シリーズ9周年！3年生SSR以上確定勧誘チケット～Aqours～',80,1,1,'assets/image/item/item_80_m.png','assets/image/item/item_80_s.png','ラブライブ！シリーズ9周年！SSR以上確定勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,60,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','ラブカストーンピース','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 CREATE TABLE `live_notes_icon_asset_m` (

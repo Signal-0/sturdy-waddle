@@ -1014,7 +1014,11 @@ INSERT INTO "secret_box_asset_m" VALUES(2077,2077,'assets/image/units/u_normal_c
 INSERT INTO "secret_box_asset_m" VALUES(2078,2078,'assets/image/units/u_normal_card_32109014.png','assets/image/units/u_rankup_card_32109014.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2079,2079,'assets/image/units/u_normal_card_51106005.png','assets/image/units/u_rankup_card_51106005.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2080,2080,'assets/image/units/u_normal_card_42108004.png','assets/image/units/u_rankup_card_42108004.png',NULL,NULL,NULL);
-INSERT INTO "secret_box_asset_m" VALUES(2084,2084,'assets/image/units/u_normal_card_31007018.png','assets/image/units/u_rankup_card_31007018.png',NULL,NULL,216);
-INSERT INTO "secret_box_asset_m" VALUES(2085,2085,'assets/image/units/u_normal_card_42008011.png','assets/image/units/u_rankup_card_42008011.png',NULL,NULL,216);
+INSERT INTO "secret_box_asset_m" VALUES(2084,2084,'assets/image/units/u_normal_card_31007018.png','assets/image/units/u_rankup_card_31007018.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2085,2085,'assets/image/units/u_normal_card_42008011.png','assets/image/units/u_rankup_card_42008011.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2086,2086,'assets/image/units/u_rankup_card_43106008.png','assets/image/units/u_rankup_card_43106008.png',NULL,NULL,1264);
+INSERT INTO "secret_box_asset_m" VALUES(2089,2089,'assets/image/units/u_normal_card_33102015.png','assets/image/units/u_rankup_card_33102015.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2090,2090,'assets/image/units/u_normal_card_31107014.png','assets/image/units/u_rankup_card_31107014.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2091,2091,'assets/image/units/u_normal_card_52101005.png','assets/image/units/u_rankup_card_52101005.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2092,2092,'assets/image/units/u_normal_card_41105004.png','assets/image/units/u_rankup_card_41105004.png',NULL,NULL,NULL);
 COMMIT;
