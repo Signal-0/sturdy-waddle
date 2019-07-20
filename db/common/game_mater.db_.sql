@@ -1270,6 +1270,7 @@ INSERT INTO "strings_m" VALUES('joga',12,'生まれた年と月を以下の内�
 INSERT INTO "strings_m" VALUES('joga',13,'西暦%d年%d月(約%d歳)');
 INSERT INTO "strings_m" VALUES('joga',14,'生まれた年と月を登録しました。');
 INSERT INTO "strings_m" VALUES('joga',15,'あなたの生まれた年と月を正しく入力してください');
+INSERT INTO "strings_m" VALUES('joga',16,'※一度登録した情報は変更できません\n※登録した情報は未成年者保護のために利用し、それ以外の目的には\n　利用いたしません');
 INSERT INTO "strings_m" VALUES('bushimo_feed',1,'ストーリー序章クリア');
 INSERT INTO "strings_m" VALUES('bushimo_feed',2,'ストーリー１章クリア');
 INSERT INTO "strings_m" VALUES('bushimo_feed',3,'ストーリー２章クリア');
@@ -1860,6 +1861,10 @@ INSERT INTO "strings_m" VALUES('subscription_repurchase',2,'%sのアイテムを
 INSERT INTO "strings_m" VALUES('giveup_extra_live',1,'<center>アンコールを終了しますか？\n※終了した場合も報酬は受け取れます');
 INSERT INTO "strings_m" VALUES('festival_mission_limit',1,'∞');
 INSERT INTO "strings_m" VALUES('before_cancel_encore',1,'<center>アンコールライブをせずに終了しますか？');
+INSERT INTO "strings_m" VALUES('online_confirm',1,'\n\nオンライン予選では部員の特技が発動しません\nライブ設定を変更していても一部デフォルトの設定になります\nライブ中に体力が0になってもライブ失敗にはなりません');
+INSERT INTO "strings_m" VALUES('festival_live_count',1,'<center>%s曲で確定しますか？');
+INSERT INTO "strings_m" VALUES('festival_live_count',2,'\n<red>※曲数がミッションの達成条件を満たしていません');
+INSERT INTO "strings_m" VALUES('festival_preview',1,'\n<red>※難易度がミッションの達成条件を満たしていません');
 INSERT INTO "strings_m" VALUES('check_assist_deck',1,'アシストユニットに部員が編成されていません\n自動編成または直接編成を行えます');
 INSERT INTO "strings_m" VALUES('check_assist_deck',2,'今後は表示しない');
 INSERT INTO "strings_m" VALUES('duel_connection_alert',1,'ライブ中に通信が切断されるか\nライブが正常に終了されない場合\n報酬を獲得することはできません\nプレイ前に、通信環境をご確認ください');
