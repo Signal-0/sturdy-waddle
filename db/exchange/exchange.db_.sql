@@ -549,7 +549,7 @@ INSERT INTO "exchange_ticket_m" VALUES(14,'Aqours劇場版公開記念部員交�
 INSERT INTO "exchange_ticket_m" VALUES(15,'Saint Snow SSR部員交換チケット','assets/image/exchange_ticket/ticket_15_s.png','assets/image/exchange_ticket/ticket_15_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(16,'母の日記念交換チケット（μ''s）','assets/image/exchange_ticket/ticket_16_s.png','assets/image/exchange_ticket/ticket_16_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(17,'母の日記念交換チケット（Aqours）','assets/image/exchange_ticket/ticket_17_s.png','assets/image/exchange_ticket/ticket_17_m.png',NULL,'枚',NULL,NULL);
-INSERT INTO "exchange_ticket_m" VALUES(18,'リアル脱出ゲームコラボ部員交換チケット[第2弾]','assets/image/exchange_ticket/ticket_18_s.png','assets/image/exchange_ticket/ticket_18_m.png',NULL,'枚',NULL,1270);
+INSERT INTO "exchange_ticket_m" VALUES(18,'リアル脱出ゲームコラボ部員交換チケット[第2弾]','assets/image/exchange_ticket/ticket_18_s.png','assets/image/exchange_ticket/ticket_18_m.png',NULL,'枚',NULL,NULL);
 CREATE TABLE `exchange_ticket_reward_m` (
     `exchange_ticket_reward_id` INTEGER NOT NULL,
     `exchange_ticket_id` INTEGER NOT NULL,
@@ -705,13 +705,13 @@ INSERT INTO "exchange_ticket_reward_m" VALUES(140,16,1001,389,0,1,NULL,NULL,NULL
 INSERT INTO "exchange_ticket_reward_m" VALUES(141,16,1001,387,0,1,NULL,NULL,NULL,NULL);
 INSERT INTO "exchange_ticket_reward_m" VALUES(142,17,1001,1085,0,1,NULL,NULL,NULL,NULL);
 INSERT INTO "exchange_ticket_reward_m" VALUES(143,17,1001,1359,0,1,NULL,NULL,NULL,NULL);
-INSERT INTO "exchange_ticket_reward_m" VALUES(144,18,1001,2096,NULL,1,'{"rank":2}',NULL,NULL,1270);
-INSERT INTO "exchange_ticket_reward_m" VALUES(145,18,1001,2097,NULL,1,'{"rank":2}',NULL,NULL,1270);
-INSERT INTO "exchange_ticket_reward_m" VALUES(146,18,1001,2098,NULL,1,'{"rank":2}',NULL,NULL,1270);
-INSERT INTO "exchange_ticket_reward_m" VALUES(147,18,1001,2099,NULL,1,'{"rank":2}',NULL,NULL,1270);
-INSERT INTO "exchange_ticket_reward_m" VALUES(148,18,1001,2100,NULL,1,'{"rank":2}',NULL,NULL,1270);
-INSERT INTO "exchange_ticket_reward_m" VALUES(149,18,1001,2101,NULL,1,'{"rank":2}',NULL,NULL,1270);
-INSERT INTO "exchange_ticket_reward_m" VALUES(150,18,1001,2102,NULL,1,'{"rank":2}',NULL,NULL,1270);
-INSERT INTO "exchange_ticket_reward_m" VALUES(151,18,1001,2103,NULL,1,'{"rank":2}',NULL,NULL,1270);
-INSERT INTO "exchange_ticket_reward_m" VALUES(152,18,1001,2104,NULL,1,'{"rank":2}',NULL,NULL,1270);
+INSERT INTO "exchange_ticket_reward_m" VALUES(144,18,1001,2096,NULL,1,'{"rank":2}',NULL,NULL,NULL);
+INSERT INTO "exchange_ticket_reward_m" VALUES(145,18,1001,2097,NULL,1,'{"rank":2}',NULL,NULL,NULL);
+INSERT INTO "exchange_ticket_reward_m" VALUES(146,18,1001,2098,NULL,1,'{"rank":2}',NULL,NULL,NULL);
+INSERT INTO "exchange_ticket_reward_m" VALUES(147,18,1001,2099,NULL,1,'{"rank":2}',NULL,NULL,NULL);
+INSERT INTO "exchange_ticket_reward_m" VALUES(148,18,1001,2100,NULL,1,'{"rank":2}',NULL,NULL,NULL);
+INSERT INTO "exchange_ticket_reward_m" VALUES(149,18,1001,2101,NULL,1,'{"rank":2}',NULL,NULL,NULL);
+INSERT INTO "exchange_ticket_reward_m" VALUES(150,18,1001,2102,NULL,1,'{"rank":2}',NULL,NULL,NULL);
+INSERT INTO "exchange_ticket_reward_m" VALUES(151,18,1001,2103,NULL,1,'{"rank":2}',NULL,NULL,NULL);
+INSERT INTO "exchange_ticket_reward_m" VALUES(152,18,1001,2104,NULL,1,'{"rank":2}',NULL,NULL,NULL);
 COMMIT;

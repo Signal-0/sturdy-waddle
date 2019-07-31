@@ -130,6 +130,7 @@ INSERT INTO "stamp_m" VALUES(24,5,'assets/image/sticker/st_006_003.png',NULL,300
 INSERT INTO "stamp_m" VALUES(25,5,'assets/image/sticker/st_007_003.png',NULL,300043,0,1,1,7,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(26,4,'assets/image/sticker/st_008_003.png',NULL,300044,0,1,1,8,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(27,3,'assets/image/sticker/st_009_003.png',NULL,300045,1,1,1,9,NULL,1,NULL,NULL);
+INSERT INTO "stamp_m" VALUES(28,4,'assets/image/sticker/st_001_004.png',NULL,300059,0,1,1,1,'【スタンプ】高坂穂乃果',0,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(101,5,'assets/image/sticker/st_101_001.png',NULL,300019,0,1,2,101,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(102,3,'assets/image/sticker/st_101_002.png',NULL,300020,0,1,2,101,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(103,1,'assets/image/sticker/st_102_001.png',NULL,300021,0,1,2,102,NULL,1,NULL,NULL);
@@ -157,6 +158,7 @@ INSERT INTO "stamp_m" VALUES(124,1,'assets/image/sticker/st_106_003.png',NULL,30
 INSERT INTO "stamp_m" VALUES(125,2,'assets/image/sticker/st_107_003.png',NULL,300052,0,1,2,107,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(126,1,'assets/image/sticker/st_108_003.png',NULL,300053,0,1,2,108,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(127,4,'assets/image/sticker/st_109_003.png',NULL,300054,0,1,2,109,NULL,1,NULL,NULL);
+INSERT INTO "stamp_m" VALUES(128,4,'assets/image/sticker/st_101_004.png',NULL,300068,0,1,2,101,'【スタンプ】高海千歌',0,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(201,1,'assets/image/sticker/st_201_001.png',NULL,300055,0,1,1,10,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(301,2,'assets/image/sticker/st_301_001.png',NULL,300056,0,1,2,110,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(401,1,'assets/image/sticker/st_112_001.png',NULL,300057,0,1,2,110,'【スタンプ】鹿角理亞',0,NULL,NULL);

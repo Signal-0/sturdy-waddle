@@ -88,6 +88,7 @@ CREATE TABLE `error_response_action_m` (
 INSERT INTO "error_response_action_m" VALUES(200,700,1);
 INSERT INTO "error_response_action_m" VALUES(200,710,1);
 INSERT INTO "error_response_action_m" VALUES(200,720,3);
+INSERT INTO "error_response_action_m" VALUES(200,730,1);
 INSERT INTO "error_response_action_m" VALUES(200,422,1);
 INSERT INTO "error_response_action_m" VALUES(200,500,3);
 INSERT INTO "error_response_action_m" VALUES(200,600,5);

@@ -170,7 +170,6 @@ INSERT INTO "sort_condition_m" VALUES(85,11,0,'全て');
 INSERT INTO "sort_condition_m" VALUES(86,11,3001,'ラブカストーン');
 INSERT INTO "sort_condition_m" VALUES(87,11,3002,'友情pt');
 INSERT INTO "sort_condition_m" VALUES(88,11,3000,'G');
-INSERT INTO "sort_condition_m" VALUES(89,11,1000,'勧誘チケット');
 INSERT INTO "sort_condition_m" VALUES(90,11,1001,'部員');
 INSERT INTO "sort_condition_m" VALUES(91,11,5100,'称号');
 INSERT INTO "sort_condition_m" VALUES(92,11,5200,'背景');
@@ -259,6 +258,7 @@ INSERT INTO "sort_condition_m" VALUES(278,31,4,'レベル（昇順）');
 INSERT INTO "sort_condition_m" VALUES(279,7,13,'アシスト特技');
 INSERT INTO "sort_condition_m" VALUES(280,32,1,'SCORE順');
 INSERT INTO "sort_condition_m" VALUES(281,32,2,'COMBO順');
+INSERT INTO "sort_condition_m" VALUES(282,11,1000,'その他アイテム');
 CREATE TABLE `strings_m` (
     `string_key` TEXT NOT NULL,
     `string_value` INTEGER NOT NULL,
