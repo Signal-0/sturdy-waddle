@@ -304,6 +304,7 @@ CREATE TABLE `background_flash_m` (
     `release_tag` TEXT, `_encryption_release_id` INTEGER NULL,
     PRIMARY KEY (`background_flash_param_id`)
 );
+INSERT INTO "background_flash_m" VALUES(1,'assets/flash/ui/bg/bg_ef_01.flsh','ef_1100','in',NULL,NULL);
 CREATE TABLE `background_m` (
     `background_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
@@ -436,6 +437,8 @@ INSERT INTO "background_m" VALUES(117,'【背景】洞窟','【洞窟】\n先が
 INSERT INTO "background_m" VALUES(118,'【背景】山道[夜]','【山道[夜]】\n木々が生い茂る夜の山道','assets/image/background/background_307.png','assets/image/background/home/background_307_thm.png',2532,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(119,'【背景】入り江[夜]','【入り江[夜]】\n星空が水面に映る夜の入り江','assets/image/background/background_308.png','assets/image/background/home/background_308_thm.png',2533,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(120,'【背景】旧函館区公会堂','【旧函館区公会堂】\nSaint SnowがBelieve againを歌った場所','assets/image/background/background_310.png','assets/image/background/home/background_310_thm.png',2905,NULL,NULL,NULL,NULL);
+INSERT INTO "background_m" VALUES(121,'【背景】夜空[花火]','【夜空[花火]】\n花火が打ち上がる夏の夜空','assets/image/background/background_313.png','assets/image/background/home/background_313_thm.png',10001,NULL,1,NULL,NULL);
+INSERT INTO "background_m" VALUES(122,'【背景】夜空[流れ星]','【夜空[流れ星]】\n星が輝く夏の夜空','assets/image/background/background_314.png','assets/image/background/home/background_314_thm.png',10002,4,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(901,'【背景】クリスマスの街','【クリスマスの街】\n イルミネーションに彩られたクリスマスの街','assets/image/background/background_014.png','assets/image/background/home/background_014_thm.png',901,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(902,'【背景】神社・本殿[正月]','【神社・本殿[正月]】\n 正月飾りを施された新年の神社','assets/image/background/background_064.png','assets/image/background/home/background_064_thm.png',902,NULL,NULL,NULL,NULL);
 CREATE TABLE `background_shader_param_m` (
@@ -448,6 +451,7 @@ CREATE TABLE `background_shader_param_m` (
 INSERT INTO "background_shader_param_m" VALUES(1,1,'{"assets":["assets/image/shader/shader_001.png","assets/image/shader/shader_002.png"],"offsets":[{"x":2,"y":-0.55},{"x":2,"y":-0.1}],"speeds":[-0.0004166666666666667,-0.00025],"scales":[1,2.2]}',NULL,NULL);
 INSERT INTO "background_shader_param_m" VALUES(2,1,'{"assets":["assets/image/shader/shader_003.png","assets/image/shader/shader_002.png"],"offsets":[{"x":2,"y":-0.55},{"x":2,"y":-0.1}],"speeds":[-0.0004166666666666667,-0.00025],"scales":[1,2.2]}',NULL,NULL);
 INSERT INTO "background_shader_param_m" VALUES(3,2,'{"assets":["assets/image/shader/shader_004.png","assets/image/shader/shader_005.png","assets/image/shader/shader_006.png",""],"offsets":[{"x":-0.5,"y":-2},{"x":-5,"y":-11},{"x":35.35,"y":30},{"x":0.5,"y":0.5}],"speeds":[0.06,0.02,-0.005,0],"scales":[0.4,0.55,0.7,0.1],"centers":[{"x":0.5,"y":0.5},{"x":0.5,"y":0.5},{"x":0.5,"y":0.5},{"x":0.5,"y":0.5}],"wrap_modes":[{"rep":true,"clamp":false},{"rep":true,"clamp":false},{"rep":true,"clamp":false},{"rep":true,"clamp":false}],"blend_types":[{"normal":true,"add":false,"screen":false},{"normal":true,"add":false,"screen":false},{"normal":true,"add":false,"screen":false},{"normal":true,"add":false,"screen":false}],"alpha_anims":[{"base":1,"frequency":0,"amplitude":0},{"base":1,"frequency":0,"amplitude":0},{"base":1,"frequency":0,"amplitude":0},{"base":1,"frequency":0,"amplitude":0}]}',NULL,NULL);
+INSERT INTO "background_shader_param_m" VALUES(4,3,'{"assets":["assets/image/shader/shader_007.png","assets/image/shader/shader_008.png","assets/image/shader/shader_009.png",""],"size":[{"x":1386,"y":640},{"x":512,"y":512},{"x":1024,"y":1024},{"x":0,"y":0}],"addtype":[{"x":0,"y":0,"z":0.8},{"x":0,"y":0,"z":2.3},{"x":0,"y":0,"z":0}],"origin":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"offset":[{"x":1,"y":1,"z":0,"w":0},{"x":-1.004,"y":-1.25,"z":-350,"w":-640},{"x":0,"y":0,"z":0,"w":0}],"delta":[{"x":-56,"y":0},{"x":227,"y":51.2},{"x":0,"y":0}],"angle":[0,-17,0],"angle_delta":[0,0,0]}',NULL,NULL);
 CREATE TABLE `kg_item_m` (
     `item_id` INTEGER NOT NULL,
     `item_tab_id` INTEGER NOT NULL,
