@@ -20283,11 +20283,11 @@ INSERT INTO "event_scenario_m" VALUES(262,152,'海で特訓！',NULL,NULL,3,NULL
 INSERT INTO "event_scenario_m" VALUES(263,152,'新たなる堕天',NULL,NULL,4,NULL,1002,NULL,14990,'2019/08/20 15:00:00',2149,1,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "event_scenario_m" VALUES(264,152,'堕天料理に乾杯！？',NULL,NULL,5,NULL,1002,NULL,27490,'2019/08/20 15:00:00',2149,1,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "event_scenario_m" VALUES(265,152,'夜空に願いを浮かべて',NULL,NULL,999,NULL,1002,NULL,0,'2019/08/31 15:10:00',2149,1,NULL,NULL,NULL,NULL,NULL);
-INSERT INTO "event_scenario_m" VALUES(266,153,'ちょっぴり淋しい3学期',NULL,NULL,1,'assets/image/ui/eventscenario/153_se_ic_1.png',1001,NULL,1240,'2019/09/05 15:00:00',2160,1,NULL,NULL,NULL,NULL,227);
-INSERT INTO "event_scenario_m" VALUES(267,153,'ラーメンはとんこつ♪',NULL,NULL,2,'assets/image/ui/eventscenario/153_se_ic_2.png',1001,NULL,3990,'2019/09/05 15:00:00',2160,1,NULL,NULL,NULL,NULL,227);
-INSERT INTO "event_scenario_m" VALUES(268,153,'せめて想いが届きますように！',NULL,NULL,3,'assets/image/ui/eventscenario/153_se_ic_3.png',1001,NULL,7240,'2019/09/05 15:00:00',2160,1,NULL,NULL,NULL,NULL,227);
-INSERT INTO "event_scenario_m" VALUES(269,153,'μ''sはいつだって♡',NULL,NULL,4,'assets/image/ui/eventscenario/153_se_ic_4.png',1001,NULL,14990,'2019/09/05 15:00:00',2160,1,NULL,NULL,NULL,NULL,227);
-INSERT INTO "event_scenario_m" VALUES(270,153,'変わらないもの',NULL,NULL,5,'assets/image/ui/eventscenario/153_se_ic_5.png',1001,NULL,27490,'2019/09/05 15:00:00',2160,1,NULL,NULL,NULL,NULL,227);
+INSERT INTO "event_scenario_m" VALUES(266,153,'ちょっぴり淋しい3学期',NULL,NULL,1,'assets/image/ui/eventscenario/153_se_ic_1.png',1001,NULL,1240,'2019/09/05 15:00:00',2160,1,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(267,153,'ラーメンはとんこつ♪',NULL,NULL,2,'assets/image/ui/eventscenario/153_se_ic_2.png',1001,NULL,3990,'2019/09/05 15:00:00',2160,1,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(268,153,'せめて想いが届きますように！',NULL,NULL,3,'assets/image/ui/eventscenario/153_se_ic_3.png',1001,NULL,7240,'2019/09/05 15:00:00',2160,1,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(269,153,'μ''sはいつだって♡',NULL,NULL,4,'assets/image/ui/eventscenario/153_se_ic_4.png',1001,NULL,14990,'2019/09/05 15:00:00',2160,1,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "event_scenario_m" VALUES(270,153,'変わらないもの',NULL,NULL,5,'assets/image/ui/eventscenario/153_se_ic_5.png',1001,NULL,27490,'2019/09/05 15:00:00',2160,1,NULL,NULL,NULL,NULL,NULL);
 CREATE TABLE `event_scenario_setting_disp_m` (
     `event_scenario_setting_disp_id` INTEGER NOT NULL,
     `event_scenario_setting_id` INTEGER NOT NULL,
