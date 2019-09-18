@@ -166,6 +166,7 @@ INSERT INTO "achievement_description_m" VALUES(95,51,7,'%sのお気に入りpt�
 INSERT INTO "achievement_description_m" VALUES(96,52,1,'通算%d日ログインを達成する');
 INSERT INTO "achievement_description_m" VALUES(97,53,1,'カテゴリ：Aqoursの課題を%d個クリアする');
 INSERT INTO "achievement_description_m" VALUES(98,50,44,'みんなでSCORE MATCH楽曲');
+INSERT INTO "achievement_description_m" VALUES(99,2,2,'難易度%s以上のライブを%d回クリアする');
 CREATE TABLE `achievement_m` (
     `achievement_id` INTEGER NOT NULL,
     `title` TEXT NOT NULL,
@@ -5438,4 +5439,19 @@ INSERT INTO "achievement_unit_type_group_name_m" VALUES(117,'鹿角理亞');
 INSERT INTO "achievement_unit_type_group_name_m" VALUES(118,'鹿角聖良');
 INSERT INTO "achievement_unit_type_group_name_m" VALUES(119,'ぷちぐるコラボ部員');
 INSERT INTO "achievement_unit_type_group_name_m" VALUES(120,'Saint Snow');
+CREATE TABLE `klab_id_task_m` (
+    `klab_id_task_id` INTEGER NOT NULL,
+    `title` TEXT NOT NULL,
+    `description` TEXT NOT NULL,
+    `icon_asset` TEXT NOT NULL,
+    `condition_type` INTEGER NOT NULL,
+    `condition_params` TEXT,
+    `condition_count` INTEGER NOT NULL,
+    `category_id` INTEGER NOT NULL,
+    `reward_group_id` INTEGER NOT NULL,
+    `start_date` TEXT NOT NULL,
+    `end_date` TEXT,
+    `release_tag` TEXT, `_encryption_release_id` INTEGER NULL,
+    PRIMARY KEY (`klab_id_task_id`)
+);
 COMMIT;

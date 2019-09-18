@@ -188,4 +188,7 @@ INSERT INTO "timing_adjust_transition_m" VALUES(5,'file://install/m_quest/select
 INSERT INTO "timing_adjust_transition_m" VALUES(6,'file://install/m_class/deck.lua','file://install/m_class/deck.lua');
 INSERT INTO "timing_adjust_transition_m" VALUES(7,'file://install/m_live_menu/select_friend_menu.lua','file://install/m_live_menu/select_friend_menu.lua');
 INSERT INTO "timing_adjust_transition_m" VALUES(8,'file://install/m_quest/select_guest.lua','file://install/m_quest/select_guest.lua');
+INSERT INTO "timing_adjust_transition_m" VALUES(9,'file://install/m_class/view/deck_challenge.lua','file://install/m_class/view/deck_challenge.lua');
+INSERT INTO "timing_adjust_transition_m" VALUES(10,'file://install/m_collab/single_deck.lua','file://install/m_collab/single_deck.lua');
+INSERT INTO "timing_adjust_transition_m" VALUES(11,'file://install/m_collab/guest.lua','file://install/m_collab/guest.lua');
 COMMIT;

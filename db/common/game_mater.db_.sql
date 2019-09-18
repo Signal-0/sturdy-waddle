@@ -33,6 +33,7 @@ INSERT INTO "add_type_m" VALUES(6300,'おみやげ',NULL,NULL,NULL,'個',NULL,NU
 INSERT INTO "add_type_m" VALUES(7000,'交換チケット',NULL,NULL,NULL,'枚',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(7500,'宝くじ',NULL,NULL,NULL,'枚',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(8000,'LP回復アイテム','assets/image/add_type/add_type_8000_s.png',NULL,NULL,'個',NULL,NULL);
+INSERT INTO "add_type_m" VALUES(10000,'交換所原資',NULL,NULL,NULL,'個',NULL,NULL);
 CREATE TABLE `game_setting_m` (
     `game_setting_id` INTEGER NOT NULL,
     `live_loveca_for_energy` INTEGER NOT NULL,
@@ -78,10 +79,11 @@ CREATE TABLE `game_setting_m` (
     `shop_unit_max_limit_cnt` INTEGER NOT NULL,
     `shop_friend_max_limit_cnt` INTEGER NOT NULL,
     `festival_material_max` INTEGER NOT NULL,
+    `klab_id_task_start_date` TEXT NOT NULL,
     `exchange_flag` INTEGER NOT NULL,
     PRIMARY KEY (`game_setting_id`)
 );
-INSERT INTO "game_setting_m" VALUES(1,1,360,5,10,10,1,1.2,10.0,5,6,25,3,5,50,60,10,20,'a','次回メインストーリーの\nアップデートを待ってね！',20,100000,18,'00:00',10,1000,1.2,6.0,9,9999999,9999999,1000000000000,9999999,36400,1,4,1500,1000,1,1,99,320,10,9999999,1);
+INSERT INTO "game_setting_m" VALUES(1,1,360,5,10,10,1,1.2,10.0,5,6,25,3,5,50,60,10,20,'a','次回メインストーリーの\nアップデートを待ってね！',20,100000,18,'00:00',10,1000,1.2,6.0,9,9999999,9999999,1000000000000,9999999,36400,1,4,1500,1000,1,1,99,320,10,9999999,'2020-09-01 00:00:00',1);
 CREATE TABLE `sort_condition_m` (
     `sort_condition_id` INTEGER NOT NULL,
     `screen_id` INTEGER NOT NULL,
@@ -353,6 +355,7 @@ INSERT INTO "strings_m" VALUES('reward',105,'ラブカストーンピースが�
 INSERT INTO "strings_m" VALUES('reward',110,'メドレー ミッションの報酬で獲得');
 INSERT INTO "strings_m" VALUES('reward',120,'イベントストーリーを解放しました');
 INSERT INTO "strings_m" VALUES('reward',121,'[%1$s]%2$sの賞品です');
+INSERT INTO "strings_m" VALUES('reward',124,'クラスミッションの達成報酬');
 INSERT INTO "strings_m" VALUES('ui_reward',1,'受け取りました');
 INSERT INTO "strings_m" VALUES('ui_reward',2,'おまかせ転部で\n転部しました');
 INSERT INTO "strings_m" VALUES('deck_default_name',1,'ユニットA');
@@ -612,7 +615,7 @@ INSERT INTO "strings_m" VALUES('dialog_shop',19,'増やす部員数を選択し�
 INSERT INTO "strings_m" VALUES('dialog_shop',20,'現在の部員上限数：    人　　(最大：%d人)');
 INSERT INTO "strings_m" VALUES('dialog_shop',21,'使用するアイテムを選択してください');
 INSERT INTO "strings_m" VALUES('dialog_shop',22,'最大LPが240未満の場合はLPが240以上になるまで\n回復できます');
-INSERT INTO "strings_m" VALUES('dialog_shop',23,'%sを%d個使用して\nLPを%d回復します。よろしいですか？');
+INSERT INTO "strings_m" VALUES('dialog_shop',23,'%sを%d%s使用して\nLPを%d回復します。よろしいですか？');
 INSERT INTO "strings_m" VALUES('dialog_shop',24,'\n\n\n\n回復アイテムがありません\n');
 INSERT INTO "strings_m" VALUES('dialog_shop',25,'\n\n\n\n回復アイテムが不足しています\n');
 INSERT INTO "strings_m" VALUES('dialog_shop',26,'ＬＰを全回復する');
@@ -1233,11 +1236,12 @@ INSERT INTO "strings_m" VALUES('error_code',3422,'<center>ライブ終了時に�
 INSERT INTO "strings_m" VALUES('error_code',3450,'該当するIDが見つかりません\n\nIDを確認してください');
 INSERT INTO "strings_m" VALUES('error_code',3451,'定員に達したため\n参加できません');
 INSERT INTO "strings_m" VALUES('error_code',3452,'定員に達していないため\n開始できません');
-INSERT INTO "strings_m" VALUES('error_code',3454,'リズミックカーニバルの開催期間が変更されました（楽曲リストが更新されます）');
+INSERT INTO "strings_m" VALUES('error_code',3454,'イベント期間外です');
 INSERT INTO "strings_m" VALUES('error_code',3455,'おでかけマッチの開催期間は終了しました');
 INSERT INTO "strings_m" VALUES('error_code',3457,'一定期間アクセスがなかったため退出しました');
 INSERT INTO "strings_m" VALUES('error_code',3460,'参加者募集を締め切ったためプライベート解放できませんでした');
 INSERT INTO "strings_m" VALUES('error_code',3461,'募集側より募集が中断されました');
+INSERT INTO "strings_m" VALUES('error_code',4203,'交換期限が過ぎています');
 INSERT INTO "strings_m" VALUES('error_code',4601,'自分をブロックできません');
 INSERT INTO "strings_m" VALUES('error_code',4602,'既にブロックされています');
 INSERT INTO "strings_m" VALUES('error_code',4603,'これ以上登録できません');
@@ -1473,6 +1477,7 @@ INSERT INTO "strings_m" VALUES('award_common',1,'称号に設定しました');
 INSERT INTO "strings_m" VALUES('award_common',2,'？？？？');
 INSERT INTO "strings_m" VALUES('background_common',1,'背景に設定しました');
 INSERT INTO "strings_m" VALUES('background_common',2,'%d/%d');
+INSERT INTO "strings_m" VALUES('background_common',3,'ランダム背景');
 INSERT INTO "strings_m" VALUES('daily_reward',1,'以下のファーストライブボーナス\nを獲得しました');
 INSERT INTO "strings_m" VALUES('daily_reward',2,'以下のファーストライブボーナス\nをプレゼントボックスに受取りました');
 INSERT INTO "strings_m" VALUES('tutorial_live_title',1,'練習曲');
@@ -1688,8 +1693,8 @@ INSERT INTO "strings_m" VALUES('private_confirm',4,'<center>必要なLPが足り
 INSERT INTO "strings_m" VALUES('quest_spot',1,'？？？');
 INSERT INTO "strings_m" VALUES('quest_exchange',100,'{b2}おみやげを獲得しました');
 INSERT INTO "strings_m" VALUES('quest_exchange',1,'<center>%sを%d回交換します\nよろしいですか？');
-INSERT INTO "strings_m" VALUES('quest_exchange',2,'残り%d回');
-INSERT INTO "strings_m" VALUES('quest_exchange',3,'残り<red>%d</red>回');
+INSERT INTO "strings_m" VALUES('quest_exchange',2,'残り%s回');
+INSERT INTO "strings_m" VALUES('quest_exchange',3,'残り<red>%s</red>回');
 INSERT INTO "strings_m" VALUES('quest_exchange',4,'無制限');
 INSERT INTO "strings_m" VALUES('quest_exchange',5,'<center>交換が完了しました');
 INSERT INTO "strings_m" VALUES('quest_exchange',6,'<center>交換が完了しました\n\n<red>※獲得した部員・アイテムは\n<red>プレゼントボックスに送られました');
@@ -1782,7 +1787,7 @@ INSERT INTO "strings_m" VALUES('duel_top',1,'リズミックカーニバルは�
 INSERT INTO "strings_m" VALUES('duel_wait',1,'メンバーが揃わなかったため控室に戻ります');
 INSERT INTO "strings_m" VALUES('duel_skill',1,'自分のアシスト特技');
 INSERT INTO "strings_m" VALUES('duel_skill',2,'参加者のアシスト特技');
-INSERT INTO "strings_m" VALUES('duel_goal',1,'\n\n今回の目標SCORE');
+INSERT INTO "strings_m" VALUES('duel_goal',1,'今回の目標SCORE');
 INSERT INTO "strings_m" VALUES('duel_result_detail',1,'{b4}ライブ詳細');
 INSERT INTO "strings_m" VALUES('duel_result_detail',2,'{b4}ライブ履歴');
 INSERT INTO "strings_m" VALUES('duel_public',1,'みんなで遊ぶ');
@@ -1828,8 +1833,8 @@ INSERT INTO "strings_m" VALUES('class_system_next',1,'{b2}準備中');
 INSERT INTO "strings_m" VALUES('class_live_confirm',1,'この楽曲で認定試験に挑戦しますか？');
 INSERT INTO "strings_m" VALUES('class_system_closed',1,'<center>Rank30まで、この機能は開放されません');
 INSERT INTO "strings_m" VALUES('class_system_open',1,'<center>うでまえクラスが開放されました');
-INSERT INTO "strings_m" VALUES('class_system',1,'認定試験に挑戦しますか？');
-INSERT INTO "strings_m" VALUES('class_system',2,'挑戦回数が残っていません\n挑戦回数がリセットされるまでお待ちください');
+INSERT INTO "strings_m" VALUES('class_system',1,'<align center>認定試験に挑戦しますか？</align>');
+INSERT INTO "strings_m" VALUES('class_system',2,'<align center>挑戦回数が残っていません<br>挑戦回数がリセットされるまでお待ちください</align>');
 INSERT INTO "strings_m" VALUES('class_system',3,'{b2}条件全てクリアで昇格');
 INSERT INTO "strings_m" VALUES('class_system',4,'クリア数　%d / %d');
 INSERT INTO "strings_m" VALUES('class_system',5,'条件を達成しました\n続けて次の楽曲に挑戦しますか？');
