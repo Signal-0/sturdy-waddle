@@ -83,7 +83,7 @@ CREATE TABLE `game_setting_m` (
     `exchange_flag` INTEGER NOT NULL,
     PRIMARY KEY (`game_setting_id`)
 );
-INSERT INTO "game_setting_m" VALUES(1,1,360,5,10,10,1,1.2,10.0,5,6,25,3,5,50,60,10,20,'a','次回メインストーリーの\nアップデートを待ってね！',20,100000,18,'00:00',10,1000,1.2,6.0,9,9999999,9999999,1000000000000,9999999,36400,1,4,1500,1000,1,1,99,320,10,9999999,'2020-09-01 00:00:00',1);
+INSERT INTO "game_setting_m" VALUES(1,1,360,5,10,10,1,1.2,10.0,5,6,25,3,5,50,60,10,20,'a','次回メインストーリーの\nアップデートを待ってね！',20,100000,18,'00:00',10,1000,1.2,6.0,9,9999999,9999999,1000000000000,9999999,36400,1,4,1500,1000,1,1,99,320,10,9999999,'2019-09-20 15:00:00',1);
 CREATE TABLE `sort_condition_m` (
     `sort_condition_id` INTEGER NOT NULL,
     `screen_id` INTEGER NOT NULL,
@@ -356,6 +356,9 @@ INSERT INTO "strings_m" VALUES('reward',110,'メドレー ミッションの報�
 INSERT INTO "strings_m" VALUES('reward',120,'イベントストーリーを解放しました');
 INSERT INTO "strings_m" VALUES('reward',121,'[%1$s]%2$sの賞品です');
 INSERT INTO "strings_m" VALUES('reward',124,'クラスミッションの達成報酬');
+INSERT INTO "strings_m" VALUES('reward',125,'みんなでクエストの達成報酬');
+INSERT INTO "strings_m" VALUES('reward',126,'クエストの達成報酬');
+INSERT INTO "strings_m" VALUES('reward',127,'%s をGに交換');
 INSERT INTO "strings_m" VALUES('ui_reward',1,'受け取りました');
 INSERT INTO "strings_m" VALUES('ui_reward',2,'おまかせ転部で\n転部しました');
 INSERT INTO "strings_m" VALUES('deck_default_name',1,'ユニットA');
@@ -396,6 +399,8 @@ INSERT INTO "strings_m" VALUES('dialog_live',17,'<center>諦めると参加Ptし
 INSERT INTO "strings_m" VALUES('dialog_live',18,'<center>諦めるとこのライブでもらえる報酬は\n獲得できません\n\nよろしいですか？');
 INSERT INTO "strings_m" VALUES('dialog_live',19,'<center>ライブに失敗しました');
 INSERT INTO "strings_m" VALUES('dialog_live',20,'<center>諦めるを選択した際も、挑戦回数が減少します\n\nよろしいですか？');
+INSERT INTO "strings_m" VALUES('dialog_live',21,'<center>諦めるとこのライブでもらえる報酬は\n獲得できません\n\nよろしいですか？');
+INSERT INTO "strings_m" VALUES('dialog_live',22,'<center>ライブをあきらめますか？');
 INSERT INTO "strings_m" VALUES('error_live',1,'\n\n\n\nコンティニューに失敗しました');
 INSERT INTO "strings_m" VALUES('dialog_live_menu',1,'\n\nＬＰが足りません\n');
 INSERT INTO "strings_m" VALUES('dialog_live_menu',2,'\n%s\n\n<heart>ラブカストーンを1個利用して\nＬＰを回復させますか？\n\n所持    <heart>ラブカストーン                %s個\n');
@@ -1236,7 +1241,7 @@ INSERT INTO "strings_m" VALUES('error_code',3422,'<center>ライブ終了時に�
 INSERT INTO "strings_m" VALUES('error_code',3450,'該当するIDが見つかりません\n\nIDを確認してください');
 INSERT INTO "strings_m" VALUES('error_code',3451,'定員に達したため\n参加できません');
 INSERT INTO "strings_m" VALUES('error_code',3452,'定員に達していないため\n開始できません');
-INSERT INTO "strings_m" VALUES('error_code',3454,'イベント期間外です');
+INSERT INTO "strings_m" VALUES('error_code',3454,'楽曲リストが更新されました\nホームに戻ります');
 INSERT INTO "strings_m" VALUES('error_code',3455,'おでかけマッチの開催期間は終了しました');
 INSERT INTO "strings_m" VALUES('error_code',3457,'一定期間アクセスがなかったため退出しました');
 INSERT INTO "strings_m" VALUES('error_code',3460,'参加者募集を締め切ったためプライベート解放できませんでした');
@@ -1839,6 +1844,17 @@ INSERT INTO "strings_m" VALUES('class_system',3,'{b2}条件全てクリアで昇
 INSERT INTO "strings_m" VALUES('class_system',4,'クリア数　%d / %d');
 INSERT INTO "strings_m" VALUES('class_system',5,'条件を達成しました\n続けて次の楽曲に挑戦しますか？');
 INSERT INTO "strings_m" VALUES('class_system',6,'条件を達成できませんでした\n再度挑戦しますか？');
+INSERT INTO "strings_m" VALUES('class_challenge',1,'<align center>%sのチャレンジ課題をスキップしますか？<br>※スキップした場合は報酬は手に入りません</align>');
+INSERT INTO "strings_m" VALUES('class_challenge',2,'現在のランクをスキップしました');
+INSERT INTO "strings_m" VALUES('class_challenge',3,'失敗');
+INSERT INTO "strings_m" VALUES('class_challenge',4,'<align center>%sのチャレンジ課題を全てクリアで<br>以下の報酬を獲得できます</align>');
+INSERT INTO "strings_m" VALUES('class_challenge',5,'<align center>チャレンジ課題の進捗はリセットされました</align>');
+INSERT INTO "strings_m" VALUES('class_challenge',6,'<align center>%sのチャレンジ課題の<br>報酬を受け取りました</align>');
+INSERT INTO "strings_m" VALUES('class_challenge',7,'失敗');
+INSERT INTO "strings_m" VALUES('class_challenge',8,'<center>ミッションの制限時間が過ぎました\nうでまえクラスTOPに戻ります');
+INSERT INTO "strings_m" VALUES('class_challenge_time',1,'残り%s日');
+INSERT INTO "strings_m" VALUES('class_challenge_time',2,'残り%d時間');
+INSERT INTO "strings_m" VALUES('class_challenge_time',3,'残り%d分');
 INSERT INTO "strings_m" VALUES('loveca_piece_string',1,'ラブカストーンピースを集めよう！【その%s】');
 INSERT INTO "strings_m" VALUES('loveca_piece_string',2,'ラブカストーンピースを%s個集める');
 INSERT INTO "strings_m" VALUES('loveca_piece_string',3,'ラブカストーンピースを%s個集める');
@@ -1867,6 +1883,7 @@ INSERT INTO "strings_m" VALUES('giveup_extra_live',1,'<center>アンコールを
 INSERT INTO "strings_m" VALUES('festival_mission_limit',1,'∞');
 INSERT INTO "strings_m" VALUES('before_cancel_encore',1,'<center>アンコールライブをせずに終了しますか？');
 INSERT INTO "strings_m" VALUES('online_confirm',1,'\n\nオンライン予選では部員の特技が発動しません\nライブ設定を変更していても一部デフォルトの設定になります\nライブ中に体力が0になってもライブ失敗にはなりません');
+INSERT INTO "strings_m" VALUES('online_confirm',2,'\n\n決勝体験モードでは部員の特技が発動しません\nライブ設定を変更していても一部デフォルトの設定になります\nライブ中に体力が0になってもライブ失敗にはなりません');
 INSERT INTO "strings_m" VALUES('festival_live_count',1,'<center>%s曲で確定しますか？');
 INSERT INTO "strings_m" VALUES('festival_live_count',2,'\n<red>※曲数がミッションの達成条件を満たしていません');
 INSERT INTO "strings_m" VALUES('festival_preview',1,'\n<red>※難易度がミッションの達成条件を満たしていません');
@@ -1885,4 +1902,26 @@ INSERT INTO "strings_m" VALUES('assist_log',3,'アシスト特技発動ログが
 INSERT INTO "strings_m" VALUES('assist_log',4,'アシスト特技発動ログ');
 INSERT INTO "strings_m" VALUES('assist_log',5,'0xF57900');
 INSERT INTO "strings_m" VALUES('duel_energy',1,'{b4}あと');
+INSERT INTO "strings_m" VALUES('klab_id_task',1,'プレイデータ送信許可済み');
+INSERT INTO "strings_m" VALUES('klab_id_task',2,'スクフェスID実績に挑戦するには\n「スクフェスIDの登録」と「プレイデータ送信の許可」が必要です\n「その他＞各種設定＞アカウント」より\n設定の確認をお願いいたします');
+INSERT INTO "strings_m" VALUES('klab_id_task',3,'スクフェスID実績に挑戦するには\n「プレイデータ送信の許可」が必要です\n「その他＞各種設定＞アカウント」より\n設定の確認をお願いいたします');
+INSERT INTO "strings_m" VALUES('klab_id_task',4,'<center>スクフェスIDを登録してください');
+INSERT INTO "strings_m" VALUES('klab_id_task',5,'プレイデータ送信の許可\n\nスクフェスID実績機能ではスクフェスIDサーバーに\n現在のプレイデータを送信します\nプレイデータは当社ゲームアプリと共有されます\n※他社ゲームアプリや他のお客様に共有されることはありません\n\nよろしいですか？');
+INSERT INTO "strings_m" VALUES('klab_id_task',6,'プレイデータ送信を許可しました');
+INSERT INTO "strings_m" VALUES('klab_id_task',7,'現在「プレイデータ送信の許可」は\n利用できない状態になっています');
+INSERT INTO "strings_m" VALUES('klab_id_task',8,'プレイデータ送信を許可するには\nスクフェスIDとの再連携が必要です\nOKをタップするとスクフェスIDページを表示します');
+INSERT INTO "strings_m" VALUES('trade_shop_title',1,'交換所');
+INSERT INTO "strings_m" VALUES('enhance_item_list',1,'イベント専用練習');
+INSERT INTO "strings_m" VALUES('enhance_item_list',2,'対象となる部員を獲得していません');
+INSERT INTO "strings_m" VALUES('enhance_item_list',3,'使用できるアイテムがありません');
+INSERT INTO "strings_m" VALUES('enhance_item_use',1,'イベント専用練習');
+INSERT INTO "strings_m" VALUES('all_quest_unlock',1,'%sに解除');
+INSERT INTO "strings_m" VALUES('collab_mode_confirm',1,'モード選択');
+INSERT INTO "strings_m" VALUES('collab_mode_confirm',2,'プレイするモードを選んでね');
+INSERT INTO "strings_m" VALUES('collab_scenario_confirm',1,'<align center>%s %s<br>を再生しますか？</align>');
+INSERT INTO "strings_m" VALUES('max',1,'MAX');
+INSERT INTO "strings_m" VALUES('rhythmic_carnival_setting_list',1,'リズミックカーニバル設定');
+INSERT INTO "strings_m" VALUES('skip_collab_all_quest',1,'<align center>「みんなでクエスト」の内容が更新されました！<br>新しいクエストに挑戦してみよう！</align>');
+INSERT INTO "strings_m" VALUES('after_collab_all_quest',1,'みんなでクエストは終了しました');
+INSERT INTO "strings_m" VALUES('collab_exchange',1,'<center>\nを%s回交換します\nよろしいですか？');
 COMMIT;

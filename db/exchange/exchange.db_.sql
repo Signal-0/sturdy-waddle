@@ -504,6 +504,16 @@ INSERT INTO "exchange_nopoint_unit_m" VALUES(2102);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(2103);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(2104);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(2106);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2172);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2173);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2174);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2175);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2176);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2177);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2178);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2179);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2180);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2181);
 CREATE TABLE `exchange_point_m` (
     `exchange_point_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
