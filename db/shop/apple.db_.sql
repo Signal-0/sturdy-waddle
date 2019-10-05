@@ -29,10 +29,10 @@ INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20150403.lovec
 INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20150403.loveca025','ラブカストーン　25個',1600,'13',25,NULL,'2015/04/10 14:07:07','2015/04/10 14:07:07');
 INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20150403.loveca050','ラブカストーン　50個',3000,'25',50,NULL,'2015/04/10 14:07:07','2015/04/10 14:07:07');
 INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20150403.loveca086','ラブカストーン　86個',5000,'41',86,NULL,'2015/04/10 14:07:07','2015/04/10 14:07:07');
-INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20191001.loveca001','ラブカストーン　1個',120,'1',1,NULL,'2009/10/01 0:00:00','2019/10/01 0:00:00');
-INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20191001.loveca005','ラブカストーン　5個',370,'3',5,NULL,'2009/10/01 0:00:00','2019/10/01 0:00:00');
-INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20191001.loveca012','ラブカストーン　12個',860,'7',12,NULL,'2009/10/01 0:00:00','2019/10/01 0:00:00');
-INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20191001.loveca026','ラブカストーン　26個',1720,'14',26,NULL,'2009/10/01 0:00:00','2019/10/01 0:00:00');
-INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20191001.loveca050','ラブカストーン　50個',3060,'25',50,NULL,'2009/10/01 0:00:00','2019/10/01 0:00:00');
-INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20191001.loveca086','ラブカストーン　86個',5140,'42',86,NULL,'2009/10/01 0:00:00','2019/10/01 0:00:00');
+INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20191001.loveca001','ラブカストーン　1個',120,'1',1,NULL,'2019/10/01 0:00:00','2019/10/01 0:00:00');
+INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20191001.loveca005','ラブカストーン　5個',370,'3',5,NULL,'2019/10/01 0:00:00','2019/10/01 0:00:00');
+INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20191001.loveca012','ラブカストーン　12個',860,'7',12,NULL,'2019/10/01 0:00:00','2019/10/01 0:00:00');
+INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20191001.loveca026','ラブカストーン　26個',1720,'14',26,NULL,'2019/10/01 0:00:00','2019/10/01 0:00:00');
+INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20191001.loveca050','ラブカストーン　50個',3060,'25',50,NULL,'2019/10/01 0:00:00','2019/10/01 0:00:00');
+INSERT INTO "kg_apple_product_id_m" VALUES('com.klab.lovelive.tier20191001.loveca086','ラブカストーン　86個',5140,'42',86,NULL,'2019/10/01 0:00:00','2019/10/01 0:00:00');
 COMMIT;

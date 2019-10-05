@@ -1749,7 +1749,7 @@ INSERT INTO "strings_m" VALUES('skill_type_notes',9,'\n\n※本部員は「SCORE
 INSERT INTO "strings_m" VALUES('skill_type_notes',10,'\n\n※達成コンボ数が増えるほど、獲得できるタップSCOREが増えていきます\n※途中でコンボが途切れると加算されるタップSCOREはリセットされます\n※本特技を発動中に他の部員がCOMBO FEVERを発動した際はそれぞれの効果分のSCOREが加算されます。ただし同時効果中に加算されるSCOREには上限があります');
 INSERT INTO "strings_m" VALUES('skill_type_notes',12,'\n\n※シンクロする属性Pは特技などにより強化された値です\n※シンクロできる対象がいない場合は本特技は発動しません');
 INSERT INTO "strings_m" VALUES('skill_type_notes',13,'\n\n※本特技の効果は対象の特技が1度特技を発動すると終了します\n※本特技により、特技LvがLv8より高くなる場合があります\n※Lv8より高くなる特技Lvの上限はレアリティ・特技により異なります');
-INSERT INTO "strings_m" VALUES('skill_type_notes',14,'\n\n※本特技の効果は重複しません\n※絆pt・スクールアイドルスキル・センタースキルによって強化された値を基準に属性Pが上昇します');
+INSERT INTO "strings_m" VALUES('skill_type_notes',14,'\n\n※本特技の効果は重複しません\n※絆pt・スクールアイドルスキル・センタースキルによって強化されたライブ開始時の値を基準に属性Pが上昇します');
 INSERT INTO "strings_m" VALUES('common_static_text',1,'価格:');
 INSERT INTO "strings_m" VALUES('common_static_text',2,'円');
 INSERT INTO "strings_m" VALUES('common_static_text',3,'購入可能回数:');

@@ -284,11 +284,12 @@ INSERT INTO "award_m" VALUES(276,'【称号】Aqours CLUB 2019','Aqours CLUB 201
 INSERT INTO "award_m" VALUES(277,'【称号】ラブライブ！シリーズ9周年','ラブライブ！シリーズ9周年を記念した特別な称号','assets/image/award/award_277.png','assets/image/award/award_277di.png',31001,0,'r190630',NULL);
 INSERT INTO "award_m" VALUES(278,'【称号】学校祭ライブ中止の危機からの脱出','「リアル脱出ゲーム×ラブライブ！サンシャイン!!」\nスクフェスコラボ第2弾を記念した特別な称号','assets/image/award/award_278.png','assets/image/award/award_278di.png',26503,0,'r190726_000000',NULL);
 INSERT INTO "award_m" VALUES(279,'【称号】サマー・オブ・ラブライブ！2019','サマー・オブ・ラブライブ！2019の\n開催を記念した特別な称号','assets/image/award/award_279.png','assets/image/award/award_279di.png',31501,0,'r190801_000000',NULL);
-INSERT INTO "award_m" VALUES(280,'スクフェス全国大会2019ファイナリスト','スクフェス全国大会2019ファイナリストに贈られる証','assets/image/award/award_280.png','assets/image/award/award_280di.png',18013,0,'r190920',NULL);
-INSERT INTO "award_m" VALUES(281,'スクフェス全国大会2019第3位','スクフェス全国大会2019第3位入賞者に贈られる証','assets/image/award/award_281.png','assets/image/award/award_281di.png',18014,0,'r190920',NULL);
-INSERT INTO "award_m" VALUES(282,'スクフェス全国大会2019準優勝','スクフェス全国大会2019準優勝者に贈られる証','assets/image/award/award_282.png','assets/image/award/award_282di.png',18015,0,'r190920',NULL);
-INSERT INTO "award_m" VALUES(283,'スクフェス全国大会2019優勝','スクフェス全国大会2019優勝者に贈られる証','assets/image/award/award_283.png','assets/image/award/award_283di.png',18016,0,'r190920',NULL);
+INSERT INTO "award_m" VALUES(280,'スクフェス全国大会2019ファイナリスト','スクフェス全国大会2019ファイナリストに贈られる証','assets/image/award/award_280.png','assets/image/award/award_280di.png',18014,0,'r190920',NULL);
+INSERT INTO "award_m" VALUES(281,'スクフェス全国大会2019第3位','スクフェス全国大会2019第3位入賞者に贈られる証','assets/image/award/award_281.png','assets/image/award/award_281di.png',18015,0,'r190920',NULL);
+INSERT INTO "award_m" VALUES(282,'スクフェス全国大会2019準優勝','スクフェス全国大会2019準優勝者に贈られる証','assets/image/award/award_282.png','assets/image/award/award_282di.png',18016,0,'r190920',NULL);
+INSERT INTO "award_m" VALUES(283,'スクフェス全国大会2019優勝','スクフェス全国大会2019優勝者に贈られる証','assets/image/award/award_283.png','assets/image/award/award_283di.png',18017,0,'r190920',NULL);
 INSERT INTO "award_m" VALUES(284,'【称号】Shadowverse×スクフェス','Shadowverseとスクフェスのコラボを記念した特別な称号','assets/image/award/award_284.png','assets/image/award/award_284di.png',32001,0,'r190920',NULL);
+INSERT INTO "award_m" VALUES(285,'スクフェス全国大会2019リベンジ','スクフェス全国大会2019リベンジ枠参加者に贈られる証','assets/image/award/award_285.png','assets/image/award/award_285di.png',18013,0,'r191005',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(902,'スクフェス全国大会2017オンライン予選','スクフェス全国大会2017オンライン予選に参加した証','assets/image/award/award_902.png','assets/image/award/award_902di.png',18002,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(903,'【称号】スクフェス全国大会2018オンライン予選','スクフェス全国大会2018オンライン予選に参加した証','assets/image/award/award_903.png','assets/image/award/award_903di.png',18007,0,NULL,NULL);
@@ -578,6 +579,8 @@ INSERT INTO "kg_item_m" VALUES(93,1,'UR確定勧誘チケット',93,1,1,'assets/
 INSERT INTO "kg_item_m" VALUES(94,1,'異界キャンディ[ミント]',94,1,1,'assets/image/item/item_94_m.png','assets/image/item/item_94_s.png','特定の部員の経験値をアップする','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(95,1,'異界キャンディ[ピーチ]',95,1,1,'assets/image/item/item_95_m.png','assets/image/item/item_95_s.png','特定の部員の特技経験値をアップする','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(96,1,'異界キャンディ[オレンジ]',96,1,1,'assets/image/item/item_96_m.png','assets/image/item/item_96_s.png','特定の部員の未解放スロットを1つ解放する','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(97,1,'国内2500万人記念!SSR以上確定3連勧誘チケット～μ''s～',97,1,1,'assets/image/item/item_97_m.png','assets/image/item/item_97_s.png','国内2500万人記念!SSR以上確定3連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,61,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(98,1,'国内2500万人記念!SSR以上確定3連勧誘チケット～Aqours～',98,1,1,'assets/image/item/item_98_m.png','assets/image/item/item_98_s.png','国内2500万人記念!SSR以上確定3連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,62,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','ラブカストーンピース','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(9999,1,'UR部員',9999,1,1,'assets/image/item/item_9999_m.png','assets/image/item/item_9999_s.png','UR部員','人',NULL,NULL,NULL,NULL,0,NULL,NULL);

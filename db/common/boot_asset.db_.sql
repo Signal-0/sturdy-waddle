@@ -206,6 +206,8 @@ INSERT INTO "boot_asset_m" VALUES(195,'assets/image/login/startup_aq_1.png','ass
 INSERT INTO "boot_asset_m" VALUES(196,'assets/image/login/startup_aq_4.png','assets/sound/login/startup_aq_4.mp3','2019/09/23 00:00:00','2019/09/29 23:59:59',2,21,NULL,NULL);
 INSERT INTO "boot_asset_m" VALUES(197,'assets/image/login/startup_aq_4.png','assets/sound/login/startup_aq_4.mp3','2019/09/30 00:00:00','2019/09/30 14:59:59',2,24,NULL,NULL);
 INSERT INTO "boot_asset_m" VALUES(198,'assets/image/login/startup_aq_5.png','assets/sound/login/startup_aq_5.mp3','2019/09/30 15:00:00','2019/09/30 23:59:59',2,27,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(199,'assets/image/login/startup_mu_2.png','assets/sound/login/startup_mu_2.mp3','2019/10/05 15:00:00','2019/11/05 23:59:59',1,9,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(200,'assets/image/login/startup_aq_1.png','assets/sound/login/startup_aq_1.mp3','2019/10/05 15:00:00','2019/11/05 23:59:59',2,27,NULL,NULL);
 CREATE TABLE `boot_bushimo_voice_m` (
     `boot_bushimo_voice_id` INTEGER NOT NULL,
     `voice_asset` TEXT NOT NULL,
