@@ -359,6 +359,8 @@ INSERT INTO "strings_m" VALUES('reward',124,'クラスミッションの達成�
 INSERT INTO "strings_m" VALUES('reward',125,'みんなでクエストの達成報酬');
 INSERT INTO "strings_m" VALUES('reward',126,'クエストの達成報酬');
 INSERT INTO "strings_m" VALUES('reward',127,'%s をGに交換');
+INSERT INTO "strings_m" VALUES('reward',129,'スクフェスID実績の報酬');
+INSERT INTO "strings_m" VALUES('reward',130,'スクフェスID実績の報酬\n引換期間 %2$s - %3$s');
 INSERT INTO "strings_m" VALUES('ui_reward',1,'受け取りました');
 INSERT INTO "strings_m" VALUES('ui_reward',2,'おまかせ転部で\n転部しました');
 INSERT INTO "strings_m" VALUES('deck_default_name',1,'ユニットA');

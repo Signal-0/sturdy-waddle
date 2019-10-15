@@ -43,6 +43,11 @@ INSERT INTO "nlbonus_item_offset_m" VALUES(1511,226,30);
 INSERT INTO "nlbonus_item_offset_m" VALUES(1512,226,30);
 INSERT INTO "nlbonus_item_offset_m" VALUES(1513,226,30);
 INSERT INTO "nlbonus_item_offset_m" VALUES(1514,226,30);
+INSERT INTO "nlbonus_item_offset_m" VALUES(1515,226,30);
+INSERT INTO "nlbonus_item_offset_m" VALUES(1516,226,30);
+INSERT INTO "nlbonus_item_offset_m" VALUES(1517,226,30);
+INSERT INTO "nlbonus_item_offset_m" VALUES(1518,226,30);
+INSERT INTO "nlbonus_item_offset_m" VALUES(1519,226,30);
 CREATE TABLE `nlbonus_layout_m` (
     `days` INTEGER NOT NULL,
     `seq` INTEGER NOT NULL,
