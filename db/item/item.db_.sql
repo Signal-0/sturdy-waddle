@@ -605,7 +605,9 @@ INSERT INTO "kg_item_m" VALUES(99,1,'レクリエーション投票券[第1回]'
 INSERT INTO "kg_item_m" VALUES(100,1,'レクリエーション投票券[第2回]',100,1,1,'assets/image/item/item_100_m.png','assets/image/item/item_100_s.png','オータムレクリエーション第2回の投票用アイテム',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(101,1,'レクリエーション投票券[第3回]',101,1,1,'assets/image/item/item_101_m.png','assets/image/item/item_101_s.png','オータムレクリエーション第3回の投票用アイテム',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(102,1,'[Printemps]SR以上3連勧誘チケット',102,1,1,'assets/image/item/item_102_m.png','assets/image/item/item_102_s.png','Printemps SR以上3連勧誘を行える',NULL,NULL,NULL,NULL,63,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(103,1,'[lily white]SR以上3連勧誘チケット',103,1,1,'assets/image/item/item_103_m.png','assets/image/item/item_103_s.png','lily white SR以上3連勧誘を行える',NULL,NULL,NULL,NULL,64,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(105,1,'[CYaRon！]SR以上3連勧誘チケット',105,1,1,'assets/image/item/item_105_m.png','assets/image/item/item_105_s.png','CYaRon！ SR以上3連勧誘を行える',NULL,NULL,NULL,NULL,66,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(106,1,'[AZALEA]SR以上3連勧誘チケット',106,1,1,'assets/image/item/item_106_m.png','assets/image/item/item_106_s.png','AZALEA SR以上3連勧誘を行える',NULL,NULL,NULL,NULL,67,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','ラブカストーンピース','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(9999,1,'UR部員',9999,1,1,'assets/image/item/item_9999_m.png','assets/image/item/item_9999_s.png','UR部員','人',NULL,NULL,NULL,NULL,0,NULL,NULL);
