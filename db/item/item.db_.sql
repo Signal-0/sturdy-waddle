@@ -489,6 +489,22 @@ INSERT INTO "background_shader_param_m" VALUES(2,1,'{"assets":["assets/image/sha
 INSERT INTO "background_shader_param_m" VALUES(3,2,'{"assets":["assets/image/shader/shader_004.png","assets/image/shader/shader_005.png","assets/image/shader/shader_006.png",""],"offsets":[{"x":-0.5,"y":-2},{"x":-5,"y":-11},{"x":35.35,"y":30},{"x":0.5,"y":0.5}],"speeds":[0.06,0.02,-0.005,0],"scales":[0.4,0.55,0.7,0.1],"centers":[{"x":0.5,"y":0.5},{"x":0.5,"y":0.5},{"x":0.5,"y":0.5},{"x":0.5,"y":0.5}],"wrap_modes":[{"rep":true,"clamp":false},{"rep":true,"clamp":false},{"rep":true,"clamp":false},{"rep":true,"clamp":false}],"blend_types":[{"normal":true,"add":false,"screen":false},{"normal":true,"add":false,"screen":false},{"normal":true,"add":false,"screen":false},{"normal":true,"add":false,"screen":false}],"alpha_anims":[{"base":1,"frequency":0,"amplitude":0},{"base":1,"frequency":0,"amplitude":0},{"base":1,"frequency":0,"amplitude":0},{"base":1,"frequency":0,"amplitude":0}]}',NULL,NULL);
 INSERT INTO "background_shader_param_m" VALUES(4,3,'{"assets":["assets/image/shader/shader_007.png","assets/image/shader/shader_008.png","assets/image/shader/shader_009.png",""],"size":[{"x":1386,"y":640},{"x":512,"y":512},{"x":1024,"y":1024},{"x":0,"y":0}],"addtype":[{"x":0,"y":0,"z":0.8},{"x":0,"y":0,"z":2.3},{"x":0,"y":0,"z":0}],"origin":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"offset":[{"x":1,"y":1,"z":0,"w":0},{"x":-1.004,"y":-1.25,"z":-350,"w":-640},{"x":0,"y":0,"z":0,"w":0}],"delta":[{"x":-56,"y":0},{"x":227,"y":51.2},{"x":0,"y":0}],"angle":[0,-17,0],"angle_delta":[0,0,0]}',NULL,NULL);
 INSERT INTO "background_shader_param_m" VALUES(5,3,'{"assets":["assets/image/shader/shader_010.png","assets/image/shader/shader_013.png","assets/image/shader/shader_012.png","assets/image/shader/shader_011.png"],"size":[{"x":1386,"y":640},{"x":1024,"y":1024},{"x":512,"y":512},{"x":512,"y":512}],"addtype":[{"x":0,"y":-0.1,"z":-0.6},{"x":0,"y":1,"z":0},{"x":0,"y":1,"z":0}],"origin":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"offset":[{"x":1,"y":-2,"z":0,"w":0},{"x":0.8,"y":0.8,"z":0,"w":0},{"x":1.2,"y":1.2,"z":0,"w":0}],"delta":[{"x":14,"y":0},{"x":0,"y":-63},{"x":0,"y":-83}],"angle":[0,-5,27],"angle_delta":[0,0,0]}',NULL,NULL);
+CREATE TABLE `change_delegate_item_amount_m` (
+    `unit_rarity` INTEGER NOT NULL,
+    `item_rarity` INTEGER NOT NULL,
+    `amount` INTEGER NOT NULL,
+    `cost_game_coin_amount` INTEGER NOT NULL,
+    PRIMARY KEY (`unit_rarity`,`item_rarity`)
+);
+INSERT INTO "change_delegate_item_amount_m" VALUES(4,4,1,45000);
+CREATE TABLE `change_delegate_item_m` (
+    `item_id` INTEGER NOT NULL,
+    `unit_type_id` INTEGER NOT NULL,
+    `rarity` INTEGER NOT NULL,
+    PRIMARY KEY (`item_id`)
+);
+INSERT INTO "change_delegate_item_m" VALUES(14001,1,4);
+INSERT INTO "change_delegate_item_m" VALUES(14101,101,4);
 CREATE TABLE `kg_item_m` (
     `item_id` INTEGER NOT NULL,
     `item_tab_id` INTEGER NOT NULL,
@@ -606,11 +622,20 @@ INSERT INTO "kg_item_m" VALUES(100,1,'レクリエーション投票券[第2回]
 INSERT INTO "kg_item_m" VALUES(101,1,'レクリエーション投票券[第3回]',101,1,1,'assets/image/item/item_101_m.png','assets/image/item/item_101_s.png','オータムレクリエーション第3回の投票用アイテム',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(102,1,'[Printemps]SR以上3連勧誘チケット',102,1,1,'assets/image/item/item_102_m.png','assets/image/item/item_102_s.png','Printemps SR以上3連勧誘を行える',NULL,NULL,NULL,NULL,63,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(103,1,'[lily white]SR以上3連勧誘チケット',103,1,1,'assets/image/item/item_103_m.png','assets/image/item/item_103_s.png','lily white SR以上3連勧誘を行える',NULL,NULL,NULL,NULL,64,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(104,1,'[BiBi]SR以上3連勧誘チケット',104,1,1,'assets/image/item/item_104_m.png','assets/image/item/item_104_s.png','BiBi SR以上3連勧誘を行える',NULL,NULL,NULL,NULL,65,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(105,1,'[CYaRon！]SR以上3連勧誘チケット',105,1,1,'assets/image/item/item_105_m.png','assets/image/item/item_105_s.png','CYaRon！ SR以上3連勧誘を行える',NULL,NULL,NULL,NULL,66,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(106,1,'[AZALEA]SR以上3連勧誘チケット',106,1,1,'assets/image/item/item_106_m.png','assets/image/item/item_106_s.png','AZALEA SR以上3連勧誘を行える',NULL,NULL,NULL,NULL,67,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(107,1,'[Guilty Kiss]SR以上3連勧誘チケット',107,1,1,'assets/image/item/item_107_m.png','assets/image/item/item_107_s.png','Guilty Kiss SR以上3連勧誘を行える',NULL,NULL,NULL,NULL,68,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(108,1,'スクユニUR1枚確定11連勧誘チケット～μ''s～',108,1,1,'assets/image/item/item_108_m.png','assets/image/item/item_108_s.png','スクユニUR1枚確定11連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,69,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(109,1,'スクユニUR1枚確定11連勧誘チケット～Aqours～',109,1,1,'assets/image/item/item_109_m.png','assets/image/item/item_109_s.png','スクユニUR1枚確定11連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,70,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(110,1,'[1年生]SR以上3連勧誘チケット～μ''s～',110,1,1,'assets/image/item/item_110_m.png','assets/image/item/item_110_s.png','1年生SR以上3連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,71,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(111,1,'[2年生]SR以上3連勧誘チケット〜μ''s〜',111,1,1,'assets/image/item/item_111_m.png','assets/image/item/item_111_s.png','2年生SR以上3連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,72,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(113,1,'[1年生]SR以上3連勧誘チケット～Aqours～',113,1,1,'assets/image/item/item_113_m.png','assets/image/item/item_113_s.png','1年生SR以上3連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,74,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(114,1,'[2年生]SR以上3連勧誘チケット～Aqours～',114,1,1,'assets/image/item/item_114_m.png','assets/image/item/item_114_s.png','2年生SR以上3連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,75,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','ラブカストーンピース','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
-INSERT INTO "kg_item_m" VALUES(9999,1,'UR部員',9999,1,1,'assets/image/item/item_9999_m.png','assets/image/item/item_9999_s.png','UR部員','人',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(14001,1,'URパーティメダル[高坂穂乃果]',14001,1,1,'assets/image/item/item_14001_m.png','assets/image/item/item_14001_s.png','特定のパーティカードのメインを高坂穂乃果に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(14101,1,'URパーティメダル[高海千歌]',14101,1,1,'assets/image/item/item_14101_m.png','assets/image/item/item_14101_s.png','特定のパーティカードのメインを高海千歌に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 CREATE TABLE `live_notes_icon_asset_m` (
     `live_notes_icon_id` INTEGER NOT NULL,
     `tap_type` INTEGER NOT NULL,

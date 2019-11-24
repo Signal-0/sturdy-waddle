@@ -1756,6 +1756,8 @@ INSERT INTO "achievement_m" VALUES(10290061,'なかよし総選挙 ご機嫌な2
 INSERT INTO "achievement_m" VALUES(10290062,'LoveLive!Days連動ユニットストーリー 2話','LoveLive!Days連動ユニットストーリーをゲット！\nスクフェスにログインしよう！','assets/image/achievement/tag_002.png',1,29,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/11/6 0:00:00',NULL,1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10290063,'LoveLive!Days連動ユニットストーリー 2話','LoveLive!Days連動ユニットストーリーをゲット！\nスクフェスにログインしよう！','assets/image/achievement/tag_002.png',1,29,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/11/13 0:00:00',NULL,1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10290064,'LoveLive!Days連動ユニットストーリー 2話','LoveLive!Days連動ユニットストーリーをゲット！\nスクフェスにログインしよう！','assets/image/achievement/tag_002.png',1,29,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/11/20 0:00:00',NULL,1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10290065,'LoveLive!Days連動ユニットストーリー 3話','LoveLive!Days連動ユニットストーリーをゲット！\nスクフェスにログインしよう！','assets/image/achievement/tag_002.png',1,29,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/11/27 0:00:00',NULL,1,1,NULL,NULL);
+INSERT INTO "achievement_m" VALUES(10290068,'なかよし総選挙 温泉ヨーソロー！','なかよし総選挙ストーリー 千歌&曜編をゲット！\nスクフェスにログインしよう！','assets/image/achievement/tag_002.png',1,29,0,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2019/11/20 15:00:00',NULL,1,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10330001,'千歌のステージ衣装！','高海千歌を1種類以上覚醒させる','assets/image/achievement/tag_009.png',2,33,0,NULL,101,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2016/07/05 0:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10330002,'梨子のステージ衣装！','桜内梨子を1種類以上覚醒させる','assets/image/achievement/tag_009.png',2,33,0,NULL,102,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2016/07/05 0:00:00',NULL,0,1,NULL,NULL);
 INSERT INTO "achievement_m" VALUES(10330003,'果南のステージ衣装！','松浦果南を1種類以上覚醒させる','assets/image/achievement/tag_009.png',2,33,0,NULL,103,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2016/07/05 0:00:00',NULL,0,1,NULL,NULL);
@@ -5116,6 +5118,8 @@ INSERT INTO "achievement_tag_m" VALUES(10290061,1);
 INSERT INTO "achievement_tag_m" VALUES(10290062,1);
 INSERT INTO "achievement_tag_m" VALUES(10290063,1);
 INSERT INTO "achievement_tag_m" VALUES(10290064,1);
+INSERT INTO "achievement_tag_m" VALUES(10290065,1);
+INSERT INTO "achievement_tag_m" VALUES(10290068,1);
 INSERT INTO "achievement_tag_m" VALUES(10370013,7);
 INSERT INTO "achievement_tag_m" VALUES(10370014,7);
 INSERT INTO "achievement_tag_m" VALUES(10370015,7);
