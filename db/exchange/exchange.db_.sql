@@ -563,7 +563,7 @@ INSERT INTO "exchange_ticket_m" VALUES(15,'Saint Snow SSR部員交換チケッ�
 INSERT INTO "exchange_ticket_m" VALUES(16,'母の日記念交換チケット（μ''s）','assets/image/exchange_ticket/ticket_16_s.png','assets/image/exchange_ticket/ticket_16_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(17,'母の日記念交換チケット（Aqours）','assets/image/exchange_ticket/ticket_17_s.png','assets/image/exchange_ticket/ticket_17_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(18,'リアル脱出ゲームコラボ部員交換チケット[第2弾]','assets/image/exchange_ticket/ticket_18_s.png','assets/image/exchange_ticket/ticket_18_m.png',NULL,'枚',NULL,NULL);
-INSERT INTO "exchange_ticket_m" VALUES(19,'スクスタ60日ログイン部員交換チケット','assets/image/exchange_ticket/ticket_19_s.png','assets/image/exchange_ticket/ticket_19_m.png',NULL,'枚',NULL,242);
+INSERT INTO "exchange_ticket_m" VALUES(19,'スクスタ60日ログイン部員交換チケット','assets/image/exchange_ticket/ticket_19_s.png','assets/image/exchange_ticket/ticket_19_m.png',NULL,'枚',NULL,NULL);
 CREATE TABLE `exchange_ticket_reward_m` (
     `exchange_ticket_reward_id` INTEGER NOT NULL,
     `exchange_ticket_id` INTEGER NOT NULL,
@@ -729,6 +729,6 @@ INSERT INTO "exchange_ticket_reward_m" VALUES(149,18,0,1001,2101,NULL,1,'{"rank"
 INSERT INTO "exchange_ticket_reward_m" VALUES(150,18,0,1001,2102,NULL,1,'{"rank":2}',NULL,NULL,NULL);
 INSERT INTO "exchange_ticket_reward_m" VALUES(151,18,0,1001,2103,NULL,1,'{"rank":2}',NULL,NULL,NULL);
 INSERT INTO "exchange_ticket_reward_m" VALUES(152,18,0,1001,2104,NULL,1,'{"rank":2}',NULL,NULL,NULL);
-INSERT INTO "exchange_ticket_reward_m" VALUES(153,19,1,1001,2227,NULL,1,'{"rank":2}',NULL,NULL,242);
-INSERT INTO "exchange_ticket_reward_m" VALUES(154,19,2,1001,2228,NULL,1,'{"rank":2}',NULL,NULL,242);
+INSERT INTO "exchange_ticket_reward_m" VALUES(153,19,1,1001,2227,NULL,1,'{"rank":2}',NULL,NULL,NULL);
+INSERT INTO "exchange_ticket_reward_m" VALUES(154,19,2,1001,2228,NULL,1,'{"rank":2}',NULL,NULL,NULL);
 COMMIT;

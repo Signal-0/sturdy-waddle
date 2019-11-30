@@ -355,7 +355,7 @@ INSERT INTO "strings_m" VALUES('reward',105,'ラブカストーンピースが�
 INSERT INTO "strings_m" VALUES('reward',110,'メドレー ミッションの報酬で獲得');
 INSERT INTO "strings_m" VALUES('reward',120,'イベントストーリーを解放しました');
 INSERT INTO "strings_m" VALUES('reward',121,'[%1$s]%2$sの賞品です');
-INSERT INTO "strings_m" VALUES('reward',124,'クラスミッションの達成報酬');
+INSERT INTO "strings_m" VALUES('reward',124,'うでまえクラス チャレンジ課題の達成報酬');
 INSERT INTO "strings_m" VALUES('reward',125,'みんなでクエストの達成報酬');
 INSERT INTO "strings_m" VALUES('reward',126,'クエストの達成報酬');
 INSERT INTO "strings_m" VALUES('reward',127,'%s をGに交換');
@@ -1954,9 +1954,9 @@ INSERT INTO "strings_m" VALUES('line_text',1,'----------------------------------
 INSERT INTO "strings_m" VALUES('enhance_item_error',1,'使用期限が過ぎたアイテムが選択されています');
 INSERT INTO "strings_m" VALUES('shop_notice',1,'※商品内容をご確認の上ご購入下さい。商品内容はホームのお知らせからもご確認いただけます');
 INSERT INTO "strings_m" VALUES('unit_skill',1,'特技詳細');
-INSERT INTO "strings_m" VALUES('multi_unit',1,'部員切替を行いますか？');
+INSERT INTO "strings_m" VALUES('multi_unit',1,'部員切替えを行いますか？');
 INSERT INTO "strings_m" VALUES('multi_unit',2,'パートナー設定、保護設定、ユニット設定は\nそのまま引き継がれます');
-INSERT INTO "strings_m" VALUES('multi_unit',3,'絆MAXではないため切替できません');
-INSERT INTO "strings_m" VALUES('multi_unit',4,'切り替えたい部員を選択してください');
-INSERT INTO "strings_m" VALUES('multi_unit',5,'切り替えたい部員のアイコンを選択してください');
+INSERT INTO "strings_m" VALUES('multi_unit',3,'絆MAXではないため切替えできません');
+INSERT INTO "strings_m" VALUES('multi_unit',4,'切替えたい部員を選択してください');
+INSERT INTO "strings_m" VALUES('multi_unit',5,'切替えたい部員のアイコンを選択してください');
 COMMIT;
