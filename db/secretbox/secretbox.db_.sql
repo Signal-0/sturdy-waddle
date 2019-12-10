@@ -1137,7 +1137,7 @@ INSERT INTO "secret_box_asset_m" VALUES(2233,2233,'assets/image/units/u_normal_c
 INSERT INTO "secret_box_asset_m" VALUES(2234,2234,'assets/image/units/u_normal_card_31108015.png','assets/image/units/u_rankup_card_31108015.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2235,2235,'assets/image/units/u_normal_card_51101008.png','assets/image/units/u_rankup_card_51101008.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2236,2236,'assets/image/units/u_normal_card_42103007.png','assets/image/units/u_rankup_card_42103007.png',NULL,NULL,NULL);
-INSERT INTO "secret_box_asset_m" VALUES(2240,2240,'','','','8uBLv/Pjr3v/MB3xw2M5RvQWo0llBk6ixOtNO/hlLfLc7B1y0/SBZUDzuLdCaHXO1RU56/aC5hNgWEObsh6V+o5Z7QKkYmhkb0SFNUhuCQb3jP9Mbi5SDX8Q0cFCiU05PfO3VAHnyWIdtjH7C+7hhxxWWh1ibNhIsPqZtjQxDx9wBBCpcKg6lz4hXWWd1ShK14/uUSxnoHNQthJYl29tAjZqfR21OJ9R3XvDdtrud5IqFXi/MKX4dpen0Wfjw+ed',246);
-INSERT INTO "secret_box_asset_m" VALUES(2241,2241,'','','','y2K69VmVppT26YG3RGbJE1zE0BEf+HoZOv/1crKOEbS9OuXo8Yp1pjBUeo+gmz3D+10RHbiZaVMeXQBD66TrDM9g66l2ZBv+qz8tJrRdln9Bj1lY2yneaCuSOWGloWkgVPEXGcAJDdfc9gSP1TEa8lo3GqTEeojGdZAOxSt+k/WB3wX0E4+Lr8AFcoG5injtJJujFKaU2nWvJrRl+cvtppvWheWXe37sYt5siLThXkms3lviyYfWjYGxbK7pnsDh',246);
-INSERT INTO "secret_box_asset_m" VALUES(2242,2242,'','','','gShXUIGQZJPQOn7KrCfi4S0s0Mgy4iKTbg2ww0PjHfywz9vK9e9ZLnqcYkMhW9iRpQIAcMj08mgwOTb61dSGtqaljbCNwQIZXbqwVwQ6/grrl1FVgJPhTOIqPncJoZTKX3cB/aquGhcZZLWE8zAWMDG8M0CaeSyb6aJgTjIhG0WyzoDDACssuQslyFVDetTo/BKuErjGxA6jePdSNY0kr5GM4H1mmgheHx2MIjFpIFw5pCRAsguhLvmAUqzQc5qD',246);
+INSERT INTO "secret_box_asset_m" VALUES(2240,2240,'assets/image/units/u_normal_card_33004027.png','assets/image/units/u_rankup_card_33004027.png',NULL,NULL,246);
+INSERT INTO "secret_box_asset_m" VALUES(2241,2241,'assets/image/units/u_normal_card_33008021.png','assets/image/units/u_rankup_card_33008021.png',NULL,NULL,246);
+INSERT INTO "secret_box_asset_m" VALUES(2242,2242,'assets/image/units/u_normal_card_41006008.png','assets/image/units/u_rankup_card_41006008.png',NULL,NULL,246);
 COMMIT;
