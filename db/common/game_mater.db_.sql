@@ -83,7 +83,7 @@ CREATE TABLE `game_setting_m` (
     `exchange_flag` INTEGER NOT NULL,
     PRIMARY KEY (`game_setting_id`)
 );
-INSERT INTO "game_setting_m" VALUES(1,1,360,5,10,10,1,1.2,10.0,5,6,25,3,5,50,60,10,20,'a','次回メインストーリーの\nアップデートを待ってね！',20,100000,18,'00:00',10,1000,1.2,6.0,9,9999999,9999999,1000000000000,9999999,36400,1,4,1500,1000,1,1,99,320,10,9999999,'2019-09-20 15:00:00',1);
+INSERT INTO "game_setting_m" VALUES(1,1,360,5,10,10,1,1.2,10.0,5,6,25,3,5,50,60,10,25,'a','次回メインストーリーの\nアップデートを待ってね！',20,100000,18,'00:00',10,1000,1.2,6.0,9,9999999,9999999,1000000000000,9999999,36400,1,4,1500,1000,1,1,99,320,10,9999999,'2019-09-20 15:00:00',1);
 CREATE TABLE `sort_condition_m` (
     `sort_condition_id` INTEGER NOT NULL,
     `screen_id` INTEGER NOT NULL,
@@ -359,7 +359,7 @@ INSERT INTO "strings_m" VALUES('reward',124,'うでまえクラス チャレン�
 INSERT INTO "strings_m" VALUES('reward',125,'みんなでクエストの達成報酬');
 INSERT INTO "strings_m" VALUES('reward',126,'クエストの達成報酬');
 INSERT INTO "strings_m" VALUES('reward',127,'%s をGに交換');
-INSERT INTO "strings_m" VALUES('reward',128,'特別ストーリーの報酬');
+INSERT INTO "strings_m" VALUES('reward',128,'アナザーストーリーの報酬');
 INSERT INTO "strings_m" VALUES('reward',129,'スクフェスID実績の報酬');
 INSERT INTO "strings_m" VALUES('reward',130,'スクフェスID実績の報酬\n引換期間 %2$s - %3$s');
 INSERT INTO "strings_m" VALUES('reward',131,'ポイントSHOPアイテム');
@@ -780,7 +780,7 @@ INSERT INTO "strings_m" VALUES('mes_live',23,'EXPERT');
 INSERT INTO "strings_m" VALUES('mes_live',24,'報酬を獲得しました');
 INSERT INTO "strings_m" VALUES('mes_live',25,'報酬を獲得しました\nプレゼントボックスに移動します');
 INSERT INTO "strings_m" VALUES('mes_live',26,'MASTER');
-INSERT INTO "strings_m" VALUES('mes_live',27,'\n\n\n\n特別ストーリー\n\n%s が\n解禁されました！\n\n');
+INSERT INTO "strings_m" VALUES('mes_live',27,'\n\n\n\nアナザーストーリー\n\n%s が\n解禁されました！\n\n');
 INSERT INTO "strings_m" VALUES('mes_live',28,'他');
 INSERT INTO "strings_m" VALUES('mes_scenario',1,'ライブの\n%sが\n解禁されました！');
 INSERT INTO "strings_m" VALUES('mes_scenario',2,'%s\n%sの\n%sが解禁されました！\n');
@@ -984,6 +984,7 @@ INSERT INTO "strings_m" VALUES('notice_temp',16,'楽曲スコアランクS！');
 INSERT INTO "strings_m" VALUES('notice_temp',17,'楽曲目標クリア！');
 INSERT INTO "strings_m" VALUES('notice_temp',18,'イベント達成報酬獲得！');
 INSERT INTO "strings_m" VALUES('notice_temp',19,'累計イベントpt！');
+INSERT INTO "strings_m" VALUES('notice_temp',20,'アナザーストーリークリア！');
 INSERT INTO "strings_m" VALUES('mes_player_profile',1,'こんにちは');
 INSERT INTO "strings_m" VALUES('mes_player_profile',2,'合計絆pt =');
 INSERT INTO "strings_m" VALUES('mes_player_profile',3,'名前：');

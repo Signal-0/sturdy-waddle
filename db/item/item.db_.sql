@@ -320,6 +320,7 @@ INSERT INTO "award_m" VALUES(310,'善子ちゃんのクリスマスプレゼン�
 INSERT INTO "award_m" VALUES(311,'花丸ちゃんのクリスマスプレゼント','花丸ちゃんからのクリスマスプレゼント♪','assets/image/award/award_311.png','assets/image/award/award_311di.png',32218,0,'r191215',NULL);
 INSERT INTO "award_m" VALUES(312,'鞠莉ちゃんのクリスマスプレゼント','鞠莉ちゃんからのクリスマスプレゼント♪','assets/image/award/award_312.png','assets/image/award/award_312di.png',32219,0,'r191215',NULL);
 INSERT INTO "award_m" VALUES(313,'ルビィちゃんのクリスマスプレゼント','ルビィちゃんからのクリスマスプレゼント♪','assets/image/award/award_313.png','assets/image/award/award_313di.png',32220,0,'r191215',NULL);
+INSERT INTO "award_m" VALUES(314,'【称号】あけましておめでとう！','新年を祝う称号\n鏡餅は12月28日から飾るといいみたい♪','assets/image/award/award_314.png','assets/image/award/award_314di.png',32251,0,'r191220',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(902,'スクフェス全国大会2017オンライン予選','スクフェス全国大会2017オンライン予選に参加した証','assets/image/award/award_902.png','assets/image/award/award_902di.png',18002,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(903,'【称号】スクフェス全国大会2018オンライン予選','スクフェス全国大会2018オンライン予選に参加した証','assets/image/award/award_903.png','assets/image/award/award_903di.png',18007,0,NULL,NULL);
@@ -527,7 +528,11 @@ CREATE TABLE `change_delegate_item_m` (
     PRIMARY KEY (`item_id`)
 );
 INSERT INTO "change_delegate_item_m" VALUES(14001,1,4);
+INSERT INTO "change_delegate_item_m" VALUES(14002,2,4);
+INSERT INTO "change_delegate_item_m" VALUES(14007,7,4);
 INSERT INTO "change_delegate_item_m" VALUES(14101,101,4);
+INSERT INTO "change_delegate_item_m" VALUES(14106,106,4);
+INSERT INTO "change_delegate_item_m" VALUES(14107,107,4);
 CREATE TABLE `kg_item_m` (
     `item_id` INTEGER NOT NULL,
     `item_tab_id` INTEGER NOT NULL,
@@ -664,7 +669,11 @@ INSERT INTO "kg_item_m" VALUES(125,1,'冬のUR1枚確定11連勧誘チケット�
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','ラブカストーンピース','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14001,1,'URパーティメダル[高坂穂乃果]',14001,1,1,'assets/image/item/item_14001_m.png','assets/image/item/item_14001_s.png','特定のパーティカードのメインを高坂穂乃果に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(14002,1,'URパーティメダル[絢瀬絵里]',14002,1,1,'assets/image/item/item_14002_m.png','assets/image/item/item_14002_s.png','特定のパーティカードのメインを絢瀬絵里に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(14007,1,'URパーティメダル[東條 希]',14007,1,1,'assets/image/item/item_14007_m.png','assets/image/item/item_14007_s.png','特定のパーティカードのメインを東條希に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14101,1,'URパーティメダル[高海千歌]',14101,1,1,'assets/image/item/item_14101_m.png','assets/image/item/item_14101_s.png','特定のパーティカードのメインを高海千歌に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(14106,1,'URパーティメダル[津島善子]',14106,1,1,'assets/image/item/item_14106_m.png','assets/image/item/item_14106_s.png','特定のパーティカードのメインを津島善子に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(14107,1,'URパーティメダル[国木田花丸]',14107,1,1,'assets/image/item/item_14107_m.png','assets/image/item/item_14107_s.png','特定のパーティカードのメインを国木田花丸に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 CREATE TABLE `live_notes_icon_asset_m` (
     `live_notes_icon_id` INTEGER NOT NULL,
     `tap_type` INTEGER NOT NULL,
