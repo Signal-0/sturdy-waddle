@@ -34,6 +34,14 @@ INSERT INTO "duel_common_asset_m" VALUES(174,10001,2,5,'assets/image/duel/rule/r
 INSERT INTO "duel_common_asset_m" VALUES(175,10001,3,1,'assets/image/ui/event/e_bg_02.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(176,10001,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(177,10001,6,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
+INSERT INTO "duel_common_asset_m" VALUES(178,10002,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
+INSERT INTO "duel_common_asset_m" VALUES(179,10002,2,2,'assets/image/duel/rule/rule_01_02.png',NULL,NULL);
+INSERT INTO "duel_common_asset_m" VALUES(180,10002,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
+INSERT INTO "duel_common_asset_m" VALUES(181,10002,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
+INSERT INTO "duel_common_asset_m" VALUES(182,10002,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
+INSERT INTO "duel_common_asset_m" VALUES(183,10002,3,1,'assets/image/ui/event/e_bg_02.png',NULL,NULL);
+INSERT INTO "duel_common_asset_m" VALUES(184,10002,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
+INSERT INTO "duel_common_asset_m" VALUES(185,10002,6,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(186,10003,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(187,10003,2,2,'assets/image/duel/rule/rule_01_02.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(188,10003,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
@@ -50,14 +58,6 @@ INSERT INTO "duel_common_asset_m" VALUES(198,10004,2,5,'assets/image/duel/rule/r
 INSERT INTO "duel_common_asset_m" VALUES(199,10004,3,1,'assets/image/ui/event/e_bg_02.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(200,10004,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(201,10004,6,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(202,101,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(203,101,2,2,'assets/image/duel/rule/rule_01_02.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(204,101,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(205,101,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(206,101,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(207,101,3,1,'assets/image/ui/event/e_bg_02.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(208,101,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(209,101,6,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 CREATE TABLE `duel_deck_mark_base_m` (
     `duel_deck_mark_base_id` INTEGER NOT NULL,
     `mark1_start_num` INTEGER NOT NULL,
@@ -1097,6 +1097,25 @@ INSERT INTO "duel_live_m" VALUES(700763,278,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL
 INSERT INTO "duel_live_m" VALUES(700764,279,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,15);
 INSERT INTO "duel_live_m" VALUES(700765,344,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,25);
 INSERT INTO "duel_live_m" VALUES(700766,749,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,25);
+INSERT INTO "duel_live_m" VALUES(700767,1114,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,25);
+INSERT INTO "duel_live_m" VALUES(700768,920,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,5);
+INSERT INTO "duel_live_m" VALUES(700769,921,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,10);
+INSERT INTO "duel_live_m" VALUES(700770,922,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,15);
+INSERT INTO "duel_live_m" VALUES(700771,923,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,25);
+INSERT INTO "duel_live_m" VALUES(700772,1187,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,25);
+INSERT INTO "duel_live_m" VALUES(700773,1208,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,25);
+INSERT INTO "duel_live_m" VALUES(700774,884,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,5);
+INSERT INTO "duel_live_m" VALUES(700775,885,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,10);
+INSERT INTO "duel_live_m" VALUES(700776,886,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,15);
+INSERT INTO "duel_live_m" VALUES(700777,887,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,25);
+INSERT INTO "duel_live_m" VALUES(700778,1166,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,25);
+INSERT INTO "duel_live_m" VALUES(700779,600,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,5);
+INSERT INTO "duel_live_m" VALUES(700780,601,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,10);
+INSERT INTO "duel_live_m" VALUES(700781,602,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,15);
+INSERT INTO "duel_live_m" VALUES(700782,603,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,25);
+INSERT INTO "duel_live_m" VALUES(700783,1110,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,25);
+INSERT INTO "duel_live_m" VALUES(700784,1163,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,25);
+INSERT INTO "duel_live_m" VALUES(700785,1240,NULL,NULL,NULL,NULL,NULL,NULL,0,NULL,1,25);
 CREATE TABLE `duel_mark_m` (
     `duel_mark_id` INTEGER NOT NULL,
     `duel_mark_icon_asset` TEXT NOT NULL,
@@ -14229,6 +14248,17 @@ INSERT INTO "duel_skill_type_rotation_m" VALUES(9,10001,109,1040,'2019/11/22 16:
 INSERT INTO "duel_skill_type_rotation_m" VALUES(10,10001,110,1060,'2019/11/22 16:00:00',NULL);
 INSERT INTO "duel_skill_type_rotation_m" VALUES(11,10001,111,1080,'2019/11/22 16:00:00',NULL);
 INSERT INTO "duel_skill_type_rotation_m" VALUES(13,10001,113,1070,'2019/11/22 16:00:00',NULL);
+INSERT INTO "duel_skill_type_rotation_m" VALUES(1,10002,101,140,'2019/11/29 16:00:00',NULL);
+INSERT INTO "duel_skill_type_rotation_m" VALUES(2,10002,102,1030,'2019/11/29 16:00:00',NULL);
+INSERT INTO "duel_skill_type_rotation_m" VALUES(3,10002,103,100,'2019/11/29 16:00:00',NULL);
+INSERT INTO "duel_skill_type_rotation_m" VALUES(4,10002,104,1010,'2019/11/29 16:00:00',NULL);
+INSERT INTO "duel_skill_type_rotation_m" VALUES(5,10002,105,133,'2019/11/29 16:00:00',NULL);
+INSERT INTO "duel_skill_type_rotation_m" VALUES(6,10002,106,1000,'2019/11/29 16:00:00',NULL);
+INSERT INTO "duel_skill_type_rotation_m" VALUES(8,10002,108,1020,'2019/11/29 16:00:00',NULL);
+INSERT INTO "duel_skill_type_rotation_m" VALUES(9,10002,109,1040,'2019/11/29 16:00:00',NULL);
+INSERT INTO "duel_skill_type_rotation_m" VALUES(10,10002,110,1060,'2019/11/29 16:00:00',NULL);
+INSERT INTO "duel_skill_type_rotation_m" VALUES(11,10002,111,1080,'2019/11/29 16:00:00',NULL);
+INSERT INTO "duel_skill_type_rotation_m" VALUES(13,10002,113,1070,'2019/11/29 16:00:00',NULL);
 INSERT INTO "duel_skill_type_rotation_m" VALUES(1,10003,101,140,'2019/12/06 16:00:00',NULL);
 INSERT INTO "duel_skill_type_rotation_m" VALUES(2,10003,102,1030,'2019/12/06 16:00:00',NULL);
 INSERT INTO "duel_skill_type_rotation_m" VALUES(3,10003,103,100,'2019/12/06 16:00:00',NULL);
@@ -14251,17 +14281,6 @@ INSERT INTO "duel_skill_type_rotation_m" VALUES(9,10004,109,1040,'2019/12/13 16:
 INSERT INTO "duel_skill_type_rotation_m" VALUES(10,10004,110,1060,'2019/12/13 16:00:00',NULL);
 INSERT INTO "duel_skill_type_rotation_m" VALUES(11,10004,111,1080,'2019/12/13 16:00:00',NULL);
 INSERT INTO "duel_skill_type_rotation_m" VALUES(13,10004,113,1070,'2019/12/13 16:00:00',NULL);
-INSERT INTO "duel_skill_type_rotation_m" VALUES(1,101,101,140,'2019/12/26 00:00:00','2019/12/31 23:59:59');
-INSERT INTO "duel_skill_type_rotation_m" VALUES(2,101,102,1030,'2019/12/26 00:00:00','2019/12/31 23:59:59');
-INSERT INTO "duel_skill_type_rotation_m" VALUES(3,101,103,100,'2019/12/26 00:00:00','2019/12/31 23:59:59');
-INSERT INTO "duel_skill_type_rotation_m" VALUES(4,101,104,1010,'2019/12/26 00:00:00','2019/12/31 23:59:59');
-INSERT INTO "duel_skill_type_rotation_m" VALUES(5,101,105,133,'2019/12/26 00:00:00','2019/12/31 23:59:59');
-INSERT INTO "duel_skill_type_rotation_m" VALUES(6,101,106,1000,'2019/12/26 00:00:00','2019/12/31 23:59:59');
-INSERT INTO "duel_skill_type_rotation_m" VALUES(8,101,108,1020,'2019/12/26 00:00:00','2019/12/31 23:59:59');
-INSERT INTO "duel_skill_type_rotation_m" VALUES(9,101,109,1040,'2019/12/26 00:00:00','2019/12/31 23:59:59');
-INSERT INTO "duel_skill_type_rotation_m" VALUES(10,101,110,1060,'2019/12/26 00:00:00','2019/12/31 23:59:59');
-INSERT INTO "duel_skill_type_rotation_m" VALUES(11,101,111,1080,'2019/12/26 00:00:00','2019/12/31 23:59:59');
-INSERT INTO "duel_skill_type_rotation_m" VALUES(13,101,113,1070,'2019/12/26 00:00:00','2019/12/31 23:59:59');
 CREATE TABLE `duel_term_m` (
     `duel_id` INTEGER NOT NULL,
     `term_id` INTEGER NOT NULL,
@@ -14279,9 +14298,9 @@ INSERT INTO "duel_term_m" VALUES(10,10,'2019/09/20 15:00:00','2019/09/23 14:59:5
 INSERT INTO "duel_term_m" VALUES(10,11,'2019/09/23 15:00:00','2019/09/26 14:59:59',1,1,0,8,NULL);
 INSERT INTO "duel_term_m" VALUES(10,12,'2019/09/26 15:00:00','2019/09/30 14:59:59',1,1,0,8,NULL);
 INSERT INTO "duel_term_m" VALUES(10001,10001,'2019/11/22 16:00:00',NULL,1,1,0,8,1);
+INSERT INTO "duel_term_m" VALUES(10002,10002,'2019/11/29 16:00:00',NULL,1,1,0,8,1);
 INSERT INTO "duel_term_m" VALUES(10003,10003,'2019/12/06 16:00:00',NULL,1,1,0,8,1);
 INSERT INTO "duel_term_m" VALUES(10004,10004,'2019/12/13 16:00:00',NULL,1,1,0,8,1);
-INSERT INTO "duel_term_m" VALUES(101,101,'2019/12/26 00:00:00','2019/12/31 23:59:59',1,1,0,8,1);
 CREATE TABLE `duel_total_combo_m` (
     `combo_cnt` INTEGER NOT NULL,
     `score_rate` REAL NOT NULL,

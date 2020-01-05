@@ -668,8 +668,15 @@ INSERT INTO "kg_item_m" VALUES(114,1,'[2年生]SR以上3連勧誘チケット～
 INSERT INTO "kg_item_m" VALUES(115,1,'[3年生]SR以上3連勧誘チケット～Aqours～',115,1,1,'assets/image/item/item_115_m.png','assets/image/item/item_115_s.png','3年生SR以上3連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,76,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(116,1,'冬の3連勧誘チケット2019～μ''s～',116,1,1,'assets/image/item/item_116_m.png','assets/image/item/item_116_s.png','SR以上確定！クリスマス3連勧誘2019～μ''s～を行える',NULL,NULL,NULL,NULL,77,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(117,1,'冬の3連勧誘チケット2019～Aqours～',117,1,1,'assets/image/item/item_117_m.png','assets/image/item/item_117_s.png','SR以上確定！クリスマス3連勧誘2019～Aqours～を行える',NULL,NULL,NULL,NULL,78,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(118,1,'[ラブライブ！フェス]選べるメンバーUR1枚確定11連勧誘チケット～μ''s～',118,1,1,'assets/image/item/item_118_m.png','assets/image/item/item_118_s.png','[ラブライブ！フェス]選べるメンバーUR1枚確定11連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,79,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(119,1,'[ラブライブ！フェス]選べるメンバーUR1枚確定11連勧誘チケット～Aqours～',119,1,1,'assets/image/item/item_119_m.png','assets/image/item/item_119_s.png','[ラブライブ！フェス]選べるメンバーUR1枚確定11連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,80,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(120,1,'[ラブライブ！フェス]SR以上11連勧誘チケット～μ''s～',120,1,1,'assets/image/item/item_120_m.png','assets/image/item/item_120_s.png','[ラブライブ！フェス]SR以上11連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,81,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(121,1,'[ラブライブ！フェス]SR以上11連勧誘チケット～Aqours～',121,1,1,'assets/image/item/item_121_m.png','assets/image/item/item_121_s.png','[ラブライブ！フェス]SR以上11連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,82,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(122,1,'[ラブライブ！フェス]SSR以上確定3連勧誘チケット～μ''s～',122,1,1,'assets/image/item/item_122_m.png','assets/image/item/item_122_s.png','[ラブライブ！フェス]SSR以上確定3連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,83,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(123,1,'[ラブライブ！フェス]SSR以上確定3連勧誘チケット～Aqours～',123,1,1,'assets/image/item/item_123_m.png','assets/image/item/item_123_s.png','[ラブライブ！フェス]SSR以上確定3連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,84,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(124,1,'冬のUR1枚確定11連勧誘チケット～μ''s～',124,1,1,'assets/image/item/item_124_m.png','assets/image/item/item_124_s.png','UR1枚以上確定！クリスマス11連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,85,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(125,1,'冬のUR1枚確定11連勧誘チケット～Aqours～',125,1,1,'assets/image/item/item_125_m.png','assets/image/item/item_125_s.png','UR1枚以上確定！クリスマス11連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,86,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(133,1,'[花陽ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',133,1,1,'assets/image/item/item_133_m.png','assets/image/item/item_133_s.png','花陽ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,94,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','ラブカストーンピース','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14001,1,'URパーティメダル[高坂穂乃果]',14001,1,1,'assets/image/item/item_14001_m.png','assets/image/item/item_14001_s.png','特定のパーティカードのメインを高坂穂乃果に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
@@ -786,5 +793,6 @@ INSERT INTO "recovery_item_m" VALUES(7,'シュガーシロップ[LP5]',2,5,'asse
 INSERT INTO "recovery_item_m" VALUES(8,'スクフェスブレード～μ''s～',2,1,'assets/image/recovery_item/recovery_08_s.png','assets/image/recovery_item/recovery_08_m.png',NULL,'個','LPを1回復します\n（2019/08/20 15:00以降に削除されます）',NULL,NULL);
 INSERT INTO "recovery_item_m" VALUES(9,'スクフェスブレード～Aqours～',2,1,'assets/image/recovery_item/recovery_09_s.png','assets/image/recovery_item/recovery_09_m.png',NULL,'個','LPを1回復します\n（2019/08/31 15:00以降に削除されます）',NULL,NULL);
 INSERT INTO "recovery_item_m" VALUES(10,'クリスマスボックス[LP1]',2,1,'assets/image/recovery_item/recovery_10_s.png','assets/image/recovery_item/recovery_10_m.png',NULL,'個','LPを1回復します\n（2019/12/31 15:00以降に削除されます）',NULL,NULL);
+INSERT INTO "recovery_item_m" VALUES(11,'メモリアルピンズ',2,1,'assets/image/recovery_item/recovery_11_s.png','assets/image/recovery_item/recovery_11_m.png',NULL,'個','LPを1回復します\n（2020/01/31 15:00以降に削除されます）',NULL,NULL);
 CREATE INDEX `idx_category_id` ON `kg_item_m`(`item_category_id`);
 COMMIT;
