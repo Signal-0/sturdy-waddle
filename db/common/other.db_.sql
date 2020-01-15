@@ -73,18 +73,18 @@ INSERT INTO "scattering_tutorial_m" VALUES(33,30,1,'Master楽曲プレイ機能'
 INSERT INTO "scattering_tutorial_m" VALUES(34,30,1,'Master楽曲プレイ機能',2,1,1,'assets/image/tutorial/tu_etc_25.png',NULL,NULL);
 INSERT INTO "scattering_tutorial_m" VALUES(35,30,2,'Master楽曲プレイ機能',1,1,1,'assets/image/tutorial/tu_etc_25.png',NULL,NULL);
 INSERT INTO "scattering_tutorial_m" VALUES(36,30,2,'Master楽曲プレイ機能',2,1,1,'assets/image/tutorial/tu_etc_25.png',NULL,NULL);
-INSERT INTO "scattering_tutorial_m" VALUES(37,40,1,'クラスシステム',1,1,1,'assets/image/tutorial/tu_etc_26.png',NULL,NULL);
-INSERT INTO "scattering_tutorial_m" VALUES(38,40,1,'クラスシステム',1,2,1,'assets/image/tutorial/tu_etc_35.png',NULL,NULL);
-INSERT INTO "scattering_tutorial_m" VALUES(39,40,1,'クラスシステム',1,3,1,'assets/image/tutorial/tu_etc_36.png',NULL,NULL);
-INSERT INTO "scattering_tutorial_m" VALUES(40,40,1,'クラスシステム',2,1,1,'assets/image/tutorial/tu_etc_26.png',NULL,NULL);
-INSERT INTO "scattering_tutorial_m" VALUES(41,40,1,'クラスシステム',2,2,1,'assets/image/tutorial/tu_etc_35.png',NULL,NULL);
-INSERT INTO "scattering_tutorial_m" VALUES(42,40,1,'クラスシステム',2,3,1,'assets/image/tutorial/tu_etc_36.png',NULL,NULL);
-INSERT INTO "scattering_tutorial_m" VALUES(43,40,2,'クラスシステム',1,1,1,'assets/image/tutorial/tu_etc_26.png',NULL,NULL);
-INSERT INTO "scattering_tutorial_m" VALUES(44,40,2,'クラスシステム',1,2,1,'assets/image/tutorial/tu_etc_35.png',NULL,NULL);
-INSERT INTO "scattering_tutorial_m" VALUES(45,40,2,'クラスシステム',1,3,1,'assets/image/tutorial/tu_etc_36.png',NULL,NULL);
-INSERT INTO "scattering_tutorial_m" VALUES(46,40,2,'クラスシステム',2,1,1,'assets/image/tutorial/tu_etc_26.png',NULL,NULL);
-INSERT INTO "scattering_tutorial_m" VALUES(47,40,2,'クラスシステム',2,2,1,'assets/image/tutorial/tu_etc_35.png',NULL,NULL);
-INSERT INTO "scattering_tutorial_m" VALUES(48,40,2,'クラスシステム',2,3,1,'assets/image/tutorial/tu_etc_36.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(37,40,1,'うでまえクラス',1,1,1,'assets/image/tutorial/tu_etc_26.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(38,40,1,'うでまえクラス',1,2,1,'assets/image/tutorial/tu_etc_35.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(39,40,1,'うでまえクラス',1,3,1,'assets/image/tutorial/tu_etc_36.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(40,40,1,'うでまえクラス',2,1,1,'assets/image/tutorial/tu_etc_26.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(41,40,1,'うでまえクラス',2,2,1,'assets/image/tutorial/tu_etc_35.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(42,40,1,'うでまえクラス',2,3,1,'assets/image/tutorial/tu_etc_36.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(43,40,2,'うでまえクラス',1,1,1,'assets/image/tutorial/tu_etc_26.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(44,40,2,'うでまえクラス',1,2,1,'assets/image/tutorial/tu_etc_35.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(45,40,2,'うでまえクラス',1,3,1,'assets/image/tutorial/tu_etc_36.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(46,40,2,'うでまえクラス',2,1,1,'assets/image/tutorial/tu_etc_26.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(47,40,2,'うでまえクラス',2,2,1,'assets/image/tutorial/tu_etc_35.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(48,40,2,'うでまえクラス',2,3,1,'assets/image/tutorial/tu_etc_36.png',NULL,NULL);
 CREATE TABLE `stamp_action_m` (
     `stamp_action_id` INTEGER NOT NULL,
     `flash_asset` TEXT,
@@ -142,6 +142,7 @@ INSERT INTO "stamp_m" VALUES(28,4,'assets/image/sticker/st_001_004.png',NULL,300
 INSERT INTO "stamp_m" VALUES(29,3,'assets/image/sticker/st_002_004.png',NULL,300060,3,1,1,2,'【スタンプ】絢瀬絵里',0,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(30,4,'assets/image/sticker/st_003_004.png',NULL,300061,3,1,1,3,'【スタンプ】南ことり',0,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(32,4,'assets/image/sticker/st_005_004.png',NULL,300063,3,1,1,5,'【スタンプ】星空 凛',0,NULL,NULL);
+INSERT INTO "stamp_m" VALUES(35,4,'assets/image/sticker/st_008_004.png',NULL,300066,3,1,1,8,'【スタンプ】小泉花陽',0,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(101,5,'assets/image/sticker/st_101_001.png',NULL,300019,0,1,2,101,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(102,3,'assets/image/sticker/st_101_002.png',NULL,300020,0,1,2,101,NULL,1,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(103,1,'assets/image/sticker/st_102_001.png',NULL,300021,0,1,2,102,NULL,1,NULL,NULL);
