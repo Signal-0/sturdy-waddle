@@ -23904,6 +23904,18 @@ INSERT INTO "live_goal_reward_m" VALUES(23661,2865,3,4,3002,2,2,300,NULL);
 INSERT INTO "live_goal_reward_m" VALUES(23662,2865,3,3,3002,2,2,500,NULL);
 INSERT INTO "live_goal_reward_m" VALUES(23663,2865,3,2,3002,2,2,1000,NULL);
 INSERT INTO "live_goal_reward_m" VALUES(23664,2865,3,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(23665,2866,1,4,3000,3,3,10000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(23666,2866,1,3,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(23667,2866,1,2,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(23668,2866,1,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(23669,2866,2,4,3000,3,3,10000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(23670,2866,2,3,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(23671,2866,2,2,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(23672,2866,2,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(23673,2866,3,4,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(23674,2866,3,3,3002,2,2,1000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(23675,2866,3,2,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(23676,2866,3,1,3001,4,4,1,NULL);
 CREATE TABLE `live_note_score_factor_m` (
     `effect_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,
@@ -25205,6 +25217,7 @@ INSERT INTO "live_setting_m" VALUES(1251,595,1,3,2,'assets/image/live/live_icon/
 INSERT INTO "live_setting_m" VALUES(1252,595,2,6,2,'assets/image/live/live_icon/j_mu_0595.png',NULL,6,'Live_s1252.json',27984,55968,69960,83952,64,106,148,212,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(1253,595,3,8,2,'assets/image/live/live_icon/j_mu_0595.png',NULL,8,'Live_s1253.json',53720,134300,161160,188020,95,158,221,316,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(1254,595,4,10,2,'assets/image/live/live_icon/j_mu_0595.png',NULL,10,'Live_s1254.json',98959,272138,296877,321617,141,235,328,469,0,0,NULL,NULL);
+INSERT INTO "live_setting_m" VALUES(1255,541,6,12,1,'assets/image/live/live_icon/j_aq_0541.png',NULL,125,'Live_s1255.json',152342,381216,457026,533558,217,361,506,722,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10398,449,4,11,3,'assets/image/live/live_icon/j_bd2_02_01.png',NULL,32,'Live_s0398.json',113307,283536,339921,396843,162,269,376,537,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10654,494,4,10,1,'assets/image/live/live_icon/j_cdsp_02.png',NULL,10,'Live_s0654.json',101280,253440,303840,354720,144,240,336,480,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10779,510,4,10,1,'assets/image/live/live_icon/j_aq_0509.png',NULL,10,'Live_s0779.json',121536,304128,364608,425664,173,288,404,576,0,0,NULL,NULL);
@@ -25721,9 +25734,9 @@ INSERT INTO "live_track_m" VALUES(589,'だってだって噫無情 [UMI Mix]','�
 INSERT INTO "live_track_m" VALUES(590,'冬がくれた予感 [ELI Mix]','フユカクレタヨカンエリミツクス','assets/image/live/title/t_mu_0590.png','assets/sound/music/m_231.mp3',1,22,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(591,'ふたりハピネス [NOZOMI Mix]','フタリハヒネスノソミミツクス','assets/image/live/title/t_mu_0591.png','assets/sound/music/m_232.mp3',1,21,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(592,'Trouble Busters [NICO Mix]','トラフルハスタアスニコミツクス','assets/image/live/title/t_mu_0592.png','assets/sound/music/m_233.mp3',1,16,NULL,NULL);
-INSERT INTO "live_track_m" VALUES(593,'Hello,星を数えて [RIN Mix]','ハロオホシヲカソエテリンミツクス','assets/image/live/title/t_mu_0593.png','assets/sound/music/m_234.mp3',1,20,NULL,253);
-INSERT INTO "live_track_m" VALUES(594,'ユメノトビラ [MAKI Mix]','ユメノトヒラマキミツクス','assets/image/live/title/t_mu_0594.png','assets/sound/music/m_235.mp3',1,18,NULL,253);
-INSERT INTO "live_track_m" VALUES(595,'Pure girls project [HANAYO Mix]','ヒユアカアルスフロシエクトハナヨミツクス','assets/image/live/title/t_mu_0595.png','assets/sound/music/m_236.mp3',1,15,NULL,253);
+INSERT INTO "live_track_m" VALUES(593,'Hello,星を数えて [RIN Mix]','ハロオホシヲカソエテリンミツクス','assets/image/live/title/t_mu_0593.png','assets/sound/music/m_234.mp3',1,20,NULL,NULL);
+INSERT INTO "live_track_m" VALUES(594,'ユメノトビラ [MAKI Mix]','ユメノトヒラマキミツクス','assets/image/live/title/t_mu_0594.png','assets/sound/music/m_235.mp3',1,18,NULL,NULL);
+INSERT INTO "live_track_m" VALUES(595,'Pure girls project [HANAYO Mix]','ヒユアカアルスフロシエクトハナヨミツクス','assets/image/live/title/t_mu_0595.png','assets/sound/music/m_236.mp3',1,15,NULL,NULL);
 CREATE TABLE `live_unit_reward_lot_m` (
     `live_unit_reward_lot_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,
@@ -27513,6 +27526,7 @@ INSERT INTO "special_live_m" VALUES(2858,1251,1,5,1,5,10,20,0,0,0);
 INSERT INTO "special_live_m" VALUES(2859,1252,1,10,5,10,20,40,0,0,0);
 INSERT INTO "special_live_m" VALUES(2860,1253,1,15,10,20,40,100,0,0,0);
 INSERT INTO "special_live_m" VALUES(2861,1254,1,25,15,30,60,120,0,0,0);
+INSERT INTO "special_live_m" VALUES(2866,1255,1,25,15,30,60,150,0,0,0);
 CREATE TABLE `special_live_rotation_m` (
     `rotation_group_id` INTEGER NOT NULL,
     `live_difficulty_id` INTEGER NOT NULL,
