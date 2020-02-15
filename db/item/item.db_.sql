@@ -327,6 +327,10 @@ INSERT INTO "award_m" VALUES(315,'【称号】今年もよろしくね[ねずみ
 INSERT INTO "award_m" VALUES(323,'花陽ちゃんをお祝いしたい！','1月17日は小泉花陽ちゃんのお誕生日♪','assets/image/award/award_323.png','assets/image/award/award_323di.png',24026,0,'r200117_000000',NULL);
 INSERT INTO "award_m" VALUES(334,'【称号】ラブライブ！フェス','LoveLive! Series 9th Anniversary\nラブライブ！フェスの開催を記念した特別な称号','assets/image/award/award_334.png','assets/image/award/award_334di.png',21701,1,'r200118_090000',NULL);
 INSERT INTO "award_m" VALUES(335,'Guilty Kiss First LOVELIVE! ～New Romantic Sailors～','Guilty Kiss First LOVELIVE!の開催を記念した特別な称号','assets/image/award/award_335.png','assets/image/award/award_335di.png',21553,0,'r200208_090000',NULL);
+INSERT INTO "award_m" VALUES(338,'【称号】ねこ[こたつ]','こたつでぬくもるねこ','assets/image/award/award_338.png','assets/image/award/award_338di.png',32107,0,'r200223_000000',NULL);
+INSERT INTO "award_m" VALUES(339,'【称号】いぬ[おそと]','元気に外を走り回るいぬ','assets/image/award/award_339.png','assets/image/award/award_339di.png',32108,0,'r200223_000000',NULL);
+INSERT INTO "award_m" VALUES(340,'仮A','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32109,0,'r200215',NULL);
+INSERT INTO "award_m" VALUES(341,'仮B','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32110,0,'r200215',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(902,'スクフェス全国大会2017オンライン予選','スクフェス全国大会2017オンライン予選に参加した証','assets/image/award/award_902.png','assets/image/award/award_902di.png',18002,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(903,'【称号】スクフェス全国大会2018オンライン予選','スクフェス全国大会2018オンライン予選に参加した証','assets/image/award/award_903.png','assets/image/award/award_903di.png',18007,0,NULL,NULL);
@@ -722,6 +726,8 @@ INSERT INTO "kg_item_m" VALUES(145,1,'UR1枚確定11連勧誘チケット～Aqou
 INSERT INTO "kg_item_m" VALUES(146,1,'入門！選べるメンバー！UR確定勧誘チケット～μ''s～',146,1,1,'assets/image/item/item_146_m.png','assets/image/item/item_146_s.png','入門！選べるメンバー！UR確定勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,107,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(147,1,'入門！選べるメンバー！UR確定勧誘チケット～Aqours～',147,1,1,'assets/image/item/item_147_m.png','assets/image/item/item_147_s.png','入門！選べるメンバー！UR確定勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,108,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(148,1,'[Guilty Kiss]1stライブ記念！SSR以上確定勧誘チケット',148,1,1,'assets/image/item/item_148_m.png','assets/image/item/item_148_s.png','Guilty Kiss 1stライブ記念！SSR以上確定勧誘を行える',NULL,NULL,NULL,NULL,109,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(151,1,'レクリエーション投票券[第1回]',151,1,1,'assets/image/item/item_99_m.png','assets/image/item/item_99_s.png','ウインターレクリエーション第1回の投票用アイテム',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(152,1,'レクリエーション投票券[第2回]',152,1,1,'assets/image/item/item_100_m.png','assets/image/item/item_100_s.png','ウインターレクリエーション第2回の投票用アイテム',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','ラブカストーンピース','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14001,1,'URパーティメダル[高坂穂乃果]',14001,1,1,'assets/image/item/item_14001_m.png','assets/image/item/item_14001_s.png','特定のパーティカードのメインを高坂穂乃果に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);

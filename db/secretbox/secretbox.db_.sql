@@ -1171,8 +1171,12 @@ INSERT INTO "secret_box_asset_m" VALUES(2283,2283,'assets/image/units/u_normal_c
 INSERT INTO "secret_box_asset_m" VALUES(2284,2284,'assets/image/units/u_normal_card_32107012.png','assets/image/units/u_rankup_card_32107012.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2285,2285,'assets/image/units/u_normal_card_51105008.png','assets/image/units/u_rankup_card_51105008.png',NULL,NULL,NULL);
 INSERT INTO "secret_box_asset_m" VALUES(2286,2286,'assets/image/units/u_normal_card_41109006.png','assets/image/units/u_rankup_card_41109006.png',NULL,NULL,NULL);
-INSERT INTO "secret_box_asset_m" VALUES(2290,2290,'assets/image/units/u_rankup_card_42103008.png','assets/image/units/u_rankup_card_42103008.png',NULL,NULL,1315);
-INSERT INTO "secret_box_asset_m" VALUES(2291,2291,'assets/image/units/u_normal_card_33003019.png','assets/image/units/u_rankup_card_33003019.png',NULL,NULL,258);
-INSERT INTO "secret_box_asset_m" VALUES(2292,2292,'assets/image/units/u_normal_card_31004021.png','assets/image/units/u_rankup_card_31004021.png',NULL,NULL,258);
-INSERT INTO "secret_box_asset_m" VALUES(2293,2293,'assets/image/units/u_normal_card_42005007.png','assets/image/units/u_rankup_card_42005007.png',NULL,NULL,258);
+INSERT INTO "secret_box_asset_m" VALUES(2290,2290,'assets/image/units/u_rankup_card_42103008.png','assets/image/units/u_rankup_card_42103008.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2291,2291,'assets/image/units/u_normal_card_33003019.png','assets/image/units/u_rankup_card_33003019.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2292,2292,'assets/image/units/u_normal_card_31004021.png','assets/image/units/u_rankup_card_31004021.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2293,2293,'assets/image/units/u_normal_card_42005007.png','assets/image/units/u_rankup_card_42005007.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2295,2295,'assets/image/units/u_normal_card_33104016.png','assets/image/units/u_rankup_card_33104016.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2296,2296,'assets/image/units/u_normal_card_31106012.png','assets/image/units/u_rankup_card_31106012.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2297,2297,'assets/image/units/u_normal_card_53108007.png','assets/image/units/u_rankup_card_53108007.png',NULL,NULL,NULL);
+INSERT INTO "secret_box_asset_m" VALUES(2298,2298,'assets/image/units/u_normal_card_42101007.png','assets/image/units/u_rankup_card_42101007.png',NULL,NULL,NULL);
 COMMIT;
