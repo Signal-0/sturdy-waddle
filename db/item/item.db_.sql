@@ -561,6 +561,25 @@ INSERT INTO "background_shader_param_m" VALUES(4,3,'{"assets":["assets/image/sha
 INSERT INTO "background_shader_param_m" VALUES(5,3,'{"assets":["assets/image/shader/shader_010.png","assets/image/shader/shader_013.png","assets/image/shader/shader_012.png","assets/image/shader/shader_011.png"],"size":[{"x":1386,"y":640},{"x":1024,"y":1024},{"x":512,"y":512},{"x":512,"y":512}],"addtype":[{"x":0,"y":-0.1,"z":-0.6},{"x":0,"y":1,"z":0},{"x":0,"y":1,"z":0}],"origin":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"offset":[{"x":1,"y":-2,"z":0,"w":0},{"x":0.8,"y":0.8,"z":0,"w":0},{"x":1.2,"y":1.2,"z":0,"w":0}],"delta":[{"x":14,"y":0},{"x":0,"y":-63},{"x":0,"y":-83}],"angle":[0,-5,27],"angle_delta":[0,0,0]}',NULL,NULL);
 INSERT INTO "background_shader_param_m" VALUES(6,3,'{"assets":["assets/image/shader/shader_014.png","assets/image/shader/shader_015.png","assets/image/shader/shader_016.png","assets/image/shader/shader_017.png"],"size":[{"x":1386,"y":640},{"x":512,"y":512},{"x":512,"y":512},{"x":512,"y":512}],"addtype":[{"x":0,"y":-0.9,"z":1.2},{"x":0,"y":1,"z":0.8},{"x":0,"y":1,"z":1}],"origin":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"offset":[{"x":0.9,"y":2,"z":0,"w":0},{"x":0.7,"y":0.7,"z":-27,"w":0},{"x":1,"y":1,"z":4,"w":0}],"delta":[{"x":20,"y":-10},{"x":0,"y":-20},{"x":1,"y":-50}],"angle":[6,6,11],"angle_delta":[0,0,0]}',NULL,NULL);
 INSERT INTO "background_shader_param_m" VALUES(7,3,'{"assets":["assets/image/shader/shader_018.png","assets/image/shader/shader_019.png","",""],"size":[{"x":1386,"y":640},{"x":1024,"y":1024},{"x":0,"y":0},{"x":0,"y":0}],"addtype":[{"x":0,"y":1,"z":0},{"x":0,"y":0,"z":0},{"x":0,"y":0,"z":0}],"origin":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"offset":[{"x":1.353,"y":-1,"z":0,"w":-192},{"x":0,"y":0,"z":0,"w":0},{"x":0,"y":0,"z":0,"w":0}],"delta":[{"x":12,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"angle":[0,0,0],"angle_delta":[0,0,0]}',NULL,NULL);
+CREATE TABLE `buff_item_m` (
+    `item_id` INTEGER NOT NULL,
+    `buff_type` INTEGER NOT NULL,
+    `buff_logic` INTEGER NOT NULL,
+    `buff_amount` INTEGER NOT NULL,
+    `limit_logic` INTEGER NOT NULL,
+    `limit_amount` INTEGER NOT NULL,
+    `event_id` INTEGER,
+    PRIMARY KEY (`item_id`)
+);
+INSERT INTO "buff_item_m" VALUES(48,1,1,125,2,600,NULL);
+INSERT INTO "buff_item_m" VALUES(49,3,1,125,2,600,NULL);
+INSERT INTO "buff_item_m" VALUES(50,2,1,125,2,600,NULL);
+INSERT INTO "buff_item_m" VALUES(61,1,1,125,2,3600,NULL);
+INSERT INTO "buff_item_m" VALUES(62,2,1,125,2,3600,NULL);
+INSERT INTO "buff_item_m" VALUES(63,3,1,125,2,3600,NULL);
+INSERT INTO "buff_item_m" VALUES(89,1,1,125,2,600,NULL);
+INSERT INTO "buff_item_m" VALUES(90,2,1,125,2,600,NULL);
+INSERT INTO "buff_item_m" VALUES(91,3,1,125,2,600,NULL);
 CREATE TABLE `change_delegate_item_amount_m` (
     `unit_rarity` INTEGER NOT NULL,
     `item_rarity` INTEGER NOT NULL,

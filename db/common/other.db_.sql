@@ -85,6 +85,26 @@ INSERT INTO "scattering_tutorial_m" VALUES(45,40,2,'うでまえクラス',1,3,1
 INSERT INTO "scattering_tutorial_m" VALUES(46,40,2,'うでまえクラス',2,1,1,'assets/image/tutorial/tu_etc_26.png',NULL,NULL);
 INSERT INTO "scattering_tutorial_m" VALUES(47,40,2,'うでまえクラス',2,2,1,'assets/image/tutorial/tu_etc_35.png',NULL,NULL);
 INSERT INTO "scattering_tutorial_m" VALUES(48,40,2,'うでまえクラス',2,3,1,'assets/image/tutorial/tu_etc_36.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(49,0,1,'パーティカード',1,1,1,'assets/image/tutorial/tu_etc_27.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(50,0,1,'パーティカード',2,1,1,'assets/image/tutorial/tu_etc_27.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(51,0,1,'パーティカード',2,2,1,'assets/image/tutorial/tu_etc_28.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(52,0,1,'パーティカード',2,3,1,'assets/image/tutorial/tu_etc_29.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(53,0,1,'パーティカード',2,4,1,'assets/image/tutorial/tu_etc_30.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(54,0,1,'パーティカード',2,5,1,'assets/image/tutorial/tu_etc_31.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(55,0,1,'パーティカード',2,6,1,'assets/image/tutorial/tu_etc_32.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(56,0,1,'パーティカード',2,7,1,'assets/image/tutorial/tu_etc_33.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(57,0,2,'パーティカード',1,1,1,'assets/image/tutorial/tu_etc_27.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(58,0,2,'パーティカード',2,1,1,'assets/image/tutorial/tu_etc_27.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(59,0,2,'パーティカード',2,2,1,'assets/image/tutorial/tu_etc_28.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(60,0,2,'パーティカード',2,3,1,'assets/image/tutorial/tu_etc_29.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(61,0,2,'パーティカード',2,4,1,'assets/image/tutorial/tu_etc_30.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(62,0,2,'パーティカード',2,5,1,'assets/image/tutorial/tu_etc_31.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(63,0,2,'パーティカード',2,6,1,'assets/image/tutorial/tu_etc_32.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(64,0,2,'パーティカード',2,7,1,'assets/image/tutorial/tu_etc_33.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(65,-1,1,'ポイントSHOP',1,1,1,'assets/image/tutorial/tu_etc_34.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(66,-1,1,'ポイントSHOP',2,1,1,'assets/image/tutorial/tu_etc_34.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(67,-1,2,'ポイントSHOP',1,1,1,'assets/image/tutorial/tu_etc_34.png',NULL,NULL);
+INSERT INTO "scattering_tutorial_m" VALUES(68,-1,2,'ポイントSHOP',2,1,1,'assets/image/tutorial/tu_etc_34.png',NULL,NULL);
 CREATE TABLE `stamp_action_m` (
     `stamp_action_id` INTEGER NOT NULL,
     `flash_asset` TEXT,

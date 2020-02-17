@@ -26433,9 +26433,9 @@ INSERT INTO "live_track_m" VALUES(595,'Pure girls project [HANAYO Mix]','ヒユ�
 INSERT INTO "live_track_m" VALUES(596,'HEART to HEART! [HONOKA Mix]','ハアトトウハアトホノカミツクス','assets/image/live/title/t_mu_0596.png','assets/sound/music/m_237.mp3',1,14,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(597,'Wonderful Rush [KOTORI Mix]','ワンタフルラツシユコトリミツクス','assets/image/live/title/t_mu_0597.png','assets/sound/music/m_238.mp3',1,17,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(598,'LOVELESS WORLD [UMI Mix]','ラフレスワアルトウミミツクス','assets/image/live/title/t_mu_0598.png','assets/sound/music/m_239.mp3',1,19,NULL,NULL);
-INSERT INTO "live_track_m" VALUES(599,'Cutie Panther [ELI Mix]','キユウテイイハンサアエリミツクス','assets/image/live/title/t_mu_0599.png','assets/sound/music/m_240.mp3',1,22,NULL,259);
-INSERT INTO "live_track_m" VALUES(600,'るてしキスキしてる [NOZOMI Mix]','ルテシキスキシテルノソミミツクス','assets/image/live/title/t_mu_0600.png','assets/sound/music/m_241.mp3',1,21,NULL,259);
-INSERT INTO "live_track_m" VALUES(601,'PSYCHIC FIRE [NICO Mix]','サイキツクフアイヤニコミツクス','assets/image/live/title/t_mu_0601.png','assets/sound/music/m_242.mp3',1,16,NULL,259);
+INSERT INTO "live_track_m" VALUES(599,'Cutie Panther [ELI Mix]','キユウテイイハンサアエリミツクス','assets/image/live/title/t_mu_0599.png','assets/sound/music/m_240.mp3',1,22,NULL,NULL);
+INSERT INTO "live_track_m" VALUES(600,'るてしキスキしてる [NOZOMI Mix]','ルテシキスキシテルノソミミツクス','assets/image/live/title/t_mu_0600.png','assets/sound/music/m_241.mp3',1,21,NULL,NULL);
+INSERT INTO "live_track_m" VALUES(601,'PSYCHIC FIRE [NICO Mix]','サイキツクフアイヤニコミツクス','assets/image/live/title/t_mu_0601.png','assets/sound/music/m_242.mp3',1,16,NULL,NULL);
 CREATE TABLE `live_unit_reward_lot_m` (
     `live_unit_reward_lot_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,
