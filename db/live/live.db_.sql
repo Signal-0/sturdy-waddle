@@ -24888,6 +24888,66 @@ INSERT INTO "live_goal_reward_m" VALUES(24645,2979,3,4,3002,2,2,300,NULL);
 INSERT INTO "live_goal_reward_m" VALUES(24646,2979,3,3,3002,2,2,500,NULL);
 INSERT INTO "live_goal_reward_m" VALUES(24647,2979,3,2,3002,2,2,1000,NULL);
 INSERT INTO "live_goal_reward_m" VALUES(24648,2979,3,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24649,2993,1,4,3000,3,3,10000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24650,2993,1,3,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24651,2993,1,2,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24652,2993,1,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24653,2993,2,4,3000,3,3,10000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24654,2993,2,3,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24655,2993,2,2,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24656,2993,2,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24657,2993,3,4,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24658,2993,3,3,3002,2,2,1000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24659,2993,3,2,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24660,2993,3,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24661,2994,1,4,3000,3,3,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24662,2994,1,3,3000,3,3,900,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24663,2994,1,2,3000,3,3,1500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24664,2994,1,1,3000,3,3,2500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24665,2994,2,4,3000,3,3,250,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24666,2994,2,3,3000,3,3,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24667,2994,2,2,3000,3,3,750,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24668,2994,2,1,3000,3,3,1250,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24669,2994,3,4,3002,2,2,25,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24670,2994,3,3,3002,2,2,50,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24671,2994,3,2,3002,2,2,75,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24672,2994,3,1,3002,2,2,100,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24673,2995,1,4,3000,3,3,1500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24674,2995,1,3,3000,3,3,2500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24675,2995,1,2,3000,3,3,5000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24676,2995,1,1,3000,3,3,7500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24677,2995,2,4,3000,3,3,1000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24678,2995,2,3,3000,3,3,1500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24679,2995,2,2,3000,3,3,2000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24680,2995,2,1,3000,3,3,3000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24681,2995,3,4,3002,2,2,100,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24682,2995,3,3,3002,2,2,150,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24683,2995,3,2,3002,2,2,200,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24684,2995,3,1,3002,2,2,300,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24685,2996,1,4,3000,3,3,5000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24686,2996,1,3,3000,3,3,8000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24687,2996,1,2,3000,3,3,12000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24688,2996,1,1,3002,2,2,1000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24689,2996,2,4,3000,3,3,4000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24690,2996,2,3,3000,3,3,7000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24691,2996,2,2,3000,3,3,10000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24692,2996,2,1,3002,2,2,1000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24693,2996,3,4,3002,2,2,300,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24694,2996,3,3,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24695,2996,3,2,3002,2,2,700,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24696,2996,3,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24697,2997,1,4,3000,3,3,5000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24698,2997,1,3,3000,3,3,8000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24699,2997,1,2,3000,3,3,12000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24700,2997,1,1,3002,2,2,1000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24701,2997,2,4,3000,3,3,7000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24702,2997,2,3,3000,3,3,10000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24703,2997,2,2,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24704,2997,2,1,3001,4,4,1,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24705,2997,3,4,3002,2,2,300,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24706,2997,3,3,3002,2,2,500,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24707,2997,3,2,3002,2,2,1000,NULL);
+INSERT INTO "live_goal_reward_m" VALUES(24708,2997,3,1,3001,4,4,1,NULL);
 CREATE TABLE `live_note_score_factor_m` (
     `effect_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,
@@ -26231,6 +26291,7 @@ INSERT INTO "live_setting_m" VALUES(1293,604,1,4,3,'assets/image/live/live_icon/
 INSERT INTO "live_setting_m" VALUES(1294,604,2,6,3,'assets/image/live/live_icon/j_mu_0604.png',NULL,6,'Live_s1294.json',26928,53856,67320,80784,62,102,143,204,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(1295,604,3,8,3,'assets/image/live/live_icon/j_mu_0604.png',NULL,8,'Live_s1295.json',54910,137275,164730,192185,97,162,227,323,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(1296,604,4,9,3,'assets/image/live/live_icon/j_mu_0604.png',NULL,9,'Live_s1296.json',91785,252735,275355,298410,131,218,305,435,0,0,NULL,NULL);
+INSERT INTO "live_setting_m" VALUES(1297,565,6,11,3,'assets/image/live/live_icon/j_aq_0565.png',NULL,32,'Live_s1297.json',135884,340032,407652,475916,194,322,451,644,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10398,449,4,11,3,'assets/image/live/live_icon/j_bd2_02_01.png',NULL,32,'Live_s0398.json',113307,283536,339921,396843,162,269,376,537,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10654,494,4,10,1,'assets/image/live/live_icon/j_cdsp_02.png',NULL,10,'Live_s0654.json',101280,253440,303840,354720,144,240,336,480,0,0,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10779,510,4,10,1,'assets/image/live/live_icon/j_aq_0509.png',NULL,10,'Live_s0779.json',121536,304128,364608,425664,173,288,404,576,0,0,NULL,NULL);
@@ -26765,9 +26826,9 @@ INSERT INTO "live_track_m" VALUES(598,'LOVELESS WORLD [UMI Mix]','ラフレス�
 INSERT INTO "live_track_m" VALUES(599,'Cutie Panther [ELI Mix]','キユウテイイハンサアエリミツクス','assets/image/live/title/t_mu_0599.png','assets/sound/music/m_240.mp3',1,22,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(600,'るてしキスキしてる [NOZOMI Mix]','ルテシキスキシテルノソミミツクス','assets/image/live/title/t_mu_0600.png','assets/sound/music/m_241.mp3',1,21,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(601,'PSYCHIC FIRE [NICO Mix]','サイキツクフアイヤニコミツクス','assets/image/live/title/t_mu_0601.png','assets/sound/music/m_242.mp3',1,16,NULL,NULL);
-INSERT INTO "live_track_m" VALUES(602,'タカラモノズ [RIN Mix]','タカラモノスリンミツクス','assets/image/live/title/t_mu_0602.png','assets/sound/music/m_243.mp3',1,20,NULL,262);
-INSERT INTO "live_track_m" VALUES(603,'愛してるばんざーい！[MAKI Mix]','アイシテルハンサアイマキミツクス','assets/image/live/title/t_mu_0603.png','assets/sound/music/m_244.mp3',1,18,NULL,262);
-INSERT INTO "live_track_m" VALUES(604,'UNBALANCED LOVE [HANAYO Mix]','アンハランストラフハナヨミツクス','assets/image/live/title/t_mu_0604.png','assets/sound/music/m_245.mp3',1,15,NULL,262);
+INSERT INTO "live_track_m" VALUES(602,'タカラモノズ [RIN Mix]','タカラモノスリンミツクス','assets/image/live/title/t_mu_0602.png','assets/sound/music/m_243.mp3',1,20,NULL,NULL);
+INSERT INTO "live_track_m" VALUES(603,'愛してるばんざーい！[MAKI Mix]','アイシテルハンサアイマキミツクス','assets/image/live/title/t_mu_0603.png','assets/sound/music/m_244.mp3',1,18,NULL,NULL);
+INSERT INTO "live_track_m" VALUES(604,'UNBALANCED LOVE [HANAYO Mix]','アンハランストラフハナヨミツクス','assets/image/live/title/t_mu_0604.png','assets/sound/music/m_245.mp3',1,15,NULL,NULL);
 CREATE TABLE `live_unit_reward_lot_m` (
     `live_unit_reward_lot_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,
@@ -28639,6 +28700,11 @@ INSERT INTO "special_live_m" VALUES(2989,1293,1,5,1,5,10,20,0,0,0);
 INSERT INTO "special_live_m" VALUES(2990,1294,1,10,5,10,20,40,0,0,0);
 INSERT INTO "special_live_m" VALUES(2991,1295,1,15,10,20,40,100,0,0,0);
 INSERT INTO "special_live_m" VALUES(2992,1296,1,25,15,30,60,120,0,0,0);
+INSERT INTO "special_live_m" VALUES(2993,1297,1,25,15,30,60,150,0,0,0);
+INSERT INTO "special_live_m" VALUES(2994,311,1,5,1,5,10,20,1,0,0);
+INSERT INTO "special_live_m" VALUES(2995,312,1,10,5,10,20,40,1,0,0);
+INSERT INTO "special_live_m" VALUES(2996,313,1,15,10,20,40,100,1,0,0);
+INSERT INTO "special_live_m" VALUES(2997,365,1,25,15,30,60,120,1,0,0);
 CREATE TABLE `special_live_rotation_m` (
     `rotation_group_id` INTEGER NOT NULL,
     `live_difficulty_id` INTEGER NOT NULL,
