@@ -847,6 +847,11 @@ INSERT INTO "live_se_m" VALUES(2,'クラップMIX','クラップMIX',1);
 INSERT INTO "live_se_m" VALUES(3,'バブル','バブル',2);
 INSERT INTO "live_se_m" VALUES(4,'SF','SF',3);
 INSERT INTO "live_se_m" VALUES(99,'アルパカ','アルパカ',99);
+CREATE TABLE `lottery_ticket_item_m` (
+    `item_id` INTEGER NOT NULL,
+    `lottery_ticket_id` INTEGER NOT NULL,
+    PRIMARY KEY (`item_id`)
+);
 CREATE TABLE `recovery_item_m` (
     `recovery_item_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,

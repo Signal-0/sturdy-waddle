@@ -27048,9 +27048,9 @@ INSERT INTO "live_track_m" VALUES(601,'PSYCHIC FIRE [NICO Mix]','サイキツク
 INSERT INTO "live_track_m" VALUES(602,'タカラモノズ [RIN Mix]','タカラモノスリンミツクス','assets/image/live/title/t_mu_0602.png','assets/sound/music/m_243.mp3',1,20,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(603,'愛してるばんざーい！[MAKI Mix]','アイシテルハンサアイマキミツクス','assets/image/live/title/t_mu_0603.png','assets/sound/music/m_244.mp3',1,18,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(604,'UNBALANCED LOVE [HANAYO Mix]','アンハランストラフハナヨミツクス','assets/image/live/title/t_mu_0604.png','assets/sound/music/m_245.mp3',1,15,NULL,NULL);
-INSERT INTO "live_track_m" VALUES(605,'Happy maker! [HONOKA Mix]','ハツヒイメイカアホノカミツクス','assets/image/live/title/t_mu_0605.png','assets/sound/music/m_246.mp3',1,14,NULL,265);
-INSERT INTO "live_track_m" VALUES(606,'Wonder zone [KOTORI Mix]','ワンタアソオンコトリミツクス','assets/image/live/title/t_mu_0606.png','assets/sound/music/m_247.mp3',1,17,NULL,265);
-INSERT INTO "live_track_m" VALUES(607,'微熱からMystery [UMI Mix]','ヒネツカラミステリイウミミツクス','assets/image/live/title/t_mu_0607.png','assets/sound/music/m_248.mp3',1,19,NULL,265);
+INSERT INTO "live_track_m" VALUES(605,'Happy maker! [HONOKA Mix]','ハツヒイメイカアホノカミツクス','assets/image/live/title/t_mu_0605.png','assets/sound/music/m_246.mp3',1,14,NULL,NULL);
+INSERT INTO "live_track_m" VALUES(606,'Wonder zone [KOTORI Mix]','ワンタアソオンコトリミツクス','assets/image/live/title/t_mu_0606.png','assets/sound/music/m_247.mp3',1,17,NULL,NULL);
+INSERT INTO "live_track_m" VALUES(607,'微熱からMystery [UMI Mix]','ヒネツカラミステリイウミミツクス','assets/image/live/title/t_mu_0607.png','assets/sound/music/m_248.mp3',1,19,NULL,NULL);
 CREATE TABLE `live_unit_reward_lot_m` (
     `live_unit_reward_lot_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,
