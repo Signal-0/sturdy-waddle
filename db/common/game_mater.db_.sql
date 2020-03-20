@@ -15,7 +15,7 @@ INSERT INTO "add_type_m" VALUES(3000,'G','assets/image/ui/common/com_icon_03.png
 INSERT INTO "add_type_m" VALUES(3001,'ラブカストーン','assets/image/ui/common/com_icon_04.png','assets/image/item/icon/item_icon_09.png',NULL,'個',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(3002,'友情pt','assets/image/ui/item/com_icon_32.png','assets/image/item/icon/item_icon_11.png',NULL,'pt',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(3004,'EXP',NULL,NULL,NULL,NULL,NULL,NULL);
-INSERT INTO "add_type_m" VALUES(3005,'部員枠','assets/image/ui/common/com_icon_47.png','assets/image/add_type/add_type_3005_m.png',NULL,'人',NULL,NULL);
+INSERT INTO "add_type_m" VALUES(3005,'部員数','assets/image/ui/common/com_icon_47.png','assets/image/add_type/add_type_3005_m.png',NULL,'人',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(3006,'シール',NULL,NULL,NULL,'枚',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(3007,'友達枠','assets/image/ui/common/com_icon_42.png',NULL,NULL,'人',NULL,NULL);
 INSERT INTO "add_type_m" VALUES(5000,'楽曲','assets/image/add_type/add_type_5000_s.png','assets/image/add_type/add_type_5000_m.png',NULL,NULL,NULL,NULL);
@@ -83,7 +83,7 @@ CREATE TABLE `game_setting_m` (
     `exchange_flag` INTEGER NOT NULL,
     PRIMARY KEY (`game_setting_id`)
 );
-INSERT INTO "game_setting_m" VALUES(1,1,360,5,10,10,1,1.2,10.0,5,6,25,3,5,50,60,10,5,'a','次回メインストーリーの\nアップデートを待ってね！',20,100000,18,'00:00',10,1000,1.2,6.0,9,9999999,9999999,1000000000000,9999999,36400,1,4,1500,1000,1,1,99,320,10,9999999,'2019-09-20 15:00:00',1);
+INSERT INTO "game_setting_m" VALUES(1,1,360,5,10,10,1,1.2,10.0,5,6,25,3,5,50,60,10,5,'a','次回メインストーリーの\nアップデートを待ってね！',20,100000,18,'00:00',10,1000,1.2,6.0,9,9999999,9999999,1000000000000,9999999,36400,1,4,2000,1000,1,1,99,420,10,9999999,'2019-09-20 15:00:00',1);
 CREATE TABLE `sort_condition_m` (
     `sort_condition_id` INTEGER NOT NULL,
     `screen_id` INTEGER NOT NULL,
@@ -362,6 +362,7 @@ INSERT INTO "strings_m" VALUES('reward',128,'アナザーストーリーの報�
 INSERT INTO "strings_m" VALUES('reward',129,'スクフェスID実績の報酬');
 INSERT INTO "strings_m" VALUES('reward',130,'スクフェスID実績の報酬\n引換期間 %2$s - %3$s');
 INSERT INTO "strings_m" VALUES('reward',131,'ポイントSHOPアイテム');
+INSERT INTO "strings_m" VALUES('reward',132,'%sで獲得');
 INSERT INTO "strings_m" VALUES('ui_reward',1,'受け取りました');
 INSERT INTO "strings_m" VALUES('ui_reward',2,'おまかせ転部で\n転部しました');
 INSERT INTO "strings_m" VALUES('deck_default_name',1,'ユニットA');

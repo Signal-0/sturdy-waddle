@@ -335,6 +335,13 @@ INSERT INTO "award_m" VALUES(338,'【称号】ねこ[こたつ]','こたつで�
 INSERT INTO "award_m" VALUES(339,'【称号】いぬ[おそと]','元気に外を走り回るいぬ','assets/image/award/award_339.png','assets/image/award/award_339di.png',32108,0,'r200223_000000',NULL);
 INSERT INTO "award_m" VALUES(340,'【称号】雪だるま','雪で作られた「だるま」の形の雪像','assets/image/award/award_340.png','assets/image/award/award_340di.png',32109,0,'r200301_000000',NULL);
 INSERT INTO "award_m" VALUES(341,'【称号】雪うさぎ','雪で作られた「うさぎ」の形の雪像','assets/image/award/award_341.png','assets/image/award/award_341di.png',32110,0,'r200301_000000',NULL);
+INSERT INTO "award_m" VALUES(342,'【称号】ケーキ[7周年]','特別な日に食べたい、あまくておいしいケーキ','assets/image/award/award_342.png','assets/image/award/award_342di.png',32111,0,'r200320',NULL);
+INSERT INTO "award_m" VALUES(343,'【称号】パフェ[7周年]','特別な日に食べたい、つめたくておいしいパフェ','assets/image/award/award_343.png','assets/image/award/award_343di.png',32112,0,'r200320',NULL);
+INSERT INTO "award_m" VALUES(344,'仮A','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32113,0,'r200320',NULL);
+INSERT INTO "award_m" VALUES(345,'仮B','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32114,0,'r200320',NULL);
+INSERT INTO "award_m" VALUES(346,'仮C','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32115,0,'r200320',NULL);
+INSERT INTO "award_m" VALUES(347,'仮D','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32116,0,'r200320',NULL);
+INSERT INTO "award_m" VALUES(348,'仮E','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32117,0,'r200320',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(902,'スクフェス全国大会2017オンライン予選','スクフェス全国大会2017オンライン予選に参加した証','assets/image/award/award_902.png','assets/image/award/award_902di.png',18002,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(903,'【称号】スクフェス全国大会2018オンライン予選','スクフェス全国大会2018オンライン予選に参加した証','assets/image/award/award_903.png','assets/image/award/award_903di.png',18007,0,NULL,NULL);
@@ -623,7 +630,7 @@ CREATE TABLE `kg_item_m` (
     `release_tag` TEXT, `_encryption_release_id` INTEGER NULL,
     PRIMARY KEY (`item_id`)
 );
-INSERT INTO "kg_item_m" VALUES(1,1,'勧誘チケット',1,1,1,'assets/image/item/icon/item_icon_12.png','assets/image/ui/item/com_icon_33.png','特待生勧誘を1回行える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(1,1,'勧誘チケット',1,1,1,'assets/image/item/icon/item_icon_12.png','assets/image/ui/item/com_icon_33.png','勧誘を1回行える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(2,1,'友情pt',2,1,1,'assets/image/item/icon/item_icon_11.png','assets/image/item/icon/item_icon_11.png','友情pt','pt',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(3,1,'G',3,1,1,'assets/image/item/icon/item_icon_10.png','assets/image/item/icon/item_icon_10.png','G','G',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(4,1,'ラブカストーン',4,1,1,'assets/image/item/icon/item_icon_09.png','assets/image/item/icon/item_icon_09.png','ラブカストーン','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
@@ -754,6 +761,15 @@ INSERT INTO "kg_item_m" VALUES(149,1,'[CYaRon！]1stライブ記念！SSR以上�
 INSERT INTO "kg_item_m" VALUES(150,1,'[AZALEA]1stライブ記念！SSR以上確定勧誘チケット',150,1,1,'assets/image/item/item_150_m.png','assets/image/item/item_150_s.png','AZALEA 1stライブ記念！SSR以上確定勧誘を行える',NULL,NULL,NULL,NULL,111,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(151,1,'レクリエーション投票券[第1回]',151,1,1,'assets/image/item/item_151_m.png','assets/image/item/item_151_s.png','ウインターレクリエーション第1回の投票用アイテム',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(152,1,'レクリエーション投票券[第2回]',152,1,1,'assets/image/item/item_152_m.png','assets/image/item/item_152_s.png','ウインターレクリエーション第2回の投票用アイテム',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(153,1,'[7周年]花束勧誘チケット',153,1,1,'assets/image/item/item_153_m.png','assets/image/item/item_153_s.png','花束を集めて！7周年花束チケット勧誘を行える（2020/05/20 0:00以降本勧誘を行うことはできません）',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(157,1,'[7周年]花束',157,1,1,'assets/image/item/item_157_m.png','assets/image/item/item_157_s.png','スクフェス7周年記念のアイテム
+様々な場所で使用できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(158,1,'7周年!選べるメンバーUR1枚確定SSR以上11連勧誘チケット～μ''s～',158,1,1,'assets/image/item/item_158_m.png','assets/image/item/item_158_s.png','7周年!選べるメンバーUR1枚確定SSR以上11連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,112,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(159,1,'7周年!選べるメンバーUR1枚確定SSR以上11連勧誘チケット～Aqours～',159,1,1,'assets/image/item/item_159_m.png','assets/image/item/item_159_s.png','7周年!選べるメンバーUR1枚確定SSR以上11連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,113,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(160,1,'7周年!SR以上11連勧誘チケット～μ''s～',160,1,1,'assets/image/item/item_160_m.png','assets/image/item/item_160_s.png','7周年!SR以上11連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,114,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(161,1,'7周年!SR以上11連勧誘チケット～Aqours～',161,1,1,'assets/image/item/item_161_m.png','assets/image/item/item_161_s.png','7周年!SR以上11連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,115,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(162,1,'スクフェス7周年どきどきジャンボ抽選券',162,1,1,'assets/image/item/item_162_m.png','assets/image/item/item_162_s.png','スクフェス7周年どきどきジャンボの抽選券
+抽選期間：2020/04/15 16:00から2020/05/15 14:59まで',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','ラブカストーンピース','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14001,1,'URパーティメダル[高坂穂乃果]',14001,1,1,'assets/image/item/item_14001_m.png','assets/image/item/item_14001_s.png','特定のパーティカードのメインを高坂穂乃果に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
@@ -852,6 +868,7 @@ CREATE TABLE `lottery_ticket_item_m` (
     `lottery_ticket_id` INTEGER NOT NULL,
     PRIMARY KEY (`item_id`)
 );
+INSERT INTO "lottery_ticket_item_m" VALUES(162,3);
 CREATE TABLE `recovery_item_m` (
     `recovery_item_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
