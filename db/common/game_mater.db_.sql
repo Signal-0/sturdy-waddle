@@ -350,6 +350,7 @@ INSERT INTO "strings_m" VALUES('reward',90,'%1$s 引換期間外の報酬です'
 INSERT INTO "strings_m" VALUES('reward',91,'おめでとうございます![%1$s]%2$sの賞品です!');
 INSERT INTO "strings_m" VALUES('reward',100,'%sで獲得');
 INSERT INTO "strings_m" VALUES('reward',101,'%sで獲得');
+INSERT INTO "strings_m" VALUES('reward',102,'%sのみんなの応援数%d達成で獲得');
 INSERT INTO "strings_m" VALUES('reward',105,'ラブカストーンピースが集まりました！');
 INSERT INTO "strings_m" VALUES('reward',110,'メドレー ミッションの報酬で獲得');
 INSERT INTO "strings_m" VALUES('reward',120,'イベントストーリーを解放しました');
