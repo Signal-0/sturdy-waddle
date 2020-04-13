@@ -899,5 +899,13 @@ INSERT INTO "recovery_item_m" VALUES(9,'スクフェスブレード～Aqours～'
 INSERT INTO "recovery_item_m" VALUES(10,'クリスマスボックス[LP1]',2,1,'assets/image/recovery_item/recovery_10_s.png','assets/image/recovery_item/recovery_10_m.png',NULL,'個','LPを1回復します\n（2019/12/31 15:00以降に削除されます）',NULL,NULL);
 INSERT INTO "recovery_item_m" VALUES(11,'メモリアルピンズ',2,1,'assets/image/recovery_item/recovery_11_s.png','assets/image/recovery_item/recovery_11_m.png',NULL,'個','LPを1回復します\n（2020/01/31 15:00以降に削除されます）',NULL,NULL);
 INSERT INTO "recovery_item_m" VALUES(12,'チョコレート[LP1]',2,1,'assets/image/recovery_item/recovery_12_s.png','assets/image/recovery_item/recovery_12_m.png',NULL,'個','LPを1回復します\n（2020/03/05 15:00以降に削除されます）',NULL,NULL);
+CREATE TABLE `unit_enhance_item_m` (
+    `item_id` INTEGER NOT NULL,
+    `unit_id` INTEGER,
+    `rarity` INTEGER,
+    `enhance_type` INTEGER NOT NULL,
+    `enhance_amount` INTEGER NOT NULL,
+    PRIMARY KEY (`item_id`)
+);
 CREATE INDEX `idx_category_id` ON `kg_item_m`(`item_category_id`);
 COMMIT;

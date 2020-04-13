@@ -50,16 +50,15 @@ CREATE TABLE `event_challenge_course_m` (
     `capital_type` INTEGER NOT NULL,
     `capital_value` INTEGER NOT NULL,
     `button_asset` TEXT NOT NULL,
-    `button_se_asset` TEXT NOT NULL,
     `reward_unit_level_from` INTEGER NOT NULL,
     `reward_unit_level_to` INTEGER NOT NULL,
     `release_tag` TEXT, `_encryption_release_id` INTEGER NULL,
     PRIMARY KEY (`course_id`)
 );
-INSERT INTO "event_challenge_course_m" VALUES(1,'初級',1,5,'assets/image/ui/event/e_button_47.png','assets/image/ui/event/e_button_47se.png',2,4,NULL,NULL);
-INSERT INTO "event_challenge_course_m" VALUES(2,'中級',1,10,'assets/image/ui/event/e_button_48.png','assets/image/ui/event/e_button_48se.png',3,5,NULL,NULL);
-INSERT INTO "event_challenge_course_m" VALUES(3,'上級',1,15,'assets/image/ui/event/e_button_49.png','assets/image/ui/event/e_button_49se.png',4,6,NULL,NULL);
-INSERT INTO "event_challenge_course_m" VALUES(4,'超級',1,25,'assets/image/ui/event/e_button_50.png','assets/image/ui/event/e_button_50se.png',6,8,NULL,NULL);
+INSERT INTO "event_challenge_course_m" VALUES(1,'初級',1,5,'assets/image/ui/event/e_button_47.png',2,4,NULL,NULL);
+INSERT INTO "event_challenge_course_m" VALUES(2,'中級',1,10,'assets/image/ui/event/e_button_48.png',3,5,NULL,NULL);
+INSERT INTO "event_challenge_course_m" VALUES(3,'上級',1,15,'assets/image/ui/event/e_button_49.png',4,6,NULL,NULL);
+INSERT INTO "event_challenge_course_m" VALUES(4,'超級',1,25,'assets/image/ui/event/e_button_50.png',6,8,NULL,NULL);
 CREATE TABLE `event_challenge_item_m` (
     `event_challenge_item_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
