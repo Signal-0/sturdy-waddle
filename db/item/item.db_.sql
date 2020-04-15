@@ -326,7 +326,9 @@ INSERT INTO "award_m" VALUES(313,'ルビィちゃんのクリスマスプレゼ�
 INSERT INTO "award_m" VALUES(314,'【称号】あけましておめでとう！','新年を祝う称号\n鏡餅は12月28日から飾るといいみたい♪','assets/image/award/award_314.png','assets/image/award/award_314di.png',32251,0,'r191220',NULL);
 INSERT INTO "award_m" VALUES(315,'【称号】今年もよろしくね[ねずみ]','新年を祝う称号\nねずみ年の2020年もいい年になりますように♪','assets/image/award/award_315.png','assets/image/award/award_315di.png',32252,0,'r191231',NULL);
 INSERT INTO "award_m" VALUES(319,'海未ちゃんをお祝いしたい！','3月15日は園田海未ちゃんのお誕生日♪','assets/image/award/award_319.png','assets/image/award/award_319di.png',24022,0,'r200315_000000',NULL);
+INSERT INTO "award_m" VALUES(321,'真姫ちゃんをお祝いしたい！','4月19日は西木野真姫ちゃんのお誕生日♪','assets/image/award/award_321.png','assets/image/award/award_321di.png',24024,0,'r200419_000000',NULL);
 INSERT INTO "award_m" VALUES(323,'花陽ちゃんをお祝いしたい！','1月17日は小泉花陽ちゃんのお誕生日♪','assets/image/award/award_323.png','assets/image/award/award_323di.png',24026,0,'r200117_000000',NULL);
+INSERT INTO "award_m" VALUES(329,'曜ちゃんをお祝いしたい！','4月17日は渡辺 曜ちゃんのお誕生日♪','assets/image/award/award_329.png','assets/image/award/award_329di.png',25023,0,'r200417_000000',NULL);
 INSERT INTO "award_m" VALUES(334,'【称号】ラブライブ！フェス','LoveLive! Series 9th Anniversary\nラブライブ！フェスの開催を記念した特別な称号','assets/image/award/award_334.png','assets/image/award/award_334di.png',21701,1,'r200118_090000',NULL);
 INSERT INTO "award_m" VALUES(335,'Guilty Kiss First LOVELIVE! ～New Romantic Sailors～','Guilty Kiss First LOVELIVE!の開催を記念した特別な称号','assets/image/award/award_335.png','assets/image/award/award_335di.png',21553,0,'r200208_090000',NULL);
 INSERT INTO "award_m" VALUES(336,'CYaRon！ First LOVELIVE! ～Braveheart Coaster～','CYaRon！First LOVELIVE!の開催を記念した特別な称号','assets/image/award/award_336.png','assets/image/award/award_336di.png',21551,0,'r200222_090000',NULL);
@@ -775,6 +777,9 @@ INSERT INTO "kg_item_m" VALUES(161,1,'7周年!SR以上11連勧誘チケット～
 INSERT INTO "kg_item_m" VALUES(162,1,'スクフェス7周年どきどきジャンボ抽選券',162,1,1,'assets/image/item/item_162_m.png','assets/image/item/item_162_s.png','スクフェス7周年どきどきジャンボの抽選券
 抽選期間：2020/04/15 16:00から2020/05/15 14:59まで',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(163,1,'スクフェス7周年記念大抽選会応募券',163,1,1,'assets/image/item/item_163_m.png','assets/image/item/item_163_s.png','［重要］スクフェス7周年記念大抽選会の応募用アイテム\n※2020/05/31 15時に削除',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(164,1,'7周年!スペシャル勧誘チケット～μ''s～',164,1,1,'assets/image/item/item_164_m.png','assets/image/item/item_164_s.png','7周年!スペシャル勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,116,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(166,1,'7周年!選べるメンバーUR1枚確定SR以上11連勧誘チケット～μ''s～',166,1,1,'assets/image/item/item_166_m.png','assets/image/item/item_166_s.png','7周年!選べるメンバーUR1枚確定SR以上11連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,118,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(168,1,'MAXアップジュエル',168,1,1,'assets/image/item/item_168_m.png','assets/image/item/item_168_s.png','特訓を行いUR部員のMAXレベル上限を1上げる','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','ラブカストーンピース','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14001,1,'URパーティメダル[高坂穂乃果]',14001,1,1,'assets/image/item/item_14001_m.png','assets/image/item/item_14001_s.png','特定のパーティカードのメインを高坂穂乃果に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
@@ -907,5 +912,6 @@ CREATE TABLE `unit_enhance_item_m` (
     `enhance_amount` INTEGER NOT NULL,
     PRIMARY KEY (`item_id`)
 );
+INSERT INTO "unit_enhance_item_m" VALUES(168,NULL,4,1,1);
 CREATE INDEX `idx_category_id` ON `kg_item_m`(`item_category_id`);
 COMMIT;
