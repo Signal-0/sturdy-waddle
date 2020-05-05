@@ -1,4 +1,14 @@
 BEGIN TRANSACTION;
+CREATE TABLE `simple_trade_m` (
+    `simple_trade_id` INTEGER NOT NULL,
+    `trade_setting_id` INTEGER NOT NULL,
+    `open_date` TEXT NOT NULL,
+    `start_date` TEXT NOT NULL,
+    `end_date` TEXT NOT NULL,
+    `close_date` TEXT NOT NULL,
+    PRIMARY KEY (`simple_trade_id`)
+);
+INSERT INTO "simple_trade_m" VALUES(1,30,'2020-05-05 15:00:00','2020-05-05 15:00:00','2020-05-31 14:59:59','2020-05-31 14:59:59');
 CREATE TABLE `trade_capital_m` (
     `trade_capital_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,

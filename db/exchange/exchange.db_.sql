@@ -599,6 +599,7 @@ INSERT INTO "exchange_ticket_m" VALUES(23,'わくわく2020！選べるUR部員�
 INSERT INTO "exchange_ticket_m" VALUES(24,'わくわく2020！選べるSSR部員チケット～Aqours～','assets/image/exchange_ticket/ticket_24_s.png','assets/image/exchange_ticket/ticket_24_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(25,'わくわく2020！選べるUR部員チケット～Aqours～','assets/image/exchange_ticket/ticket_25_s.png','assets/image/exchange_ticket/ticket_25_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(26,'イベントSR交換チケット その2','assets/image/exchange_ticket/ticket_26_s.png','assets/image/exchange_ticket/ticket_26_m.png',NULL,'枚',NULL,NULL);
+INSERT INTO "exchange_ticket_m" VALUES(27,'イベントSR交換チケット その3','assets/image/exchange_ticket/ticket_27_s.png','assets/image/exchange_ticket/ticket_27_m.png',NULL,'枚',NULL,275);
 CREATE TABLE `exchange_ticket_reward_m` (
     `exchange_ticket_reward_id` INTEGER NOT NULL,
     `exchange_ticket_id` INTEGER NOT NULL,
@@ -1080,6 +1081,11 @@ INSERT INTO "exchange_ticket_reward_m" VALUES(465,26,0,1001,2379,NULL,1,'{"rank"
 INSERT INTO "exchange_ticket_reward_m" VALUES(466,26,0,1001,2380,NULL,1,'{"rank":2}',NULL,NULL,NULL);
 INSERT INTO "exchange_ticket_reward_m" VALUES(467,26,0,1001,2381,NULL,1,'{"rank":2}',NULL,NULL,NULL);
 INSERT INTO "exchange_ticket_reward_m" VALUES(468,26,0,1001,2382,NULL,1,'{"rank":2}',NULL,NULL,NULL);
+INSERT INTO "exchange_ticket_reward_m" VALUES(469,27,0,1001,2390,NULL,1,'{"rank":2}',NULL,NULL,275);
+INSERT INTO "exchange_ticket_reward_m" VALUES(470,27,0,1001,2392,NULL,1,'{"rank":2}',NULL,NULL,275);
+INSERT INTO "exchange_ticket_reward_m" VALUES(471,27,0,1001,2393,NULL,1,'{"rank":2}',NULL,NULL,275);
+INSERT INTO "exchange_ticket_reward_m" VALUES(472,27,0,1001,2395,NULL,1,'{"rank":2}',NULL,NULL,275);
+INSERT INTO "exchange_ticket_reward_m" VALUES(473,27,0,1001,2396,NULL,1,'{"rank":2}',NULL,NULL,275);
 INSERT INTO "exchange_ticket_reward_m" VALUES(476,23,0,1001,69,NULL,1,NULL,NULL,NULL,NULL);
 INSERT INTO "exchange_ticket_reward_m" VALUES(477,23,0,1001,72,NULL,1,NULL,NULL,NULL,NULL);
 COMMIT;
