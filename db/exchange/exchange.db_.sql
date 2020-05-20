@@ -600,6 +600,7 @@ INSERT INTO "exchange_ticket_m" VALUES(24,'わくわく2020！選べるSSR部員
 INSERT INTO "exchange_ticket_m" VALUES(25,'わくわく2020！選べるUR部員チケット～Aqours～','assets/image/exchange_ticket/ticket_25_s.png','assets/image/exchange_ticket/ticket_25_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(26,'イベントSR交換チケット その2','assets/image/exchange_ticket/ticket_26_s.png','assets/image/exchange_ticket/ticket_26_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(27,'イベントSR交換チケット その3','assets/image/exchange_ticket/ticket_27_s.png','assets/image/exchange_ticket/ticket_27_m.png',NULL,'枚',NULL,NULL);
+INSERT INTO "exchange_ticket_m" VALUES(28,'イベントSR交換チケット その4','assets/image/exchange_ticket/ticket_28_s.png','assets/image/exchange_ticket/ticket_28_m.png',NULL,'枚',NULL,278);
 CREATE TABLE `exchange_ticket_reward_m` (
     `exchange_ticket_reward_id` INTEGER NOT NULL,
     `exchange_ticket_id` INTEGER NOT NULL,
@@ -1088,4 +1089,9 @@ INSERT INTO "exchange_ticket_reward_m" VALUES(472,27,0,1001,2395,NULL,1,'{"rank"
 INSERT INTO "exchange_ticket_reward_m" VALUES(473,27,0,1001,2396,NULL,1,'{"rank":2}',NULL,NULL,NULL);
 INSERT INTO "exchange_ticket_reward_m" VALUES(476,23,0,1001,69,NULL,1,NULL,NULL,NULL,NULL);
 INSERT INTO "exchange_ticket_reward_m" VALUES(477,23,0,1001,72,NULL,1,NULL,NULL,NULL,NULL);
+INSERT INTO "exchange_ticket_reward_m" VALUES(478,28,0,1001,2404,NULL,1,'{"rank":2}',NULL,NULL,278);
+INSERT INTO "exchange_ticket_reward_m" VALUES(479,28,0,1001,2407,NULL,1,'{"rank":2}',NULL,NULL,278);
+INSERT INTO "exchange_ticket_reward_m" VALUES(480,28,0,1001,2408,NULL,1,'{"rank":2}',NULL,NULL,278);
+INSERT INTO "exchange_ticket_reward_m" VALUES(481,28,0,1001,2409,NULL,1,'{"rank":2}',NULL,NULL,278);
+INSERT INTO "exchange_ticket_reward_m" VALUES(482,28,0,1001,2410,NULL,1,'{"rank":2}',NULL,NULL,278);
 COMMIT;
