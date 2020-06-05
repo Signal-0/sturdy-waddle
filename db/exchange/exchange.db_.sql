@@ -544,6 +544,8 @@ INSERT INTO "exchange_nopoint_unit_m" VALUES(2371);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(2372);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(2373);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(2374);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2430);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2431);
 CREATE TABLE `exchange_point_m` (
     `exchange_point_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
@@ -601,6 +603,7 @@ INSERT INTO "exchange_ticket_m" VALUES(25,'わくわく2020！選べるUR部員�
 INSERT INTO "exchange_ticket_m" VALUES(26,'イベントSR交換チケット その2','assets/image/exchange_ticket/ticket_26_s.png','assets/image/exchange_ticket/ticket_26_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(27,'イベントSR交換チケット その3','assets/image/exchange_ticket/ticket_27_s.png','assets/image/exchange_ticket/ticket_27_m.png',NULL,'枚',NULL,NULL);
 INSERT INTO "exchange_ticket_m" VALUES(28,'イベントSR交換チケット その4','assets/image/exchange_ticket/ticket_28_s.png','assets/image/exchange_ticket/ticket_28_m.png',NULL,'枚',NULL,NULL);
+INSERT INTO "exchange_ticket_m" VALUES(29,'イベントSR交換チケット その5','assets/image/exchange_ticket/ticket_29_s.png','assets/image/exchange_ticket/ticket_29_m.png',NULL,'枚',NULL,281);
 CREATE TABLE `exchange_ticket_reward_m` (
     `exchange_ticket_reward_id` INTEGER NOT NULL,
     `exchange_ticket_id` INTEGER NOT NULL,
@@ -1094,4 +1097,9 @@ INSERT INTO "exchange_ticket_reward_m" VALUES(479,28,0,1001,2407,NULL,1,'{"rank"
 INSERT INTO "exchange_ticket_reward_m" VALUES(480,28,0,1001,2408,NULL,1,'{"rank":2}',NULL,NULL,NULL);
 INSERT INTO "exchange_ticket_reward_m" VALUES(481,28,0,1001,2409,NULL,1,'{"rank":2}',NULL,NULL,NULL);
 INSERT INTO "exchange_ticket_reward_m" VALUES(482,28,0,1001,2410,NULL,1,'{"rank":2}',NULL,NULL,NULL);
+INSERT INTO "exchange_ticket_reward_m" VALUES(483,29,0,1001,2420,NULL,1,'{"rank":2}',NULL,NULL,281);
+INSERT INTO "exchange_ticket_reward_m" VALUES(484,29,0,1001,2421,NULL,1,'{"rank":2}',NULL,NULL,281);
+INSERT INTO "exchange_ticket_reward_m" VALUES(485,29,0,1001,2423,NULL,1,'{"rank":2}',NULL,NULL,281);
+INSERT INTO "exchange_ticket_reward_m" VALUES(486,29,0,1001,2424,NULL,1,'{"rank":2}',NULL,NULL,281);
+INSERT INTO "exchange_ticket_reward_m" VALUES(487,29,0,1001,2425,NULL,1,'{"rank":2}',NULL,NULL,281);
 COMMIT;

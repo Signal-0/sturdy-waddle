@@ -327,8 +327,10 @@ INSERT INTO "award_m" VALUES(314,'【称号】あけましておめでとう！'
 INSERT INTO "award_m" VALUES(315,'【称号】今年もよろしくね[ねずみ]','新年を祝う称号\nねずみ年の2020年もいい年になりますように♪','assets/image/award/award_315.png','assets/image/award/award_315di.png',32252,0,'r191231',NULL);
 INSERT INTO "award_m" VALUES(319,'海未ちゃんをお祝いしたい！','3月15日は園田海未ちゃんのお誕生日♪','assets/image/award/award_319.png','assets/image/award/award_319di.png',24022,0,'r200315_000000',NULL);
 INSERT INTO "award_m" VALUES(321,'真姫ちゃんをお祝いしたい！','4月19日は西木野真姫ちゃんのお誕生日♪','assets/image/award/award_321.png','assets/image/award/award_321di.png',24024,0,'r200419_000000',NULL);
+INSERT INTO "award_m" VALUES(322,'希ちゃんをお祝いしたい！','6月9日は東條 希ちゃんのお誕生日♪','assets/image/award/award_322.png','assets/image/award/award_322di.png',24025,0,'r200609_000000',NULL);
 INSERT INTO "award_m" VALUES(323,'花陽ちゃんをお祝いしたい！','1月17日は小泉花陽ちゃんのお誕生日♪','assets/image/award/award_323.png','assets/image/award/award_323di.png',24026,0,'r200117_000000',NULL);
 INSERT INTO "award_m" VALUES(329,'曜ちゃんをお祝いしたい！','4月17日は渡辺 曜ちゃんのお誕生日♪','assets/image/award/award_329.png','assets/image/award/award_329di.png',25023,0,'r200417_000000',NULL);
+INSERT INTO "award_m" VALUES(332,'鞠莉ちゃんをお祝いしたい！','6月13日は小原鞠莉ちゃんのお誕生日♪','assets/image/award/award_332.png','assets/image/award/award_332di.png',25026,0,'r200613_000000',NULL);
 INSERT INTO "award_m" VALUES(334,'【称号】ラブライブ！フェス','LoveLive! Series 9th Anniversary\nラブライブ！フェスの開催を記念した特別な称号','assets/image/award/award_334.png','assets/image/award/award_334di.png',21701,1,'r200118_090000',NULL);
 INSERT INTO "award_m" VALUES(335,'Guilty Kiss First LOVELIVE! ～New Romantic Sailors～','Guilty Kiss First LOVELIVE!の開催を記念した特別な称号','assets/image/award/award_335.png','assets/image/award/award_335di.png',21553,0,'r200208_090000',NULL);
 INSERT INTO "award_m" VALUES(336,'CYaRon！ First LOVELIVE! ～Braveheart Coaster～','CYaRon！First LOVELIVE!の開催を記念した特別な称号','assets/image/award/award_336.png','assets/image/award/award_336di.png',21551,0,'r200222_090000',NULL);
@@ -767,6 +769,7 @@ INSERT INTO "kg_item_m" VALUES(131,1,'[真姫ちゃん限定]UR1枚以上確定S
 INSERT INTO "kg_item_m" VALUES(132,1,'[希ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',132,1,1,'assets/image/item/item_132_m.png','assets/image/item/item_132_s.png','希ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,93,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(133,1,'[花陽ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',133,1,1,'assets/image/item/item_133_m.png','assets/image/item/item_133_s.png','花陽ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,94,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(139,1,'[曜ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',139,1,1,'assets/image/item/item_139_m.png','assets/image/item/item_139_s.png','曜ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,100,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(142,1,'[鞠莉ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',142,1,1,'assets/image/item/item_142_m.png','assets/image/item/item_142_s.png','鞠莉ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,103,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(144,1,'UR1枚確定11連勧誘チケット～μ''s～',144,1,1,'assets/image/item/item_144_m.png','assets/image/item/item_144_s.png','UR1枚確定11連勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,105,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(145,1,'UR1枚確定11連勧誘チケット～Aqours～',145,1,1,'assets/image/item/item_145_m.png','assets/image/item/item_145_s.png','UR1枚確定11連勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,106,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(146,1,'入門！選べるメンバー！UR確定勧誘チケット～μ''s～',146,1,1,'assets/image/item/item_146_m.png','assets/image/item/item_146_s.png','入門！選べるメンバー！UR確定勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,107,1,NULL,NULL);
