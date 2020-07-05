@@ -198,6 +198,7 @@ INSERT INTO "stamp_m" VALUES(129,3,'assets/image/sticker/st_102_004.png',NULL,30
 INSERT INTO "stamp_m" VALUES(130,5,'assets/image/sticker/st_103_004.png',NULL,300070,3,1,2,103,'【スタンプ】松浦果南',0,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(131,4,'assets/image/sticker/st_104_004.png',NULL,300071,3,1,2,104,'【スタンプ】黒澤ダイヤ',0,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(132,4,'assets/image/sticker/st_105_004.png',NULL,300072,3,1,2,105,'【スタンプ】渡辺 曜',0,NULL,NULL);
+INSERT INTO "stamp_m" VALUES(133,4,'assets/image/sticker/st_106_004.png',NULL,300073,3,1,2,106,'【スタンプ】津島善子',0,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(134,2,'assets/image/sticker/st_107_004.png',NULL,300074,3,1,2,107,'【スタンプ】国木田花丸',0,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(135,4,'assets/image/sticker/st_108_004.png',NULL,300075,3,1,2,108,'【スタンプ】小原鞠莉',0,NULL,NULL);
 INSERT INTO "stamp_m" VALUES(136,2,'assets/image/sticker/st_109_004.png',NULL,300076,3,1,2,109,'【スタンプ】黒澤ルビィ',0,NULL,NULL);
