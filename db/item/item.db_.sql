@@ -571,6 +571,7 @@ INSERT INTO "background_m" VALUES(163,'【パーティカード背景】温室�
 INSERT INTO "background_m" VALUES(164,'【パーティカード背景】縁側','【縁側】\nことりと海未が一緒にてるてる坊主を作った後\n想いが通じて晴れ上がった空の光が差し込む縁側','assets/image/background/background_389.png','assets/image/background/home/background_389_thm.png',202,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(165,'【パーティカード背景】帰り道','【帰り道】\nダイヤとルビィが一緒に歩く\n雨上がりの帰り道','assets/image/background/background_399.png','assets/image/background/home/background_399_thm.png',1202,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(166,'【パーティカード背景】河川敷','【河川敷】\n真姫とにこが短冊に願いを書いた\n七夕祭りの河川敷','assets/image/background/background_400.png','assets/image/background/home/background_400_thm.png',203,NULL,NULL,NULL,NULL);
+INSERT INTO "background_m" VALUES(167,'【パーティカード背景】チャペル','【チャペル】\n果南と鞠莉が見学に訪れた\n6月のチャペル','assets/image/background/background_404.png','assets/image/background/home/background_404_thm.png',1203,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(901,'【背景】クリスマスの街','【クリスマスの街】\n イルミネーションに彩られたクリスマスの街','assets/image/background/background_014.png','assets/image/background/home/background_014_thm.png',901,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(902,'【背景】神社・本殿[正月]','【神社・本殿[正月]】\n 正月飾りを施された新年の神社','assets/image/background/background_064.png','assets/image/background/home/background_064_thm.png',902,NULL,NULL,NULL,NULL);
 CREATE TABLE `background_shader_param_m` (
@@ -630,10 +631,12 @@ INSERT INTO "change_delegate_item_m" VALUES(14007,7,4);
 INSERT INTO "change_delegate_item_m" VALUES(14008,8,4);
 INSERT INTO "change_delegate_item_m" VALUES(14009,9,4);
 INSERT INTO "change_delegate_item_m" VALUES(14101,101,4);
+INSERT INTO "change_delegate_item_m" VALUES(14103,103,4);
 INSERT INTO "change_delegate_item_m" VALUES(14104,104,4);
 INSERT INTO "change_delegate_item_m" VALUES(14105,105,4);
 INSERT INTO "change_delegate_item_m" VALUES(14106,106,4);
 INSERT INTO "change_delegate_item_m" VALUES(14107,107,4);
+INSERT INTO "change_delegate_item_m" VALUES(14108,108,4);
 INSERT INTO "change_delegate_item_m" VALUES(14109,109,4);
 CREATE TABLE `kg_item_m` (
     `item_id` INTEGER NOT NULL,
@@ -778,6 +781,7 @@ INSERT INTO "kg_item_m" VALUES(129,1,'[海未ちゃん限定]UR1枚以上確定S
 INSERT INTO "kg_item_m" VALUES(131,1,'[真姫ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',131,1,1,'assets/image/item/item_131_m.png','assets/image/item/item_131_s.png','真姫ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,92,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(132,1,'[希ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',132,1,1,'assets/image/item/item_132_m.png','assets/image/item/item_132_s.png','希ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,93,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(133,1,'[花陽ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',133,1,1,'assets/image/item/item_133_m.png','assets/image/item/item_133_s.png','花陽ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,94,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(134,1,'[にこちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',134,1,1,'assets/image/item/item_134_m.png','assets/image/item/item_134_s.png','にこちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,95,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(139,1,'[曜ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',139,1,1,'assets/image/item/item_139_m.png','assets/image/item/item_139_s.png','曜ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,100,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(140,1,'[善子ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',140,1,1,'assets/image/item/item_140_m.png','assets/image/item/item_140_s.png','善子ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,101,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(142,1,'[鞠莉ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',142,1,1,'assets/image/item/item_142_m.png','assets/image/item/item_142_s.png','鞠莉ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,103,1,NULL,NULL);
@@ -808,7 +812,7 @@ INSERT INTO "kg_item_m" VALUES(168,1,'MAXアップジュエル',168,1,1,'assets/
 INSERT INTO "kg_item_m" VALUES(169,1,'わくわく！選べるメンバー！UR確定勧誘チケット～Aqours～',169,1,1,'assets/image/item/item_169_m.png','assets/image/item/item_169_s.png','わくわく！選べるメンバー！UR確定勧誘チケット勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,120,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(170,1,'11連BOX勧誘チケット～Aqours～',170,1,1,'assets/image/item/item_170_m.png','assets/image/item/item_170_s.png','AqoursのBOX勧誘で11連勧誘を行える',NULL,NULL,NULL,NULL,121,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(171,1,'11連特待生勧誘チケット～μ''s～',171,1,1,'assets/image/item/item_171_m.png','assets/image/item/item_171_s.png','μ''sの特待生勧誘で11連勧誘を行える',NULL,NULL,NULL,NULL,122,1,NULL,NULL);
-INSERT INTO "kg_item_m" VALUES(173,1,'[にこのコーチング]専用覚醒シール',173,1,1,'assets/image/item/item_173_m.png','assets/image/item/item_173_s.png','[ウキウキ挑戦者たち]専用覚醒できるアイテム','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(173,1,'[にこのコーチング]専用覚醒シール',173,1,1,'assets/image/item/item_173_m.png','assets/image/item/item_173_s.png','[にこのコーチング]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(177,1,'Aqours結成5周年カウントダウン勧誘チケット',177,1,1,'assets/image/item/item_177_m.png','assets/image/item/item_177_s.png','[チケット専用]Aqours結成5周年カウントダウン勧誘を行える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','所定の個数を集めることでラブカストーンになります','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
@@ -822,10 +826,12 @@ INSERT INTO "kg_item_m" VALUES(14007,1,'URパーティメダル[東條 希]',140
 INSERT INTO "kg_item_m" VALUES(14008,1,'URパーティメダル[小泉花陽]',14008,1,1,'assets/image/item/item_14008_m.png','assets/image/item/item_14008_s.png','特定のパーティカードのメインを小泉花陽に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14009,1,'URパーティメダル[矢澤にこ]',14009,1,1,'assets/image/item/item_14009_m.png','assets/image/item/item_14009_s.png','特定のパーティカードのメインを矢澤にこに切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14101,1,'URパーティメダル[高海千歌]',14101,1,1,'assets/image/item/item_14101_m.png','assets/image/item/item_14101_s.png','特定のパーティカードのメインを高海千歌に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(14103,1,'URパーティメダル[松浦果南]',14103,1,1,'assets/image/item/item_14103_m.png','assets/image/item/item_14103_s.png','特定のパーティカードのメインを松浦果南に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14104,1,'URパーティメダル[黒澤ダイヤ]',14104,1,1,'assets/image/item/item_14104_m.png','assets/image/item/item_14104_s.png','特定のパーティカードのメインを黒澤ダイヤに切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14105,1,'URパーティメダル[渡辺 曜]',14105,1,1,'assets/image/item/item_14105_m.png','assets/image/item/item_14105_s.png','特定のパーティカードのメインを渡辺曜に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14106,1,'URパーティメダル[津島善子]',14106,1,1,'assets/image/item/item_14106_m.png','assets/image/item/item_14106_s.png','特定のパーティカードのメインを津島善子に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14107,1,'URパーティメダル[国木田花丸]',14107,1,1,'assets/image/item/item_14107_m.png','assets/image/item/item_14107_s.png','特定のパーティカードのメインを国木田花丸に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(14108,1,'URパーティメダル[小原鞠莉]',14108,1,1,'assets/image/item/item_14108_m.png','assets/image/item/item_14108_s.png','特定のパーティカードのメインを小原鞠莉に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14109,1,'URパーティメダル[黒澤ルビィ]',14109,1,1,'assets/image/item/item_14109_m.png','assets/image/item/item_14109_s.png','特定のパーティカードのメインを黒澤ルビィに切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 CREATE TABLE `live_notes_icon_asset_m` (
     `live_notes_icon_id` INTEGER NOT NULL,
