@@ -355,8 +355,8 @@ INSERT INTO "award_m" VALUES(350,'【称号】Aqours結成5周年記念','Aqours
 INSERT INTO "award_m" VALUES(351,'【称号】PERFECT WORLD','UNIT LIVE ADVENTURE 2020 追加公演～PERFECT WORLD～\nの開催を記念した特別な称号','assets/image/award/award_351.png','assets/image/award/award_351di.png',21554,0,'r200630',NULL);
 INSERT INTO "award_m" VALUES(352,'【称号】ユニットライブ応援大作戦！～μ''s～','ユニットライブ応援大作戦！～μ''s～\nを記念した特別な称号','assets/image/award/award_352.png','assets/image/award/award_352di.png',6004,0,'r200705',NULL);
 INSERT INTO "award_m" VALUES(353,'【称号】ユニット対抗戦！～Aqours～','ユニット対抗戦！～Aqours～\nを記念した特別な称号','assets/image/award/award_353.png','assets/image/award/award_353di.png',7004,0,'r200720',NULL);
-INSERT INTO "award_m" VALUES(354,'仮A','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32351,0,'r200731',NULL);
-INSERT INTO "award_m" VALUES(355,'仮B','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32352,0,'r200731',NULL);
+INSERT INTO "award_m" VALUES(354,'【称号】昆虫採集','夏に捕まえた大きく美しい人気の蝶','assets/image/award/award_354.png','assets/image/award/award_354di.png',32351,0,'r200808_000000',NULL);
+INSERT INTO "award_m" VALUES(355,'【称号】観察日記','夏の朝に咲くきれいな花','assets/image/award/award_355.png','assets/image/award/award_355di.png',32352,0,'r200808_000000',NULL);
 INSERT INTO "award_m" VALUES(356,'仮C','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32353,0,'r200731',NULL);
 INSERT INTO "award_m" VALUES(357,'仮D','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32354,0,'r200731',NULL);
 INSERT INTO "award_m" VALUES(358,'仮E','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32355,0,'r200731',NULL);
@@ -403,6 +403,7 @@ INSERT INTO "background_flash_m" VALUES(16,'assets/flash/ui/bg/bg_ef_02_02.flsh'
 INSERT INTO "background_flash_m" VALUES(17,'assets/flash/ui/bg/bg_ef_02_02.flsh','ef_1116','in',NULL,NULL);
 INSERT INTO "background_flash_m" VALUES(18,'assets/flash/ui/bg/bg_ef_02_02.flsh','ef_1117','in',NULL,NULL);
 INSERT INTO "background_flash_m" VALUES(19,'assets/flash/ui/bg/bg_ef_02_02.flsh','ef_1118','in',NULL,NULL);
+INSERT INTO "background_flash_m" VALUES(20,'assets/flash/ui/bg/bg_ef_04.flsh','ef_1120','in',NULL,NULL);
 CREATE TABLE `background_m` (
     `background_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
@@ -583,6 +584,7 @@ INSERT INTO "background_m" VALUES(165,'【パーティカード背景】帰り�
 INSERT INTO "background_m" VALUES(166,'【パーティカード背景】河川敷','【河川敷】\n真姫とにこが短冊に願いを書いた\n七夕祭りの河川敷','assets/image/background/background_400.png','assets/image/background/home/background_400_thm.png',203,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(167,'【パーティカード背景】チャペル','【チャペル】\n果南と鞠莉が見学に訪れた\n6月のチャペル','assets/image/background/background_404.png','assets/image/background/home/background_404_thm.png',1203,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(168,'【パーティカード背景】砂浜','【砂浜】\n穂乃果と絵里が砂の城を作って遊んだ\n夏の砂浜','assets/image/background/background_414.png','assets/image/background/home/background_414_thm.png',204,NULL,NULL,NULL,NULL);
+INSERT INTO "background_m" VALUES(169,'【背景】入り江[花火]','【入り江[花火]】\n花火が見える夜の入り江','assets/image/background/background_415.png','assets/image/background/home/background_415_thm.png',12004,8,20,NULL,NULL);
 INSERT INTO "background_m" VALUES(901,'【背景】クリスマスの街','【クリスマスの街】\n イルミネーションに彩られたクリスマスの街','assets/image/background/background_014.png','assets/image/background/home/background_014_thm.png',901,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(902,'【背景】神社・本殿[正月]','【神社・本殿[正月]】\n 正月飾りを施された新年の神社','assets/image/background/background_064.png','assets/image/background/home/background_064_thm.png',902,NULL,NULL,NULL,NULL);
 CREATE TABLE `background_shader_param_m` (
@@ -599,6 +601,7 @@ INSERT INTO "background_shader_param_m" VALUES(4,3,'{"assets":["assets/image/sha
 INSERT INTO "background_shader_param_m" VALUES(5,3,'{"assets":["assets/image/shader/shader_010.png","assets/image/shader/shader_013.png","assets/image/shader/shader_012.png","assets/image/shader/shader_011.png"],"size":[{"x":1386,"y":640},{"x":1024,"y":1024},{"x":512,"y":512},{"x":512,"y":512}],"addtype":[{"x":0,"y":-0.1,"z":-0.6},{"x":0,"y":1,"z":0},{"x":0,"y":1,"z":0}],"origin":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"offset":[{"x":1,"y":-2,"z":0,"w":0},{"x":0.8,"y":0.8,"z":0,"w":0},{"x":1.2,"y":1.2,"z":0,"w":0}],"delta":[{"x":14,"y":0},{"x":0,"y":-63},{"x":0,"y":-83}],"angle":[0,-5,27],"angle_delta":[0,0,0]}',NULL,NULL);
 INSERT INTO "background_shader_param_m" VALUES(6,3,'{"assets":["assets/image/shader/shader_014.png","assets/image/shader/shader_015.png","assets/image/shader/shader_016.png","assets/image/shader/shader_017.png"],"size":[{"x":1386,"y":640},{"x":512,"y":512},{"x":512,"y":512},{"x":512,"y":512}],"addtype":[{"x":0,"y":-0.9,"z":1.2},{"x":0,"y":1,"z":0.8},{"x":0,"y":1,"z":1}],"origin":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"offset":[{"x":0.9,"y":2,"z":0,"w":0},{"x":0.7,"y":0.7,"z":-27,"w":0},{"x":1,"y":1,"z":4,"w":0}],"delta":[{"x":20,"y":-10},{"x":0,"y":-20},{"x":1,"y":-50}],"angle":[6,6,11],"angle_delta":[0,0,0]}',NULL,NULL);
 INSERT INTO "background_shader_param_m" VALUES(7,3,'{"assets":["assets/image/shader/shader_018.png","assets/image/shader/shader_019.png","",""],"size":[{"x":1386,"y":640},{"x":1024,"y":1024},{"x":0,"y":0},{"x":0,"y":0}],"addtype":[{"x":0,"y":1,"z":0},{"x":0,"y":0,"z":0},{"x":0,"y":0,"z":0}],"origin":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"offset":[{"x":1.353,"y":-1,"z":0,"w":-192},{"x":0,"y":0,"z":0,"w":0},{"x":0,"y":0,"z":0,"w":0}],"delta":[{"x":12,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"angle":[0,0,0],"angle_delta":[0,0,0]}',NULL,NULL);
+INSERT INTO "background_shader_param_m" VALUES(8,3,'{"assets":["assets/image/shader/shader_020.png","assets/image/shader/shader_021.png","",""],"size":[{"x":1386,"y":640},{"x":512,"y":512},{"x":0,"y":0},{"x":0,"y":0}],"addtype":[{"x":0,"y":-2.5,"z":4.0},{"x":0,"y":0,"z":0},{"x":0,"y":0,"z":0}],"origin":[{"x":0,"y":0},{"x":0,"y":0},{"x":0,"y":0}],"offset":[{"x":0.9,"y":1,"z":0,"w":0},{"x":0,"y":0,"z":0,"w":0},{"x":0,"y":0,"z":0,"w":0}],"delta":[{"x":10,"y":-20},{"x":0,"y":0},{"x":0,"y":0}],"angle":[6,0,0],"angle_delta":[0,0,0]}',NULL,NULL);
 CREATE TABLE `buff_item_m` (
     `item_id` INTEGER NOT NULL,
     `buff_type` INTEGER NOT NULL,
@@ -834,6 +837,9 @@ INSERT INTO "kg_item_m" VALUES(174,1,'[ゆるゆるリラックス]専用覚醒�
 INSERT INTO "kg_item_m" VALUES(175,1,'わくわく！選べるメンバー！UR確定勧誘チケット～μ''s～',175,1,1,'assets/image/item/item_175_m.png','assets/image/item/item_175_s.png','わくわく！選べるメンバー！UR確定勧誘チケット勧誘～μ''s～を行える',NULL,NULL,NULL,NULL,124,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(176,1,'11連BOX勧誘チケット～μ''s～',176,1,1,'assets/image/item/item_176_m.png','assets/image/item/item_176_s.png','μ''sのBOX勧誘で11連勧誘を行える',NULL,NULL,NULL,NULL,125,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(177,1,'Aqours結成5周年カウントダウン勧誘チケット',177,1,1,'assets/image/item/item_177_m.png','assets/image/item/item_177_s.png','[チケット専用]Aqours結成5周年カウントダウン勧誘を行える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(178,1,'夏休みジャンボ抽選券',178,1,1,'assets/image/item/item_178_m.png','assets/image/item/item_178_s.png','夏休みジャンボの抽選用アイテム
+抽選期間：2020/08/31 16:00から2020/09/20 14:59まで',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(179,1,'[白米の可能性]専用覚醒シール',179,1,1,'assets/image/item/item_179_m.png','assets/image/item/item_179_s.png','[白米の可能性]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','所定の個数を集めることでラブカストーンになります','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14001,1,'URパーティメダル[高坂穂乃果]',14001,1,1,'assets/image/item/item_14001_m.png','assets/image/item/item_14001_s.png','特定のパーティカードのメインを高坂穂乃果に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
@@ -944,6 +950,7 @@ CREATE TABLE `lottery_ticket_item_m` (
     PRIMARY KEY (`item_id`)
 );
 INSERT INTO "lottery_ticket_item_m" VALUES(162,3);
+INSERT INTO "lottery_ticket_item_m" VALUES(178,4);
 CREATE TABLE `recovery_item_m` (
     `recovery_item_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
@@ -990,6 +997,7 @@ INSERT INTO "unit_reinforce_item_m" VALUES(95,2,100,154);
 INSERT INTO "unit_reinforce_item_m" VALUES(96,4,1,154);
 INSERT INTO "unit_reinforce_item_m" VALUES(173,5,1,NULL);
 INSERT INTO "unit_reinforce_item_m" VALUES(174,5,1,NULL);
+INSERT INTO "unit_reinforce_item_m" VALUES(179,5,1,NULL);
 CREATE TABLE `unit_reinforce_item_target_unit_m` (
     `item_id` INTEGER NOT NULL,
     `unit_id` INTEGER NOT NULL,
@@ -1024,5 +1032,6 @@ INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(96,2179);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(96,2180);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(173,2456);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(174,2470);
+INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(179,2484);
 CREATE INDEX `idx_category_id` ON `kg_item_m`(`item_category_id`);
 COMMIT;

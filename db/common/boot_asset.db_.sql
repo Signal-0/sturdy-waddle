@@ -235,11 +235,11 @@ INSERT INTO "boot_asset_m" VALUES(223,'assets/image/login/startup_mu_2.png','ass
 INSERT INTO "boot_asset_m" VALUES(224,'assets/image/login/startup_aq_1.png','assets/sound/login/startup_aq_1.mp3','2020/04/15 15:00:00','2020/06/20 14:59:59',2,36,1,NULL,NULL);
 INSERT INTO "boot_asset_m" VALUES(225,'assets/image/login/startup_mu_1.png','assets/sound/login/startup_mu_1.mp3','2020/07/31 15:00:00','2037/12/31 23:59:59',1,2,0,NULL,NULL);
 INSERT INTO "boot_asset_m" VALUES(226,'assets/image/login/startup_aq_1.png','assets/sound/login/startup_aq_1.mp3','2020/06/20 15:00:00','2020/07/31 14:59:59',2,4,1,NULL,NULL);
-INSERT INTO "boot_asset_m" VALUES(227,'assets/image/login/startup_aq_2.png','assets/sound/login/startup_aq_2.mp3','2020/07/22 16:00:00','2020/08/21 23:59:59',2,18,1,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(227,'assets/image/login/startup_aq_2.png','assets/sound/login/startup_aq_2.mp3','2020/07/22 16:00:00','2020/08/21 23:59:59',2,12,1,NULL,NULL);
 INSERT INTO "boot_asset_m" VALUES(228,'assets/image/login/startup_aq_1.png','assets/sound/login/startup_aq_1.mp3','2020/07/31 15:00:00','2037/12/31 23:59:59',2,4,0,NULL,NULL);
 INSERT INTO "boot_asset_m" VALUES(229,'assets/image/login/startup_mu_2.png','assets/sound/login/startup_mu_2.mp3','2020/07/31 15:00:00','2020/08/31 14:59:59',1,18,1,NULL,NULL);
-INSERT INTO "boot_asset_m" VALUES(230,'assets/image/login/startup_aq_3.png','assets/sound/login/startup_aq_3.mp3','2020/07/31 15:00:00','2020/08/21 23:59:59',2,18,1,NULL,NULL);
-INSERT INTO "boot_asset_m" VALUES(231,'assets/image/login/startup_aq_3.png','assets/sound/login/startup_aq_3.mp3','2020/08/22 00:00:00','2020/08/31 14:59:59',2,36,1,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(230,'assets/image/login/startup_aq_3.png','assets/sound/login/startup_aq_3.mp3','2020/07/31 15:00:00','2020/08/21 23:59:59',2,12,1,NULL,NULL);
+INSERT INTO "boot_asset_m" VALUES(231,'assets/image/login/startup_aq_3.png','assets/sound/login/startup_aq_3.mp3','2020/08/22 00:00:00','2020/08/31 14:59:59',2,18,1,NULL,NULL);
 CREATE TABLE `boot_bushimo_voice_m` (
     `boot_bushimo_voice_id` INTEGER NOT NULL,
     `voice_asset` TEXT NOT NULL,
