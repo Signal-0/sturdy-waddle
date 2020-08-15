@@ -357,8 +357,8 @@ INSERT INTO "award_m" VALUES(352,'【称号】ユニットライブ応援大作�
 INSERT INTO "award_m" VALUES(353,'【称号】ユニット対抗戦！～Aqours～','ユニット対抗戦！～Aqours～\nを記念した特別な称号','assets/image/award/award_353.png','assets/image/award/award_353di.png',7004,0,'r200720',NULL);
 INSERT INTO "award_m" VALUES(354,'【称号】昆虫採集','夏に捕まえた大きく美しい人気の蝶','assets/image/award/award_354.png','assets/image/award/award_354di.png',32351,0,'r200808_000000',NULL);
 INSERT INTO "award_m" VALUES(355,'【称号】観察日記','夏の朝に咲くきれいな花','assets/image/award/award_355.png','assets/image/award/award_355di.png',32352,0,'r200808_000000',NULL);
-INSERT INTO "award_m" VALUES(356,'仮C','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32353,0,'r200731',NULL);
-INSERT INTO "award_m" VALUES(357,'仮D','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32354,0,'r200731',NULL);
+INSERT INTO "award_m" VALUES(356,'【称号】花火大会','夏の夜空に開く大輪の花','assets/image/award/award_356.png','assets/image/award/award_356di.png',32353,0,'r200816_000000',NULL);
+INSERT INTO "award_m" VALUES(357,'【称号】夏祭り','夏祭りの屋台で泳ぐ金魚と破れやすいポイ','assets/image/award/award_357.png','assets/image/award/award_357di.png',32354,0,'r200816_000000',NULL);
 INSERT INTO "award_m" VALUES(358,'仮E','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32355,0,'r200731',NULL);
 INSERT INTO "award_m" VALUES(359,'仮F','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32356,0,'r200731',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,0,NULL,NULL);
@@ -585,6 +585,7 @@ INSERT INTO "background_m" VALUES(166,'【パーティカード背景】河川�
 INSERT INTO "background_m" VALUES(167,'【パーティカード背景】チャペル','【チャペル】\n果南と鞠莉が見学に訪れた\n6月のチャペル','assets/image/background/background_404.png','assets/image/background/home/background_404_thm.png',1203,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(168,'【パーティカード背景】砂浜','【砂浜】\n穂乃果と絵里が砂の城を作って遊んだ\n夏の砂浜','assets/image/background/background_414.png','assets/image/background/home/background_414_thm.png',204,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(169,'【背景】入り江[花火]','【入り江[花火]】\n花火が見える夜の入り江','assets/image/background/background_415.png','assets/image/background/home/background_415_thm.png',12004,8,20,NULL,NULL);
+INSERT INTO "background_m" VALUES(170,'【パーティカード背景】満天の花火','【満天の花火】\n善子が梨子に教えた\nお祭りの屋台から離れた特別な場所','assets/image/background/background_422.png','assets/image/background/home/background_422_thm.png',1204,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(901,'【背景】クリスマスの街','【クリスマスの街】\n イルミネーションに彩られたクリスマスの街','assets/image/background/background_014.png','assets/image/background/home/background_014_thm.png',901,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(902,'【背景】神社・本殿[正月]','【神社・本殿[正月]】\n 正月飾りを施された新年の神社','assets/image/background/background_064.png','assets/image/background/home/background_064_thm.png',902,NULL,NULL,NULL,NULL);
 CREATE TABLE `background_shader_param_m` (
@@ -645,6 +646,7 @@ INSERT INTO "change_delegate_item_m" VALUES(14007,7,4);
 INSERT INTO "change_delegate_item_m" VALUES(14008,8,4);
 INSERT INTO "change_delegate_item_m" VALUES(14009,9,4);
 INSERT INTO "change_delegate_item_m" VALUES(14101,101,4);
+INSERT INTO "change_delegate_item_m" VALUES(14102,102,4);
 INSERT INTO "change_delegate_item_m" VALUES(14103,103,4);
 INSERT INTO "change_delegate_item_m" VALUES(14104,104,4);
 INSERT INTO "change_delegate_item_m" VALUES(14105,105,4);
@@ -852,6 +854,7 @@ INSERT INTO "kg_item_m" VALUES(14007,1,'URパーティメダル[東條 希]',140
 INSERT INTO "kg_item_m" VALUES(14008,1,'URパーティメダル[小泉花陽]',14008,1,1,'assets/image/item/item_14008_m.png','assets/image/item/item_14008_s.png','特定のパーティカードのメインを小泉花陽に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14009,1,'URパーティメダル[矢澤にこ]',14009,1,1,'assets/image/item/item_14009_m.png','assets/image/item/item_14009_s.png','特定のパーティカードのメインを矢澤にこに切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14101,1,'URパーティメダル[高海千歌]',14101,1,1,'assets/image/item/item_14101_m.png','assets/image/item/item_14101_s.png','特定のパーティカードのメインを高海千歌に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(14102,1,'URパーティメダル[桜内梨子]',14102,1,1,'assets/image/item/item_14102_m.png','assets/image/item/item_14102_s.png','特定のパーティカードのメインを桜内梨子に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14103,1,'URパーティメダル[松浦果南]',14103,1,1,'assets/image/item/item_14103_m.png','assets/image/item/item_14103_s.png','特定のパーティカードのメインを松浦果南に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14104,1,'URパーティメダル[黒澤ダイヤ]',14104,1,1,'assets/image/item/item_14104_m.png','assets/image/item/item_14104_s.png','特定のパーティカードのメインを黒澤ダイヤに切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14105,1,'URパーティメダル[渡辺 曜]',14105,1,1,'assets/image/item/item_14105_m.png','assets/image/item/item_14105_s.png','特定のパーティカードのメインを渡辺曜に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);

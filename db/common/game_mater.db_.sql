@@ -1506,6 +1506,8 @@ INSERT INTO "strings_m" VALUES('exchange_error',4209,'このリズムアイコ�
 INSERT INTO "strings_m" VALUES('exchange_error',4210,'このリズムアイコンはプレゼントボックス内にあります');
 INSERT INTO "strings_m" VALUES('exchange_error',4211,'このタップSEは既に取得済みです');
 INSERT INTO "strings_m" VALUES('exchange_error',4212,'このタップSEはプレゼントボックス内にあります');
+INSERT INTO "strings_m" VALUES('exchange_error',4213,'このスタンプは既に取得済みです');
+INSERT INTO "strings_m" VALUES('exchange_error',4214,'このスタンプはプレゼントボックス内にあります');
 INSERT INTO "strings_m" VALUES('award_common',1,'称号に設定しました');
 INSERT INTO "strings_m" VALUES('award_common',2,'？？？？');
 INSERT INTO "strings_m" VALUES('background_common',1,'背景に設定しました');
