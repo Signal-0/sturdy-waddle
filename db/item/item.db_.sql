@@ -359,8 +359,8 @@ INSERT INTO "award_m" VALUES(354,'【称号】昆虫採集','夏に捕まえた�
 INSERT INTO "award_m" VALUES(355,'【称号】観察日記','夏の朝に咲くきれいな花','assets/image/award/award_355.png','assets/image/award/award_355di.png',32352,0,'r200808_000000',NULL);
 INSERT INTO "award_m" VALUES(356,'【称号】花火大会','夏の夜空に開く大輪の花','assets/image/award/award_356.png','assets/image/award/award_356di.png',32353,0,'r200816_000000',NULL);
 INSERT INTO "award_m" VALUES(357,'【称号】夏祭り','夏祭りの屋台で泳ぐ金魚と破れやすいポイ','assets/image/award/award_357.png','assets/image/award/award_357di.png',32354,0,'r200816_000000',NULL);
-INSERT INTO "award_m" VALUES(358,'仮E','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32355,0,'r200731',NULL);
-INSERT INTO "award_m" VALUES(359,'仮F','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32356,0,'r200731',NULL);
+INSERT INTO "award_m" VALUES(358,'【称号】海水浴','夏の砂浜に転がる冷えたスイカと手頃な棒','assets/image/award/award_358.png','assets/image/award/award_358di.png',32355,0,'r200824_000000',NULL);
+INSERT INTO "award_m" VALUES(359,'【称号】キャンプ','夏の夜に仲間と囲んだ焚き火','assets/image/award/award_359.png','assets/image/award/award_359di.png',32356,0,'r200824_000000',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(902,'スクフェス全国大会2017オンライン予選','スクフェス全国大会2017オンライン予選に参加した証','assets/image/award/award_902.png','assets/image/award/award_902di.png',18002,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(903,'【称号】スクフェス全国大会2018オンライン予選','スクフェス全国大会2018オンライン予選に参加した証','assets/image/award/award_903.png','assets/image/award/award_903di.png',18007,0,NULL,NULL);
@@ -622,6 +622,7 @@ INSERT INTO "buff_item_m" VALUES(63,3,1,125,2,3600,NULL);
 INSERT INTO "buff_item_m" VALUES(89,1,1,125,2,600,NULL);
 INSERT INTO "buff_item_m" VALUES(90,2,1,125,2,600,NULL);
 INSERT INTO "buff_item_m" VALUES(91,3,1,125,2,600,NULL);
+INSERT INTO "buff_item_m" VALUES(183,1,1,1000,2,3600,NULL);
 CREATE TABLE `change_delegate_item_amount_m` (
     `unit_rarity` INTEGER NOT NULL,
     `item_rarity` INTEGER NOT NULL,
@@ -842,6 +843,8 @@ INSERT INTO "kg_item_m" VALUES(177,1,'Aqours結成5周年カウントダウン�
 INSERT INTO "kg_item_m" VALUES(178,1,'夏休みジャンボ抽選券',178,1,1,'assets/image/item/item_178_m.png','assets/image/item/item_178_s.png','夏休みジャンボの抽選用アイテム
 抽選期間：2020/08/31 16:00から2020/09/20 14:59まで',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(179,1,'[白米の可能性]専用覚醒シール',179,1,1,'assets/image/item/item_179_m.png','assets/image/item/item_179_s.png','[白米の可能性]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(180,1,'[小原流ガストロノミー]専用覚醒シール',180,1,1,'assets/image/item/item_180_m.png','assets/image/item/item_180_s.png','[小原流ガストロノミー]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(183,1,'【期間限定】EXPアップのお守り',183,1,1,'assets/image/item/item_183_m.png','assets/image/item/item_183_s.png','使用してから【60分】の間だけ獲得EXPを900%アップさせる\n[2020/08/31 23:59まで]','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','所定の個数を集めることでラブカストーンになります','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14001,1,'URパーティメダル[高坂穂乃果]',14001,1,1,'assets/image/item/item_14001_m.png','assets/image/item/item_14001_s.png','特定のパーティカードのメインを高坂穂乃果に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
@@ -1001,6 +1004,7 @@ INSERT INTO "unit_reinforce_item_m" VALUES(96,4,1,154);
 INSERT INTO "unit_reinforce_item_m" VALUES(173,5,1,NULL);
 INSERT INTO "unit_reinforce_item_m" VALUES(174,5,1,NULL);
 INSERT INTO "unit_reinforce_item_m" VALUES(179,5,1,NULL);
+INSERT INTO "unit_reinforce_item_m" VALUES(180,5,1,NULL);
 CREATE TABLE `unit_reinforce_item_target_unit_m` (
     `item_id` INTEGER NOT NULL,
     `unit_id` INTEGER NOT NULL,
@@ -1036,5 +1040,6 @@ INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(96,2180);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(173,2456);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(174,2470);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(179,2484);
+INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(180,2496);
 CREATE INDEX `idx_category_id` ON `kg_item_m`(`item_category_id`);
 COMMIT;

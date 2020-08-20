@@ -32721,7 +32721,7 @@ INSERT INTO "live_track_m" VALUES(615,'Phantom Rocket Adventure','フアント�
 INSERT INTO "live_track_m" VALUES(616,'コドク・テレポート','コトクレホオト','assets/image/live/title/t_aq_0620.png','assets/sound/music/m_254.mp3',2,9,NULL,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(617,'Fantastic Departure!','フアンタステイクテハアアチヤア','assets/image/live/title/t_aq_0632.png','assets/sound/music/m_268.mp3',2,5,NULL,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(618,'メイズセカイ','メイスセカイ','assets/image/live/title/t_aq_0621.png','assets/sound/music/m_255.mp3',2,10,NULL,NULL,NULL);
-INSERT INTO "live_track_m" VALUES(619,'Dazzling White Town','タシリンクホワイトタウン','assets/image/live/title/t_aq_0622.png','assets/sound/music/m_256.mp3',2,13,NULL,NULL,295);
+INSERT INTO "live_track_m" VALUES(619,'Dazzling White Town','タシリンクホワイトタウン','assets/image/live/title/t_aq_0622.png','assets/sound/music/m_256.mp3',2,13,NULL,NULL,NULL);
 CREATE TABLE `live_unit_reward_lot_m` (
     `live_unit_reward_lot_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,
