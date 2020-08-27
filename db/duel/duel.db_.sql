@@ -23,7 +23,7 @@ INSERT INTO "duel_common_asset_m" VALUES(163,9,2,2,'assets/image/duel/rule/rule_
 INSERT INTO "duel_common_asset_m" VALUES(164,9,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(165,9,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(166,9,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(167,9,3,1,'assets/image/ui/event/e_bg_02.png',NULL,NULL);
+INSERT INTO "duel_common_asset_m" VALUES(167,9,3,1,'assets/image/duel/top/top_01bg.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(168,9,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(169,9,6,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(170,10001,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
@@ -31,7 +31,7 @@ INSERT INTO "duel_common_asset_m" VALUES(171,10001,2,2,'assets/image/duel/rule/r
 INSERT INTO "duel_common_asset_m" VALUES(172,10001,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(173,10001,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(174,10001,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(175,10001,3,1,'assets/image/ui/event/e_bg_02.png',NULL,NULL);
+INSERT INTO "duel_common_asset_m" VALUES(175,10001,3,1,'assets/image/duel/top/top_01bg.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(176,10001,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(177,10001,6,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(178,10002,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
@@ -39,7 +39,7 @@ INSERT INTO "duel_common_asset_m" VALUES(179,10002,2,2,'assets/image/duel/rule/r
 INSERT INTO "duel_common_asset_m" VALUES(180,10002,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(181,10002,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(182,10002,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(183,10002,3,1,'assets/image/ui/event/e_bg_02.png',NULL,NULL);
+INSERT INTO "duel_common_asset_m" VALUES(183,10002,3,1,'assets/image/duel/top/top_01bg.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(184,10002,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(185,10002,6,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(186,10003,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
@@ -47,7 +47,7 @@ INSERT INTO "duel_common_asset_m" VALUES(187,10003,2,2,'assets/image/duel/rule/r
 INSERT INTO "duel_common_asset_m" VALUES(188,10003,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(189,10003,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(190,10003,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(191,10003,3,1,'assets/image/ui/event/e_bg_02.png',NULL,NULL);
+INSERT INTO "duel_common_asset_m" VALUES(191,10003,3,1,'assets/image/duel/top/top_01bg.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(192,10003,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(193,10003,6,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(194,10004,2,1,'assets/image/duel/rule/rule_01_01.png',NULL,NULL);
@@ -55,7 +55,7 @@ INSERT INTO "duel_common_asset_m" VALUES(195,10004,2,2,'assets/image/duel/rule/r
 INSERT INTO "duel_common_asset_m" VALUES(196,10004,2,3,'assets/image/duel/rule/rule_01_03.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(197,10004,2,4,'assets/image/duel/rule/rule_01_04.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(198,10004,2,5,'assets/image/duel/rule/rule_01_05.png',NULL,NULL);
-INSERT INTO "duel_common_asset_m" VALUES(199,10004,3,1,'assets/image/ui/event/e_bg_02.png',NULL,NULL);
+INSERT INTO "duel_common_asset_m" VALUES(199,10004,3,1,'assets/image/duel/top/top_01bg.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(200,10004,5,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 INSERT INTO "duel_common_asset_m" VALUES(201,10004,6,1,'assets/image/duel/top/top_01navi.png',NULL,NULL);
 CREATE TABLE `duel_deck_mark_base_m` (
