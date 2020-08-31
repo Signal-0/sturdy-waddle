@@ -42,4 +42,9 @@ INSERT INTO "lottery_ticket_rank_m" VALUES(3,1,'7周年特別賞',7777,'assets/i
 INSERT INTO "lottery_ticket_rank_m" VALUES(3,2,'SSR賞',77777,'assets/image/lottery_ticket/bg_02.png','assets/image/lottery_ticket/banner_14.png','assets/image/ui/item/item_icon_22.png',NULL,NULL);
 INSERT INTO "lottery_ticket_rank_m" VALUES(3,3,'SR賞',277777,'assets/image/lottery_ticket/bg_02.png','assets/image/lottery_ticket/banner_15.png','assets/image/ui/item/item_icon_22.png',NULL,NULL);
 INSERT INTO "lottery_ticket_rank_m" VALUES(3,4,'練習応援賞',0,'assets/image/lottery_ticket/bg_02.png','assets/image/lottery_ticket/banner_12.png','assets/image/ui/item/item_icon_22.png',NULL,NULL);
+INSERT INTO "lottery_ticket_rank_m" VALUES(4,1,'夏休み特別賞',20,'assets/image/lottery_ticket/bg_01.png','assets/image/lottery_ticket/banner_16.png','assets/image/ui/item/item_icon_22.png',NULL,NULL);
+INSERT INTO "lottery_ticket_rank_m" VALUES(4,2,'UR賞',2000,'assets/image/lottery_ticket/bg_02.png','assets/image/lottery_ticket/banner_17.png','assets/image/ui/item/item_icon_22.png',NULL,NULL);
+INSERT INTO "lottery_ticket_rank_m" VALUES(4,3,'SSR賞',20000,'assets/image/lottery_ticket/bg_02.png','assets/image/lottery_ticket/banner_14.png','assets/image/ui/item/item_icon_22.png',NULL,NULL);
+INSERT INTO "lottery_ticket_rank_m" VALUES(4,4,'SR賞',200000,'assets/image/lottery_ticket/bg_02.png','assets/image/lottery_ticket/banner_15.png','assets/image/ui/item/item_icon_22.png',NULL,NULL);
+INSERT INTO "lottery_ticket_rank_m" VALUES(4,5,'練習応援賞',0,'assets/image/lottery_ticket/bg_02.png','assets/image/lottery_ticket/banner_12.png','assets/image/ui/item/item_icon_22.png',NULL,NULL);
 COMMIT;
