@@ -4467,7 +4467,7 @@ INSERT INTO "card_m" VALUES(7156,0,4083,0,0,-180,-142,0.9,'assets/image/units/b_
 INSERT INTO "card_m" VALUES(7157,0,4106,0,0,-180,-142,0.9,'assets/image/units/b_rankup_42101007_signed.png',NULL,NULL);
 INSERT INTO "card_m" VALUES(7158,0,4376,0,0,-180,-142,0.9,'assets/image/unit/41104007/b_rankup_41104007.png',NULL,301);
 INSERT INTO "card_m" VALUES(7159,0,4377,0,0,-180,-142,0.9,'assets/image/unit/43105012/b_rankup_43105012.png',NULL,301);
-INSERT INTO "card_m" VALUES(7160,0,4378,0,0,-180,-142,0.9,'','PtUXwpzVxlZSC52ldDmIVnsP6Dmhzu6doYC/XwBZIq8/QqnsJYgYm7ku2oLSOXSRw3EEU8ItC++fHVAh6wnF2+51DelpNwmGPG9T0WqOIeBq6QaEfXLaaHDXijnOLzNe',1396);
+INSERT INTO "card_m" VALUES(7160,0,4378,0,0,-180,-142,0.9,'assets/image/unit/41102009/b_rankup_41102009.png',NULL,1396);
 INSERT INTO "card_m" VALUES(7161,0,245,0,0,-180,-142,0.9,'assets/image/units/b_rankup_42009001_signed.png',NULL,301);
 INSERT INTO "card_m" VALUES(7162,0,257,0,0,-180,-142,0.9,'assets/image/units/b_rankup_41007001_signed.png',NULL,301);
 INSERT INTO "card_m" VALUES(7163,0,276,0,0,-180,-142,0.9,'assets/image/units/b_rankup_41004001_signed.png',NULL,301);
