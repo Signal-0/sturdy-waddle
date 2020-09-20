@@ -32401,6 +32401,7 @@ INSERT INTO "live_setting_m" VALUES(1378,620,3,8,3,'assets/image/live/live_icon/
 INSERT INTO "live_setting_m" VALUES(1379,620,4,9,3,'assets/image/live/live_icon/j_mu_0623.png',NULL,9,'Live_s1379.json',96849,242352,290547,339201,138,230,322,459,0,0,9,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(1380,620,6,11,3,'assets/image/live/live_icon/j_mu_0623.png',NULL,32,'Live_s1380.json',148966,372768,446898,521734,212,353,495,706,0,0,9,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(1381,571,6,11,3,'assets/image/live/live_icon/j_aq_0571.png',NULL,32,'Live_s1381.json',119743,299640,359228,419383,193,321,450,642,0,1,9,NULL,NULL);
+INSERT INTO "live_setting_m" VALUES(1382,468,6,11,1,'assets/image/live/live_icon/j_aq_0468.png',NULL,32,'Live_s1382.json',134829,337392,404487,472221,192,320,448,639,0,0,5,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10398,449,4,11,3,'assets/image/live/live_icon/j_bd2_02_01.png',NULL,32,'Live_s0398.json',113307,283536,339921,396843,162,269,376,537,0,0,9,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10654,494,4,10,1,'assets/image/live/live_icon/j_cdsp_02.png',NULL,10,'Live_s0654.json',101280,253440,303840,354720,144,240,336,480,0,0,9,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10779,510,4,10,1,'assets/image/live/live_icon/j_aq_0509.png',NULL,10,'Live_s0779.json',121536,304128,364608,425664,173,288,404,576,0,0,9,NULL,NULL);

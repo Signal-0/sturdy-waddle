@@ -337,6 +337,7 @@ INSERT INTO "award_m" VALUES(326,'梨子ちゃんをお祝いしたい！','9月
 INSERT INTO "award_m" VALUES(329,'曜ちゃんをお祝いしたい！','4月17日は渡辺 曜ちゃんのお誕生日♪','assets/image/award/award_329.png','assets/image/award/award_329di.png',25023,0,'r200417_000000',NULL);
 INSERT INTO "award_m" VALUES(330,'善子ちゃんをお祝いしたい！','7月13日は津島善子ちゃんのお誕生日♪','assets/image/award/award_330.png','assets/image/award/award_330di.png',25024,0,'r200713_000000',NULL);
 INSERT INTO "award_m" VALUES(332,'鞠莉ちゃんをお祝いしたい！','6月13日は小原鞠莉ちゃんのお誕生日♪','assets/image/award/award_332.png','assets/image/award/award_332di.png',25026,0,'r200613_000000',NULL);
+INSERT INTO "award_m" VALUES(333,'ルビィちゃんをお祝いしたい！','9月21日は黒澤ルビィちゃんのお誕生日♪','assets/image/award/award_333.png','assets/image/award/award_333di.png',25027,0,'r200921_000000',NULL);
 INSERT INTO "award_m" VALUES(334,'【称号】ラブライブ！フェス','LoveLive! Series 9th Anniversary\nラブライブ！フェスの開催を記念した特別な称号','assets/image/award/award_334.png','assets/image/award/award_334di.png',21701,1,'r200118_090000',NULL);
 INSERT INTO "award_m" VALUES(335,'Guilty Kiss First LOVELIVE! ～New Romantic Sailors～','Guilty Kiss First LOVELIVE!の開催を記念した特別な称号','assets/image/award/award_335.png','assets/image/award/award_335di.png',21553,0,'r200208_090000',NULL);
 INSERT INTO "award_m" VALUES(336,'CYaRon！ First LOVELIVE! ～Braveheart Coaster～','CYaRon！First LOVELIVE!の開催を記念した特別な称号','assets/image/award/award_336.png','assets/image/award/award_336di.png',21551,0,'r200222_090000',NULL);
@@ -363,8 +364,8 @@ INSERT INTO "award_m" VALUES(356,'【称号】花火大会','夏の夜空に開�
 INSERT INTO "award_m" VALUES(357,'【称号】夏祭り','夏祭りの屋台で泳ぐ金魚と破れやすいポイ','assets/image/award/award_357.png','assets/image/award/award_357di.png',32121,0,'r200816_000000',NULL);
 INSERT INTO "award_m" VALUES(358,'【称号】海水浴','夏の砂浜に転がる冷えたスイカと手頃な棒','assets/image/award/award_358.png','assets/image/award/award_358di.png',32122,0,'r200824_000000',NULL);
 INSERT INTO "award_m" VALUES(359,'【称号】キャンプ','夏の夜に仲間と囲んだ焚き火','assets/image/award/award_359.png','assets/image/award/award_359di.png',32123,0,'r200824_000000',NULL);
-INSERT INTO "award_m" VALUES(361,'仮A','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32124,0,'r200915',NULL);
-INSERT INTO "award_m" VALUES(362,'仮B','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32125,0,'r200915',NULL);
+INSERT INTO "award_m" VALUES(361,'【称号】学園祭','非日常へといざなう学園祭のアーチ','assets/image/award/award_361.png','assets/image/award/award_361di.png',32124,0,'r200923_000000',NULL);
+INSERT INTO "award_m" VALUES(362,'【称号】修学旅行','仲間と共に訪れた思い出の舞台','assets/image/award/award_362.png','assets/image/award/award_362di.png',32125,0,'r200923_000000',NULL);
 INSERT INTO "award_m" VALUES(363,'仮C','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32126,0,'r200915',NULL);
 INSERT INTO "award_m" VALUES(364,'仮D','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32127,0,'r200915',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,0,NULL,NULL);
@@ -856,6 +857,7 @@ INSERT INTO "kg_item_m" VALUES(178,1,'夏休みジャンボ抽選券',178,1,1,'a
 INSERT INTO "kg_item_m" VALUES(179,1,'[白米の可能性]専用覚醒シール',179,1,1,'assets/image/item/item_179_m.png','assets/image/item/item_179_s.png','[白米の可能性]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(180,1,'[小原流ガストロノミー]専用覚醒シール',180,1,1,'assets/image/item/item_180_m.png','assets/image/item/item_180_s.png','[小原流ガストロノミー]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(181,1,'[占ってあげようか？]専用覚醒シール',181,1,1,'assets/image/item/item_181_m.png','assets/image/item/item_181_s.png','[占ってあげようか？]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(182,1,'[イメージの向こう側]専用覚醒シール',182,1,1,'assets/image/item/item_182_m.png','assets/image/item/item_182_s.png','[イメージの向こう側]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(183,1,'【期間限定】EXPアップのお守り',183,1,1,'assets/image/item/item_183_m.png','assets/image/item/item_183_s.png','使用してから【60分】の間だけ獲得EXPを900%アップさせる\n[2020/08/31 23:59まで]','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(184,1,'レクリエーション投票券[第1回]',184,1,1,'assets/image/item/item_184_m.png','assets/image/item/item_184_s.png','2020オータムレクリエーション第1回の投票用アイテム',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(185,1,'レクリエーション投票券[第2回]',185,1,1,'assets/image/item/item_185_m.png','assets/image/item/item_185_s.png','2020オータムレクリエーション第2回の投票用アイテム',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
@@ -1020,6 +1022,7 @@ INSERT INTO "unit_reinforce_item_m" VALUES(174,5,1,NULL);
 INSERT INTO "unit_reinforce_item_m" VALUES(179,5,1,NULL);
 INSERT INTO "unit_reinforce_item_m" VALUES(180,5,1,NULL);
 INSERT INTO "unit_reinforce_item_m" VALUES(181,5,1,NULL);
+INSERT INTO "unit_reinforce_item_m" VALUES(182,5,1,NULL);
 CREATE TABLE `unit_reinforce_item_target_unit_m` (
     `item_id` INTEGER NOT NULL,
     `unit_id` INTEGER NOT NULL,
@@ -1057,5 +1060,6 @@ INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(174,2470);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(179,2484);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(180,2499);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(181,2505);
+INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(182,2516);
 CREATE INDEX `idx_category_id` ON `kg_item_m`(`item_category_id`);
 COMMIT;
