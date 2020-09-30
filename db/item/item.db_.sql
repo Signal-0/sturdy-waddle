@@ -366,8 +366,8 @@ INSERT INTO "award_m" VALUES(358,'【称号】海水浴','夏の砂浜に転が�
 INSERT INTO "award_m" VALUES(359,'【称号】キャンプ','夏の夜に仲間と囲んだ焚き火','assets/image/award/award_359.png','assets/image/award/award_359di.png',32123,0,'r200824_000000',NULL);
 INSERT INTO "award_m" VALUES(361,'【称号】学園祭','非日常へといざなう学園祭のアーチ','assets/image/award/award_361.png','assets/image/award/award_361di.png',32124,0,'r200923_000000',NULL);
 INSERT INTO "award_m" VALUES(362,'【称号】修学旅行','仲間と共に訪れた思い出の舞台','assets/image/award/award_362.png','assets/image/award/award_362di.png',32125,0,'r200923_000000',NULL);
-INSERT INTO "award_m" VALUES(363,'仮C','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32126,0,'r200915',NULL);
-INSERT INTO "award_m" VALUES(364,'仮D','-','assets/image/award/award_286.png','assets/image/award/award_286di.png',32127,0,'r200915',NULL);
+INSERT INTO "award_m" VALUES(363,'【称号】十五夜','秋の夜空に浮かぶ中秋の名月','assets/image/award/award_363.png','assets/image/award/award_363di.png',32126,0,'r200930',NULL);
+INSERT INTO "award_m" VALUES(364,'【称号】ハロウィン','秋の夜道を照らすカボチャのランタン','assets/image/award/award_364.png','assets/image/award/award_364di.png',32127,0,'r200930',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(902,'スクフェス全国大会2017オンライン予選','スクフェス全国大会2017オンライン予選に参加した証','assets/image/award/award_902.png','assets/image/award/award_902di.png',18002,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(903,'【称号】スクフェス全国大会2018オンライン予選','スクフェス全国大会2018オンライン予選に参加した証','assets/image/award/award_903.png','assets/image/award/award_903di.png',18007,0,NULL,NULL);
@@ -595,6 +595,7 @@ INSERT INTO "background_m" VALUES(169,'【背景】入り江[花火]','【入り
 INSERT INTO "background_m" VALUES(170,'【パーティカード背景】満天の花火','【満天の花火】\n善子が梨子に教えた\nお祭りの屋台から離れた特別な場所','assets/image/background/background_422.png','assets/image/background/home/background_422_thm.png',1204,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(171,'【パーティカード背景】キャンプ場','【キャンプ場】\n希とにこが一緒にバーベキューの準備をした\nキャンプ場','assets/image/background/background_427.png','assets/image/background/home/background_427_thm.png',205,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(172,'【パーティカード背景】南の島の海辺','【南の島の海辺】\nダイヤと曜が一緒にフロートで遊んだ\n南の島の浜辺','assets/image/background/background_433.png','assets/image/background/home/background_433_thm.png',1205,NULL,NULL,NULL,NULL);
+INSERT INTO "background_m" VALUES(173,'【パーティカード背景】真姫のお部屋[ハロウィン]','【真姫のお部屋[ハロウィン]】\nハロウィンの飾りに彩られた真姫ちゃんのお部屋','assets/image/background/background_437.png','assets/image/background/home/background_437_thm.png',206,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(901,'【背景】クリスマスの街','【クリスマスの街】\n イルミネーションに彩られたクリスマスの街','assets/image/background/background_014.png','assets/image/background/home/background_014_thm.png',901,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(902,'【背景】神社・本殿[正月]','【神社・本殿[正月]】\n 正月飾りを施された新年の神社','assets/image/background/background_064.png','assets/image/background/home/background_064_thm.png',902,NULL,NULL,NULL,NULL);
 CREATE TABLE `background_shader_param_m` (
@@ -998,6 +999,8 @@ INSERT INTO "recovery_item_m" VALUES(9,'スクフェスブレード～Aqours～'
 INSERT INTO "recovery_item_m" VALUES(10,'クリスマスボックス[LP1]',2,1,'assets/image/recovery_item/recovery_10_s.png','assets/image/recovery_item/recovery_10_m.png',NULL,'個','LPを1回復します\n（2019/12/31 15:00以降に削除されます）',NULL,NULL);
 INSERT INTO "recovery_item_m" VALUES(11,'メモリアルピンズ',2,1,'assets/image/recovery_item/recovery_11_s.png','assets/image/recovery_item/recovery_11_m.png',NULL,'個','LPを1回復します\n（2020/01/31 15:00以降に削除されます）',NULL,NULL);
 INSERT INTO "recovery_item_m" VALUES(12,'チョコレート[LP1]',2,1,'assets/image/recovery_item/recovery_12_s.png','assets/image/recovery_item/recovery_12_m.png',NULL,'個','LPを1回復します\n（2020/03/05 15:00以降に削除されます）',NULL,NULL);
+INSERT INTO "recovery_item_m" VALUES(13,'ハロウィンキャンディピーチ[LP5]',2,5,'assets/image/recovery_item/recovery_13_s.png','assets/image/recovery_item/recovery_13_m.png',NULL,'個','LPを5回復します',NULL,NULL);
+INSERT INTO "recovery_item_m" VALUES(14,'ハロウィンキャンディソーダ[LP5]',2,5,'assets/image/recovery_item/recovery_14_s.png','assets/image/recovery_item/recovery_14_m.png',NULL,'個','LPを5回復します',NULL,NULL);
 CREATE TABLE `unit_enhance_item_m` (
     `item_id` INTEGER NOT NULL,
     `unit_id` INTEGER,
