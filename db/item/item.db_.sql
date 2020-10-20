@@ -326,6 +326,7 @@ INSERT INTO "award_m" VALUES(313,'ルビィちゃんのクリスマスプレゼ�
 INSERT INTO "award_m" VALUES(314,'【称号】あけましておめでとう！','新年を祝う称号\n鏡餅は12月28日から飾るといいみたい♪','assets/image/award/award_314.png','assets/image/award/award_314di.png',32251,0,'r191220',NULL);
 INSERT INTO "award_m" VALUES(315,'【称号】今年もよろしくね[ねずみ]','新年を祝う称号\nねずみ年の2020年もいい年になりますように♪','assets/image/award/award_315.png','assets/image/award/award_315di.png',32252,0,'r191231',NULL);
 INSERT INTO "award_m" VALUES(316,'穂乃果ちゃんをお祝いしたい！','8月3日は高坂穂乃果ちゃんのお誕生日♪','assets/image/award/award_316.png','assets/image/award/award_316di.png',24019,0,'r200803_000000',NULL);
+INSERT INTO "award_m" VALUES(317,'絵里ちゃんをお祝いしたい！','10月21日は絢瀬絵里ちゃんのお誕生日♪','assets/image/award/award_317.png','assets/image/award/award_317di.png',24020,0,'r201021_000000',NULL);
 INSERT INTO "award_m" VALUES(318,'ことりちゃんをお祝いしたい！','9月12日は南ことりちゃんのお誕生日♪','assets/image/award/award_318.png','assets/image/award/award_318di.png',24021,0,'r200912_000000',NULL);
 INSERT INTO "award_m" VALUES(319,'海未ちゃんをお祝いしたい！','3月15日は園田海未ちゃんのお誕生日♪','assets/image/award/award_319.png','assets/image/award/award_319di.png',24022,0,'r200315_000000',NULL);
 INSERT INTO "award_m" VALUES(321,'真姫ちゃんをお祝いしたい！','4月19日は西木野真姫ちゃんのお誕生日♪','assets/image/award/award_321.png','assets/image/award/award_321di.png',24024,0,'r200419_000000',NULL);
@@ -809,6 +810,7 @@ INSERT INTO "kg_item_m" VALUES(126,1,'[穂乃果ちゃん限定]UR1枚以上確�
 INSERT INTO "kg_item_m" VALUES(127,1,'[絵里ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',127,1,1,'assets/image/item/item_127_m.png','assets/image/item/item_127_s.png','絵里ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,88,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(128,1,'[ことりちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',128,1,1,'assets/image/item/item_128_m.png','assets/image/item/item_128_s.png','ことりちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,89,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(129,1,'[海未ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',129,1,1,'assets/image/item/item_129_m.png','assets/image/item/item_129_s.png','海未ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,90,1,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(130,1,'[凛ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',130,1,1,'assets/image/item/item_130_m.png','assets/image/item/item_130_s.png','凛ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,91,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(131,1,'[真姫ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',131,1,1,'assets/image/item/item_131_m.png','assets/image/item/item_131_s.png','真姫ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,92,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(132,1,'[希ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',132,1,1,'assets/image/item/item_132_m.png','assets/image/item/item_132_s.png','希ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,93,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(133,1,'[花陽ちゃん限定]UR1枚以上確定SR以上11連勧誘チケット',133,1,1,'assets/image/item/item_133_m.png','assets/image/item/item_133_s.png','花陽ちゃんUR1枚以上確定SR以上11連勧誘を行える',NULL,NULL,NULL,NULL,94,1,NULL,NULL);
@@ -865,6 +867,7 @@ INSERT INTO "kg_item_m" VALUES(183,1,'【期間限定】EXPアップのお守り
 INSERT INTO "kg_item_m" VALUES(184,1,'レクリエーション投票券[第1回]',184,1,1,'assets/image/item/item_184_m.png','assets/image/item/item_184_s.png','2020オータムレクリエーション第1回の投票用アイテム',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(185,1,'レクリエーション投票券[第2回]',185,1,1,'assets/image/item/item_185_m.png','assets/image/item/item_185_s.png','2020オータムレクリエーション第2回の投票用アイテム',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(186,1,'[ポンポンアタック]専用覚醒シール',186,1,1,'assets/image/item/item_186_m.png','assets/image/item/item_186_s.png','[ポンポンアタック]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(187,1,'[ダイヤシュート♡]専用覚醒シール',187,1,1,'assets/image/item/item_187_m.png','assets/image/item/item_187_s.png','[ダイヤシュート♡]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','所定の個数を集めることでラブカストーンになります','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14001,1,'URパーティメダル[高坂穂乃果]',14001,1,1,'assets/image/item/item_14001_m.png','assets/image/item/item_14001_s.png','特定のパーティカードのメインを高坂穂乃果に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
@@ -1030,6 +1033,7 @@ INSERT INTO "unit_reinforce_item_m" VALUES(180,5,1,NULL);
 INSERT INTO "unit_reinforce_item_m" VALUES(181,5,1,NULL);
 INSERT INTO "unit_reinforce_item_m" VALUES(182,5,1,NULL);
 INSERT INTO "unit_reinforce_item_m" VALUES(186,5,1,NULL);
+INSERT INTO "unit_reinforce_item_m" VALUES(187,5,1,NULL);
 CREATE TABLE `unit_reinforce_item_target_unit_m` (
     `item_id` INTEGER NOT NULL,
     `unit_id` INTEGER NOT NULL,
@@ -1069,5 +1073,6 @@ INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(180,2499);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(181,2505);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(182,2516);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(186,2530);
+INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(187,2537);
 CREATE INDEX `idx_category_id` ON `kg_item_m`(`item_category_id`);
 COMMIT;
