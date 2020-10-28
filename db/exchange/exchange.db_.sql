@@ -582,14 +582,16 @@ CREATE TABLE `exchange_point_m` (
     `ssr_rank_up_point` INTEGER,
     `ur_rank_up_point` INTEGER,
     `sort` INTEGER NOT NULL,
+    `start_date` TEXT,
+    `end_date` TEXT,
     `release_tag` TEXT, `_encryption_release_id` INTEGER NULL,
     PRIMARY KEY (`exchange_point_id`)
 );
-INSERT INTO "exchange_point_m" VALUES(2,'シール','assets/image/exchange_point/exchange_point_2_s.png','assets/image/exchange_point/exchange_point_2_x.png','assets/image/exchange_point/exchange_point_2_m.png',1,20,100,500,4,NULL,NULL);
-INSERT INTO "exchange_point_m" VALUES(3,'Sシール','assets/image/exchange_point/exchange_point_3_s.png','assets/image/exchange_point/exchange_point_3_x.png','assets/image/exchange_point/exchange_point_3_m.png',NULL,1,5,25,3,NULL,NULL);
-INSERT INTO "exchange_point_m" VALUES(4,'Uシール','assets/image/exchange_point/exchange_point_4_s.png','assets/image/exchange_point/exchange_point_4_x.png','assets/image/exchange_point/exchange_point_4_m.png',NULL,NULL,NULL,1,1,NULL,NULL);
-INSERT INTO "exchange_point_m" VALUES(5,'SSシール','assets/image/exchange_point/exchange_point_5_s.png','assets/image/exchange_point/exchange_point_5_x.png','assets/image/exchange_point/exchange_point_5_m.png',NULL,NULL,1,5,2,NULL,NULL);
-INSERT INTO "exchange_point_m" VALUES(10000,'ポイント','assets/image/exchange_point/exchange_point_10000_s.png','assets/image/exchange_point/exchange_point_10000_x.png','assets/image/exchange_point/exchange_point_10000_m.png',0,0,0,0,10000,NULL,NULL);
+INSERT INTO "exchange_point_m" VALUES(2,'シール','assets/image/exchange_point/exchange_point_2_s.png','assets/image/exchange_point/exchange_point_2_x.png','assets/image/exchange_point/exchange_point_2_m.png',1,20,100,500,4,NULL,NULL,NULL,NULL);
+INSERT INTO "exchange_point_m" VALUES(3,'Sシール','assets/image/exchange_point/exchange_point_3_s.png','assets/image/exchange_point/exchange_point_3_x.png','assets/image/exchange_point/exchange_point_3_m.png',NULL,1,5,25,3,NULL,NULL,NULL,NULL);
+INSERT INTO "exchange_point_m" VALUES(4,'Uシール','assets/image/exchange_point/exchange_point_4_s.png','assets/image/exchange_point/exchange_point_4_x.png','assets/image/exchange_point/exchange_point_4_m.png',NULL,NULL,NULL,1,1,NULL,NULL,NULL,NULL);
+INSERT INTO "exchange_point_m" VALUES(5,'SSシール','assets/image/exchange_point/exchange_point_5_s.png','assets/image/exchange_point/exchange_point_5_x.png','assets/image/exchange_point/exchange_point_5_m.png',NULL,NULL,1,5,2,NULL,NULL,NULL,NULL);
+INSERT INTO "exchange_point_m" VALUES(10000,'ポイント','assets/image/exchange_point/exchange_point_10000_s.png','assets/image/exchange_point/exchange_point_10000_x.png','assets/image/exchange_point/exchange_point_10000_m.png',0,0,0,0,10000,NULL,NULL,NULL,NULL);
 CREATE TABLE `exchange_ticket_m` (
     `exchange_ticket_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,

@@ -667,6 +667,13 @@ INSERT INTO "change_delegate_item_m" VALUES(14106,106,4);
 INSERT INTO "change_delegate_item_m" VALUES(14107,107,4);
 INSERT INTO "change_delegate_item_m" VALUES(14108,108,4);
 INSERT INTO "change_delegate_item_m" VALUES(14109,109,4);
+CREATE TABLE `item_exchange_m` (
+    `item_id` INTEGER NOT NULL,
+    `next_item_id` INTEGER NOT NULL,
+    `amount` INTEGER NOT NULL,
+    `game_coin_amount` INTEGER NOT NULL,
+    PRIMARY KEY (`item_id`)
+);
 CREATE TABLE `kg_item_m` (
     `item_id` INTEGER NOT NULL,
     `item_tab_id` INTEGER NOT NULL,
@@ -1074,5 +1081,11 @@ INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(181,2505);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(182,2516);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(186,2530);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(187,2537);
+CREATE TABLE `user_rank_up_item_m` (
+    `item_id` INTEGER NOT NULL,
+    `use_limit_rank` INTEGER,
+    `use_limit_rank_min` INTEGER,
+    PRIMARY KEY (`item_id`)
+);
 CREATE INDEX `idx_category_id` ON `kg_item_m`(`item_category_id`);
 COMMIT;
