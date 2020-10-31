@@ -329,6 +329,7 @@ INSERT INTO "award_m" VALUES(316,'穂乃果ちゃんをお祝いしたい！','8
 INSERT INTO "award_m" VALUES(317,'絵里ちゃんをお祝いしたい！','10月21日は絢瀬絵里ちゃんのお誕生日♪','assets/image/award/award_317.png','assets/image/award/award_317di.png',24020,0,'r201021_000000',NULL);
 INSERT INTO "award_m" VALUES(318,'ことりちゃんをお祝いしたい！','9月12日は南ことりちゃんのお誕生日♪','assets/image/award/award_318.png','assets/image/award/award_318di.png',24021,0,'r200912_000000',NULL);
 INSERT INTO "award_m" VALUES(319,'海未ちゃんをお祝いしたい！','3月15日は園田海未ちゃんのお誕生日♪','assets/image/award/award_319.png','assets/image/award/award_319di.png',24022,0,'r200315_000000',NULL);
+INSERT INTO "award_m" VALUES(320,'凛ちゃんをお祝いしたい！','11月1日は星空 凛ちゃんのお誕生日♪','assets/image/award/award_320.png','assets/image/award/award_320di.png',24023,0,'r201101_000000',NULL);
 INSERT INTO "award_m" VALUES(321,'真姫ちゃんをお祝いしたい！','4月19日は西木野真姫ちゃんのお誕生日♪','assets/image/award/award_321.png','assets/image/award/award_321di.png',24024,0,'r200419_000000',NULL);
 INSERT INTO "award_m" VALUES(322,'希ちゃんをお祝いしたい！','6月9日は東條 希ちゃんのお誕生日♪','assets/image/award/award_322.png','assets/image/award/award_322di.png',24025,0,'r200609_000000',NULL);
 INSERT INTO "award_m" VALUES(323,'花陽ちゃんをお祝いしたい！','1月17日は小泉花陽ちゃんのお誕生日♪','assets/image/award/award_323.png','assets/image/award/award_323di.png',24026,0,'r200117_000000',NULL);
@@ -369,6 +370,8 @@ INSERT INTO "award_m" VALUES(361,'【称号】学園祭','非日常へといざ�
 INSERT INTO "award_m" VALUES(362,'【称号】修学旅行','仲間と共に訪れた思い出の舞台','assets/image/award/award_362.png','assets/image/award/award_362di.png',32125,0,'r200923_000000',NULL);
 INSERT INTO "award_m" VALUES(363,'【称号】十五夜','秋の夜空に浮かぶ中秋の名月','assets/image/award/award_363.png','assets/image/award/award_363di.png',32126,0,'r200930',NULL);
 INSERT INTO "award_m" VALUES(364,'【称号】ハロウィン','秋の夜道を照らすカボチャのランタン','assets/image/award/award_364.png','assets/image/award/award_364di.png',32127,0,'r200930',NULL);
+INSERT INTO "award_m" VALUES(365,'【称号】銀河の乙女アンドロメダ','第1回ライブ♪アリーナを制覇した証','assets/image/award/award_365.png','assets/image/award/award_365di.png',32301,0,'r201031',NULL);
+INSERT INTO "award_m" VALUES(366,'【称号】全世界ユーザー数5000万人突破','全世界5000万人突破を記念した特別な称号','assets/image/award/award_366.png','assets/image/award/award_366di.png',32351,0,'r201105_000000',NULL);
 INSERT INTO "award_m" VALUES(901,'スクフェス全国大会2016オンライン予選','スクフェス全国大会2016オンライン予選に参加した証','assets/image/award/award_901.png','assets/image/award/award_901di.png',18001,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(902,'スクフェス全国大会2017オンライン予選','スクフェス全国大会2017オンライン予選に参加した証','assets/image/award/award_902.png','assets/image/award/award_902di.png',18002,0,NULL,NULL);
 INSERT INTO "award_m" VALUES(903,'【称号】スクフェス全国大会2018オンライン予選','スクフェス全国大会2018オンライン予選に参加した証','assets/image/award/award_903.png','assets/image/award/award_903di.png',18007,0,NULL,NULL);
@@ -598,6 +601,7 @@ INSERT INTO "background_m" VALUES(171,'【パーティカード背景】キャ�
 INSERT INTO "background_m" VALUES(172,'【パーティカード背景】南の島の海辺','【南の島の海辺】\nダイヤと曜が一緒にフロートで遊んだ\n南の島の浜辺','assets/image/background/background_433.png','assets/image/background/home/background_433_thm.png',1205,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(173,'【パーティカード背景】真姫のお部屋[ハロウィン]','【真姫のお部屋[ハロウィン]】\nハロウィンの飾りに彩られた真姫ちゃんのお部屋','assets/image/background/background_437.png','assets/image/background/home/background_437_thm.png',206,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(174,'【パーティカード背景】カフェテラス','【カフェテラス】\n花丸とルビィが訪れた\n秋のカフェテラス','assets/image/background/background_442.png','assets/image/background/home/background_442_thm.png',1206,NULL,NULL,NULL,NULL);
+INSERT INTO "background_m" VALUES(175,'【パーティカード背景】秋の日本庭園','【秋の日本庭園】\n穂乃果とことりが訪れた\n紅葉に彩られた秋の日本庭園','assets/image/background/background_447.png','assets/image/background/home/background_447_thm.png',207,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(901,'【背景】クリスマスの街','【クリスマスの街】\n イルミネーションに彩られたクリスマスの街','assets/image/background/background_014.png','assets/image/background/home/background_014_thm.png',901,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(902,'【背景】神社・本殿[正月]','【神社・本殿[正月]】\n 正月飾りを施された新年の神社','assets/image/background/background_064.png','assets/image/background/home/background_064_thm.png',902,NULL,NULL,NULL,NULL);
 CREATE TABLE `background_shader_param_m` (
@@ -674,6 +678,10 @@ CREATE TABLE `item_exchange_m` (
     `game_coin_amount` INTEGER NOT NULL,
     PRIMARY KEY (`item_id`)
 );
+INSERT INTO "item_exchange_m" VALUES(188,189,25,10000);
+INSERT INTO "item_exchange_m" VALUES(189,190,50,40000);
+INSERT INTO "item_exchange_m" VALUES(190,191,100,160000);
+INSERT INTO "item_exchange_m" VALUES(191,192,300,1440000);
 CREATE TABLE `kg_item_m` (
     `item_id` INTEGER NOT NULL,
     `item_tab_id` INTEGER NOT NULL,
@@ -875,6 +883,13 @@ INSERT INTO "kg_item_m" VALUES(184,1,'レクリエーション投票券[第1回]
 INSERT INTO "kg_item_m" VALUES(185,1,'レクリエーション投票券[第2回]',185,1,1,'assets/image/item/item_185_m.png','assets/image/item/item_185_s.png','2020オータムレクリエーション第2回の投票用アイテム',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(186,1,'[ポンポンアタック]専用覚醒シール',186,1,1,'assets/image/item/item_186_m.png','assets/image/item/item_186_s.png','[ポンポンアタック]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(187,1,'[ダイヤシュート♡]専用覚醒シール',187,1,1,'assets/image/item/item_187_m.png','assets/image/item/item_187_s.png','[ダイヤシュート♡]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(188,1,'RANKアップジュエル[1A]',188,1,1,'assets/image/item/item_188_m.png','assets/image/item/item_188_s.png','Rankが1アップします。Rank1から250まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(189,1,'RANKアップジュエル[2A]',189,1,1,'assets/image/item/item_189_m.png','assets/image/item/item_189_s.png','Rankが1アップします。Rank251から500まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(190,1,'RANKアップジュエル[3A]',190,1,1,'assets/image/item/item_190_m.png','assets/image/item/item_190_s.png','Rankが1アップします。Rank501から750まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(191,1,'RANKアップジュエル[4A]',191,1,1,'assets/image/item/item_191_m.png','assets/image/item/item_191_s.png','Rankが1アップします。Rank751から1000まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(192,1,'RANKアップジュエル[5A]',192,1,1,'assets/image/item/item_192_m.png','assets/image/item/item_192_s.png','Rankが1アップします。Rank1001から1099まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(193,1,'全世界5000万人突破記念勧誘チケット',193,1,1,'assets/image/item/item_193_m.png','assets/image/item/item_193_s.png','全世界5000万人突破記念チケット勧誘を行える（2020/12/01 0:00以降本勧誘を行うことはできません）',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(198,1,'全世界5000万人突破記念SP11連勧誘チケット～Aqours～',198,1,1,'assets/image/item/item_198_m.png','assets/image/item/item_198_s.png','全世界5000万人突破記念スペシャルチケット勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,126,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','所定の個数を集めることでラブカストーンになります','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(14001,1,'URパーティメダル[高坂穂乃果]',14001,1,1,'assets/image/item/item_14001_m.png','assets/image/item/item_14001_s.png','特定のパーティカードのメインを高坂穂乃果に切替える',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
@@ -1087,5 +1102,10 @@ CREATE TABLE `user_rank_up_item_m` (
     `use_limit_rank_min` INTEGER,
     PRIMARY KEY (`item_id`)
 );
+INSERT INTO "user_rank_up_item_m" VALUES(188,251,1);
+INSERT INTO "user_rank_up_item_m" VALUES(189,501,251);
+INSERT INTO "user_rank_up_item_m" VALUES(190,751,501);
+INSERT INTO "user_rank_up_item_m" VALUES(191,1001,751);
+INSERT INTO "user_rank_up_item_m" VALUES(192,1100,1001);
 CREATE INDEX `idx_category_id` ON `kg_item_m`(`item_category_id`);
 COMMIT;
