@@ -883,12 +883,13 @@ INSERT INTO "kg_item_m" VALUES(184,1,'レクリエーション投票券[第1回]
 INSERT INTO "kg_item_m" VALUES(185,1,'レクリエーション投票券[第2回]',185,1,1,'assets/image/item/item_185_m.png','assets/image/item/item_185_s.png','2020オータムレクリエーション第2回の投票用アイテム',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(186,1,'[ポンポンアタック]専用覚醒シール',186,1,1,'assets/image/item/item_186_m.png','assets/image/item/item_186_s.png','[ポンポンアタック]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(187,1,'[ダイヤシュート♡]専用覚醒シール',187,1,1,'assets/image/item/item_187_m.png','assets/image/item/item_187_s.png','[ダイヤシュート♡]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
-INSERT INTO "kg_item_m" VALUES(188,1,'RANKアップジュエル[1A]',188,1,1,'assets/image/item/item_188_m.png','assets/image/item/item_188_s.png','Rankが1アップします。Rank1から250まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
-INSERT INTO "kg_item_m" VALUES(189,1,'RANKアップジュエル[2A]',189,1,1,'assets/image/item/item_189_m.png','assets/image/item/item_189_s.png','Rankが1アップします。Rank251から500まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
-INSERT INTO "kg_item_m" VALUES(190,1,'RANKアップジュエル[3A]',190,1,1,'assets/image/item/item_190_m.png','assets/image/item/item_190_s.png','Rankが1アップします。Rank501から750まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
-INSERT INTO "kg_item_m" VALUES(191,1,'RANKアップジュエル[4A]',191,1,1,'assets/image/item/item_191_m.png','assets/image/item/item_191_s.png','Rankが1アップします。Rank751から1000まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
-INSERT INTO "kg_item_m" VALUES(192,1,'RANKアップジュエル[5A]',192,1,1,'assets/image/item/item_192_m.png','assets/image/item/item_192_s.png','Rankが1アップします。Rank1001から1099まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(188,1,'RANKアップジュエル[1A]',188,1,1,'assets/image/item/item_188_m.png','assets/image/item/item_188_s.png','RANKが1アップします。RANK1から250まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(189,1,'RANKアップジュエル[2A]',189,1,1,'assets/image/item/item_189_m.png','assets/image/item/item_189_s.png','RANKが1アップします。RANK251から500まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(190,1,'RANKアップジュエル[3A]',190,1,1,'assets/image/item/item_190_m.png','assets/image/item/item_190_s.png','RANKが1アップします。RANK501から750まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(191,1,'RANKアップジュエル[4A]',191,1,1,'assets/image/item/item_191_m.png','assets/image/item/item_191_s.png','RANKが1アップします。RANK751から1000まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(192,1,'RANKアップジュエル[5A]',192,1,1,'assets/image/item/item_192_m.png','assets/image/item/item_192_s.png','RANKが1アップします。RANK1001から1099まで使用できます。',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(193,1,'全世界5000万人突破記念勧誘チケット',193,1,1,'assets/image/item/item_193_m.png','assets/image/item/item_193_s.png','全世界5000万人突破記念チケット勧誘を行える（2020/12/01 0:00以降本勧誘を行うことはできません）',NULL,NULL,NULL,NULL,NULL,0,NULL,NULL);
+INSERT INTO "kg_item_m" VALUES(194,1,'[凛の三三七拍子]専用覚醒シール',194,1,1,'assets/image/item/item_194_m.png','assets/image/item/item_194_s.png','[凛の三三七拍子]を覚醒することができます','枚',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(198,1,'全世界5000万人突破記念SP11連勧誘チケット～Aqours～',198,1,1,'assets/image/item/item_198_m.png','assets/image/item/item_198_s.png','全世界5000万人突破記念スペシャルチケット勧誘～Aqours～を行える',NULL,NULL,NULL,NULL,126,1,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1000,1,'ラブカストーンピース',1000,1,1,'assets/image/item/item_1000_m.png','assets/image/item/item_1000_s.png','所定の個数を集めることでラブカストーンになります','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
 INSERT INTO "kg_item_m" VALUES(1200,1,'イベントストーリー解放キー',1200,1,1,'assets/image/item/item_1200_m.png','assets/image/item/item_1200_s.png','使用するとイベントストーリーを1話分解放できます','個',NULL,NULL,NULL,NULL,0,NULL,NULL);
@@ -1056,6 +1057,7 @@ INSERT INTO "unit_reinforce_item_m" VALUES(181,5,1,NULL);
 INSERT INTO "unit_reinforce_item_m" VALUES(182,5,1,NULL);
 INSERT INTO "unit_reinforce_item_m" VALUES(186,5,1,NULL);
 INSERT INTO "unit_reinforce_item_m" VALUES(187,5,1,NULL);
+INSERT INTO "unit_reinforce_item_m" VALUES(194,5,1,NULL);
 CREATE TABLE `unit_reinforce_item_target_unit_m` (
     `item_id` INTEGER NOT NULL,
     `unit_id` INTEGER NOT NULL,
@@ -1096,6 +1098,7 @@ INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(181,2505);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(182,2516);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(186,2530);
 INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(187,2537);
+INSERT INTO "unit_reinforce_item_target_unit_m" VALUES(194,2552);
 CREATE TABLE `user_rank_up_item_m` (
     `item_id` INTEGER NOT NULL,
     `use_limit_rank` INTEGER,

@@ -320,6 +320,8 @@ INSERT INTO "strings_m" VALUES('reward',173,'デイリーランキング %s %s �
 INSERT INTO "strings_m" VALUES('reward',174,'セッションランキング %s %s 順位%s位の報酬');
 INSERT INTO "strings_m" VALUES('reward',175,'ランキングマッチ %s %s 順位%s位の報酬');
 INSERT INTO "strings_m" VALUES('reward',176,'ライブ♪アリーナ交換所アイテム');
+INSERT INTO "strings_m" VALUES('reward',177,'みんなでチャレンジの目標達成報酬');
+INSERT INTO "strings_m" VALUES('reward',178,'ひとりでチャレンジの目標達成報酬');
 INSERT INTO "strings_m" VALUES('reward',180,'フレンド登場時の報酬');
 INSERT INTO "strings_m" VALUES('ui_reward',1,'受け取りました');
 INSERT INTO "strings_m" VALUES('ui_reward',2,'おまかせ転部で\n転部しました');
