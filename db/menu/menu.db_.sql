@@ -26,7 +26,6 @@ INSERT INTO "menu_m" VALUES(13,'purchase_history','assets/image/gui/common/Commo
 INSERT INTO "menu_m" VALUES(15,'award','assets/image/gui/common/Common_Menu-01_GNaviButton-07.png',NULL,7,0,0,NULL,NULL);
 INSERT INTO "menu_m" VALUES(16,'exchange','assets/image/gui/common/Common_Button-02_Base-01.png',NULL,9,0,2,NULL,NULL);
 INSERT INTO "menu_m" VALUES(17,'bg_setting','assets/image/gui/common/Common_Menu-01_GNaviButton-09.png',NULL,10,0,0,NULL,NULL);
-INSERT INTO "menu_m" VALUES(18,'arcade_link','assets/image/gui/common/Common_Menu-02_GNaviButton-02.png',NULL,1001,1,0,NULL,NULL);
 INSERT INTO "menu_m" VALUES(19,'login_bonus','assets/image/gui/common/Common_Menu-02_GNaviButton-03.png',NULL,1002,1,0,NULL,NULL);
 INSERT INTO "menu_m" VALUES(20,'area_reward','assets/image/gui/common/Common_Menu-02_GNaviButton-01.png',NULL,1000,1,0,NULL,NULL);
 INSERT INTO "menu_m" VALUES(21,'stamp','assets/image/gui/common/Common_Menu-01_GNaviButton-04.png',NULL,4,0,0,NULL,NULL);
