@@ -578,6 +578,7 @@ INSERT INTO "exchange_nopoint_unit_m" VALUES(2548);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(2549);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(2552);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(2555);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2561);
 CREATE TABLE `exchange_point_m` (
     `exchange_point_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,

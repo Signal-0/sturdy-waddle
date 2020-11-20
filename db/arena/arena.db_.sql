@@ -211,7 +211,7 @@ INSERT INTO "arena_rival_m" VALUES(27,'結城紗菜','assets/image/arena/rival/r
 INSERT INTO "arena_rival_m" VALUES(28,'西村文絵','assets/image/arena/rival/rival_57.png',NULL,'うーん、このステージで歌って踊るのすっごく楽しいですね！\nまだまだ燃え尽きるなんてできないですっ！\nややっ、あなたがライバルですか？私もまだまだやれますよ！',NULL,NULL,NULL,NULL);
 INSERT INTO "arena_rival_m" VALUES(29,'ジェニファー','assets/image/arena/rival/rival_42.png',NULL,'このボルテージ、最高ね！でも、まだまだいけるでしょう？\nそれにあなたのその顔、みんなをもっと楽しませるって顔ね！\nでも私だって負けないくらい盛り上げるわ！',NULL,NULL,NULL,NULL);
 INSERT INTO "arena_rival_m" VALUES(30,'鳥居歩美','assets/image/arena/rival/rival_49.png',NULL,'ライブも良い感じに盛り上がってきたわね！\n次はこの……あたしとセッションしてもらおうかしら',NULL,NULL,NULL,NULL);
-INSERT INTO "arena_rival_m" VALUES(31,'神谷理華','assets/image/arena/rival/rival_20.png',NULL,'この科学反応の大きさは……予想外だな\n事実は仮説をいとも容易く超える……か\nやはりスクールアイドルは「科学」、だね',NULL,NULL,NULL,NULL);
+INSERT INTO "arena_rival_m" VALUES(31,'神谷理華','assets/image/arena/rival/rival_20.png',NULL,'この化学反応の大きさは……予想外だな\n事実は仮説をいとも容易く超える……か\nやはりスクールアイドルは「化学」、だね',NULL,NULL,NULL,NULL);
 INSERT INTO "arena_rival_m" VALUES(32,'レオ','assets/image/arena/rival/rival_44.png',NULL,'みんなで一緒に歌うこと、レオ好き\n好きなことなら、レオ、負けない！\nガオオォォォーーーーーーーッ！！！',NULL,NULL,NULL,NULL);
 INSERT INTO "arena_rival_m" VALUES(33,'多々良るう','assets/image/arena/rival/rival_58.png',NULL,'わっ、私はこんなところにいるべきではないんですが……\n……いえ、もう自分に負けないと決めたんです……！\nどうか……セッションしてくれませんか？',NULL,NULL,NULL,NULL);
 INSERT INTO "arena_rival_m" VALUES(34,'篠宮あきる','assets/image/arena/rival/rival_53.png',NULL,'どっちがより魅力的か、私と勝負しようって言うのね？\n私には、今までスクールアイドルとして努力してきた\nプライドがあるもの。負けるわけがないわ！',NULL,NULL,NULL,NULL);
