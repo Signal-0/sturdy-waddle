@@ -4650,5 +4650,5 @@ INSERT INTO "card_m" VALUES(7339,0,4442,0,0,-180,-142,0.9,'assets/image/unit/421
 INSERT INTO "card_m" VALUES(7340,0,4443,0,0,-180,-142,0.9,'assets/image/unit/41109009/b_normal_41109009.png',NULL,312);
 INSERT INTO "card_m" VALUES(7341,0,4444,0,0,-180,-142,0.9,'assets/image/unit/41109009/b_rankup_41109009.png',NULL,312);
 INSERT INTO "card_m" VALUES(7342,0,4445,0,0,-180,-142,0.9,'assets/image/unit/42007015/b_rankup_42007015.png',NULL,312);
-INSERT INTO "card_m" VALUES(7343,0,4446,0,0,-180,-142,0.9,'','1s2+tduqhOpfV6pUlDl+/U9PCODp9HW/dxz3RD8gzvQY9hwQ2MaWrHzZLx5Dr3/ATDwFCwxTKy/WqB0t8gpjVmi0PHuWf7QladGcOd9NjO20pRxxc6LEV3DevnkxaJIJ',1433);
+INSERT INTO "card_m" VALUES(7343,0,4446,0,0,-180,-142,0.9,'assets/image/unit/43005008/b_rankup_43005008.png',NULL,1433);
 COMMIT;
