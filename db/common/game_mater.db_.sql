@@ -673,7 +673,7 @@ INSERT INTO "strings_m" VALUES('dialog_download',29,'一括ダウンロードに
 INSERT INTO "strings_m" VALUES('dialog_download',30,'通常ダウンロードには、\n必要最低限なデータが含まれており、\nプレイに必要な容量を減らすことができます。\n必要になったデータは、その都度ダウンロードします。\n\nこちらを選択しますか?');
 INSERT INTO "strings_m" VALUES('dialog_download',100,'<center>楽曲の追加データをダウンロードします。\n合計で約%sのデータをダウンロードします。\n\nよろしいですか？');
 INSERT INTO "strings_m" VALUES('error_shop',1,'\n\n<heart>ラブカストーンが上限に達しました\n購入分はプレゼントボックスから受取れます');
-INSERT INTO "strings_m" VALUES('error_shop',2,'\n\n\n\n購入できませんでした');
+INSERT INTO "strings_m" VALUES('error_shop',2,'購入できませんでした');
 INSERT INTO "strings_m" VALUES('error_shop',3,'<center>これ以上部員数の上限を増やせません');
 INSERT INTO "strings_m" VALUES('error_shop',4,'<center>これ以上友達数の上限を増やせません');
 INSERT INTO "strings_m" VALUES('error_shop',5,'<heart>ラブカストーンが不足しています！\n\n部員数の上限を増やすための\n<heart>ラブカストーンが不足しています\n\n必要数： %d\n所持<heart>ラブカストーン： %d\n\n\n');
