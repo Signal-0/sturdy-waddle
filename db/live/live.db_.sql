@@ -34401,7 +34401,7 @@ INSERT INTO "live_track_m" VALUES(621,'NEO SKY, NEO MAP!','ネオスカイネオ
 INSERT INTO "live_track_m" VALUES(622,'僕らは今のなかで（LittleMore-Rock Mix）','ホクラハイマノナカテリトルモアロツクミツクス','assets/image/live/title/t_mu_0624.png','assets/sound/music/m_260.mp3',1,4,NULL,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(623,'No brand girls（GRP-Explosion Mix）','ノオフラントカアルスシイアアルヒイエクスフロオシヨンミツクス','assets/image/live/title/t_mu_0625.png','assets/sound/music/m_261.mp3',1,4,NULL,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(624,'START:DASH!!（Bitter-Sweet Mix）','スタアトタツシユヒタアスウイイトミツクス','assets/image/live/title/t_mu_0626.png','assets/sound/music/m_262.mp3',1,4,NULL,NULL,NULL);
-INSERT INTO "live_track_m" VALUES(625,'Wonderful Rush（Hevey-Rush Mix）','ワンタフルラツシユヘヒイラツシユミツクス','assets/image/live/title/t_mu_0627.png','assets/sound/music/m_263.mp3',1,4,NULL,NULL,313);
+INSERT INTO "live_track_m" VALUES(625,'Wonderful Rush（Hevey-Rush Mix）','ワンタフルラツシユヘヒイラツシユミツクス','assets/image/live/title/t_mu_0627.png','assets/sound/music/m_263.mp3',1,4,NULL,NULL,NULL);
 CREATE TABLE `live_unit_reward_lot_m` (
     `live_unit_reward_lot_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,

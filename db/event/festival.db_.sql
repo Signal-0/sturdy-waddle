@@ -710,6 +710,46 @@ INSERT INTO "event_festival_live_m" VALUES(300645,733,NULL,NULL,NULL,NULL,NULL,N
 INSERT INTO "event_festival_live_m" VALUES(300646,734,NULL,NULL,NULL,NULL,NULL,NULL,0,0);
 INSERT INTO "event_festival_live_m" VALUES(300647,735,NULL,NULL,NULL,NULL,NULL,NULL,0,0);
 INSERT INTO "event_festival_live_m" VALUES(300648,736,NULL,NULL,NULL,NULL,NULL,NULL,0,0);
+INSERT INTO "event_festival_live_m" VALUES(300649,916,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300650,698,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300651,896,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300652,917,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300653,988,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300654,809,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300655,975,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300656,693,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300657,970,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300658,719,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300659,1310,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300660,1311,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300661,1312,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300662,1313,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300663,1340,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300664,629,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300665,415,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300666,416,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300667,417,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300668,418,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300669,928,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300670,807,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300671,717,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300672,745,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300673,726,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300674,727,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300675,728,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300676,729,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300677,965,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300678,744,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300679,748,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300680,254,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300681,255,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300682,256,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300683,538,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300684,960,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300685,946,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300686,568,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300687,583,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
+INSERT INTO "event_festival_live_m" VALUES(300688,715,NULL,NULL,NULL,NULL,NULL,NULL,0,1);
 CREATE TABLE `event_festival_live_setting_m` (
     `difficulty` INTEGER NOT NULL,
     `capital_type` INTEGER NOT NULL,
@@ -726,6 +766,7 @@ INSERT INTO "event_festival_live_setting_m" VALUES(1,1,4,31,1,2,5,1,0);
 INSERT INTO "event_festival_live_setting_m" VALUES(2,1,8,72,3,3,5,1,0);
 INSERT INTO "event_festival_live_setting_m" VALUES(3,1,12,126,5,4,5,1,0);
 INSERT INTO "event_festival_live_setting_m" VALUES(4,1,20,241,9,6,5,1,0);
+INSERT INTO "event_festival_live_setting_m" VALUES(6,1,20,382,9,6,5,1,0);
 CREATE TABLE `event_festival_mission_condition_m` (
     `event_festival_mission_condition_id` INTEGER NOT NULL,
     `condition_type` INTEGER NOT NULL,
@@ -842,6 +883,9 @@ INSERT INTO "event_festival_mission_condition_m" VALUES(107,9,'[2,2,2]');
 INSERT INTO "event_festival_mission_condition_m" VALUES(108,10,'[2]');
 INSERT INTO "event_festival_mission_condition_m" VALUES(109,10,'[3]');
 INSERT INTO "event_festival_mission_condition_m" VALUES(110,9,'[1,4]');
+INSERT INTO "event_festival_mission_condition_m" VALUES(111,9,'[1,6]');
+INSERT INTO "event_festival_mission_condition_m" VALUES(112,9,'[2,6,1]');
+INSERT INTO "event_festival_mission_condition_m" VALUES(113,9,'[2,6,2]');
 CREATE TABLE `event_festival_mission_reward_bonus_m` (
     `event_festival_mission_reward_bonus_id` INTEGER NOT NULL,
     `group_id` INTEGER NOT NULL,
@@ -914,6 +958,36 @@ INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(59,49,'獲得EXPア�
 INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(60,50,'パーフェクトサポート',8,5,'GOOD、BADの判定を5回PERFECTにするよ！',100);
 INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(61,50,'報酬確率アップ',10,120,'豪華な報酬が出現しやすくなるよ！',100);
 INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(62,50,'獲得EXPアップ',2,110,'EXPが10%アップするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(63,61,'パーフェクトサポート',8,5,'GOOD、BADの判定を5回PERFECTにするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(64,61,'報酬確率アップ',10,120,'豪華な報酬が出現しやすくなるよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(65,61,'獲得EXPアップ',2,110,'EXPが10%アップするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(66,62,'パーフェクトサポート',8,5,'GOOD、BADの判定を5回PERFECTにするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(67,62,'報酬確率アップ',10,120,'豪華な報酬が出現しやすくなるよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(68,62,'獲得EXPアップ',2,110,'EXPが10%アップするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(69,63,'パーフェクトサポート',8,5,'GOOD、BADの判定を5回PERFECTにするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(70,63,'報酬確率アップ',10,120,'豪華な報酬が出現しやすくなるよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(71,63,'獲得EXPアップ',2,110,'EXPが10%アップするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(72,64,'パーフェクトサポート',8,5,'GOOD、BADの判定を5回PERFECTにするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(73,64,'報酬確率アップ',10,120,'豪華な報酬が出現しやすくなるよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(74,64,'獲得EXPアップ',2,110,'EXPが10%アップするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(75,65,'パーフェクトサポート',8,5,'GOOD、BADの判定を5回PERFECTにするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(76,65,'報酬確率アップ',10,120,'豪華な報酬が出現しやすくなるよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(77,65,'獲得EXPアップ',2,110,'EXPが10%アップするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(78,66,'パーフェクトサポート',8,5,'GOOD、BADの判定を5回PERFECTにするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(79,66,'報酬確率アップ',10,120,'豪華な報酬が出現しやすくなるよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(80,66,'獲得EXPアップ',2,110,'EXPが10%アップするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(81,67,'パーフェクトサポート',8,5,'GOOD、BADの判定を5回PERFECTにするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(82,67,'報酬確率アップ',10,120,'豪華な報酬が出現しやすくなるよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(83,67,'獲得EXPアップ',2,110,'EXPが10%アップするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(84,68,'パーフェクトサポート',8,5,'GOOD、BADの判定を5回PERFECTにするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(85,68,'報酬確率アップ',10,120,'豪華な報酬が出現しやすくなるよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(86,68,'獲得EXPアップ',2,110,'EXPが10%アップするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(87,69,'パーフェクトサポート',8,5,'GOOD、BADの判定を5回PERFECTにするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(88,69,'報酬確率アップ',10,120,'豪華な報酬が出現しやすくなるよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(89,69,'獲得EXPアップ',2,110,'EXPが10%アップするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(90,70,'パーフェクトサポート',8,5,'GOOD、BADの判定を5回PERFECTにするよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(91,70,'報酬確率アップ',10,120,'豪華な報酬が出現しやすくなるよ！',100);
+INSERT INTO "event_festival_mission_reward_bonus_m" VALUES(92,70,'獲得EXPアップ',2,110,'EXPが10%アップするよ！',100);
 CREATE TABLE `event_festival_mission_reward_item_m` (
     `event_festival_mission_reward_item_id` INTEGER NOT NULL,
     `group_id` INTEGER NOT NULL,
@@ -958,4 +1032,18 @@ INSERT INTO "event_festival_mission_reward_item_m" VALUES(30,24,379,1,0,1001,NUL
 INSERT INTO "event_festival_mission_reward_item_m" VALUES(31,24,380,1,0,1001,NULL,100);
 INSERT INTO "event_festival_mission_reward_item_m" VALUES(32,24,381,1,0,1001,NULL,100);
 INSERT INTO "event_festival_mission_reward_item_m" VALUES(33,25,4,2,0,3001,NULL,1);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(34,51,1,1,0,8000,NULL,1);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(35,52,2,600,0,3002,NULL,1);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(36,53,4,1,0,3001,NULL,1);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(37,54,2,2,0,3006,NULL,1);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(38,55,1,2,0,8000,NULL,1);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(39,56,3,70000,0,3000,NULL,1);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(40,57,28,1,0,1001,NULL,100);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(41,57,29,1,0,1001,NULL,100);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(42,57,30,1,0,1001,NULL,100);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(43,58,1,2,0,8000,NULL,1);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(44,59,379,1,0,1001,NULL,100);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(45,59,380,1,0,1001,NULL,100);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(46,59,381,1,0,1001,NULL,100);
+INSERT INTO "event_festival_mission_reward_item_m" VALUES(47,60,4,2,0,3001,NULL,1);
 COMMIT;
