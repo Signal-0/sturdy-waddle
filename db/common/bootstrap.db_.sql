@@ -241,4 +241,6 @@ INSERT INTO "included_pkg_m" VALUES(1,618);
 INSERT INTO "included_pkg_m" VALUES(1,615);
 INSERT INTO "included_pkg_m" VALUES(1,616);
 INSERT INTO "included_pkg_m" VALUES(1,608);
+INSERT INTO "included_pkg_m" VALUES(1,619);
+INSERT INTO "included_pkg_m" VALUES(1,617);
 COMMIT;
