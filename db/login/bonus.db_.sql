@@ -76,6 +76,7 @@ INSERT INTO "nlbonus_item_offset_m" VALUES(1752,226,-30);
 INSERT INTO "nlbonus_item_offset_m" VALUES(1753,226,-30);
 INSERT INTO "nlbonus_item_offset_m" VALUES(2279,226,-30);
 INSERT INTO "nlbonus_item_offset_m" VALUES(2315,226,30);
+INSERT INTO "nlbonus_item_offset_m" VALUES(2343,226,30);
 CREATE TABLE `nlbonus_layout_m` (
     `days` INTEGER NOT NULL,
     `seq` INTEGER NOT NULL,

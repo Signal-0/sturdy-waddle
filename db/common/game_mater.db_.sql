@@ -965,7 +965,7 @@ INSERT INTO "strings_m" VALUES('mes_history',2,'日付不明');
 INSERT INTO "strings_m" VALUES('mes_history',3,'<center>%s');
 INSERT INTO "strings_m" VALUES('mes_event',1,'累計イベントpt%spt');
 INSERT INTO "strings_m" VALUES('mes_event',2,'%s位');
-INSERT INTO "strings_m" VALUES('mes_event',3,'%s～%s位');
+INSERT INTO "strings_m" VALUES('mes_event',3,'%s〜%s位');
 INSERT INTO "strings_m" VALUES('mes_event',4,'イベントｐｔ報酬を\n全て受け取りました');
 INSERT INTO "strings_m" VALUES('mes_event',5,'条件：累計イベントpt%s以上で%spt毎');
 INSERT INTO "strings_m" VALUES('mes_event',5100,'【称号】');
@@ -1146,7 +1146,7 @@ INSERT INTO "strings_m" VALUES('tutorial_text',5,'今のタップで上昇した
 INSERT INTO "strings_m" VALUES('tutorial_text',6,'こっちはユニットのみんなの体力\nこれがなくなっちゃうとライブが失敗しちゃうの！！');
 INSERT INTO "strings_m" VALUES('tutorial_text',7,'こんな風にタップ評価が\n『ＭＩＳＳ』または『ＢＡＤ』だと\n体力が減っちゃうから気を付けて！');
 INSERT INTO "strings_m" VALUES('tutorial_text',8,'じゃあ、さっそく練習してみよう！\nミュージックスタート！');
-INSERT INTO "strings_m" VALUES('tutorial_text',9,'すっごーい！イイ感じだね！\nよーし、次はちょっとむずかしいよ～？');
+INSERT INTO "strings_m" VALUES('tutorial_text',9,'すっごーい！イイ感じだね！\nよーし、次はちょっとむずかしいよ〜？');
 INSERT INTO "strings_m" VALUES('tutorial_text',10,'白い帯がつながったリズムアイコンが出てきたら…');
 INSERT INTO "strings_m" VALUES('tutorial_text',11,'まずはリズムアイコンをタッチ！\nタッチしたらそのままタッチし続けて…');
 INSERT INTO "strings_m" VALUES('tutorial_text',12,'最後に出てくる光の玉が\nユニットアイコンに重なったら離してね！');
@@ -1159,7 +1159,7 @@ INSERT INTO "strings_m" VALUES('tutorial_text',18,'こんな風に<red>ＰＥＲ
 INSERT INTO "strings_m" VALUES('tutorial_text',22,'最後は<red>特技</red>についてだよ！\n部員の中にはライブ中に発動する\n<red>特技</red>を持ってる部員もいるの');
 INSERT INTO "strings_m" VALUES('tutorial_text',23,'<red>特技</red>には\nＳＣＯＲＥアップや体力回復の効果など\nさまざまな特技があるから、ライブで有利になるよ！');
 INSERT INTO "strings_m" VALUES('tutorial_text',24,'ライブの説明はこれでおしまいだよ♪\nこれから一緒に頑張ろうね！');
-INSERT INTO "strings_m" VALUES('tutorial_text',25,'う～ん、もう一度チャレンジしてみよう！');
+INSERT INTO "strings_m" VALUES('tutorial_text',25,'う〜ん、もう一度チャレンジしてみよう！');
 INSERT INTO "strings_m" VALUES('tutorial_text',26,'今度は２つのリズムアイコンだよ\n横に線が入ったリズムアイコンが出てきたら\n２つのリズムアイコンを同時にタップ！');
 INSERT INTO "strings_m" VALUES('tutorial_text',27,'横に線が入っていない場合は同時じゃないから\n良く見てタップしてね！\nそれじゃ練習してみよう、ミュージックスタート！');
 INSERT INTO "strings_m" VALUES('tutorial_unit_text_result',1,'ここでは、あなたが獲得した得点である<red>ＳＣＯＲＥ</red>\n『ＧＲＥＡＴ』以上の評価が続いた数を表す<red>ＣＯＭＢＯ</red>\nそれからタップ評価の総数を見ることができるよ♪');
@@ -1667,7 +1667,7 @@ INSERT INTO "strings_m" VALUES('live_menu_filter',4,'デフォルト');
 INSERT INTO "strings_m" VALUES('live_menu_filter',5,'変更する');
 INSERT INTO "strings_m" VALUES('quest_notice',1,'イベントは終了しています');
 INSERT INTO "strings_m" VALUES('quest_map',1,'<center>');
-INSERT INTO "strings_m" VALUES('quest_duration',1,'{b2}%s～%s');
+INSERT INTO "strings_m" VALUES('quest_duration',1,'{b2}%s〜%s');
 INSERT INTO "strings_m" VALUES('quest_detail',1,'{b2}難易度を選択してください');
 INSERT INTO "strings_m" VALUES('quest_detail',2,'消費LP:%d');
 INSERT INTO "strings_m" VALUES('quest_detail',3,'※ユニットは固定です。ステータスも通常と異なる場合があります。');
@@ -1732,7 +1732,7 @@ INSERT INTO "strings_m" VALUES('team_bonus',3020,'獲得Gアップ×%s倍');
 INSERT INTO "strings_m" VALUES('team_bonus',3010,'獲得EXPアップ×%s倍');
 INSERT INTO "strings_m" VALUES('team_bonus',3030,'獲得イベントptアップ×%s倍');
 INSERT INTO "strings_m" VALUES('team_period',1,'{b5}%02d/%02d %02d:%02d');
-INSERT INTO "strings_m" VALUES('team_period',2,'{b5}～%02d/%02d %02d:%02d');
+INSERT INTO "strings_m" VALUES('team_period',2,'{b5}〜%02d/%02d %02d:%02d');
 INSERT INTO "strings_m" VALUES('team_all_user_mission',1,'みんなで合計SCORE%sを目指そう！');
 INSERT INTO "strings_m" VALUES('team_all_user_mission',2,'みんなでPERFECT%sを目指そう！');
 INSERT INTO "strings_m" VALUES('team_all_user_mission',3,'みんなでCOMBO%sを目指そう！');
@@ -1774,7 +1774,7 @@ INSERT INTO "strings_m" VALUES('quest_exchange',6,'<center>交換が完了しま
 INSERT INTO "strings_m" VALUES('quest_exchange',7,'---');
 INSERT INTO "strings_m" VALUES('quest_exchange',8,'アイテムが交換可能になりました');
 INSERT INTO "strings_m" VALUES('quest_exchange',9,'%d回交換可能になりました');
-INSERT INTO "strings_m" VALUES('quest_exchange',10,'%s～%sまで交換可能です');
+INSERT INTO "strings_m" VALUES('quest_exchange',10,'%s〜%sまで交換可能です');
 INSERT INTO "strings_m" VALUES('quest_exchange',11,'%sから交換可能になります');
 INSERT INTO "strings_m" VALUES('quest_exchange',12,'%d話解放で交換可能になります');
 INSERT INTO "strings_m" VALUES('quest_exchange',13,'%sに入荷されます');
@@ -1868,7 +1868,7 @@ INSERT INTO "strings_m" VALUES('duel_recover_error',1,'\n\n\n\nすでに♪が�
 INSERT INTO "strings_m" VALUES('duel_recover_error',2,'\n\n\n\n<coin>Ｇが不足しています');
 INSERT INTO "strings_m" VALUES('duel_recover_error',3,'\n\n\n\nすでにリズミックカーニバルの開催が終了しています');
 INSERT INTO "strings_m" VALUES('duel_lp_recover',1,'\n\nリズミックカーニバル成功！\n\nＬＰを%s回復しました！');
-INSERT INTO "strings_m" VALUES('duel_duration',1,'{b2}%s～%s');
+INSERT INTO "strings_m" VALUES('duel_duration',1,'{b2}%s〜%s');
 INSERT INTO "strings_m" VALUES('mes_duel',1,'♪を回復しました！');
 INSERT INTO "strings_m" VALUES('reward_sell_condition',1,'<center>以下のN部員をまとめて転部します\n\n・サイドストーリー開放済み\n・サポートメンバーではない');
 INSERT INTO "strings_m" VALUES('cache_clear',1,'アプリ内のダウンロードデータを削除します\n必要なデータは、次回ログイン時に\n自動的にダウンロードが開始されます\n<red>※この操作ではユーザーデータは消えません\n※削除に時間を要することがございます</red>\n\n実行しますか？');
@@ -2037,7 +2037,7 @@ INSERT INTO "strings_m" VALUES('reward_list',1,'下記の報酬を受け取り�
 INSERT INTO "strings_m" VALUES('reward_list',2,'※プレゼント一覧画面から受け取れます');
 INSERT INTO "strings_m" VALUES('album_message',1,'部員をタップすると詳細を見ることができます');
 INSERT INTO "strings_m" VALUES('no_custom',1,'設定なし');
-INSERT INTO "strings_m" VALUES('comeback_bonus',1,'期間 %s～%s');
+INSERT INTO "strings_m" VALUES('comeback_bonus',1,'期間 %s〜%s');
 INSERT INTO "strings_m" VALUES('comeback_login_bonus',1,'期間 %s(%s) %sまで');
 INSERT INTO "strings_m" VALUES('cost',1,'cost');
 INSERT INTO "strings_m" VALUES('cost',2,'Cost');
@@ -2113,7 +2113,7 @@ INSERT INTO "strings_m" VALUES('arena_reward_list',6,'現在');
 INSERT INTO "strings_m" VALUES('arena_reward_daily',1,'累計');
 INSERT INTO "strings_m" VALUES('arena_reward_daily',2,'現在');
 INSERT INTO "strings_m" VALUES('arena_reward_daily',3,'位');
-INSERT INTO "strings_m" VALUES('arena_reward_tips',1,'・累計スコア\n1日（0:00～23:59）に、全てのセッションで獲得したスコア\n※プライベートセッションを除く\n\n・累計SPセッション成功\n1日（0:00～23:59）に、スペシャルセッションでセッション成功した回数\n\n・累計ALL PERFECT\n1日（0:00～23:59）に、全てのセッションでALL PERFECTを達成した回数\n※プライベートセッションを除く\n\n・累計ハート回復\n1日（0:00～23:59）に、全てのセッションで体力ゲージMAX時に体力ゲージを消費しハートにした回数\n※プライベートセッションを除く\n\n・累計SIスキル発動\n1日（0:00～23:59）に、全てのセッションでライブ♪アリーナ専用SIスキルの効果により獲得したスコア\n※プライベートセッションを除く\n\n・累計ライブセッション成功\n1日（0:00～23:59）に、ライブセッションでセッション成功した回数');
+INSERT INTO "strings_m" VALUES('arena_reward_tips',1,'・累計スコア\n1日（0:00〜23:59）に、全てのセッションで獲得したスコア\n※プライベートセッションを除く\n\n・累計SPセッション成功\n1日（0:00〜23:59）に、スペシャルセッションでセッション成功した回数\n\n・累計ALL PERFECT\n1日（0:00〜23:59）に、全てのセッションでALL PERFECTを達成した回数\n※プライベートセッションを除く\n\n・累計ハート回復\n1日（0:00〜23:59）に、全てのセッションで体力ゲージMAX時に体力ゲージを消費しハートにした回数\n※プライベートセッションを除く\n\n・累計SIスキル発動\n1日（0:00〜23:59）に、全てのセッションでライブ♪アリーナ専用SIスキルの効果により獲得したスコア\n※プライベートセッションを除く\n\n・累計ライブセッション成功\n1日（0:00〜23:59）に、ライブセッションでセッション成功した回数');
 INSERT INTO "strings_m" VALUES('si_skill_changed',1,'SIスキルを変更しました');
 INSERT INTO "strings_m" VALUES('arena_result',1,'トータルSCORE');
 INSERT INTO "strings_m" VALUES('arena_result',2,'ライブSCORE');
@@ -2133,6 +2133,7 @@ INSERT INTO "strings_m" VALUES('arena_dream_condition',3,'Aqoursメンバー以�
 INSERT INTO "strings_m" VALUES('arena_dream_condition',4,'μ''s 9人で編成');
 INSERT INTO "strings_m" VALUES('arena_dream_condition',5,'Aqours 9人で編成');
 INSERT INTO "strings_m" VALUES('arena_dream_condition',6,'同一メンバーの編成禁止');
+INSERT INTO "strings_m" VALUES('arena_ranking',1,'現在のクラス');
 CREATE TABLE `system_text_m` (
     `text_key` TEXT NOT NULL,
     `text_id` INTEGER NOT NULL,
