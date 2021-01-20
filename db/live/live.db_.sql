@@ -34346,6 +34346,7 @@ INSERT INTO "live_setting_m" VALUES(1427,628,2,6,1,'assets/image/live/live_icon/
 INSERT INTO "live_setting_m" VALUES(1428,628,3,7,1,'assets/image/live/live_icon/j_mu_0630.png',NULL,7,'Live_s1428.json',74690,186725,224070,261415,116,193,270,385,0,0,9,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(1429,628,4,10,1,'assets/image/live/live_icon/j_mu_0630.png',NULL,10,'Live_s1429.json',128077,352667,384231,416402,183,304,425,607,0,0,9,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(1430,610,6,11,2,'assets/image/live/live_icon/j_aq_0610.png',NULL,32,'Live_s1430.json',151076,378048,453228,529124,237,395,553,789,0,1,9,NULL,NULL);
+INSERT INTO "live_setting_m" VALUES(1431,534,6,10,2,'assets/image/live/live_icon/j_aq_0534.png',NULL,10,'Live_s1431.json',137994,345312,413982,483306,197,327,458,654,0,0,5,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10398,449,4,11,3,'assets/image/live/live_icon/j_bd2_02_01.png',NULL,32,'Live_s0398.json',113307,283536,339921,396843,162,269,376,537,0,0,9,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10654,494,4,10,1,'assets/image/live/live_icon/j_cdsp_02.png',NULL,10,'Live_s0654.json',101280,253440,303840,354720,144,240,336,480,0,0,9,NULL,NULL);
 INSERT INTO "live_setting_m" VALUES(10779,510,4,10,1,'assets/image/live/live_icon/j_aq_0509.png',NULL,10,'Live_s0779.json',121536,304128,364608,425664,173,288,404,576,0,0,9,NULL,NULL);
@@ -34931,7 +34932,7 @@ INSERT INTO "live_track_m" VALUES(624,'START:DASH!!（Bitter-Sweet Mix）','ス�
 INSERT INTO "live_track_m" VALUES(625,'Wonderful Rush（Heavy-Rush Mix）','ワンタフルラツシユヘヒイラツシユミツクス','assets/image/live/title/t_mu_0627.png','assets/sound/music/m_263.mp3',1,4,NULL,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(626,'Music S.T.A.R.T!!（SKA-Feel Mix）','ミユウシツクスタアトスカフイイルミツクス','assets/image/live/title/t_mu_0628.png','assets/sound/music/m_264.mp3',1,4,NULL,NULL,NULL);
 INSERT INTO "live_track_m" VALUES(627,'Pure girls project（Super-Mondo Mix）','ヒユアカアルスフロシエクトスウハアモントミツクス','assets/image/live/title/t_mu_0629.png','assets/sound/music/m_265.mp3',1,6,NULL,NULL,NULL);
-INSERT INTO "live_track_m" VALUES(628,'Cutie Panther (Metal-Panther Mix)','キユウテイイハンサアメタルハンサアミツクス','assets/image/live/title/t_mu_0630.png','assets/sound/music/m_266.mp3',1,8,NULL,NULL,319);
+INSERT INTO "live_track_m" VALUES(628,'Cutie Panther (Metal-Panther Mix)','キユウテイイハンサアメタルハンサアミツクス','assets/image/live/title/t_mu_0630.png','assets/sound/music/m_266.mp3',1,8,NULL,NULL,NULL);
 CREATE TABLE `live_unit_reward_lot_m` (
     `live_unit_reward_lot_id` INTEGER NOT NULL,
     `difficulty` INTEGER NOT NULL,
