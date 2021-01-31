@@ -587,6 +587,7 @@ INSERT INTO "exchange_nopoint_unit_m" VALUES(2608);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(2610);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(2619);
 INSERT INTO "exchange_nopoint_unit_m" VALUES(2622);
+INSERT INTO "exchange_nopoint_unit_m" VALUES(2628);
 CREATE TABLE `exchange_point_m` (
     `exchange_point_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
@@ -611,6 +612,7 @@ INSERT INTO "exchange_point_m" VALUES(10000,'ポイント','assets/image/exchang
 INSERT INTO "exchange_point_m" VALUES(20001,'デザイン切手[マカロン]','assets/image/exchange_point/exchange_point_20001_s.png','assets/image/exchange_point/exchange_point_20001_x.png','assets/image/exchange_point/exchange_point_20001_m.png',0,0,0,0,10001,'2020/10/31 16:00:00','2020/11/30 15:59:59',NULL,NULL);
 INSERT INTO "exchange_point_m" VALUES(20002,'デザイン切手[手帳]','assets/image/exchange_point/exchange_point_10002_s.png','assets/image/exchange_point/exchange_point_10002_x.png','assets/image/exchange_point/exchange_point_10002_m.png',0,0,0,0,10002,'2020/11/30 16:00:00','2020/12/31 15:59:59',NULL,NULL);
 INSERT INTO "exchange_point_m" VALUES(20003,'デザイン切手[お守り]','assets/image/exchange_point/exchange_point_10003_s.png','assets/image/exchange_point/exchange_point_10003_x.png','assets/image/exchange_point/exchange_point_10003_m.png',0,0,0,0,10003,'2020/12/31 16:00:00','2021/01/31 15:59:59',NULL,NULL);
+INSERT INTO "exchange_point_m" VALUES(20004,'デザイン切手[うさぎ]','assets/image/exchange_point/exchange_point_10004_s.png','assets/image/exchange_point/exchange_point_10004_x.png','assets/image/exchange_point/exchange_point_10004_m.png',0,0,0,0,10004,'2021/01/31 16:00:00','2021/02/28 15:59:59',NULL,NULL);
 CREATE TABLE `exchange_ticket_m` (
     `exchange_ticket_id` INTEGER NOT NULL,
     `name` TEXT NOT NULL,
