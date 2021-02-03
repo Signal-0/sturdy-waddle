@@ -4726,5 +4726,5 @@ INSERT INTO "card_m" VALUES(7415,0,4518,0,0,-180,-142,0.9,'assets/image/unit/410
 INSERT INTO "card_m" VALUES(7416,0,4519,0,0,-180,-142,0.9,'assets/image/unit/43001011/b_rankup_43001011.png',NULL,321);
 INSERT INTO "card_m" VALUES(7417,0,4520,0,0,-180,-142,0.9,'assets/image/unit/41006014/b_rankup_41006014.png',NULL,321);
 INSERT INTO "card_m" VALUES(7418,0,4521,0,0,-180,-142,0.9,'assets/image/unit/43204001/b_rankup_43204001.png',NULL,321);
-INSERT INTO "card_m" VALUES(7419,0,4522,0,0,-180,-142,0.9,'','tQ/ORx3uJanXHXkljko6g0pjdTa+TGtwFQ9zelgkRZplsXU7fBvCyxpPEe4YPz2yD3s0HbMlJD0cn38X7wryZLEFYk0EBkebwjvoOO8+YOFACMjPlWJ3hpKe0E1cwXyp',1471);
+INSERT INTO "card_m" VALUES(7419,0,4522,0,0,-180,-142,0.9,'assets/image/unit/43103010/b_rankup_43103010.png',NULL,1471);
 COMMIT;
