@@ -673,6 +673,9 @@ INSERT INTO "background_m" VALUES(181,'【パーティカード背景】ダイ�
 INSERT INTO "background_m" VALUES(182,'【パーティカード背景】ステージ[バレンタイン]','【ステージ[バレンタイン]】
 穂乃果と真姫がペアで振り付けの練習をした
 バレンタインライブのステージ','assets/image/background/background_483.png','assets/image/background/home/background_483_thm.png',210,NULL,NULL,NULL,NULL);
+INSERT INTO "background_m" VALUES(183,'【パーティカード背景】神社[節分祭]','【神社[節分祭]】
+ 曜とルビィが豆まきイベントに参加した
+ 節分祭の近所の神社','assets/image/background/background_486.png','assets/image/background/home/background_486_thm.png',1210,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(901,'【背景】クリスマスの街','【クリスマスの街】\n イルミネーションに彩られたクリスマスの街','assets/image/background/background_014.png','assets/image/background/home/background_014_thm.png',901,NULL,NULL,NULL,NULL);
 INSERT INTO "background_m" VALUES(902,'【背景】神社・本殿[正月]','【神社・本殿[正月]】\n 正月飾りを施された新年の神社','assets/image/background/background_064.png','assets/image/background/home/background_064_thm.png',902,NULL,NULL,NULL,NULL);
 CREATE TABLE `background_shader_param_m` (
